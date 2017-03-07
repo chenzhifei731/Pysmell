@@ -1,0 +1,10 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\mackup\application.py,13,6,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\mackup\appsdb.py,19,7,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\mackup\config.py,28,15,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\mackup\config.py,278,2,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\mackup\mackup.py,18,8,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\mackup\main.py,45,3,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\tests\config_tests.py,13,17,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\tests\main_tests.py,4,3,0,0,0
+mackup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mackup\tests\utils_test.py,18,17,0,0,0

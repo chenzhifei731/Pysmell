@@ -1,0 +1,426 @@
+ID,Title,Created At,Closed At
+3389,EMR ListSteps Doesn't Properly Filter Based on cluster_states,2015-11-11T18:02:18Z,2015-12-23T20:59:53Z
+3384,Cloudsearch connecting to regions with connect_cloudsearch and lookup issues,2015-11-03T14:28:03Z,2016-02-11T22:07:10Z
+3378,TypeError populating keys from metadata server,2015-10-27T00:41:17Z,2016-02-22T18:28:06Z
+3377,UnboundLocalError: local variable 'region_name' referenced before assignment,2015-10-26T21:12:10Z,
+3376,Trouble using security_group authorize method with src_group=same_group,2015-10-23T20:44:03Z,
+3374,Dynamodb2 cannot save empty array,2015-10-21T09:02:07Z,
+3366,set_contents_from_filename memory leak,2015-10-11T17:16:32Z,
+3365,UnboundLocalError: local variable 'e' referenced before assignment when I use set set_contents_from_filename for large files,2015-10-09T09:15:37Z,
+3355,initiate multipart 403s on GCS,2015-10-01T21:59:14Z,
+3351,EmrConnection.run_jobflow: unexpected behaviors due to the use of empty lists as optional arguments,2015-09-24T18:57:41Z,
+3350,DynamoDB describe() doesn't read the data types for hash and range keys on GSI,2015-09-24T00:41:21Z,
+3349,DynamoDB Global index capacity read from AWS is not used,2015-09-23T22:36:14Z,
+3341,no_proxy support has some issues,2015-09-15T09:51:09Z,2016-02-11T23:07:49Z
+3338,swf.layer2.WorkflowType().start_workflow_execution() returns WorkflowExecution without region set correctly,2015-09-11T13:32:16Z,
+3337,boto.config.getint doesn't work as expected in python3.,2015-09-11T04:13:33Z,
+3335,boto.sqs.connection.send_message_batch does not work when message attributes are provided,2015-09-10T18:17:18Z,2016-02-11T22:38:03Z
+3318,UnicodeDecodeError - glacier uploads fail using vault objects from Layer2()'s get vault,2015-08-27T18:02:40Z,2016-04-08T17:13:41Z
+3315,CloudFormation: missing some stacks when calling list_stacks(),2015-08-21T21:59:26Z,
+3304,Can't upload to the glacier,2015-08-18T07:33:55Z,2016-04-08T17:13:41Z
+3284,socket.gaierror: [Errno -2] Name or service not known,2015-07-27T03:10:43Z,2015-08-20T02:08:42Z
+3281,Batch deleting failed with batch_write.,2015-07-22T09:19:52Z,
+3273,dynamodb2 batchwrite put_item overwrite argument should be documented,2015-07-15T10:07:25Z,
+3272,"Bugfix: For binary data, the message value encode and decode function…",2015-07-14T10:39:23Z,
+3269,[bug][S3] `boto.s3.Key.encrypted` does not return True for encrypted keys,2015-07-10T21:14:55Z,
+3268,StepSummary wrongly uses ClusterStatus (EMR),2015-07-10T20:31:35Z,
+3263,Problem importing boto in Python 3 running under Google Cloud,2015-07-09T03:01:24Z,2015-12-22T01:48:12Z
+3262,boto.datapipeline doesn't allow for complete pipeline definitions,2015-07-08T14:12:32Z,
+3258,ec2 modify_image_attribute | not standard post request?,2015-07-01T22:03:52Z,
+3253,Issue #3252 - Allow sigv4 enabled default hosts,2015-06-30T11:48:14Z,
+3252,Allow supported default hosts to use sigv4,2015-06-30T11:44:16Z,
+3251,respect attribute from schema when setting local and global index keys,2015-06-30T07:17:57Z,
+3248,use boto.config.getint() for max_retry_delay,2015-06-29T16:25:27Z,
+3247,fix the bug 403 SignatureDoesNotMatch when the key name is ~,2015-06-26T10:31:34Z,
+3245,Cloudfront `create_signed_url` results in 403 `SignatureDoesNotMatch`,2015-06-25T03:02:36Z,
+3244,url returned from cloudfront create_signed_url results in 403 response: missing AWSAccessKeyId parameters,2015-06-25T02:57:38Z,
+3240,dynamize_value doesn't handle bools like previous version of boto,2015-06-23T01:01:14Z,
+3237,S3 key. _get_file_internal doesn't handle num_cb properly when Range request,2015-06-19T12:24:49Z,
+3235,blockdevicemapping parsing bug in startElement.,2015-06-18T08:50:43Z,
+3229,SearchResults sometimes get called without proper attrs,2015-06-12T17:51:14Z,
+3228,Fix misnamed Stack.stack_name_reason attribute,2015-06-12T10:17:57Z,2016-03-31T11:44:40Z
+3216,Connection pool containing too many open connections,2015-06-09T14:15:00Z,
+3181,Remove S3HmacAuthV4Hander::host_header() function,2015-05-21T11:41:44Z,
+3176,fix V4 auth in one edge case,2015-05-20T13:42:09Z,
+3164,Parse error type before getting the exception class from __faults mappings,2015-05-13T02:15:18Z,
+3163,Fix for gsutil with dotted buckets,2015-05-12T16:53:19Z,
+3149,Route53 TCP healthcheck,2015-05-08T07:31:21Z,2016-04-01T17:07:35Z
+3143,Fix import path for ec2container connection,2015-05-07T00:51:06Z,2015-06-29T17:58:07Z
+3127,Fixes Issue #3126 EMR list_instances when fitlering by instance_group_types,2015-05-01T15:00:20Z,2015-07-06T23:38:03Z
+3124,Build policy public,2015-04-30T22:37:18Z,
+3100,Partial glacier json response,2015-04-20T22:16:28Z,
+3066,Fix line-ending bug in auth variables,2015-03-27T03:13:23Z,
+2957,Update healthcheck.py fixes #2931,2015-02-12T05:03:20Z,
+2953,Fixes #2931 and documents args,2015-02-10T16:23:22Z,
+2948,switch to unquote_plus in bucketlistresultset,2015-02-09T10:14:55Z,2016-02-05T19:11:57Z
+2934,Correct parameters for SSHClient,2015-02-05T11:42:34Z,
+2933,"CORS add_rule(), copy/paste error preventing allowed_header check.",2015-02-04T20:52:37Z,
+2932,Ensure Content-Length header is a str,2015-02-04T15:30:28Z,2015-02-06T00:31:22Z
+2931,health_check cannot run update method because missing self.connection,2015-02-04T01:21:48Z,
+2890,Switch to M2Crypto library,2015-01-16T16:10:10Z,
+2849,Incorrect sigv4 signature when tilde character '~' is present in S3 key name.,2014-12-30T19:37:28Z,2016-04-04T20:50:44Z
+2846,Incorrect sigv4 signature when non-ascii present in query string in Python 2,2014-12-30T01:54:30Z,2016-04-04T20:49:55Z
+2834,Fixes JSON error parsing error when receiving bytes in Python 3.,2014-12-21T12:42:55Z,
+2829,Fixed bug that unable call query_2 after call describe method on dynamodb2 module,2014-12-19T19:40:21Z,2015-01-12T22:52:16Z
+2822,Return SetStackPolicyResponse - Fixes #2346 #2639,2014-12-17T22:35:42Z,2014-12-23T19:57:56Z
+2817,Correct join syntax,2014-12-17T02:02:33Z,2014-12-22T22:30:58Z
+2810,FIXING SES get_identity_dkim_attributes fails when input length > 1,2014-12-15T22:28:25Z,2014-12-18T23:01:36Z
+2809,DynamoDB table batch_get fails to process all remaining results if single batch result is empty.,2014-12-15T01:33:40Z,2014-12-18T22:08:15Z
+2805,"Fix keyfile bug with read() updating `location` incorrectly, and re-reading key contents after the end is reached",2014-12-11T01:00:31Z,
+2801,Remove unimplemented config param. - #2572,2014-12-07T23:01:02Z,2014-12-17T21:57:35Z
+2787,Fixes boto/boto#2524  based on comment from averigin,2014-12-01T16:51:25Z,2014-12-03T00:01:41Z
+2778,"[RDS2] Resolve the error ""TypeError: the JSON object must be str, not 'bytes'""",2014-11-24T03:00:20Z,
+2775,Adds SupportedProducts field to EMR JobFlow objects.,2014-11-21T21:40:51Z,2014-11-21T22:30:41Z
+2766,Fix the SQS certificate error for region cn-north-1,2014-11-19T12:11:10Z,2014-12-02T22:19:01Z
+2752,Fix Key.change_storage_class so that it obeys dst_bucket,2014-11-12T14:26:39Z,2014-12-17T21:35:52Z
+2744,Handle sigv4 non-string header values properly,2014-11-07T23:50:11Z,2014-11-08T00:54:03Z
+2739,Fix ELB connections for eu-central-1 to use hmac-v4 sig,2014-11-06T19:32:44Z,2014-12-23T20:19:41Z
+2736,fix for s3put host specification - issue #2522,2014-11-05T03:59:54Z,2014-12-17T21:29:07Z
+2735,fix raising exception syntax in python 3,2014-11-05T03:11:37Z,2014-12-06T00:12:13Z
+2726,Improve handling of HTTP 204 responses.,2014-10-31T23:16:41Z,2014-12-06T00:21:04Z
+2684,Fix s3 create multipart upload for sigv4,2014-10-16T04:46:32Z,2014-10-16T17:50:10Z
+2676,Fixed issue #2573,2014-10-14T04:22:35Z,2014-12-03T00:28:35Z
+2662,Fix a typo in MWS: _response_error_factor -> _response_error_factory,2014-10-08T14:09:43Z,2014-10-16T18:51:44Z
+2617,Boto config file parsing error,2014-09-16T09:26:24Z,2016-04-19T21:10:02Z
+2602,Fix typo in ELB ConnectionSettings attribute,2014-09-10T18:23:44Z,2014-10-01T23:43:16Z
+2595,UnboundLocalError: local variable 'e' referenced before assignment,2014-09-09T08:30:02Z,
+2594,"ElasticIP release() uses ""assocation_id"" kwarg instead of ""allocation_id"" kwarg",2014-09-08T23:26:55Z,2014-11-05T07:38:47Z
+2582,Fix base64 encoding on bytes issue in Py3,2014-08-31T08:30:35Z,
+2581,assume-role-with-saml behaves differently to awscli and doesn't work,2014-08-30T23:59:01Z,
+2573,dynamodb2 query_count doesn't count more than one page worth of results,2014-08-28T05:58:39Z,2014-12-03T00:28:44Z
+2572,Undefined name 'Config' in route53.hostedzone,2014-08-28T03:20:00Z,2014-12-17T21:57:52Z
+2563,builtins.UnboundLocalError: local variable 'e' referenced before assignment,2014-08-26T19:15:46Z,2014-12-06T00:12:13Z
+2562,Avoid infinite loop with bucket listing and encoding_type='url'.,2014-08-26T14:26:19Z,2014-09-02T17:50:02Z
+2561,"`bucket.list` goes into infinite loop when encoding_type=""url""",2014-08-26T14:25:12Z,2014-09-02T17:50:28Z
+2559,support non-ascii unicode strings in _get_all_query_args. Fixes: #2558,2014-08-26T12:26:42Z,2014-09-02T17:34:59Z
+2558,_get_all_query_args doesn't support non-ascii unicode strings.,2014-08-26T12:25:16Z,2014-09-02T17:35:54Z
+2556,S3: key.generate_url does not work when metadata contains unicode characters,2014-08-26T00:51:35Z,
+2552,Glacier: Cannot post archive sync/async python 2/3,2014-08-24T20:32:23Z,2014-08-26T17:59:08Z
+2550,Include test_endpoints.json in source distribution,2014-08-22T21:42:26Z,2014-08-25T17:01:21Z
+2548,Assigning ACL ID to network_acl_id  instead of route_table_id,2014-08-22T19:06:03Z,2014-09-02T17:51:14Z
+2537,Pass along params in make_request for elastic transcoder api.,2014-08-20T02:18:10Z,2014-08-22T18:14:01Z
+2536,key.set_remote_data escapes spaces in Cache-Control metadata ,2014-08-19T23:49:01Z,
+2533,Fix the ec2.elb.listener.Listener class's __getitem__ method.,2014-08-18T23:42:27Z,2014-08-20T19:28:09Z
+2531,Elastic Transcoder make_request() does not pass params input,2014-08-18T21:56:47Z,
+2529,Modify DB instance - disable iops doesn't works,2014-08-17T10:02:41Z,
+2525,Better S3 key repr support for unicode,2014-08-14T20:41:03Z,2014-08-26T17:12:38Z
+2524,glacier: 400 Response During Multipart Upload,2014-08-13T23:20:36Z,2016-04-08T17:13:41Z
+2523,Strip leading / from key names when listing bucket,2014-08-13T23:09:57Z,2014-08-26T17:38:41Z
+2522,s3put failing with --host,2014-08-13T22:58:17Z,
+2521,Support auth when headers contains bytes,2014-08-13T22:40:09Z,2014-08-22T17:51:24Z
+2518,Fixed connection.py,2014-08-13T13:29:16Z,
+2516,S3: key.__repr__ errors when key.name contains unicode characters,2014-08-12T23:26:21Z,
+2513,Copy CloudSearch proxy settings to endpoint services,2014-08-11T04:44:52Z,2014-08-13T21:15:56Z
+2512,cloudsearch2 errors with updating access policies,2014-08-10T05:18:49Z,
+2510,glacier: Job.download_to_file() fetches beyond the end of output for ranged archive retrievals,2014-08-08T21:53:20Z,
+2509,glacier: Job.download_to_file() fails when tree hash not in response,2014-08-08T21:50:56Z,
+2508,glacier: Vault.retrieve_archive() doesn't support ranged retrievals,2014-08-08T20:17:31Z,
+2503,AttributeError: 'BlockDeviceMapping' object has no attribute 'autoscale_build_list_params',2014-08-05T14:41:00Z,
+2494,Added mock to requirements,2014-08-02T21:19:04Z,2014-08-04T19:26:57Z
+2492,Fix dynamodb.types.Binary non-ASCII handling,2014-08-02T02:10:29Z,2014-08-04T19:30:09Z
+2491,dynamodb.types.Binary can't handle non-ASCII strings on Python 2.7,2014-08-02T02:03:10Z,2014-08-04T19:30:09Z
+2486,fix TypeError when getting instance metadata under python 3 (#2485),2014-08-01T11:22:13Z,2014-08-01T21:33:47Z
+2485,TypeError when getting instance metadata in Python 3,2014-08-01T10:53:47Z,2014-08-01T21:33:53Z
+2479,Fix AttributeError: 'Provider' object has no attribute 'encode',2014-07-31T19:02:30Z,2014-07-31T20:19:05Z
+2475,Fix VPCPeeringConnection 'delete()' to call 'delete_vpc_peering_connection()'.,2014-07-30T23:27:03Z,2014-07-30T23:58:47Z
+2474,"VPC Peering Connection ""delete()"" calls wrong method",2014-07-30T22:47:22Z,2014-07-30T23:58:47Z
+2456,Fix parsing of EMR step summary response.,2014-07-28T20:49:10Z,2014-08-04T20:55:29Z
+2445,Support security tokens in configuration file profiles.,2014-07-24T01:13:09Z,2014-07-25T16:06:45Z
+2431,Fix Beanstalk exception handling,2014-07-18T18:32:06Z,2014-07-21T21:16:26Z
+2429,fixes typo bug #2428,2014-07-18T10:18:33Z,2014-10-16T18:50:05Z
+2420,Fixed search options. ,2014-07-17T02:04:49Z,2014-08-12T17:56:43Z
+2414," 	remove_tag() always deletes tag from internal dictionnary even when ""value"" does not match",2014-07-16T16:59:36Z,
+2413,Fix for floating point encoding errors in DynamoDB2 Dynamizer,2014-07-16T14:10:33Z,
+2396,EC2 UserData encoding fix (Full version of #1698),2014-07-11T23:53:50Z,2014-07-17T00:31:28Z
+2387,Fixed wrong call of urlparse,2014-07-10T21:14:39Z,2014-07-10T22:43:30Z
+2378,Fix SWF continue_as_new_workflow_execution start_to_close_timeout.,2014-07-09T12:30:22Z,2014-07-10T23:46:02Z
+2375,Make sure that version_id is respected when copying acl from a source key,2014-07-08T22:48:16Z,
+2348,Fix to ServiceDef,2014-06-27T13:17:25Z,2014-07-09T17:46:51Z
+2342,Add namespace to AccessControlPolicy xml representation,2014-06-24T14:03:23Z,2014-07-01T18:47:29Z
+2331,Add ~ as safe field for connection build_url_base,2014-06-17T19:14:38Z,2015-05-14T00:43:12Z
+2317,Parse date/time in a locale independent manner,2014-06-05T20:25:25Z,2014-06-05T21:21:07Z
+2314,relocate MWS requirements checks; closes #2304,2014-06-04T14:46:25Z,2014-07-25T17:28:07Z
+2309,AutoScaleConnection.execute_policy accepts honor_cooldown as bool,2014-06-03T19:47:21Z,
+2307,Removed the improper setting of a default value for CloudSearch int indexes,2014-06-03T18:38:45Z,2015-05-28T19:51:33Z
+2305,only attempt shared creds load if path is a file,2014-06-02T20:19:00Z,2014-06-02T22:14:27Z
+2302,Fix bug when provider is `google` and add test coverage,2014-05-30T18:51:03Z,2014-05-30T20:02:55Z
+2298,Update provider.py,2014-05-30T08:59:15Z,2014-05-30T21:36:47Z
+2297,Added govcloud cloudformation endpoint,2014-05-29T14:33:00Z,2014-05-29T20:51:07Z
+2294,Fix typo in ec2/elb/__init__.py ,2014-05-28T23:09:57Z,2014-05-29T18:53:53Z
+2291,add 'name' param to documentation of LoadBalancer,2014-05-27T22:39:25Z,2014-05-29T20:34:17Z
+2289,crate.io is no longer a package index,2014-05-27T20:26:25Z,2014-05-29T18:52:57Z
+2288,OpsWorks connect_to_region helper caused TypeError exception,2014-05-26T13:51:25Z,2014-05-29T18:48:04Z
+2285,Fix timezones in CloudWatch date range example.,2014-05-25T04:52:18Z,2014-05-29T18:46:16Z
+2284,Always associate elastic IP's using the Address type,2014-05-24T01:27:13Z,2014-06-25T18:08:50Z
+2280,S3 key.storage_class information not correct,2014-05-19T23:07:21Z,
+2272,"Fix ""consistent"" argument to boto.dynamodb2.table.Table.batch_get",2014-05-15T15:50:02Z,2014-05-29T17:42:10Z
+2271,Fix s3 RFC1123 date parsing error when locale != en_US,2014-05-15T10:16:41Z,2014-06-05T21:21:07Z
+2270,Handle UnprocessedKeys properly in table.py,2014-05-15T00:25:45Z,
+2258,Network Interface objects from boto.ec2.instance.Instance.interfaces doesn't have correct tag information,2014-05-08T15:10:06Z,
+2251,cloudfront canned policy urls not encoded - fixes #2227,2014-05-03T06:37:55Z,
+2241,Fix access to package resource.,2014-04-30T13:59:21Z,2014-08-22T17:54:40Z
+2227,CloudFront signed URLs not working if object name in S3 has underscores.,2014-04-20T07:37:28Z,
+2221,Fixes a bug with TCP health check request generation where ResourcePath ...,2014-04-16T22:45:13Z,
+2215,Mturk signatures broken (again?),2014-04-15T18:28:50Z,
+2209,Fixes UnicodeDecodeError raised when you 'vault.resume_archive_from_file',2014-04-10T02:52:13Z,2016-04-08T17:13:41Z
+2207,uploading file to s3 results in error 104 (connection reset) ,2014-04-08T05:55:31Z,
+2204,httplib.IncompleteRead on call to get_contents_to_filename(),2014-04-04T14:34:22Z,
+2196,"Correct typo ""possile"" --> ""possible""",2014-04-01T13:27:22Z,2014-04-01T17:49:45Z
+2195,Adding missing health_check value for weighted record sets.,2014-04-01T06:00:42Z,2014-07-11T23:10:04Z
+2193,Percent-encoded user/pass in http_proxy environment,2014-03-30T20:13:38Z,
+2181,EC2 spot instance request IIP name ignored,2014-03-27T14:01:11Z,
+2172,Unable to filter by tags with backslashes,2014-03-24T16:45:47Z,
+2169,Fixes layer1 modify_db_parameter_group,2014-03-18T20:37:34Z,
+2162,Fetching metadata is broken if it contains a plus '+' sign,2014-03-15T15:09:17Z,
+2158,Update vault.py,2014-03-11T18:12:56Z,2014-03-13T18:12:49Z
+2157,Fix alias_evaluate_target_health bug by setting it to boolean,2014-03-11T13:49:18Z,2014-03-11T22:21:10Z
+2155,S3ResponseError: 404 Not Found,2014-03-10T15:37:08Z,
+2154,Error when specifying start_date or end_date for retreive_inventory method,2014-03-09T23:53:54Z,2014-03-14T21:59:22Z
+2153,TypeError when describing non-existent stream,2014-03-09T07:47:03Z,2014-03-14T20:22:55Z
+2145,S3 meta data  handle plus sign,2014-03-05T00:54:07Z,2014-03-13T22:27:35Z
+2140,Fixed ``boto.connect_rds2()``.,2014-03-03T20:50:28Z,2014-03-03T23:43:14Z
+2126,Route53 Record.set_alias was broken by the addition of target health evaluation,2014-02-27T00:36:42Z,2014-02-27T22:45:20Z
+2123,Don't pull the security token from the environment or config when a caller supplies the access key and secret,2014-02-25T06:46:19Z,2014-02-26T18:30:47Z
+2116,Fixes #2108 GS generate_url with GoogleAccessId instead of AWSAccessKeyId,2014-02-24T12:50:40Z,2014-02-24T22:46:01Z
+2115,fix doc for dynamodb2.table.query,2014-02-21T18:38:04Z,2014-03-14T22:43:59Z
+2113,Handle JSON error responses in BotoServerError.,2014-02-21T00:06:25Z,2014-02-21T23:34:45Z
+2111,Add CloudFormation template capabilities support.,2014-02-20T00:54:52Z,2014-02-20T00:58:59Z
+2108,In 2.25.0 GoogleStorage generate_url() returns url with AWSAccessKeyId instead of GoogleAccessId,2014-02-19T11:12:57Z,2014-02-24T22:46:02Z
+2105,Google storage buckets' get_key always throws an exception,2014-02-18T19:21:06Z,
+2103,Ecs bugfix,2014-02-18T11:56:24Z,2014-03-13T22:35:18Z
+2102,kinesis connect_to_region feature failed.,2014-02-18T06:20:45Z,2014-02-18T20:22:39Z
+2095,Not compatible with GAE,2014-02-12T16:52:04Z,
+2091,Update auth.py,2014-02-11T13:03:48Z,
+2089,STS Documentation has loads of broken links,2014-02-10T16:38:59Z,
+2077,CloudFormation errors have JSON bodies but boto expects XML,2014-02-05T15:41:25Z,2014-02-21T23:34:45Z
+2075,CloudFormation ValidateTemplate response is not parsed correctly.,2014-02-04T22:12:16Z,2014-02-20T00:58:59Z
+2070,DynamoDB2: Table.query() reverse parameter is misleading,2014-02-04T12:51:31Z,2014-03-14T22:43:17Z
+2055,GlobalIncludeIndex with throughput kwarg causes a TypeError in 2.24,2014-01-31T22:19:17Z,2014-02-27T00:23:10Z
+2053,use cert commonNames for endpoints to work around InvalidCertificateException,2014-01-31T06:50:24Z,2014-01-31T22:20:05Z
+2050,S3: setting Content-Language to None causes S3ResponseError,2014-01-30T02:16:44Z,
+2048,The BlockDeviceMapping objects you get from autoscale.launchconfig can't be used to update the autoscale.launchconfig,2014-01-29T17:05:07Z,2014-03-17T21:24:23Z
+2037,Prevent implicit string decode in hmac-v4 handlers.,2014-01-27T03:28:47Z,2014-02-24T23:57:57Z
+2034,Fixed EMR's describe_cluster_command,2014-01-25T13:14:25Z,2014-02-04T23:20:13Z
+2033,SNS can't publish non-ascii message,2014-01-25T01:37:28Z,2014-02-24T23:57:57Z
+2032,cloudformation update_stack doesn't update tags,2014-01-24T15:14:44Z,
+2027,SSHClient connect() retry on BadHostKeyException does not work,2014-01-23T22:27:26Z,
+2019,put_metric_data doesn't work with Alarms having a dimension,2014-01-22T16:44:27Z,
+2018,Multi object delete Google Cloud Storage,2014-01-22T14:58:30Z,
+2010,Manage EC2 group for RDS,2014-01-21T19:27:13Z,
+2007,SNS - boto - Unable to subscribe to Application protocol,2014-01-19T12:58:30Z,2014-01-22T22:36:20Z
+1998,Limit missing in Table.query request (DynamoDB),2014-01-16T01:12:39Z,2014-01-23T20:48:56Z
+1996,docs expansion: boto.s3.bucket.Bucket.new_key,2014-01-15T19:10:27Z,2014-01-23T21:08:31Z
+1995,boto.dynamodb2: incorrect behavior regarding the 'num_retries' configuration.,2014-01-15T18:30:48Z,
+1988,S3 connections fail with [Errno 11] Resource temporarily unavailable with boto >= 2.22.0,2014-01-13T16:23:42Z,2014-01-17T18:57:50Z
+1985,SQS tutorial incorrectly describes return value of Queue.write(),2014-01-13T09:07:03Z,2014-01-13T10:35:37Z
+1983,Obscur Error Message for Unknown Region,2014-01-13T03:47:26Z,2014-02-19T00:15:41Z
+1968,nextToken no longer available; breaks existing code,2014-01-04T01:35:03Z,2014-01-06T22:24:11Z
+1946,S3put -r for reduced redundancy ambiguated by addition of --region switch,2013-12-23T19:51:40Z,2013-12-26T21:41:47Z
+1944,Return the StepSummaryList from this call,2013-12-23T05:30:01Z,2014-01-22T00:09:20Z
+1943,Remove unnecessary '?' from req.path on POST,2013-12-22T19:06:24Z,2014-01-31T22:07:21Z
+1935,abuse of socket.setdefaulttimeout() in util.py get_instance_metadata breaks threading,2013-12-20T02:16:45Z,
+1905,Check no_proxy before changing HTTP request path,2013-12-12T14:52:13Z,2016-08-22T06:31:21Z
+1898,AttributeError: _strptime (Python issue 7980) when using S3Connection on multiple threads,2013-12-10T21:01:21Z,2013-12-21T23:14:55Z
+1895,Fix honor cooldown AutoScaling parameter serialization,2013-12-06T21:55:18Z,2013-12-06T22:00:31Z
+1892,set_desired_capacity doesn't work if honor_cooldown parameter set to True.,2013-12-05T22:01:11Z,2013-12-06T22:00:31Z
+1886,"RDS - create_dbinstance is ignoring value 0 for ""backup_retention_period""",2013-12-03T11:00:18Z,2013-12-04T21:08:25Z
+1871,Fix use of STS generated auth key + tokens with SWF,2013-11-25T17:38:24Z,
+1862,use auth_handler to specify host header value if possible,2013-11-18T20:12:59Z,2013-12-04T19:36:29Z
+1853,S3 key copy does not work if the key starts with a slash,2013-11-12T23:23:58Z,
+1840,"RDS boto.rds.parametergroup, SqlServer c2 audit mode",2013-11-04T20:39:41Z,
+1839,URL encoding of headers not decoded by S3,2013-11-02T13:33:08Z,2013-11-22T18:21:20Z
+1829,fixes #1828 make connection.authorize not mutate headers,2013-10-30T00:54:30Z,2013-11-22T18:22:39Z
+1827,DynamoDB: Table.create() with IncludeIndex duplicates RangeKey in Index Projection,2013-10-30T00:20:59Z,
+1825,Dynamodb documentation on Updating an Item incomplete,2013-10-29T16:29:43Z,2013-11-16T00:28:02Z
+1819,"Bucket name is always checked for lowercase when using create_bucket, regardless of calling format",2013-10-28T10:02:51Z,
+1803,Documentation Issue?,2013-10-18T22:25:15Z,2013-10-24T21:24:04Z
+1802,[Errno -2] Name or service not known,2013-10-18T20:34:16Z,2013-11-18T21:39:07Z
+1791,Fix to s3.Key.get_contents_to_filename for cases where an exception is thrown,2013-10-14T15:18:47Z,2013-11-19T21:02:22Z
+1788,Connection objects don't check for existence of attributes in __repr__,2013-10-12T04:15:42Z,2013-10-24T22:30:11Z
+1782,s3 bucket operation should validate kwarg params,2013-10-10T19:38:17Z,2013-10-25T20:47:05Z
+1781,Fixes for general connection behind proxy,2013-10-09T18:06:59Z,2013-10-24T23:52:01Z
+1778,Bug when setting Content-Disposition Header,2013-10-09T00:45:54Z,2013-11-27T22:19:28Z
+1775,attrs parameter to Item.__init__ and table.new_item don't work as documented,2013-10-08T09:52:33Z,2013-10-10T21:10:36Z
+1774,Fail dump of <class 'boto.jsonresponse.Element'> with pickle,2013-10-08T07:26:53Z,
+1765,EMR: InvalidCertificateException on boto >= 2.10.0,2013-10-04T06:07:38Z,2013-11-16T00:35:21Z
+1763,Do not validate bucket on copy key.,2013-10-02T22:08:56Z,2013-10-14T22:52:26Z
+1757,AutoScalingGroup.update does not set desired_capacity when it's 0,2013-10-01T06:16:10Z,
+1748,Exception triggered by TerminateInstances against wrong API implementation,2013-09-24T14:58:22Z,2013-10-07T21:24:09Z
+1745,GSConnection storage_class issue with post form method,2013-09-21T11:47:29Z,
+1742,retrieving main route table -- documented query to filter by main route table does not work,2013-09-20T20:13:59Z,2015-11-12T19:41:26Z
+1737,"Calculating credential scope fails when passing ""localhost"" as host (endpoint)",2013-09-19T19:25:15Z,2013-10-09T18:57:15Z
+1702,"SQS consumer with long-polling leaves a message ""in-flight""",2013-09-04T13:09:13Z,
+1700,"s3put: accept headers values containing ""=""",2013-09-02T14:55:22Z,2013-09-16T20:49:41Z
+1698,EC2 UserData encoding fix,2013-08-31T03:38:33Z,2014-07-17T00:31:34Z
+1642,Document that s3put requires ListBucket access,2013-08-01T07:35:46Z,2013-08-28T20:48:51Z
+1592,boto-provided executables should catch exceptions,2013-07-05T18:31:57Z,
+1477,s3.generate_url appends x-amz-security-token to query string even when query_auth=False,2013-05-05T00:12:48Z,
+1361,EMR Action on failure not working,2013-02-27T04:40:37Z,
+1348,get_all_instances is missing instances,2013-02-22T18:56:18Z,
+1189,Glacier archive fails with InvalidSignatureException on second attempt within AWSAuthConnection._mexe (multi-execute),2012-12-17T20:14:24Z,2013-01-03T22:24:14Z
+1180,Fix utf-8 encoding issue for bucket lifecycle,2012-12-12T06:16:36Z,2013-01-08T19:23:49Z
+1173,S3 storage class defaults to STANDARD,2012-12-10T19:44:00Z,2014-07-15T22:53:54Z
+1143,SNS subscribe_sqs_queue fails if used on the same queue twice,2012-11-28T13:35:55Z,
+1119,instance_profile not parsed from DescribeInstances response in VPC,2012-11-16T16:19:26Z,
+1118,Docstring for  get_all_reserved_instances is wrong,2012-11-15T18:20:28Z,2012-12-02T23:44:29Z
+1092,"CloudSearch: Poorly designed API,  Rate Limit Exceeded Response",2012-10-31T07:50:40Z,
+1091,BotoServerError repr should include body,2012-10-30T21:22:07Z,
+1086,DBInstance object does not support multiple DBSecurityGroups or DBParameterGroups,2012-10-28T18:07:57Z,2012-11-07T15:46:39Z
+1071,HiveStep sending the wrong arguments to hive-script,2012-10-22T16:41:53Z,2012-10-22T16:48:01Z
+1063,Bugfix for missing 'time' import.,2012-10-15T15:29:11Z,2012-10-16T00:09:32Z
+1059,This will resolve a connection build up on big files,2012-10-15T01:53:21Z,2012-10-17T17:27:07Z
+1057,SigV1 apparently needs sha1 verus sha256 hmac digests,2012-10-14T23:15:54Z,2012-10-19T12:48:54Z
+1056,Problems with boto 2.6 with mturk,2012-10-14T20:24:54Z,2012-10-19T12:49:55Z
+1055,Glacier code returning Name or service not known on big files,2012-10-14T03:23:00Z,2012-10-17T17:27:31Z
+1054,Syntax error in mturk/question.py,2012-10-13T01:49:45Z,2012-10-15T23:14:35Z
+1053,RDS endpoint name for us-east-1 incompatible with python-2.7.3,2012-10-12T20:18:26Z,2012-10-12T20:31:16Z
+1052,Hotfix for issue #1051: Changed DSInstance.modify() to explicitly name arguments,2012-10-12T16:26:36Z,2012-10-19T12:43:23Z
+1044,fix for CW describe_alarms(),2012-10-11T00:01:34Z,2012-10-11T13:33:24Z
+1034,Fixing describe_alarms,2012-10-03T23:53:18Z,2012-10-11T14:06:42Z
+1029,Get quals fix,2012-10-01T21:22:28Z,2012-10-10T14:47:48Z
+1006,boto's version variable not updated to 2.6.0,2012-09-20T14:21:42Z,2012-09-20T17:40:21Z
+993,Use simplejson when json module not available,2012-09-18T20:46:33Z,2012-09-18T22:15:47Z
+992,Auto Scale administration tool can't really update an Asg,2012-09-17T17:05:21Z,
+988,Regression Introduced causing Amazon Glacier to return a bad signature error,2012-09-15T19:26:52Z,2012-09-17T17:06:35Z
+973,Get_batch return empty answer for empty batches,2012-09-07T18:32:42Z,2012-09-10T23:43:14Z
+964,Return the response and not the fully read body for non-json responses (...,2012-09-05T16:30:12Z,2012-09-06T00:10:45Z
+963,Fixed a couple of bugs in archive retrieval for layer2 Glacier,2012-09-05T08:53:32Z,2012-09-05T14:08:34Z
+958,Fixes UnicodeDecodeError raised when you upload binary files,2012-09-02T10:51:19Z,2012-09-02T15:30:22Z
+955,Fixed some issues with multi-part upload.,2012-09-01T12:30:36Z,2012-09-01T15:11:24Z
+951,"Can't create autoscale tags with a ""/"" in the value",2012-08-31T17:36:58Z,2012-08-31T17:40:36Z
+881,InstanceStateChangeTypes are mis-parsed,2012-07-24T18:26:44Z,2012-07-26T17:50:27Z
+848,Some updates to SWF exceptions/documentation,2012-07-02T18:17:24Z,2012-07-02T22:26:35Z
+843,boto cloudformation : Fix ValidateTemplate typo,2012-06-28T15:01:56Z,2012-07-03T01:37:25Z
+837,Generate S3 URLs doesn't work with IAM Roles,2012-06-22T22:35:11Z,2012-06-23T04:25:48Z
+833,Add update capabilities to DBSnapshot & c.,2012-06-20T19:20:39Z,2012-11-27T08:46:50Z
+830,"Using DynamoDB with IAM Roles gives ""403 Forbidden"" when trying to connect",2012-06-20T16:35:33Z,2012-06-21T18:47:24Z
+821,Allow the HTTPResponse to be reread multiple times,2012-06-15T01:42:00Z,2012-06-18T20:55:16Z
+807,Reset response to None when following a redirect.,2012-06-11T08:46:40Z,2012-06-11T19:06:42Z
+788,Fix for #755; ELB parsing broken when listeners have applied policies,2012-05-29T18:31:13Z,2012-06-05T21:29:43Z
+787,Fix connection leak with bucket.get_key() on certain failures.,2012-05-28T01:20:58Z,2012-05-31T01:22:37Z
+776,S3Connection.get_canonical_user_id fails with AttributeError: 'ResultSet' object has no attribute 'ID',2012-05-23T00:39:41Z,2012-05-30T22:38:24Z
+772,SES: Encode messages as UTF8 before base64 encoding,2012-05-21T13:28:40Z,2012-05-30T15:27:20Z
+770,Fix infinite loop when listing a large (100+) number of tables in dynamodb,2012-05-19T23:15:06Z,2012-05-20T07:40:29Z
+764,fix typo error in create_dhcp_options() method,2012-05-17T11:34:40Z,2012-05-17T12:00:23Z
+744,DynamoDB: has_item() fails if range_key is a string,2012-05-10T18:36:44Z,2012-05-28T19:11:35Z
+734,"NameError fix for log, and response.",2012-05-05T17:37:28Z,2012-05-10T18:48:51Z
+732,Fix for issue #653 - SQS get_queue fails for IAM users with restricted access,2012-04-30T19:02:50Z,2012-05-10T17:51:21Z
+731,bug fix for table generator in dynamodb.layer2,2012-04-30T15:39:33Z,2012-04-30T20:32:33Z
+730,Fixing bug where distribution not being used as the connection object if...,2012-04-30T11:44:27Z,2012-05-10T15:46:46Z
+720,Fix for Python2.5/httplib and hmac-v3-http signing issue.,2012-04-25T14:51:39Z,2012-04-30T17:46:28Z
+717,Two bugs in DynamoDB,2012-04-24T16:11:41Z,2012-04-24T16:12:32Z
+709,Fixes #708,2012-04-19T12:38:24Z,2012-04-20T16:43:23Z
+708,CloudFormation Bug in Parsing Describe Stacks Response,2012-04-19T12:33:09Z,2012-04-20T16:43:21Z
+707,Fix for boto/rds/parametergroup.py merge method for boolean value type,2012-04-18T20:41:53Z,2012-05-10T15:16:07Z
+670,Fix tag parsing for network interface objects.,2012-03-29T08:21:48Z,2012-03-31T20:44:21Z
+667,made log_uri parameter optional in run_jobflow(),2012-03-28T20:44:32Z,2012-03-29T13:28:39Z
+665,route53 ResourceRecordSets; CREATE CNAME commit broken in version 2.3.0,2012-03-27T06:47:04Z,2012-03-27T11:53:02Z
+662,Fix typo in XML for bucket location constraint.,2012-03-26T03:46:01Z,2012-03-26T12:06:41Z
+656,Queries expect both primary key fields to be returned otherwise Item creation raises an exception,2012-03-21T17:38:20Z,2012-04-30T17:14:05Z
+648,typo in boto/sqs/batchresults.py,2012-03-19T18:02:39Z,2012-03-20T17:39:13Z
+647,Followup fix to issue 639.,2012-03-19T16:49:55Z,2012-03-20T20:25:44Z
+645,Add unit test for multipart listing and initialize next_upload_id_marker...,2012-03-19T08:28:22Z,2012-03-21T03:12:20Z
+642,KeyError for table.item_count and table.size_bytes after table creation,2012-03-17T03:11:47Z,2012-03-18T18:56:24Z
+635,CloudWatch endpoint not supporting https,2012-03-13T20:12:11Z,2012-03-15T17:56:13Z
+634,Bug: In 2.2.2 AutoScaling always launches instances with detailed monitoring,2012-03-12T17:30:21Z,2012-03-12T18:04:16Z
+633,Bug: In 2.2.2 CloudWatch alarm delete & xml parsing issues,2012-03-12T17:22:45Z,
+626,I was trying to use the s3.get_lifecycle_config() call and it didn't work... this fixes the issue I found,2012-03-09T01:43:32Z,2012-03-09T14:53:36Z
+620,The BETWEEN condition is broken,2012-03-06T19:31:18Z,2012-03-06T19:37:41Z
+619,ec2 run_instances doesn't populate tags on idempotent instances,2012-03-06T18:55:31Z,
+617,Dimension names without specific values cause traceback,2012-03-05T22:54:15Z,2012-03-05T22:59:14Z
+616,"dynamise exclusive start key argument for scan and query, ",2012-03-05T21:56:21Z,2012-03-12T18:53:24Z
+615,restore Python 2.5.x compatibility,2012-03-05T21:36:41Z,2012-03-16T14:20:46Z
+614,"boto/utils.py makes use of boto.provider, but doesn't import it",2012-03-05T19:43:10Z,2012-03-07T00:38:44Z
+610,Missing prefixes in the multipart upload listings.,2012-03-02T06:29:51Z,2012-03-04T20:04:12Z
+609,Set the initiated date in the multipart when parsing the XML.,2012-03-02T03:28:33Z,2012-03-04T20:03:28Z
+608,"Fix bug, dynamize last evaluated key value in dyanmodb layer2 scan",2012-03-01T17:08:28Z,2012-03-04T20:02:39Z
+596,Layer2 list_tables should handle paging of results automatically,2012-02-23T15:06:17Z,2012-02-23T15:40:52Z
+593,"fix bug with max_results argument to Layer2.query, ",2012-02-22T19:31:53Z,2012-02-23T16:21:47Z
+591,DynamoDB Table object not correctly updating when calling update_throughput,2012-02-22T06:19:07Z,2012-02-22T16:32:56Z
+590,DynamoDB SerializationException/400 Error,2012-02-21T20:21:49Z,
+587,dynamodb.item.Item: Providing range_key value in both range_key param and attrs dictionary leads to unexpected behaviour,2012-02-17T14:52:05Z,2012-03-18T18:26:27Z
+584,get_path strips leading slashes from S3 key names,2012-02-15T16:24:31Z,
+583,Fix GS resumable uploads test case to rewind pointer between tests.,2012-02-15T01:34:35Z,2012-02-15T03:12:27Z
+582,Token problem with boto 2.2.1 and python 2.5,2012-02-14T21:08:19Z,2013-02-11T14:59:06Z
+578,Remove test suite s3nomfa as it is now identical to the s3 suite.,2012-02-14T01:07:21Z,2012-02-14T04:45:46Z
+577,Boto uses datetime.timedelta.total_seconds which is new in python 2.7,2012-02-13T21:50:14Z,2012-02-13T22:24:13Z
+576,Numeric range keys with value of zero don't work.,2012-02-13T16:48:57Z,2012-02-13T16:55:42Z
+568,Problem creating autoscaling ELB with alarms,2012-02-09T12:02:49Z,
+567,Certain attribute names can cause issues,2012-02-09T02:25:26Z,2012-02-09T02:49:33Z
+561,Security group issues in VPC,2012-02-06T19:32:11Z,2012-05-14T18:23:21Z
+557,Null HealthCheckGracePeriod,2012-02-03T22:49:55Z,2012-02-06T20:14:07Z
+551,DynamoDB query RangeKeyCondition parameter is wrong,2012-02-03T16:58:58Z,2012-02-03T17:40:38Z
+550,TimeDelta.total_seconds() is available only in Python 2.7,2012-02-03T16:55:51Z,2012-02-03T21:45:25Z
+549,The limit parameter is ignored in Layer2.query(),2012-02-03T16:17:48Z,2012-02-06T19:45:12Z
+548,Paging of results from Layer2.query() not working,2012-02-03T16:15:32Z,2012-02-03T17:40:38Z
+546,Autoscale LaunchConfiguration CreateTime cannot have whitespace in the XML format,2012-02-03T06:26:44Z,2012-02-03T13:50:14Z
+545,S3 generate_url() with response headers regression,2012-02-02T17:55:42Z,2012-02-02T23:30:19Z
+544,"""/"" character in signatures not being escaped properly",2012-02-02T14:17:29Z,2012-02-02T18:37:19Z
+540,Debug print statement left in dynamodb/layer1.py,2012-02-01T18:43:32Z,2012-02-01T18:44:02Z
+537,Consistency update for expected_value,2012-01-31T16:24:14Z,2012-02-01T19:59:08Z
+530,Default endpoints cause Certification Validation to fail,2012-01-29T21:26:59Z,2012-01-29T21:32:53Z
+525,check for subscribed services,2012-01-26T20:51:12Z,
+520,S3 get_contents_as_string() returns empty string after InvalidRange error,2012-01-26T07:21:56Z,
+477,XmlHandler's list/item markers should propagate to all child elements,2012-01-16T23:28:26Z,2012-01-17T01:29:50Z
+475,Added some simple unit tests for multipart upload.,2012-01-13T03:46:58Z,2012-01-16T18:56:26Z
+473,to_xml() always gets the first 1000 parts twice. Remove extra call.,2012-01-12T07:23:18Z,2012-01-16T18:56:25Z
+459,fix issue with iterating over specific version of a key in issue #458,2012-01-04T19:57:44Z,2012-01-16T17:37:01Z
+458,s3.Key.open_read() should read current with Key's version_id if any,2012-01-04T19:31:00Z,2013-07-11T23:18:04Z
+454,Passing SecurityGroup objects to security_group_ids param of RunInstance fails,2012-01-02T18:48:07Z,2012-01-02T18:53:06Z
+452,Cloudformation tweaks,2011-12-28T17:52:15Z,2011-12-28T18:10:31Z
+449,S3 problem with eu-west-1,2011-12-24T11:29:09Z,2011-12-29T21:06:53Z
+447,Allow paging of results in get_all_instance_status method,2011-12-22T19:32:08Z,2011-12-23T01:57:44Z
+443,Accessing non-US S3 buckets causes S3ResponseError,2011-12-21T14:46:02Z,2013-05-30T02:59:49Z
+438,mturk.connection.create_qualification_type() had an incorrect assert.,2011-12-16T17:31:24Z,2012-01-17T01:33:00Z
+422,buckey.py has a typo in copy_key function,2011-12-02T14:20:53Z,2011-12-02T14:33:38Z
+418,typo in boto.s3.deletemarker.DeleteMarker class,2011-12-01T13:00:14Z,2011-12-01T13:07:39Z
+416,Multipart API - List Parts max_parts param is incorrect,2011-11-30T13:38:58Z,2011-11-30T13:49:37Z
+413,[patch] - Problems with MultiAZ/AutoMinorVersionUpgrade set to False,2011-11-19T11:08:29Z,2012-01-11T13:24:10Z
+410,Fixed delete_listener on a load balancer object,2011-11-17T11:55:01Z,2011-11-18T13:30:39Z
+407,fix boto issue #403,2011-11-15T23:05:36Z,2011-11-18T13:24:16Z
+405,Security Group Egress fixes for VPCs,2011-11-14T20:41:08Z,2011-11-18T13:11:03Z
+404,authorize_security_group_egress broken,2011-11-14T18:14:32Z,2011-11-18T13:26:11Z
+403,create_parameter_group fails,2011-11-12T22:27:57Z,2011-11-18T13:23:14Z
+401,"Explicitly connecting to an AutoScale region is broken without ""[Boto]"" in ~/.boto",2011-11-12T20:58:16Z,2011-11-18T12:45:18Z
+400,"""params['RetryDelay'] = retry_delay"" should be  ""params['RetryDelayInSeconds'] = retry_delay""",2011-11-12T02:11:42Z,2011-11-18T12:35:07Z
+393,AutoScaleConnection constructor sets debug param to None rather than 0,2011-11-08T21:38:49Z,2012-01-31T19:01:51Z
+381,MTurk uses HTTP connection by default,2011-10-26T18:24:24Z,2011-10-26T18:26:31Z
+372,Can't go from REDUCED_REDUNDANCY to STANDARD,2011-10-19T00:11:49Z,2011-10-25T12:40:33Z
+369,UnboundLocalError: local variable 'sdb' referenced before assignment,2011-10-14T16:17:27Z,2011-10-14T18:29:28Z
+348,Docstring typo in subscribe method.,2011-09-22T11:00:14Z,2011-09-22T11:00:58Z
+345,Dimension object unable to support two values on same dimension,2011-09-20T16:25:08Z,2011-10-04T20:32:07Z
+344,ELB tutorial is out-of-date wrt regions,2011-09-19T13:32:35Z,2011-09-19T13:33:05Z
+340,Parameter order to authorize_security_group were changed,2011-09-15T18:07:03Z,2011-09-15T18:13:32Z
+337,"create_placement_group returns a boolean, not a PlacementGroup",2011-09-09T13:37:47Z,2011-09-13T23:22:11Z
+334,Cloudfront Distribution.update() disables CF logging,2011-09-08T20:17:12Z,
+333,"Security groups don't allow ""0"" as a port",2011-09-08T18:50:59Z,2011-09-08T18:51:17Z
+324,Fix filters to work with `get_all_vpcs`,2011-09-07T17:26:01Z,2011-09-07T21:31:42Z
+323,fps.connection.get_token_by_caller_reference returns 400 Bad Request for valid caller reference,2011-09-07T16:38:31Z,2011-10-25T12:04:12Z
+321,Add Python2.5 support for ELB and Cloudwatch,2011-09-05T17:41:14Z,2011-09-06T02:34:11Z
+319,typo in snapshot comments,2011-08-31T18:17:15Z,2011-08-31T23:11:28Z
+316,cloudwatch and elb's use of enumerate() breaks python 2.5 compatibility,2011-08-27T02:36:09Z,2011-09-06T02:36:04Z
+315,AttributeError: 'S3Origin' object has no attribute 'replace',2011-08-26T12:59:17Z,2011-08-26T13:21:45Z
+314,Handle occasional lack of milliseconds in DescribeLaunchConfigurations response,2011-08-26T06:42:56Z,2011-08-26T06:46:48Z
+312,SecurityGroup doesn't correctly handle vpcId element,2011-08-24T21:39:00Z,2011-08-24T21:41:03Z
+311,"connection.py uses with statement, which breaks in Python 2.5",2011-08-24T19:20:54Z,2011-08-24T19:22:12Z
+310,Filters borked in VPC module,2011-08-24T16:06:18Z,2011-08-24T16:11:41Z
+309,Error from aws: boolean must follow xsd1.1 definition,2011-08-23T17:00:32Z,2011-08-23T18:24:49Z
+306,"get_all_instances() doesn't retrieve instances with a tag ""foo_bar""",2011-08-18T18:57:05Z,2011-08-21T13:54:31Z
+297,Fix create_scheduled_group_action to support setting to 0. ,2011-08-10T22:33:39Z,2011-08-11T00:29:52Z
+295,Allow kwparams to be passed to RDS connect_to_region,2011-08-08T14:10:23Z,2011-08-08T14:11:17Z
+294,AttributeError: DistributionConfig instance has no attribute 'origin_access_identity',2011-08-07T17:21:53Z,2011-08-30T15:58:42Z
+293,Bug with simplejson,2011-08-05T19:08:57Z,2011-08-05T19:26:27Z
+291,get_instance_attribute not handling all attributes,2011-08-05T13:15:42Z,2011-08-05T13:16:47Z
+283,"enable_availability_zones(), disable_availability_zones() bug",2011-07-28T13:21:58Z,2013-07-11T22:45:16Z
+282,Make sure roboto-based CLI tools exit with 1 when an error occurs,2011-07-28T13:09:36Z,2011-07-28T13:09:51Z
+275,OpenStack Terminate Instances,2011-07-25T06:19:03Z,2011-07-25T13:08:15Z
+274,RDS Region address issue,2011-07-25T04:01:16Z,2011-07-25T12:57:01Z
+259,FPS settle request uses improper post parameters,2011-07-15T00:16:14Z,2011-07-22T19:17:48Z
+200,get_all_load_balancers no longer works after stickiness policy is set,2011-05-17T06:54:16Z,
+195,SESConnection.send_raw_email incorrectly requires source argument,2011-05-13T05:01:39Z,2011-07-24T15:09:23Z
+184,Some AutoScaling fixes using ScalingPolicy/MetricAlarm,2011-05-05T11:30:11Z,2011-10-25T12:47:10Z
+180,Autoscale trigger support removed from latest?,2011-05-04T01:30:26Z,2013-07-11T22:31:15Z
+175,Option flags are broken in StreamingStep with Hadoop 0.20,2011-04-26T20:20:08Z,2013-07-11T22:28:46Z
+138,Setting root object for a cloudfront distribution breaks,2011-03-10T11:48:20Z,2013-09-14T00:02:22Z
+82,"Key's beginning with a ""/"" cause S3Response Error. Probably should be validated earlier.",2011-01-26T23:50:38Z,
+37,Error calling ELBConnection.describe_instance_health,2010-11-19T23:12:14Z,2013-07-11T22:17:43Z

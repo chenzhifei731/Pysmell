@@ -1,0 +1,3 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\cmark.py,19,1,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\normalize.py,12,14,0,0,0

@@ -1,0 +1,12 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\examples\08-server\03-wiki\wiki.py,27,26,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\examples\08-server\03-wiki\wiki.py,106,45,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\text\tree.py,767,27,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\text\tree.py,806,28,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\docx\docx.py,187,42,2,1,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\docx\docx.py,344,35,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\docx\docx.py,357,28,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\docx\docx.py,397,15,1,0,0,0
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\json\encoder.py,399,102,4,1,1,1
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\json\encoder.py,492,90,4,1,1,1
+pattern,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pattern\pattern\web\json\encoder.py,533,78,4,1,1,1

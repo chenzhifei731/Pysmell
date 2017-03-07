@@ -1,0 +1,28 @@
+hash,tag,author,date,title
+6eb49af,rel-0.8.4,Fernando Perez,2008-05-31 16:44:55,Release IPython 0.8.4.
+76706c4,rel-0.9,Fernando Perez,2008-09-13 21:42:07,Cut release 0.9.  This revision will be tagged as 0.9.
+fab347b,rel-0.9.1,Fernando Perez,2008-09-14 20:37:31,Merge: Final doc updates for release 0.9.1.
+31ce543,dev-0.11,Fernando Perez,2009-08-04 16:38:35,Opening trunk for 0.11 and development.
+0bb5689,rel-0.10,Fernando Perez,2009-08-04 18:28:33,Final revnum update for static backups.  Releasing now (finally!)
+5d37858,rel-0.10.1,Fernando Perez,2010-10-11 22:46:45,Releasing version 0.10.1.
+528a43e,rel-0.10.2,Fernando Perez,2011-04-08 23:17:32,Version changes for final 0.10.2 release.
+464280a,rel-0.11,Fernando Perez,2011-07-31 10:18:38,Fix backup URL.  Final commit before 0.11 release.
+698e9ab,rel-0.12,Fernando Perez,2011-12-19 01:02:39,Fix HTML import in tour notebook and add video credit to W. Stein.
+ea199a6,rel-0.12.1,Fernando Perez,2012-04-20 23:33:24,Update release number to 0.12.1.
+2255c2b,rel-0.13,MinRK,2012-06-30 01:21:29,add missing parentheses on formerly excluded doctest example
+177894e,rel-0.13.1,MinRK,2012-10-19 16:17:18,remove rc for 0.13.1 final
+858d539,rel-0.13.2,MinRK,2013-04-05 12:15:45,release 0.13.2
+02da31c,rel-1.0.0,MinRK,2013-08-08 18:01:36,1.0.0 final
+7c2ea3a,rel-1.1.0,MinRK,2013-09-09 14:36:03,release 1.1.0
+1b14e0b,rel-1.2.0,MinRK,2014-02-10 13:50:37,release 1.2.0
+9c4f59d,rel-1.2.1,MinRK,2014-02-24 12:03:54,release 1.2.1
+6f62d69,rel-2.0.0,MinRK,2014-04-01 22:19:46,release 2.0.0
+a9897bb,3.0.0-dev,MinRK,2014-04-09 13:42:45,master is 3.0.0-dev
+681fd77,rel-2.1.0,MinRK,2014-05-21 12:11:30,release 2.1.0
+d87a8cd,rel-2.2.0,Thomas Kluyver,2014-08-06 15:54:34,release 2.2.0
+be0cc2b,rel-2.3.0,Thomas Kluyver,2014-10-01 16:53:44,release 2.3.0
+1c0eb68,rel-2.3.1,Min RK,2014-11-12 15:07:33,release 2.3.1
+b11c1c3,rel-2.4.0,Min RK,2015-01-30 12:41:28,release 2.4.0
+af17558,rel-2.4.1,Min RK,2015-02-09 14:58:28,release 2.4.1
+f75fda4,rel-3.0.0,Thomas Kluyver,2015-02-27 15:46:17,Release 3.0
+cbccb68,rel-3.1.0,Min RK,2015-04-03 13:36:20,release 3.1.0

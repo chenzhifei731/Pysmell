@@ -1,0 +1,227 @@
+commit,author,date,title,faultID,file
+34a0f63,Daniel G. Taylor,2015-02-05 16:31:22,Merge pull request #2932 from kevinschaul/develop,2932
+c4defb4,Daniel G. Taylor,2014-12-23 11:57:56,Merge pull request #2822 from micahhausler/bugfix/cloudformation_set_stack_policy,2822
+8426148,Daniel G. Taylor,2014-12-22 14:30:58,Merge pull request #2817 from bhagany/patch-1,2817
+cc4d42d,Daniel G. Taylor,2014-12-18 15:01:35,Merge pull request #2810 from monkeysecurity/develop,2810
+a193bc0,Daniel G. Taylor,2014-12-18 14:08:15,Merge pull request #2809 from serviceagility/develop,2809
+f1a5ebd,Daniel G. Taylor,2014-12-17 13:57:35,Merge pull request #2801 from Captainkrtek/fix_2572,2801
+55ed184,Daniel G. Taylor,2014-12-17 13:35:52,Merge pull request #2752 from catlee/storage_class,2752
+1af31f2,Daniel G. Taylor,2014-12-17 13:29:06,Merge pull request #2736 from Captainkrtek/Fix_S3Put_host,2736
+73dc86b,captainkrtek,2014-12-07 14:59:43,remove unimplemented config param. - #2572,2801,boto/route53/hostedzone.py
+c314298,Daniel G. Taylor,2014-12-05 16:21:04,Merge pull request #2726 from twirrim/develop,2726
+58f76f6,Daniel G. Taylor,2014-12-05 16:12:13,Merge pull request #2735 from youngrok/develop,2735
+419d8a5,Daniel G. Taylor,2014-12-02 16:28:35,Merge pull request #2676 from lapointexavier/feature/issue-2573-bugfix-incomplete-count,2573
+1d5368a,Daniel G. Taylor,2014-12-02 14:19:01,Merge pull request #2766 from alexzhangs/develop,2766
+6771d04,Daniel G. Taylor,2014-11-21 14:30:41,Merge pull request #2775 from boto/emr-supported-products,2775
+859f03a,captainkrtek,2014-11-04 19:58:33,fix for s3put host specification - issue #2522,2736,boto/s3/__init__.py
+5b093d6,Pak Youngrok,2014-11-05 12:07:48,fix raising exception syntax in python 3,2735,boto/connection.py
+5b093d6,Pak Youngrok,2014-11-05 12:07:48,fix raising exception syntax in python 3,2735,tests/unit/test_connection.py
+c017b02,Daniel G. Taylor,2014-09-02 10:51:14,Merge pull request #2548 from cshanes/patch-1,2548
+39cbcb5,Daniel G. Taylor,2014-09-02 10:50:02,Merge pull request #2562 from kouk/bucketlisturlencoding,2562
+8198884,Daniel G. Taylor,2014-08-26 10:12:38,Merge pull request #2525 from danielgtaylor/s3-repr,2525
+7f907b7,Daniel G. Taylor,2014-08-25 10:01:21,Merge pull request #2550 from gholms/test-endpoints,2550
+964999e,Daniel G. Taylor,2014-08-22 11:14:00,Merge pull request #2537 from gfemec/et_params_support,2537
+885348d,Daniel G. Taylor,2014-08-22 10:51:24,Merge pull request #2521 from danielgtaylor/header-bytes,2521
+7b67f98,Daniel G. Taylor,2014-08-20 12:28:08,Merge pull request #2533 from avanash/develop,2533
+3cbbc21,Daniel G. Taylor,2014-08-13 14:15:56,Merge pull request #2513 from N3TWORK/cloudsearch2-proxy,2513
+a2e4b48,Daniel G. Taylor,2014-08-12 10:56:43,Merge pull request #2420 from N3TWORK/2.31.1-cloudsearch2-options,2420
+2ffb00a,Daniel G. Taylor,2014-08-04 13:55:29,Merge pull request #2456 from danielgtaylor/emr-fix,2456
+16284ea,Daniel G. Taylor,2014-08-04 12:30:09,Merge pull request #2492 from alexkonradi/bugfix-binary-non-ascii,2492
+33db71a,Daniel G. Taylor,2014-08-04 12:26:15,Merge branch 'kz9676-fix-missing-mock-requirement' into develop.,2494
+6ff525e,Daniel G. Taylor,2014-08-01 14:33:47,Merge pull request #2486 from piotrbulinski/LazyLoadMetadata_py3,2485
+07d6424,Daniel G. Taylor,2014-07-31 13:18:14,Merge branch 'mreid-moz-fix_provider_encode' into develop.,2479
+e1b61a1,Daniel G. Taylor,2014-07-30 16:58:47,Merge pull request #2475 from DreadPirateShawn/issue2474,2475
+a16bcfd,Daniel G. Taylor,2014-07-25 09:06:45,Merge pull request #2445 from avanash/develop,2445
+40f4b5d,Daniel G. Taylor,2014-07-21 14:16:26,Merge pull request #2431 from danielgtaylor/beanstalk-exception,2431
+d7d1d2d,Nicolas Baccelli,2014-07-18 12:17:49,fixes typo bug #2428,2429,boto/mws/connection.py
+78300f1,Daniel G. Taylor,2014-07-16 17:31:28,Merge pull request #2396 from phspagiari/userdata_encode_fix,2396
+319d44e,Daniel G. Taylor,2014-07-11 16:09:37,Merge branch 'jzbruno-develop' into develop. Fixes #2195.,2195
+5101b06,Daniel G. Taylor,2014-07-10 16:46:02,Merge pull request #2378 from severb/develop,2378
+4935f67,Daniel G. Taylor,2014-07-10 15:43:30,Merge pull request #2387 from phspagiari/develop,2387
+ce07446,Daniel G. Taylor,2014-07-01 11:47:29,Merge pull request #2342 from tryggvib/develop,2342
+3b715e5,Daniel G. Taylor,2014-06-05 14:21:07,Merge pull request #2317 from danielgtaylor/ts-locale,2317
+35e0b98,Daniel G. Taylor,2014-06-05 13:22:54,Parse date/time in a locale independent manner,2271,boto/utils.py
+35e0b98,Daniel G. Taylor,2014-06-05 13:22:54,Parse date/time in a locale independent manner,2271,tests/unit/utils/test_utils.py
+0bffa3b,Daniel G. Taylor,2014-06-02 15:14:27,Merge pull request #2305 from raphaellig/shared-credentials-load-fix,2305
+7c5cfbf,Gil Raphaelli,2014-06-02 16:17:38,only attempt shared creds load if path is a file,2305,boto/provider.py
+33329d5,Daniel G. Taylor,2014-05-30 13:02:55,Merge pull request #2302 from danielgtaylor/gs-fix,2302
+0f75fb9,Daniel G. Taylor,2014-05-29 13:51:07,Merge pull request #2297 from drzal/develop,2297
+86e1174,Daniel G. Taylor,2014-05-29 13:34:17,Merge pull request #2291 from stansonhealth/develop,2291
+37aaa0f,Daniel G. Taylor,2014-05-29 11:53:53,Merge pull request #2294 from scalp42/develop,2294
+7f23de0,Daniel G. Taylor,2014-05-29 11:52:57,Merge pull request #2289 from Ivoz/patch-2,2289
+26729c7,Daniel G. Taylor,2014-05-29 11:48:04,Merge pull request #2288 from paulcwatts/FixOpsWorksHelpers,2288
+138a6d0,Daniel G. Taylor,2014-05-29 11:46:16,Merge pull request #2285 from theojulienne/patch-1,2285
+c432b09,Daniel G. Taylor,2014-05-29 10:42:10,Merge pull request #2272 from appneta/fix_ddb2_batch_get_consistent,2272
+4fbcd53,Matt Iversen,2014-05-28 06:26:18,crate.io is no longer a package index,2289
+d228352,Daniel G. Taylor,2014-04-01 10:49:45,Merge pull request #2196 from follower/patch-1,2196
+afdd805,Daniel Lindsley,2014-03-14 15:43:17,Merge pull request #2160 from toastdriven/fix-ddbv2-query-order,2070
+dc466c7,Daniel Lindsley,2014-03-13 15:34:09,Merge remote-tracking branch 'DempDemp/ecs_bugfix' into develop,2103
+c2a0f95,Daniel Lindsley,2014-03-13 15:21:19,Merge remote-tracking branch 'iFixit/s3-meta-data--handle-plus-sign' into develop,2145
+9e7b132,Daniel Lindsley,2014-03-13 11:12:29,Merge branch 'fix-vault-date-parsing' into develop,2158
+398bb62,Daniel Lindsley,2014-03-11 14:35:36,Merge branch 'fix-alias-evaluate' into develop,2157
+4df1694,Daniel G. Taylor,2014-02-26 10:30:46,Merge pull request #2123 from jimbrowne/security-token-env-ignore,2123
+b98b8ff,John Weaver,2014-01-31 14:33:43,Allows use of throughput kwargs with GlobalIncludeIndex - fixes #2055.,2055,boto/dynamodb2/fields.py
+b98b8ff,John Weaver,2014-01-31 14:33:43,Allows use of throughput kwargs with GlobalIncludeIndex - fixes #2055.,2055,tests/unit/dynamodb2/test_table.py
+8e56a5f,Daniel G. Taylor,2014-02-24 15:57:57,Merge pull request #2037 from dangra/2033-bugfix,2037
+5a50932,Daniel G. Taylor,2014-02-24 14:46:01,Merge pull request #2116 from danielbeamshare/fix-2108-gs-generate-url,2116
+e185149,Daniel Blasco,2014-02-24 12:46:25,Fixes #2108 GS generate_url with GoogleAccessId,2108,boto/gs/connection.py
+e185149,Daniel Blasco,2014-02-24 12:46:25,Fixes #2108 GS generate_url with GoogleAccessId,2108,tests/integration/gs/test_basic.py
+221085e,Daniel G. Taylor,2014-02-21 15:34:44,Merge pull request #2113 from danielgtaylor/json-error,2113
+65a4323,Daniel G. Taylor,2014-02-19 16:58:59,Merge pull request #2111 from danielgtaylor/cf-cap,2111
+393fbde,Daniel G. Taylor,2014-02-19 16:53:22,Add CloudFormation template capabilities support.,2075,boto/cloudformation/template.py
+393fbde,Daniel G. Taylor,2014-02-19 16:53:22,Add CloudFormation template capabilities support.,2075,tests/unit/cloudformation/test_connection.py
+cd63f92,Daniel G. Taylor,2014-02-18 16:15:41,Merge pull request #2041 from ralfharing/develop,1983
+61b5376,Daniel Lindsley,2014-02-18 10:32:36,Added Kinesis endpoint & cert tests. Fixes #2102.,2102,tests/integration/kinesis/test_cert_verification.py
+f8445b3,Ralf Haring,2014-02-11 19:20:37,fail gracefully when region unknown - fixes #1983,1983,boto/exception.py
+f8445b3,Ralf Haring,2014-02-11 19:20:37,fail gracefully when region unknown - fixes #1983,1983,boto/glacier/__init__.py
+1c5621e,Daniel G. Taylor,2014-02-04 15:20:13,Merge pull request #2034 from pasc/describe_cluster_bugfix,2034
+239d843,Ralf Haring,2014-01-27 19:37:21,better error for unknown region - fixes #1983,1983,boto/exception.py
+239d843,Ralf Haring,2014-01-27 19:37:21,better error for unknown region - fixes #1983,1983,boto/glacier/__init__.py
+8c69777,Daniel Graña,2014-01-27 01:10:37,Prevent implicit string decode in hmac-v4 handlers. Fix #2033,2033,boto/auth.py
+8c69777,Daniel Graña,2014-01-27 01:10:37,Prevent implicit string decode in hmac-v4 handlers. Fix #2033,2033,tests/unit/auth/test_sigv4.py
+8c69777,Daniel Graña,2014-01-27 01:10:37,Prevent implicit string decode in hmac-v4 handlers. Fix #2033,2033,tests/unit/sns/test_connection.py
+8fb1666,Daniel Lindsley,2014-01-17 10:57:22,Merge branch 's3-anon-fix' into develop Fixes #1988 & #1992.,1988
+1a9e367,Thomas O'Dowd,2014-01-17 11:15:41,Fix LIST MULTIPART UPLOADS api by re-adding delimiter and prefix params.,1782,boto/s3/bucket.py
+0aa9207,Mitch Garnaat,2014-01-13 01:19:49,Fixing SQS tutorial to correctly describe behavior of the write operation.  Fixes #1985.,1985
+6928928,Daniel G. Taylor,2014-01-06 14:09:39,Populate both next_token and nextToken. Fixes #1968.,1968,boto/resultset.py
+6928928,Daniel G. Taylor,2014-01-06 14:09:39,Populate both next_token and nextToken. Fixes #1968.,1968,tests/unit/ec2/test_spotinstance.py
+b58ee24,Daniel G. Taylor,2013-12-26 13:14:51,Properly handle getopt long options in s3put,1946
+f4c11f5,Daniel G. Taylor,2013-12-21 15:14:55,Merge pull request #1940 from danielgtaylor/strptime-bug,1898
+2ef66c9,Daniel G. Taylor,2013-12-20 15:32:09,Fix #1898 by doing an initial call to `datetime.strptime`,1898,boto/__init__.py
+2ef66c9,Daniel G. Taylor,2013-12-20 15:32:09,Fix #1898 by doing an initial call to `datetime.strptime`,1898,tests/unit/utils/test_utils.py
+fc4674f,Daniel G. Taylor,2013-12-06 14:00:31,Merge pull request #1895 from danielgtaylor/as-bool,1895
+0638d29,Daniel G. Taylor,2013-12-06 13:46:33,Fix honor cooldown AutoScaling parameter serialization to prevent an exception and bad request. Fixes #1892.,1892,boto/ec2/autoscale/__init__.py
+0638d29,Daniel G. Taylor,2013-12-06 13:46:33,Fix honor cooldown AutoScaling parameter serialization to prevent an exception and bad request. Fixes #1892.,1892,tests/unit/ec2/autoscale/test_group.py
+ce6df03,Daniel G. Taylor,2013-12-04 11:36:29,Merge pull request #1862 from dkavanagh/fix-v4-host-header,1862
+35ee651,Juan Font,2013-12-03 13:13:21,Fixed bug when arg==0 (issue #1886),1886,boto/rds/__init__.py
+0e6dcbe,Daniel G. Taylor,2013-11-19 13:01:09,Merge branch 's3-fix' into develop. Makes sure file is closed before attempting to delete it when downloading an S3 key. Fixes #1791.,1791
+15054e5,dkavanagh,2013-11-18 15:12:32,use auth_handler to specify host header value if possible,1862,boto/connection.py
+0fd5300,Daniel G. Taylor,2013-11-15 16:28:02,Merge pull request #1859 from danielgtaylor/ddb-fix,1825
+bace7b6,Daniel G. Taylor,2013-10-25 11:22:20,Validate S3 method kwarg names to prevent misspelling. Fixes #1782.,1782,boto/s3/bucket.py
+bace7b6,Daniel G. Taylor,2013-10-25 11:22:20,Validate S3 method kwarg names to prevent misspelling. Fixes #1782.,1782,tests/unit/s3/test_bucket.py
+dc8bbea,Daniel G. Taylor,2013-10-24 16:52:01,Merge pull request #1781 from gustavorauber/develop,1781
+acaf940,Daniel G. Taylor,2013-10-24 13:19:00,Clarify documentation for MetricAlarm dimensions. Fixes #1803.,1803,boto/ec2/cloudwatch/alarm.py
+5505113,Daniel G. Taylor,2013-10-14 15:52:26,Merge pull request #1763 from mshang/develop,1763
+6ab7c26,Malcolm Box,2013-10-08 11:04:24,Fix #1775 - item attrs not initialised correctly,1775,boto/dynamodb/item.py
+fb24127,Daniel G. Taylor,2013-10-07 14:19:11,Remove unused code that causes an exception in rare cases and add a unit test for that case. Fixes #1748.,1748,boto/ec2/instance.py
+fb24127,Daniel G. Taylor,2013-10-07 14:19:11,Remove unused code that causes an exception in rare cases and add a unit test for that case. Fixes #1748.,1748,tests/unit/ec2/test_connection.py
+7958c70,Daniel G. Taylor,2013-09-16 13:49:41,Merge pull request #1700 from krallin/s3put-fix-header,1700
+eee7d14,Thomas Orozco,2013-09-02 16:54:52,"s3put: accept headers values containing ""=""",1700
+efa5d58,Daniel Lindsley,2013-08-29 12:37:35,Merge branch 'release-2.11.0',1642
+f35e914,Daniel G. Taylor,2013-08-28 09:52:48,"Make s3put non-multipart uploads not require ListBucket access, and document that multi-part uploads require ListBucket and ListMultipartUploadParts permissions. Fixes #1642.",1642
+104dacb,James Saryerwinnie,2013-01-03 14:19:49,Merge branch 'glacier-sender' into develop,1189
+b0f909c,James Saryerwinnie,2013-01-03 14:07:16,Use a custom sender for glacier archive upload,1189,boto/glacier/layer1.py
+b0f909c,James Saryerwinnie,2013-01-03 14:07:16,Use a custom sender for glacier archive upload,1189,boto/glacier/utils.py
+b0f909c,James Saryerwinnie,2013-01-03 14:07:16,Use a custom sender for glacier archive upload,1189,tests/unit/glacier/test_layer1.py
+f3bcdb4,Mitch Garnaat,2012-12-05 04:36:18,Fixing the fix for #283.,283,boto/ec2/elb/__init__.py
+f3bcdb4,Mitch Garnaat,2012-12-05 04:36:18,Fixing the fix for #283.,283,boto/ec2/elb/healthcheck.py
+f3bcdb4,Mitch Garnaat,2012-12-05 04:36:18,Fixing the fix for #283.,283,boto/ec2/elb/instancestate.py
+f3bcdb4,Mitch Garnaat,2012-12-05 04:36:18,Fixing the fix for #283.,283,boto/ec2/elb/listelement.py
+f3bcdb4,Mitch Garnaat,2012-12-05 04:36:18,Fixing the fix for #283.,283,boto/ec2/elb/listener.py
+37b1dd9,Mitch Garnaat,2012-12-02 18:49:22,Fix enable_availability_zones and disable_availability_zones to return updated list of zones.  Related to #283.,283,boto/ec2/elb/__init__.py
+37b1dd9,Mitch Garnaat,2012-12-02 18:49:22,Fix enable_availability_zones and disable_availability_zones to return updated list of zones.  Related to #283.,283,boto/ec2/elb/listelement.py
+0040637,Mitch Garnaat,2012-12-02 15:44:25,Fix docstring for get_all_reserved_instances.  Fixes #1118.,1118,boto/ec2/connection.py
+2bdebc4,Mitch Garnaat,2012-10-29 13:36:38,Support multiple DBSecurityGroups for DBInstance.  Fixes #1086.,1086,boto/rds/dbinstance.py
+238458c,Mitch Garnaat,2012-10-22 09:47:56,Changing --hive-script to --run-hive-script.  Fixes #1071.,1071,boto/emr/step.py
+45c7a6e,Mitch Garnaat,2012-10-15 16:14:25,Fixing typo bug and doing some PEP8 cleanup.  Fixes #1054.,1054,boto/mturk/question.py
+5db4953,Mitch Garnaat,2012-10-12 13:31:08,Change DefaultEndpoint to match commonName in SSL cert.  Fixes #1053.,1053,boto/rds/__init__.py
+508e1c1,James Saryerwinnie,2012-09-17 09:59:44,"Ensure file is opened in binary mode, fixes #988",988,boto/glacier/vault.py
+05d1c66,Mitch Garnaat,2012-08-31 10:40:23,SigV4 not properly quoting query parameters.  Also fixed default endpoint for autoscale and did some PEP8 cleanup.  Fixes #951.,951,boto/auth.py
+05d1c66,Mitch Garnaat,2012-08-31 10:40:23,SigV4 not properly quoting query parameters.  Also fixed default endpoint for autoscale and did some PEP8 cleanup.  Fixes #951.,951,boto/ec2/autoscale/__init__.py
+05d1c66,Mitch Garnaat,2012-08-31 10:40:23,SigV4 not properly quoting query parameters.  Also fixed default endpoint for autoscale and did some PEP8 cleanup.  Fixes #951.,951,boto/ec2/autoscale/tag.py
+a23c379,Mitch Garnaat,2012-07-26 10:51:48,Fixed parsing of current/previous state data for instances.  Fixes #881.,881,boto/ec2/instance.py
+a23c379,Mitch Garnaat,2012-07-26 10:51:48,Fixed parsing of current/previous state data for instances.  Fixes #881.,881,tests/integration/ec2/test_connection.py
+fa1cf2c,Mitch Garnaat,2012-06-25 17:34:16,Fixing foolish typo.  Fixes #837.,837,boto/s3/connection.py
+99e14f3,Mitch Garnaat,2012-06-22 21:25:24,Add session token to query string authentication url if necessary.  Fixes #837.,837,boto/s3/connection.py
+842a6a1,Mitch Garnaat,2012-06-21 11:39:45,Fix to allow DynamoDB to operate properly with IAM Roles on EC2 instances.  Fixes #830.,830,boto/dynamodb/layer1.py
+82d5383,Mitch Garnaat,2012-05-30 15:35:33,Fix get_canonical_user_id() to grab the ID out of the owner object in the ResultSet.  Fixes #776.,776,boto/s3/connection.py
+8fe36e6,Mitch Garnaat,2012-05-10 08:15:43,Allow a boolean False value to be supplied for a parameter value.  Fixes #707.,707,boto/rds/parametergroup.py
+c8794e7,Mitch Garnaat,2012-04-30 11:33:46,Reworking the logic to change to explicit test for None value.  Related to #656.,656,boto/dynamodb/item.py
+08678ec,Mitch Garnaat,2012-04-30 10:13:54,Allow an Item to be created without a hash/range key to handle situation where attributes_to_get does not include hash/range.  Fixes #656.,656,boto/dynamodb/item.py
+08678ec,Mitch Garnaat,2012-04-30 10:13:54,Allow an Item to be created without a hash/range key to handle situation where attributes_to_get does not include hash/range.  Fixes #656.,656,tests/dynamodb/test_layer2.py
+6f0a727,Tony Morgan,2012-04-30 16:37:36,bug fix for table generator in dynamodb.layer2,731,boto/dynamodb/layer2.py
+ff3fa6d,Mitch Garnaat,2012-04-24 09:12:25,Fixed two bugs in DynamoDB.  Fixes #717,717,boto/dynamodb/layer1.py
+ff3fa6d,Mitch Garnaat,2012-04-24 09:12:25,Fixed two bugs in DynamoDB.  Fixes #717,717,boto/dynamodb/layer2.py
+122cf2e,Trevor Summers Smith,2012-04-19 08:31:30,Fixes #708,708,boto/cloudformation/stack.py
+1949a39,Kyle Mulka,2012-03-28 16:39:33,made log_uri parameter optional in run_jobflow(),667,boto/emr/connection.py
+5e3976b,Mitch Garnaat,2012-03-27 04:52:56,The namespace for the ChangeResourceRecordSetsRequest was still using the old namespace version.  Closes #665.,665,boto/route53/record.py
+ceef354,Mitch Garnaat,2012-03-20 10:38:50,Fixing typo error in SQS batch results handling.  Closes #648.,648,boto/sqs/batchresults.py
+d47180d,Mitch Garnaat,2012-03-18 12:03:18,Forgot to add table.py to that last commit .  Closes #642.,642,boto/dynamodb/table.py
+ab0c868,Mitch Garnaat,2012-03-18 11:56:23,Fix so the item_count and size_bytes properties no longer give KeyError on a new Table.  Closes #642.,642,boto/dynamodb/layer1.py
+ab0c868,Mitch Garnaat,2012-03-18 11:56:23,Fix so the item_count and size_bytes properties no longer give KeyError on a new Table.  Closes #642.,642,tests/dynamodb/test_layer2.py
+f87bbfb,Mitch Garnaat,2012-03-18 11:26:27,"Reworking the Item object a bit to keep it from doing unanticipated things with hash_keys, range_keys and the attrs dict.  Closes #587.",587,boto/dynamodb/exceptions.py
+f87bbfb,Mitch Garnaat,2012-03-18 11:26:27,"Reworking the Item object a bit to keep it from doing unanticipated things with hash_keys, range_keys and the attrs dict.  Closes #587.",587,boto/dynamodb/item.py
+f87bbfb,Mitch Garnaat,2012-03-18 11:26:27,"Reworking the Item object a bit to keep it from doing unanticipated things with hash_keys, range_keys and the attrs dict.  Closes #587.",587,boto/dynamodb/table.py
+f87bbfb,Mitch Garnaat,2012-03-18 11:26:27,"Reworking the Item object a bit to keep it from doing unanticipated things with hash_keys, range_keys and the attrs dict.  Closes #587.",587,tests/dynamodb/test_layer2.py
+a0f350c,Mitch Garnaat,2012-03-15 10:56:05,Changed the DefaultRegionEndpoint to be monitoring.us-east-1.amazonaws.com rather than monitoring.amazonaws.com.  The latter was causing the certificate validation check to fail.  Closes #635.,635,boto/ec2/cloudwatch/__init__.py
+f82abf7,Mitch Garnaat,2012-03-12 11:04:09,Set detailed monitoring to False unless it is explicitly enabled by user.  Closes #634.,634,boto/ec2/autoscale/__init__.py
+e41d6cc,Mitch Garnaat,2012-03-06 16:38:32,Add missing import of boto.provider.  Closes #614.,614,boto/utils.py
+fc2c528,Mitch Garnaat,2012-03-06 11:37:32,Fixed a bug in BETWEEN condition.  Closes #620.,620,boto/dynamodb/condition.py
+3b32824,Mitch Garnaat,2012-03-05 14:59:06,Fixed a bug in the handling of value-less Dimensions in list_metric method.  Closes #617,617,boto/ec2/cloudwatch/__init__.py
+34d0b53,Tony Morgan,2012-03-05 21:49:49,"dynamise exclusive start key argument for scan and query, and fix argument order in table for scan.",616,boto/dynamodb/layer2.py
+34d0b53,Tony Morgan,2012-03-05 21:49:49,"dynamise exclusive start key argument for scan and query, and fix argument order in table for scan.",616,boto/dynamodb/table.py
+644ca93,Mitch Garnaat,2012-02-23 07:40:42,Fixes to list_tables method in Layer1 and Layer2.  Fixes #596.,596,boto/dynamodb/layer1.py
+644ca93,Mitch Garnaat,2012-02-23 07:40:42,Fixes to list_tables method in Layer1 and Layer2.  Fixes #596.,596,boto/dynamodb/layer2.py
+3bd1be2,Mitch Garnaat,2012-02-13 08:55:24,Fixed a problem with zero-valued numeric range keys.  Closes #576.,576,boto/dynamodb/layer2.py
+c464bf0,Mitch Garnaat,2012-02-08 18:49:04,Fixing an obscure bug that occurs when people use the DynamoDB type strings as attribute names.  Closes #567,567,boto/dynamodb/layer2.py
+69f0907,Mitch Garnaat,2012-02-06 12:14:01,Fixed an issue with trying to convert None value for health_check_period to an int.  Also did some PEP8 reformatting.  Fixes #557.,557,boto/ec2/autoscale/group.py
+f51af6f,Mitch Garnaat,2012-02-06 11:45:01,Adding a request_limit and max_results parameters to Layer2.query() and Table.query().  Fixes #549.,549,boto/dynamodb/layer2.py
+f51af6f,Mitch Garnaat,2012-02-06 11:45:01,Adding a request_limit and max_results parameters to Layer2.query() and Table.query().  Fixes #549.,549,boto/dynamodb/table.py
+f51af6f,Mitch Garnaat,2012-02-06 11:45:01,Adding a request_limit and max_results parameters to Layer2.query() and Table.query().  Fixes #549.,549,tests/dynamodb/test_layer2.py
+11055e6,Chris Moyer,2012-02-03 16:44:48,"Updated to use timedelta direct comparison instead of timedelta.total_seconds(), which only exists in 2.7+.",550,boto/sts/connection.py
+586878d,Mitch Garnaat,2012-02-03 09:40:30,Fix a couple of query problems related to range_key_condition and last_evaluated_key.  Closes #548. Closes #551.,548,boto/dynamodb/layer1.py
+586878d,Mitch Garnaat,2012-02-03 09:40:30,Fix a couple of query problems related to range_key_condition and last_evaluated_key.  Closes #548. Closes #551.,548,boto/dynamodb/layer2.py
+586878d,Mitch Garnaat,2012-02-03 09:40:30,Fix a couple of query problems related to range_key_condition and last_evaluated_key.  Closes #548. Closes #551.,548,boto/dynamodb/table.py
+586878d,Mitch Garnaat,2012-02-03 09:40:30,Fix a couple of query problems related to range_key_condition and last_evaluated_key.  Closes #548. Closes #551.,548,tests/dynamodb/test_layer2.py
+8c1f606,Mitch Garnaat,2012-02-03 05:50:04,"Make parsing of CreatedTime more robust by using boto.utils.parse_ts.  Also, strip any whitespace from ts prior to attempting conversion to DateTime.  Closes #546.",546,boto/ec2/autoscale/launchconfig.py
+8c1f606,Mitch Garnaat,2012-02-03 05:50:04,"Make parsing of CreatedTime more robust by using boto.utils.parse_ts.  Also, strip any whitespace from ts prior to attempting conversion to DateTime.  Closes #546.",546,boto/utils.py
+186ba53,Mitch Garnaat,2012-02-02 15:30:08,Fixed an incredibly simple but devilishly difficult to find problem with response headers and query signed URLs.  Added a test to make sure it doesn't get broken again and did some PEP8 cleanup.  Fixes #545.,545,boto/s3/connection.py
+186ba53,Mitch Garnaat,2012-02-02 15:30:08,Fixed an incredibly simple but devilishly difficult to find problem with response headers and query signed URLs.  Added a test to make sure it doesn't get broken again and did some PEP8 cleanup.  Fixes #545.,545,boto/utils.py
+186ba53,Mitch Garnaat,2012-02-02 15:30:08,Fixed an incredibly simple but devilishly difficult to find problem with response headers and query signed URLs.  Added a test to make sure it doesn't get broken again and did some PEP8 cleanup.  Fixes #545.,545,tests/s3/test_connection.py
+ba0ac49,Mitch Garnaat,2012-02-02 10:36:58,Make sure any / characters in the base64 encoded signature that gets included in the URL is properly escaped.  Closes #544.,544,boto/auth.py
+1d2b4ad,Mitch Garnaat,2012-02-01 10:43:55,Remove extraneous debug print statement.  Fixes #540.,540,boto/dynamodb/layer1.py
+5c72772,Mitch Garnaat,2012-01-31 11:01:42,Fixing bug dealing with non-integer value of debug param when no Boto section is in the config file.  Closes #393.,393,boto/connection.py
+4f148ea,Mitch Garnaat,2012-01-30 07:09:32,Correcting some of the changes made to default endpoints.  Related to #530.,530,boto/sdb/connection.py
+4f148ea,Mitch Garnaat,2012-01-30 07:09:32,Correcting some of the changes made to default endpoints.  Related to #530.,530,boto/sqs/__init__.py
+4f148ea,Mitch Garnaat,2012-01-30 07:09:32,Correcting some of the changes made to default endpoints.  Related to #530.,530,boto/sqs/connection.py
+46e36bf,Mitch Garnaat,2012-01-29 13:32:44,Changing default endpoints for some of the older services to be region-aware to avoid certificate validation issues.  Closes #530.,530,boto/ec2/connection.py
+46e36bf,Mitch Garnaat,2012-01-29 13:32:44,Changing default endpoints for some of the older services to be region-aware to avoid certificate validation issues.  Closes #530.,530,boto/rds/__init__.py
+46e36bf,Mitch Garnaat,2012-01-29 13:32:44,Changing default endpoints for some of the older services to be region-aware to avoid certificate validation issues.  Closes #530.,530,boto/sdb/connection.py
+46e36bf,Mitch Garnaat,2012-01-29 13:32:44,Changing default endpoints for some of the older services to be region-aware to avoid certificate validation issues.  Closes #530.,530,boto/sqs/connection.py
+894c1c8,Mitch Garnaat,2012-01-16 09:37:01,Merge pull request #459 from l33twolf/master,458
+176e105,Mitch Garnaat,2012-01-11 08:21:17,Fix handling of MultiAZ and AutoMinorVersionUpgrade params in RDS.  Closes #413.,413,boto/rds/__init__.py
+78be793,l33twolf,2012-01-04 14:57:12,open_read uses key's version_id if exists,458,boto/s3/key.py
+9c823ff,Mitch Garnaat,2012-01-02 13:51:08,Add initial support for Elastic Network Interfaces.,454,boto/ec2/connection.py
+9c823ff,Mitch Garnaat,2012-01-02 13:51:08,Add initial support for Elastic Network Interfaces.,454,boto/ec2/networkinterface.py
+e5cee58,Mitch Garnaat,2011-12-29 16:06:42,Fixing a couple of region references.  Closes #449.,449,boto/s3/bucket.py
+e5cee58,Mitch Garnaat,2011-12-29 16:06:42,Fixing a couple of region references.  Closes #449.,449,boto/sqs/__init__.py
+44aa8ce,Mitch Garnaat,2011-12-22 20:55:12,Allow paging of instance status results.  Closes #447.,447,boto/ec2/connection.py
+44aa8ce,Mitch Garnaat,2011-12-22 20:55:12,Allow paging of instance status results.  Closes #447.,447,boto/ec2/instancestatus.py
+4cf83ab,Mitch Garnaat,2011-12-02 09:31:37,Changed query param version_id to versionId.  Closes #422.,422,boto/s3/bucket.py
+afca2cf,Mitch Garnaat,2011-12-01 08:03:33,Fixed typo bug in DeleteMarker endElement method. Closes #418.,418,boto/s3/deletemarker.py
+83ddc68,Mitch Garnaat,2011-11-30 08:44:07,Change multipart param from max_parts to max-parts.  Closes #416.,416,boto/s3/multipart.py
+72acfbb,Mitch Garnaat,2011-11-18 08:23:06,Change parameter name from Engine to DBParameterGroupFamily for create_parameter_group method.  Closes #403.,403,boto/rds/__init__.py
+95c9cf7,Mitch Garnaat,2011-11-18 07:35:01,Changing param name RetryDelay to RetryDelayInSeconds.  Closes #400.,400,boto/mturk/connection.py
+3c67281,Mitch Garnaat,2011-11-08 16:40:37,Change default value for debug param from None to 0 (zero).  Closes #393.,393,boto/ec2/autoscale/__init__.py
+547d459,Mitch Garnaat,2011-10-26 14:26:23,Change default to use HTTPS rather than HTTP connection for MTurk.  Closes #381.,381,boto/mturk/connection.py
+f540845,Mitch Garnaat,2011-10-25 08:40:24,Incorporated a patch from sethalves to fix issue in converting an S3 object from REDUCED_REDUNDANCY to STANDARD storage class.  Closes #372.,372,boto/s3/bucket.py
+1766a77,Mitch Garnaat,2011-10-25 08:04:02,Fixed name of CallerReference parameter in get_token_by_caller_reference method.  Closes #323.,323,boto/fps/connection.py
+33b283e,Mitch Garnaat,2011-09-22 07:00:41,fixed typo in docstring for subscribe method. Closes #348.,348,boto/sns/connection.py
+8a99a71,Mitch Garnaat,2011-09-19 09:32:58,Updated elb tutorial.  Closes #344.,344
+8eca35e,Mitch Garnaat,2011-09-15 14:13:28,Restoring parameter order to authorize_security_group.  Closes #340.,340,boto/ec2/connection.py
+f93cfa2,Mitch Garnaat,2011-09-13 19:22:02,Fixing return value in docstring for create_placement_group. Closes #337.,337,boto/ec2/connection.py
+8909fb8,Mitch Garnaat,2011-08-31 19:11:18,Fixing docstring.  Also a couple of PEP8 cleanups.  Closes #319.,319,boto/ec2/snapshot.py
+0a8ccec,Mitch Garnaat,2011-08-26 09:21:36,Patching up get_object on Distribution object so it doesn't break but this needs more thought down the road.  Closes #315.,315,boto/cloudfront/distribution.py
+5978264,Mitch Garnaat,2011-08-26 02:46:24,CreatedTime in response does not always include milliseconds.  Awesome.  Need to handle that.  Closes #314.,314,boto/ec2/autoscale/launchconfig.py
+f8d0d82,Mitch Garnaat,2011-08-24 17:40:50,Add vpc_id attribute mapped to vpcId element.  Closes #312.,312,boto/ec2/securitygroup.py
+df73003,Mitch Garnaat,2011-08-24 15:22:06,Added from future import of with statement.  Closes #311.,311,boto/connection.py
+8db7ec8,Mitch Garnaat,2011-08-24 12:11:31,Fix parameters used for Filters.  Closes #310.,310,boto/vpc/__init__.py
+c2c9ab5,Mitch Garnaat,2011-08-23 14:24:39,Fixed a bug with boolean param.  Also added a couple of docstrings and cleaned up a few things.  More work required on this module.  Closes #309.,309,boto/ec2/autoscale/__init__.py
+f4f189f,Mitch Garnaat,2011-08-08 10:11:10,Add kw_params to RDS connect_to_region.  Also add a bit more docs to EC2 version. Closes #295.,295,boto/ec2/__init__.py
+f4f189f,Mitch Garnaat,2011-08-08 10:11:10,Add kw_params to RDS connect_to_region.  Also add a bit more docs to EC2 version. Closes #295.,295,boto/rds/__init__.py
+35bcced,Mitch Garnaat,2011-08-05 09:16:40,Fix parsing of DescribeInstanceAttributes response.  Closes #291.,291,boto/ec2/instance.py
+4283ab4,Mitch Garnaat,2011-07-25 09:08:02,Add test for ResultSet to accomodate non-standard response from OpenStack.  Closes #275.,275,boto/ec2/instance.py
+54a4651,Mitch Garnaat,2011-07-25 08:56:53,Fixed RDS region endpoints.  Closes #274.,274,boto/rds/__init__.py
+589c428,Mitch Garnaat,2011-06-26 08:18:14,Merge pull request #230 from bradleyayers/master,195
+a583329,Bradley Ayers,2011-06-23 21:53:36,Fixed issue #195,195,boto/ses/connection.py
+8f40b64,paltman,2009-10-24 21:33:10,Fixed Issue #283 - corrected SQS's Queue.write docstring,283,boto/sqs/queue.py

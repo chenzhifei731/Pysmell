@@ -1,0 +1,15 @@
+subject,tag,file,lineno,NOC,PAR,NOO
+scipy,v0.16.0b2,E:\my code\pysmell\subject_raw\scipy\scipy\scipy\special\orthogonal.py,266,142,1,58
+scipy,v0.16.0b2,E:\my code\pysmell\subject_raw\scipy\scipy\scipy\special\orthogonal.py,1116,127,2,34
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,423,147,1,38
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,423,137,3,32
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,444,116,1,36
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,452,183,1,50
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,452,173,3,44
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,520,116,3,25
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,536,157,3,33
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tgrep.py,543,153,3,31
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\metrics\distance.py,165,234,2,67
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\parse\dependencygraph.py,54,141,0,21
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\sem\relextract.py,222,131,1,26
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\tests\admin_changelist\tests.py,195,191,0,23

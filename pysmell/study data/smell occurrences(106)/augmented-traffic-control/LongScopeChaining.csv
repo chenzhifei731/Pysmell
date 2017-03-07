@@ -1,0 +1,7 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\atcd\access_manager.py,141,2,0,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\atcd\access_manager.py,156,2,0,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\atcd\AtcdThriftHandlerTask.py,46,2,0,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\tests\test_access_manager.py,111,2,0,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\django-atc-api\atc_api\views.py,30,2,0,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\tests\host.py,24,2,0,0,0

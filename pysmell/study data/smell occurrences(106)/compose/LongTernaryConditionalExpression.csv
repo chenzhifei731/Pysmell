@@ -1,0 +1,16 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\container.py,118,43,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\container.py,164,54,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\project.py,90,28,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\service.py,520,26,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\service.py,545,35,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\service.py,644,41,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\service.py,748,31,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\service.py,766,28,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\cli\command.py,67,34,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\cli\command.py,86,31,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\cli\verbose_proxy.py,21,37,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\compose\config\config.py,145,60,1,1,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\script\versions.py,56,28,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\script\versions.py,60,36,1,0,0,0
+compose,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\compose\tests\unit\cli\verbose_proxy_test.py,13,20,1,0,0,0

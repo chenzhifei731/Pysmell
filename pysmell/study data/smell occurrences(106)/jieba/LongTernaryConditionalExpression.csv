@@ -1,0 +1,4 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\__init__.py,392,48,1,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\__main__.py,32,51,1,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\posseg\viterbi.py,34,62,1,1,0,0

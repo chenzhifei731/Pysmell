@@ -1,0 +1,10 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\app.py,28,2,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\app.py,41,20,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\config.py,7,2,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\config.py,11,2,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\models.py,15,12,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\models.py,38,9,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\operations.py,13,2,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\tests\test_starts.py,6,2,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\tests\test_starts.py,23,4,0,0,0

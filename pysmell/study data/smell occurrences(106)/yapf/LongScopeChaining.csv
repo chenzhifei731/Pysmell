@@ -1,0 +1,9 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\comment_splicer.py,31,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\continuation_splicer.py,27,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\pytree_unwrapper.py,314,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\split_penalty.py,295,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\split_penalty.py,340,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\subtype_assigner.py,287,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapftests\main_test.py,40,2,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapftests\split_penalty_test.py,50,2,0,0,0

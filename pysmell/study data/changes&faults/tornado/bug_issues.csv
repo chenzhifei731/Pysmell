@@ -1,0 +1,1042 @@
+ID,Title,Created At,Closed At
+1925,Bridging tornado and asyncio fails when debug or autoreload are set to True.,2017-01-08T21:05:57Z,2017-01-09T05:35:55Z
+1923,"AssertionError: queue non-empty, why are getters waiting?",2017-01-04T18:55:34Z,
+1922,how download multi-images from tornado web server using handler?,2017-01-03T15:13:11Z,2017-01-08T17:23:59Z
+1921,an error occurred in python3.5,2016-12-28T03:34:03Z,2016-12-30T17:46:35Z
+1920,tcpclient: Improper close of IOStream,2016-12-22T13:50:58Z,
+1919,The PeriodicCallback in for loop,2016-12-21T07:45:27Z,2016-12-21T11:30:06Z
+1918,ThreadPoolExecutor  stuck,2016-12-21T03:16:19Z,2016-12-21T03:22:39Z
+1914,"Writing tests for tornado app, which uses momoko for postgres DB",2016-12-14T09:56:06Z,2016-12-14T14:37:47Z
+1913,tornado/demos/appengine/ ImportError: No module named tornado.escape,2016-12-13T04:08:45Z,2016-12-13T04:16:16Z
+1912,fork_processes() can leave orphan processes,2016-12-12T15:54:06Z,
+1907,Some bugs when using jupyter notebook with tornado,2016-12-05T12:10:34Z,2016-12-13T12:48:42Z
+1904,RuntimeError: list changed size during iteration .  Segmentation fault,2016-12-02T18:39:55Z,2016-12-13T13:02:04Z
+1903,windows_test.py crashes under Python 2.6: AttributeError: 'module' object has no attribute 'skipIf',2016-12-01T23:04:49Z,2016-12-02T03:59:01Z
+1901,Reading IOStream not registered with IOLoop,2016-11-30T14:29:51Z,2016-12-13T12:43:49Z
+1900,twitter_request() garbling url string,2016-11-28T12:08:28Z,2016-11-28T12:42:41Z
+1897,Ship LICENSE in pypi tarball,2016-11-22T20:15:17Z,
+1896,`twitter_request` return Error response 'SSLContext' object has no attribute 'get' ,2016-11-21T03:44:53Z,2016-11-22T09:02:42Z
+1895,Revert #1893 when coverage.py 4.3 is released,2016-11-20T12:14:11Z,
+1894,Testing example in demos folder,2016-11-17T13:35:31Z,2016-11-18T21:23:10Z
+1892,How to ignore get/post method and  json.loads(self.request.body) can't work in prepare,2016-11-16T10:39:26Z,2016-11-16T18:22:20Z
+1891,Is there a way to delay reading the body?,2016-11-16T08:18:07Z,2016-11-16T18:29:58Z
+1887,Add a way to typecheck coroutine functions,2016-11-14T09:14:36Z,2016-11-20T09:41:35Z
+1886,Add a timeout argument to read_until_* methods,2016-11-13T00:34:53Z,
+1885,tornado.web.RequestHandler does not support cooperative inheritance,2016-11-12T11:57:43Z,2016-11-21T06:43:43Z
+1884,concurrent threadpoolexecutor ,2016-11-11T03:31:58Z,2016-11-11T03:51:57Z
+1883,Problem with transform tornado Future into Asyncio Future,2016-11-10T06:14:32Z,2016-11-11T01:51:33Z
+1882,StreamClosedError,2016-11-05T05:17:02Z,2016-11-05T12:15:52Z
+1879,Will tornado support protobuffer?,2016-11-04T02:36:56Z,2016-11-04T03:43:59Z
+1877,get_body_argument with Content-Type: application/json,2016-11-03T16:33:54Z,2016-11-04T06:11:03Z
+1874,add_callback() isn't safe against reentrancy,2016-11-02T17:14:23Z,2016-11-04T04:00:48Z
+1872,Possible memory leak,2016-10-31T15:10:41Z,
+1871,get_body_arguments doesn't seem to work,2016-10-30T20:36:24Z,2016-11-01T14:27:55Z
+1870,About the environment,2016-10-30T07:15:34Z,
+1869,SSL Socket Error on Write,2016-10-28T16:05:11Z,
+1866,tornado logging prints the same line multiple times,2016-10-26T13:25:43Z,
+1865,Clarify affected versions re: 4.4.2 security fix,2016-10-23T17:15:37Z,2016-11-04T06:46:21Z
+1863,WebSocket with regex route doesn't call open callback,2016-10-22T08:44:48Z,
+1861,RedirectHandler re substitution doesn't work,2016-10-15T11:18:40Z,2016-11-05T15:59:21Z
+1860,bind_sockets sporadically fails with EADDRINUSE,2016-10-12T21:06:56Z,
+1859,add_timeout optimization,2016-10-07T06:58:59Z,
+1858,tornado.locale.Locale.get_closest() not getting closest match,2016-10-03T11:18:10Z,
+1856,XSRF Token mismatch,2016-10-03T05:49:36Z,
+1854,dictionary is empty exception when poping ioloop event.,2016-10-01T02:28:31Z,2016-10-01T04:59:05Z
+1853,Need for a little clarification of the templating documentation,2016-09-30T20:58:51Z,2016-09-30T22:53:10Z
+1851,csrf token bypass via Google Analytics,2016-09-29T17:03:26Z,2016-10-01T04:38:28Z
+1850,torando:  ssl.SSLError: [SSL] PEM lib,2016-09-29T08:06:05Z,2016-10-08T14:12:35Z
+1849,Possible unicode issues with validate_absolute_path,2016-09-28T16:34:05Z,
+1848,"[ Address already in use] tornado can not start in Windows 10 linux subsystem (WSL), can anybody help?",2016-09-27T09:43:30Z,2016-09-27T16:25:48Z
+1847,Tornado PyPi package appears broken,2016-09-26T14:09:47Z,2016-09-26T15:18:10Z
+1846,Websocket file descriptor,2016-09-26T12:19:31Z,2016-10-01T08:05:57Z
+1845,RuntimeWarning: coroutine was never awaited,2016-09-25T16:43:13Z,2016-09-26T00:49:55Z
+1843,tornado.log statements don't get printed in terminal,2016-09-23T12:08:32Z,2016-09-23T20:04:43Z
+1842,parse_multipart_form_data for stream_request_body,2016-09-23T09:08:08Z,
+1841,Support of PyFilesystem in StaticFileHandler,2016-09-23T00:27:25Z,2016-09-23T20:03:23Z
+1840,X-Forwarded-For handling appears incorrect,2016-09-22T14:58:58Z,
+1839,tornado webspider (from demos) don't work correctly with sites with shadow-root tag.,2016-09-21T22:58:58Z,2016-09-22T01:19:23Z
+1837,How can I make streaming_callback a coroutine?,2016-09-21T05:40:30Z,2016-09-21T16:57:46Z
+1835,How to get detail of internal error 500?,2016-09-20T01:52:20Z,2016-09-20T02:48:39Z
+1833,HTTPRequest has default request_timeout,2016-09-18T10:11:18Z,2016-10-13T04:58:54Z
+1832,Why tornado parse GET request body?,2016-09-18T09:31:22Z,
+1831,website error domain registration expired on 09/08/2016.,2016-09-14T06:42:48Z,2016-09-14T06:45:48Z
+1830,tornado offical web site domain has expired on  09/08/2016.,2016-09-14T03:35:59Z,2016-09-14T03:36:39Z
+1829,The domain name tornadoweb.org seem to be expired,2016-09-13T16:06:03Z,2016-09-21T18:48:07Z
+1828,Possible memory leak,2016-09-13T06:50:27Z,2016-09-13T12:18:44Z
+1827,How to write the code for http request and response?,2016-09-13T01:02:51Z,2016-09-13T02:05:31Z
+1826,CurlAsyncHTTPClient is dramatically slower than AsyncHTTPClient,2016-09-12T20:42:03Z,
+1824,Should the Blog example use bcrypt's checkpw instead of ==,2016-09-08T14:30:12Z,
+1820,Unit tests failing on hurd-i386  kfreebsd-i386 and ppc64,2016-09-04T11:59:03Z,
+1814,CurlAsyncHTTPClient Proxy questions,2016-08-26T04:54:04Z,
+1813,use async/await instead gen.coroutine on python3.5 problem,2016-08-26T04:17:21Z,2016-09-05T11:51:27Z
+1812,"Custom option from config external file is ""required to be a int (<type 'long'> given)""",2016-08-25T06:43:19Z,
+1811,tornado multiprocess problem,2016-08-25T06:29:45Z,2016-09-05T09:19:00Z
+1810,"Tornado does not properly handle ""await asyncio.sleep(0)""",2016-08-24T18:50:05Z,2016-09-05T09:06:02Z
+1809,TCP connection fails on systems without IPv6 support when connecting to a host that has an IPv6 address,2016-08-24T14:48:02Z,2016-09-11T12:00:15Z
+1807,it seems a bit hard to handle custom exception,2016-08-24T08:34:31Z,2016-08-25T00:55:26Z
+1804,Installing Tornado using latest pip+setuptools fails,2016-08-20T02:02:05Z,2016-08-22T13:18:42Z
+1803,Excessive CPU load when returning empty collection,2016-08-19T16:30:56Z,2016-09-22T13:29:13Z
+1802,too many file descriptors in select(),2016-08-18T15:19:02Z,2016-08-19T03:31:12Z
+1801,Chunked response,2016-08-18T10:34:52Z,2016-09-05T07:57:14Z
+1799,ERROR:tornado.application:Exception - Big Spool,2016-08-16T21:34:17Z,2016-09-08T22:08:28Z
+1798,Order of module in template random causes modules to be unable to depend on each other,2016-08-14T13:57:40Z,
+1796,Can't running well in ipython/jupyter notebook,2016-08-12T07:09:47Z,2016-08-12T07:17:07Z
+1793,Simple example on Windows 7 / Python 3.4 does not behave as expected,2016-08-09T14:50:56Z,
+1791,any way to graceful exit tornado application?,2016-08-08T06:26:43Z,
+1790,Demos require old version of jquery,2016-08-05T19:34:40Z,2016-08-15T01:00:22Z
+1789,Render template:  typeerror unhashable type 'list',2016-08-04T07:28:45Z,2016-08-04T15:10:45Z
+1788,TCPClient docs way too brief,2016-08-03T17:13:19Z,
+1785,Can not understand Interleaving pattern.,2016-08-02T06:44:57Z,2016-08-02T12:49:19Z
+1784,'_xsrf' argument missing from POST,2016-07-31T14:31:20Z,2016-08-01T01:52:30Z
+1780,tornado 4.4.1 test failure,2016-07-25T22:47:34Z,2016-07-26T14:05:10Z
+1779,Websocket is closed after exception in handler,2016-07-22T23:54:19Z,2016-08-19T23:29:39Z
+1774,Tornado hello_world test returns 599,2016-07-20T12:05:17Z,
+1773,RuntimeError: list changed size during iteration,2016-07-20T00:07:26Z,2016-12-13T02:31:29Z
+1771,Protocols are not filtered in tornado.curl_httpclient,2016-07-19T20:29:34Z,2016-07-25T00:45:13Z
+1769,Runner objects can get GCed unexpectedly,2016-07-13T14:40:50Z,2016-09-05T08:06:51Z
+1768,HTTPError code 422 converted into 500 if reason is not present,2016-07-12T14:50:27Z,
+1767,read_lastest_message() for websocket client,2016-07-12T14:36:51Z,
+1766,Python 3.5.2 - not working,2016-07-12T10:25:50Z,2016-07-13T01:37:07Z
+1765,Log time milliseconds,2016-07-12T06:15:33Z,2016-07-12T13:26:45Z
+1764,Dasable color in log,2016-07-12T06:14:28Z,2016-07-12T13:26:31Z
+1763,Testing call_later callbacks in websocket handler,2016-07-11T09:57:47Z,2016-07-18T19:43:16Z
+1762,Concurrent requests handled unreliably after 6,2016-07-08T08:49:35Z,2016-07-08T11:41:27Z
+1761,How to serve webpages without defining handlers.,2016-07-06T09:09:02Z,2016-07-06T11:58:40Z
+1760,Integrate Tornado with uvloop,2016-07-03T19:22:29Z,2016-07-09T16:08:37Z
+1759,Where can i cache my dict or pandas dataframes ,2016-07-01T13:21:18Z,2016-07-01T15:36:47Z
+1758,No trigger of on_message for long messages,2016-06-29T17:40:58Z,2016-07-15T01:20:03Z
+1757,TimeoutError: [Errno 60] Operation timed out,2016-06-27T18:35:43Z,2016-07-15T01:19:36Z
+1755,tornado process stay in _GzipMessageDelegate.data_received() forever,2016-06-23T11:22:46Z,
+1754,Is it possible to pass couple of modules to all template?,2016-06-18T09:11:20Z,2016-06-19T15:04:32Z
+1753,request_timeout does not stop HTTP 599: Timeout,2016-06-17T13:30:24Z,
+1751,tornado raise value error when setting status code 422 though it is in httplib.responses,2016-06-13T09:48:36Z,2016-06-13T13:48:44Z
+1749,"Add built-in security features, such as rate limiting, XSS protection and more",2016-06-12T10:43:16Z,2016-06-12T19:47:38Z
+1745,should add __slots__ for HTTPHeaders,2016-06-08T16:51:30Z,2016-06-12T22:57:55Z
+1740,websocket on local host works only if connected to the web,2016-06-04T05:24:30Z,2016-06-12T18:11:34Z
+1738,tornado responds 301 for GET requests when no handlers are configured,2016-06-03T03:52:18Z,
+1737,Using Tornado as a REST server cannot return 304,2016-06-03T00:49:30Z,2016-06-03T20:55:57Z
+1736,Could/should a 204 response omit the Content-Length header?,2016-06-02T20:21:26Z,2016-07-12T11:52:22Z
+1734,build failure on ubuntu/armhf buildd (test failure),2016-05-30T20:52:58Z,2016-08-05T06:19:13Z
+1730,Working with invalid cookies,2016-05-26T20:50:00Z,2016-05-28T18:00:09Z
+1726,"Trivial patch to handle undefined ""sockets"" local variable",2016-05-24T11:58:45Z,2016-05-28T16:43:10Z
+1724,windows SSL certificate problem: unable to get local issuer certificate,2016-05-24T05:48:00Z,2016-05-24T05:56:45Z
+1723,Discuss about  _NormalizedHeaderCache,2016-05-23T09:21:53Z,2016-05-30T07:36:23Z
+1721,socket.gaierror thrown in ExecutorResolver,2016-05-17T16:41:38Z,2016-06-12T19:09:17Z
+1719,"py35 error with ""bytes-like object is required, not 'str' """,2016-05-12T05:20:03Z,2016-05-21T21:54:49Z
+1718,Incorrect response for invalid Content-Length header,2016-05-10T11:26:27Z,2016-05-28T16:08:27Z
+1717,Question about handling blocking code in periodiccallback,2016-05-09T17:10:30Z,2016-05-13T01:23:37Z
+1715,a high leve protocal parser,2016-05-08T14:53:27Z,2016-05-21T23:10:03Z
+1708,HTTPClient command line interface does not print headers,2016-05-03T08:26:48Z,
+1707,find an interesting thing,2016-05-02T15:42:47Z,2016-05-04T10:47:23Z
+1703,raise ctypes.GetLastError on windows raise another Exception,2016-04-28T20:15:04Z,2016-05-22T01:55:27Z
+1702,how to set time out without disconnecting?,2016-04-28T09:15:58Z,2016-04-29T04:07:05Z
+1701,how to write to iostream before read_until finishs?,2016-04-27T16:23:35Z,2016-04-29T02:48:39Z
+1700,Cannot stop Application/HTTPServer/RequestHandler,2016-04-25T15:09:53Z,
+1697,Custom StaticFileHandler,2016-04-20T21:40:50Z,2016-04-23T18:31:32Z
+1696,recommended usage of AsyncIOMainLoop throws assertion,2016-04-20T12:29:43Z,2016-04-20T13:57:03Z
+1695,Logging suppress,2016-04-20T01:17:57Z,2016-04-21T10:24:05Z
+1693,get_template_namespace throws exception after request finish(),2016-04-18T15:29:34Z,2016-04-21T14:21:10Z
+1692,wrong xsrf format cause check_xsrf_cookie throw Uncaught Exception,2016-04-16T07:28:32Z,2016-04-24T18:39:22Z
+1690,Hardcode CSS mimetype for StaticFileHandler?,2016-04-14T14:10:45Z,2016-04-15T11:46:16Z
+1688,`await` with `ThreadPoolExecutor` is awkward,2016-04-10T16:07:01Z,
+1687,Unable to add handlers to the same host_pattern after app init,2016-04-08T22:43:45Z,
+1686,Loading html.entities lazily to reduce memory usage?,2016-04-08T14:52:51Z,2016-04-09T19:51:48Z
+1685,Suboptimal performance sending large messages,2016-04-07T03:02:54Z,
+1684,Using asyncio.gather switch back to the asyncio runner,2016-04-06T10:57:18Z,
+1681,"Now I have a project developed by tornado, can I run it with gunicorn without change my code or change a little？if so, how? ",2016-04-03T08:59:01Z,2016-04-03T13:13:05Z
+1680,Strange dependency issue,2016-04-01T16:42:47Z,2016-04-02T01:46:38Z
+1679,tornado.process.fork_process served confused,2016-04-01T03:34:07Z,2016-04-01T13:11:45Z
+1676,A small problem about code comments.,2016-03-29T11:57:55Z,2016-03-31T20:57:41Z
+1675,Initialization in tornado + sqlalchemy,2016-03-27T16:28:02Z,2016-04-03T18:59:42Z
+1673,Why can't I access URL parameters from the prepare() method?,2016-03-25T12:13:29Z,2016-03-25T14:13:05Z
+1672,SSL issues on Tornado 4.3.0,2016-03-23T05:52:04Z,2016-04-03T19:00:06Z
+1671,How to achieve the server side jump,2016-03-22T03:15:33Z,2016-03-22T13:14:12Z
+1670,When Use AsyncHttpClien.AttributeError: 'GZipContentEncoding' object has no attribute '_gzip_file',2016-03-21T16:08:12Z,2016-04-24T00:11:54Z
+1669,os.fork() not supported on windows,2016-03-21T14:02:24Z,2016-03-22T13:11:37Z
+1668,"Tornado Stream is closed, cannot see the output message",2016-03-21T11:06:47Z,2016-03-22T13:11:54Z
+1667,Error when yielding from concurrent.futures.Future ,2016-03-18T15:46:25Z,2016-03-22T15:37:29Z
+1666,unable to use __file__ to get the project base_dir from the tornado.options.parse_config_file.,2016-03-18T06:54:41Z,2016-04-03T20:46:28Z
+1665,AsyncHTTPTestCase's fetch swallows httpclient exception,2016-03-15T15:54:21Z,
+1663,ApacheBench | AttributeError: 'NoneType' object has no attribute 'decode',2016-03-13T16:33:48Z,2016-03-13T18:27:02Z
+1660,Python 64-bit crashes when using `tornado` `CurlAsyncHTTPClient` on Windows,2016-03-10T18:24:18Z,2016-03-22T13:16:14Z
+1659,Calling `Future._set_done` twice causes `TypeError`,2016-03-06T20:00:58Z,2016-03-06T23:12:38Z
+1656,current_user's docstring example has unexpected indent,2016-03-03T14:58:43Z,2016-03-04T02:14:51Z
+1655,Bokeh + Tornado not working on Raspberry pi,2016-02-29T18:28:13Z,2016-04-03T20:27:29Z
+1654,Split code into folders and files,2016-02-27T00:55:28Z,2016-03-01T03:18:39Z
+1652,Should the final rendering of JS and CSS assets be done through UI modules?,2016-02-25T15:16:24Z,
+1651,PeriodicCallback docs or behavior incorrect,2016-02-24T19:38:33Z,2016-02-25T01:42:52Z
+1650,WebSocketHandler.on_message should allow coroutines,2016-02-23T12:43:25Z,
+1646,Are you the author of this project? http://ip-json.rhcloud.com/,2016-02-19T07:17:36Z,2016-02-21T23:15:28Z
+1645,HEAD requests don't write the body but still add Content-Length,2016-02-18T16:42:51Z,2016-02-18T16:48:31Z
+1644,SSLError: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:1750),2016-02-17T16:28:20Z,2016-02-18T04:48:35Z
+1643,How to realize  async?,2016-02-17T02:41:06Z,2016-02-17T03:03:10Z
+1640,Option to periodicaly ping idle websockets to keep proxies happy,2016-02-12T18:15:38Z,
+1638,`reverse_url` doesn't escape metacharacters at url endings,2016-02-10T11:24:01Z,2016-02-12T14:59:04Z
+1635,WebSocketHandler.get is not passed *args and **kwargs,2016-02-03T07:47:22Z,2016-02-08T04:04:27Z
+1633,Is this project active?,2016-01-30T07:19:53Z,2016-01-30T16:11:00Z
+1632,There might be performance improvement if we avoid unnecessary join operation in tornado.web.RequestHandler.flush method,2016-01-27T13:51:53Z,2016-01-29T05:27:20Z
+1631,Changes to tornado.template in 4.3 breaks external libraries that depend on it,2016-01-26T15:00:50Z,2016-02-14T00:41:18Z
+1630,tornado.process.Subprocess.stdout.read_until does not work in python 3 (excepted bytes instead of str),2016-01-21T08:10:17Z,2016-01-21T14:33:45Z
+1627,spec.regex.match could not match URL,2016-01-14T19:31:14Z,2016-01-17T11:14:58Z
+1625,separate locale directory [Question],2016-01-09T17:04:57Z,2016-01-11T21:49:15Z
+1624,httpclient.HTTPResponse creates cyclical reference,2016-01-08T01:54:51Z,2016-02-14T02:16:16Z
+1623,Recommendation: Let the time events to be processed ASAP ,2016-01-07T10:22:10Z,2016-01-29T04:05:44Z
+1616,how to upload files with AsyncHTTPClient,2015-12-21T08:53:07Z,2016-11-20T09:14:48Z
+1610,Template support for async for,2015-12-19T04:04:59Z,2015-12-19T19:24:39Z
+1609,reverse_url should unescape regex string,2015-12-19T04:04:13Z,2016-02-14T02:43:27Z
+1608,Non-ASCII headers are handled incorrectly by CurlAsyncHTTPClient,2015-12-17T09:16:17Z,2016-02-14T19:00:27Z
+1607,"Differentiate HTTPError(599, ""Timeout"")",2015-12-17T03:14:31Z,2016-01-03T13:19:32Z
+1606,Escape syntax for comments,2015-12-17T01:44:13Z,2016-02-14T03:31:15Z
+1605,how to run the AsyncTestCase?,2015-12-15T03:08:48Z,2015-12-15T04:14:30Z
+1602,pip install tornado not working properly,2015-12-09T16:11:40Z,2015-12-10T03:13:09Z
+1601,Tornado should not collapse `Set-Cookie` headers,2015-12-09T06:08:53Z,2015-12-10T03:11:14Z
+1598,HTTP1Connection cannot handle http/1.0 304 response,2015-12-03T10:19:46Z,2016-02-15T00:04:56Z
+1597,POST to Django behind Tornado executed twice,2015-12-03T09:29:59Z,2015-12-03T13:05:10Z
+1595,Hanging concurrent.futures Future,2015-11-24T22:02:17Z,
+1594,how to learn tornado,2015-11-24T08:37:42Z,2015-11-28T19:59:33Z
+1592,yield future,2015-11-23T08:27:35Z,2015-11-23T09:56:38Z
+1590,Add debounce decorator,2015-11-21T22:06:05Z,2016-02-15T00:41:54Z
+1589,Improve Libraries and Ecosystem,2015-11-21T21:03:33Z,2015-11-23T10:49:00Z
+1585,Subprocess wait_for_exit Error on Windows,2015-11-17T04:09:31Z,2016-05-22T01:55:27Z
+1583,tornado httpclient fails on graph.facebook.com,2015-11-11T20:24:34Z,2016-02-15T00:47:40Z
+1581,Vary: Accept-Encoding header for non-compressable content,2015-11-11T10:42:03Z,
+1580,HEAD with compress_response is wrong,2015-11-11T07:19:25Z,
+1577,parse_response_start_line without reason like 'HTTP/1.1 200' ,2015-11-04T15:29:38Z,2015-11-05T01:25:32Z
+1573,Tornado test setup fails when localhost has more than one address,2015-10-29T21:59:05Z,2015-11-07T00:54:48Z
+1572,Options should support setitem,2015-10-29T19:19:53Z,2015-11-07T00:55:18Z
+1571,Error handling in StackContext,2015-10-29T17:49:43Z,2015-11-03T19:10:42Z
+1570,"gunicorn integration issue: add do_handshake_on_connect, suppress_ragged_eofs to acceptable ssl options",2015-10-28T07:16:18Z,2015-10-30T05:23:49Z
+1566,Invalid Scopes: read_stream error in facebook,2015-10-24T08:24:50Z,
+1565,Unit tests fail under python2.7,2015-10-24T04:23:12Z,2015-10-24T14:22:51Z
+1562,multiple process option raises RuntimeException ,2015-10-21T20:18:14Z,2015-10-22T01:43:30Z
+1561,Method on AsyncHTTPTestCase to check there are no messages to read,2015-10-21T16:28:15Z,2015-10-22T01:25:55Z
+1559,Exception in util.py decompress(),2015-10-19T17:41:01Z,2015-10-24T14:32:49Z
+1556,AsyncHTTPClient#fetch does not work correctly from another thread,2015-10-17T17:00:09Z,2015-10-17T20:04:09Z
+1552,Can't enable CurlAsyncHTTPClient to use cookies while following redirections,2015-10-15T20:07:59Z,2015-10-15T21:49:05Z
+1551,How to serve large HTML Files,2015-10-14T04:11:47Z,2015-10-14T04:13:49Z
+1549,AttributeError: 'NoneType' object has no attribute 'do_handshake',2015-10-12T09:54:26Z,2015-10-12T11:10:31Z
+1548,AttributeError: 'NoneType' object has no attribute 'do_handshake',2015-10-12T09:50:51Z,2015-10-12T10:20:16Z
+1547,request handler to return an orderedDict?,2015-10-12T05:26:48Z,2015-10-12T10:32:31Z
+1546,Exceptions in list of futures don't propagate immediately,2015-10-09T22:04:03Z,2015-10-11T21:24:45Z
+1545,Application url prefix,2015-10-08T02:38:40Z,2015-10-08T03:10:49Z
+1543,Autoreload with asyncio event loop doesn't work,2015-10-06T13:04:50Z,
+1539,"Closing websocket serverside, no reason or code given on client-side. ",2015-10-02T11:31:11Z,2015-10-02T15:23:49Z
+1535,Broken link,2015-10-01T07:47:27Z,2015-10-01T14:22:53Z
+1534,tornado rejects valid SSL certificates,2015-09-30T17:36:42Z,
+1532,FacebookGraphMixin failing,2015-09-29T00:38:08Z,2015-09-29T03:10:49Z
+1522,Typo in websocket client documentation,2015-09-22T13:34:23Z,2015-09-27T16:38:30Z
+1521,Including a page which extends another template raises NotImplementedError,2015-09-22T07:00:04Z,2015-09-24T03:53:07Z
+1520,"Tornado logging: ""No handlers could be found for logger ""tornado.application""",2015-09-18T15:50:13Z,2015-09-27T16:56:56Z
+1519,https protocol causes connection timeout when not using ssl_options,2015-09-16T19:17:20Z,2015-09-19T04:54:25Z
+1518,tornado.httpclient.HTTPClient.fetch() executes callback on contents of redirect response,2015-09-14T17:39:22Z,2015-09-28T03:39:34Z
+1516,tornado.httputil.HTTPServerRequest age property,2015-09-11T18:55:33Z,
+1515,"demos\websocket When i posted, 404: Not Found",2015-09-11T06:24:13Z,2015-09-27T16:35:45Z
+1513,netutil.bind_sockets: add an ability to set SO_REUSEPORT,2015-09-08T13:37:39Z,2015-09-19T11:26:52Z
+1512,How to deal with global variables in multi processes mode?,2015-09-03T12:28:55Z,2015-09-03T14:35:33Z
+1509,gen.multi_future() does not support list/dicts of Deferreds (or asyncio.Future?),2015-09-02T09:41:42Z,2015-09-03T03:31:15Z
+1507,Easy get POST/GET data,2015-09-01T01:50:34Z,2015-09-02T11:17:20Z
+1505,self.fetch throws `Async operation timed out` but self.http_client works okay,2015-08-29T19:54:33Z,2015-09-03T02:43:11Z
+1504,Access with server-sent events only logged after connection is closed,2015-08-29T12:40:19Z,
+1503,is iostream write block server ?,2015-08-29T04:19:38Z,2015-08-29T08:30:54Z
+1501,Don't initialize the IOLoop in tornado.platform.twisted.install().,2015-08-25T10:47:40Z,2015-09-03T12:08:39Z
+1500,HTTPHeaders impl doesnt support setdefault,2015-08-24T19:37:46Z,2015-09-13T17:21:13Z
+1499,PEP-0492: Infinite loop in convert_yielded,2015-08-24T15:49:29Z,2015-09-15T03:42:29Z
+1498,AsyncHttpClient 599 Network unreachable errors,2015-08-24T10:20:30Z,2015-09-27T23:29:34Z
+1493,PEP-0492 async/await with AsyncHTTPClient,2015-08-19T16:42:36Z,2015-10-04T03:14:45Z
+1492,done coroutines keep running,2015-08-19T16:21:23Z,2015-09-27T22:47:20Z
+1491,ThreadedResolver executor and io_loop.close() ,2015-08-18T18:02:41Z,2015-09-28T01:35:11Z
+1490,CurlAsyncHTTPClient does not support internationalized domain names,2015-08-18T12:54:49Z,
+1489,Broken link in latest documentation.,2015-08-16T23:12:40Z,2015-10-01T20:54:16Z
+1485,HTTPError not copyable,2015-08-13T16:44:29Z,2015-09-28T01:35:12Z
+1484,"On OS X, pre-fork requests with python-requests cause HTTPS connections in workers to kill the worker",2015-08-13T16:10:14Z,2015-08-13T16:24:52Z
+1483,yield coroutine func does not response when runing it for a period of time,2015-08-08T12:21:44Z,2015-08-08T16:39:50Z
+1480,curl_httpclient blocks ioloop under certain conditions,2015-08-05T11:43:57Z,2016-12-23T12:37:27Z
+1474,Add argument to web.Finish(),2015-07-29T09:25:44Z,2015-09-28T01:35:12Z
+1472,DELETE requests never end.,2015-07-27T16:15:54Z,2015-07-31T16:41:43Z
+1470,`parse_config_file` not support non-string type or indent,2015-07-26T21:58:58Z,2015-08-04T21:49:03Z
+1469,ioloop.py(line 252) is None or not None,2015-07-24T07:15:56Z,2015-07-30T02:51:00Z
+1467,Future leaks?,2015-07-23T09:46:22Z,2016-01-13T02:55:16Z
+1466,AttributeError when overriding get_new_ioloop with more than one test,2015-07-23T01:09:05Z,2015-07-23T17:43:19Z
+1464,locks.py and  @run_on_executor can work together?,2015-07-11T01:22:11Z,2015-07-11T02:12:50Z
+1463,Creating a coroutine which runs forever,2015-07-08T07:40:45Z,2015-08-02T20:24:57Z
+1462,Prevent @gen.coroutine from eating 'callback' kwarg.,2015-07-06T15:46:29Z,
+1459,Testing websockets and POST request occurring concurrently,2015-07-01T14:43:01Z,2015-07-03T22:18:09Z
+1458,Add option for setting server_hostname in tornado.httpclient.HTTPRequest?,2015-06-26T12:48:05Z,2015-07-05T18:30:31Z
+1452,Redirect handling in http client does not retain cookies.,2015-06-12T11:38:10Z,2015-06-12T16:44:38Z
+1451,ValueError from curl_httpclient causing response callback to not get called,2015-06-09T05:14:08Z,2015-07-04T19:44:46Z
+1450,Tornado Templating With {% code %} ,2015-06-06T03:47:04Z,2015-07-05T18:18:26Z
+1449,tornado.locale has issues on files with UTF-8 BOM encoding,2015-06-04T19:20:11Z,2015-07-05T03:56:50Z
+1448,use os.sendfile() when available,2015-06-03T13:30:27Z,
+1447,XSRF CVE in tornado 2.2.1,2015-05-27T20:02:54Z,2015-07-04T19:47:26Z
+1445,HTTPHeaders do not unpickled,2015-05-21T11:19:27Z,2015-07-04T22:24:46Z
+1443,Test failures ipv6 disabled,2015-05-18T22:30:19Z,2015-07-05T18:17:51Z
+1442,Add timeout to Task,2015-05-17T19:50:10Z,2015-05-17T21:24:26Z
+1441,class tornado.auth.GoogleOAuth2Mixin No more!!!,2015-05-14T21:51:03Z,2015-05-15T15:13:38Z
+1440,sth wrong with running demo/chat,2015-05-09T09:36:41Z,2015-05-09T14:03:06Z
+1439,IOLoop become current loop issue,2015-05-06T08:16:10Z,2015-05-07T06:31:58Z
+1438,HTTP/2 support,2015-05-05T08:35:11Z,
+1435,Future.result() and Future.exception() have timeout=None that is not used in code,2015-04-30T05:23:47Z,2015-05-06T05:05:17Z
+1429,WaitIterator sometimes hangs,2015-04-24T09:56:11Z,2015-05-06T05:18:33Z
+1428,xhtml_unescape doesn't handle hex numeric references,2015-04-23T20:52:32Z,2015-05-09T02:23:44Z
+1427,tornado.options.Error: Option already defined in,2015-04-22T06:15:20Z,2015-04-29T01:11:29Z
+1426,Problem with nested requests when using the FacebookGraphMixin get_authenticated_user call,2015-04-21T05:20:07Z,
+1424,application/json only instance dict,2015-04-19T20:09:25Z,2015-04-19T20:23:20Z
+1420,ValueError: I/O operation on closed epoll fd,2015-04-14T15:43:36Z,2015-04-18T17:08:48Z
+1415,Save file cause tornado losing socket binding,2015-04-10T10:11:49Z,2015-04-18T17:52:33Z
+1414,Doc/Wiki/Example on how to write non-blocking drivers to support Tornado IOLoop,2015-04-10T02:36:55Z,
+1413,Exception in CurlAsyncHTTPClient doesn't set exception in request future,2015-04-08T08:24:59Z,2015-04-18T22:16:20Z
+1410,PeriodicCallback,2015-04-05T10:00:32Z,2015-04-08T04:09:34Z
+1404,HTTPS connection error,2015-04-02T08:25:23Z,2015-04-02T22:18:17Z
+1403,(sorry wrong repo) TypeError: 'TornadoCursor' object is not iterable,2015-04-02T01:16:51Z,2015-04-02T02:52:16Z
+1402,I want to add my site to the Projects Built on Tornado. how to do this?,2015-04-01T08:29:56Z,2015-04-01T23:31:02Z
+1400,getting many HTTP 599 errors for valid urls,2015-03-30T16:24:27Z,2015-03-31T02:36:25Z
+1395,Returning Future from BaseIOStream.read_until_close,2015-03-25T05:37:03Z,2015-03-27T03:54:46Z
+1391,Add a coroutine version process.Subprocess.wait,2015-03-19T10:20:08Z,2015-03-20T03:09:18Z
+1390,Document about web.Application.listen,2015-03-19T09:55:40Z,2015-03-29T20:33:53Z
+1389,Incomplete doc string in IOLoop.current,2015-03-19T09:36:42Z,2015-03-20T02:27:37Z
+1387,"fetch method do not have raise_error argument, why?",2015-03-18T09:14:43Z,2015-03-18T10:54:39Z
+1386,Tornado and CurlHTTPClient does not work in pypy ,2015-03-18T08:38:37Z,2015-03-18T13:54:32Z
+1385,@gen.coroutine do not support redirect?,2015-03-18T05:38:15Z,2015-03-19T00:53:06Z
+1384,tornado4.1 qps is lower than 3.2,2015-03-18T01:07:27Z,2015-03-18T02:22:31Z
+1383,Install via Python Wheel,2015-03-17T21:00:44Z,2015-03-20T18:45:31Z
+1378,"Document how to handle yielding many tasks, and catching exceptions.",2015-03-12T19:33:14Z,2015-03-29T19:01:32Z
+1377,close_code and close_reason are not set for WebSocketHandler,2015-03-12T18:25:45Z,2015-03-27T03:02:43Z
+1374,There is a template issue,2015-03-11T13:53:21Z,2015-03-11T14:49:08Z
+1372,Close socket connection,2015-03-08T05:20:39Z,2015-03-09T03:59:18Z
+1370,Inconsistency between get_argument and get_arguments,2015-03-06T20:22:09Z,2015-03-07T17:58:25Z
+1369,Minor inconsistency in get_argument vs get_arguments,2015-03-06T20:15:09Z,2015-03-06T20:22:50Z
+1368,Blog demo uses deprecated GoogleMixin,2015-03-05T07:46:41Z,2015-03-29T20:39:12Z
+1367,How to get Tornado version,2015-03-05T07:05:25Z,2015-03-05T10:02:50Z
+1365,do_handshake EOF error,2015-03-03T17:23:58Z,2015-03-29T20:38:34Z
+1362,Flaky test: SSL EOF error on Pypy,2015-03-01T18:53:14Z,2015-03-05T04:26:42Z
+1361,Flaky test: double-close of PipeIOStream,2015-03-01T18:50:46Z,
+1360,Tornado as WSGI socket error on Windows with autoreload,2015-03-01T15:55:56Z,2015-03-05T03:28:59Z
+1359,Tornado as WSGI socket error on Windows with autoreload,2015-03-01T15:54:55Z,2015-03-01T17:01:38Z
+1357,"Can a Tornado RequestHandler attend requests, while waiting for a Future to finish?",2015-02-28T23:22:54Z,2015-03-01T02:30:06Z
+1351,raise_error=False does not work with synchronous HTTPClient,2015-02-25T19:55:09Z,2015-03-05T03:28:59Z
+1350,iostream 'NoneType' has no len(),2015-02-25T10:59:32Z,2015-03-05T03:25:38Z
+1345,Documentation for tornado.ioloop.PeriodicCallback is not exactly true,2015-02-21T06:50:01Z,2015-02-21T22:56:30Z
+1342,options - parse callbacks don't get OptionParser ,2015-02-17T14:08:45Z,2015-02-18T01:37:15Z
+1339,streaming applications unfriendliness (producer-consumer speed mismatch),2015-02-14T20:39:03Z,2015-02-15T17:24:33Z
+1337,Upload will fail if filename is not presented,2015-02-13T17:46:46Z,2015-02-14T01:53:34Z
+1334,iostream - cancel read_until_close,2015-02-12T11:04:29Z,
+1332,why the RequestHandler.write support dict but not list?,2015-02-11T04:35:26Z,2015-02-11T05:26:05Z
+1330,will tornado imply somethings like django-rest-framework.,2015-02-10T02:05:42Z,2015-02-10T04:29:32Z
+1329,Not all WebSocket servers recognize WebSocket headers sent with WebSocketClientConnection.,2015-02-09T13:46:46Z,
+1328,HTTPError ignores a `message` argument. ,2015-02-06T16:37:17Z,2015-02-07T03:44:12Z
+1326,Possibly replace urlparse.parse_qs import in tornado.escape with one that can handle named indices (gist included),2015-02-04T06:28:20Z,2015-02-07T02:59:25Z
+1324,Cookies set with secure=False end up getting set as secure cookies,2015-02-03T20:35:07Z,2015-02-07T18:18:08Z
+1322,Allow ssl options a password param?,2015-02-03T18:32:14Z,2015-02-15T23:45:47Z
+1321,static_path should only claim /favicon.ico and /robots.txt if they exist,2015-02-02T15:47:27Z,
+1318,Consider providing a websocket client for unit testing,2015-01-28T14:50:39Z,2015-01-28T19:07:36Z
+1316,tornado.util.import_object raise TypeError when name is unicode type,2015-01-27T09:19:46Z,2015-02-08T18:27:37Z
+1315,Something error in namespace.update(self.ui),2015-01-27T07:25:55Z,2015-01-28T03:29:06Z
+1309,how to write unit-test for file-upload handlers in tornado,2015-01-23T03:16:01Z,2015-01-24T22:41:53Z
+1308,Can I redirect using POST method?,2015-01-22T03:17:35Z,2015-01-23T02:50:42Z
+1307,AsyncTestCase + process.Subprocess = BUG,2015-01-21T10:34:27Z,2015-01-23T02:48:43Z
+1305,Undecorated coroutines,2015-01-19T19:57:09Z,2015-06-21T19:07:25Z
+1304,Better logging of SSL errors,2015-01-18T18:55:30Z,2015-07-05T02:43:06Z
+1302,AttributeError: 'module' object has no attribute 'gen',2015-01-17T16:41:38Z,2015-01-17T16:54:46Z
+1298,Cannot run ./runtests.sh,2015-01-07T15:45:13Z,2015-01-10T16:41:22Z
+1297,Newline in header: 'HTTP/1.0\n 404 Not Found',2015-01-06T08:12:08Z,2015-01-11T18:56:38Z
+1295,"tcpclient make httpclient fetch slow---- i m wrong, so please ignore",2015-01-05T08:15:31Z,2015-01-05T09:31:16Z
+1292,SyntaxError in documentation example,2014-12-30T18:02:00Z,2015-01-10T15:09:31Z
+1291,Malformed HTTP headers,2014-12-30T14:03:08Z,2015-01-11T17:42:28Z
+1288,Why is the commit of insert so unstable using psycopg2?,2014-12-25T09:06:11Z,2014-12-26T02:08:59Z
+1284,AsyncHTTPTestCase raise an error: Async operation timed out after 5 seconds,2014-12-22T08:37:39Z,2015-01-24T22:42:19Z
+1283,AssertionError: Already reading,2014-12-21T05:22:33Z,2015-01-11T14:45:09Z
+1282,Is there any way to build a context manager which does some async things inside?,2014-12-19T09:00:42Z,2014-12-19T22:56:26Z
+1280,Tornado sends only first two 128KB chunks,2014-12-18T09:07:29Z,2014-12-19T02:37:33Z
+1278,ioloop.py:491 Exception in callback <functools.partial object at 0x7fa9b6e2c208> ,2014-12-16T23:06:40Z,2014-12-18T15:15:40Z
+1275,"Don't depend on backports.ssl_match_hostname with python >=2.7.9, <3.0",2014-12-12T14:59:30Z,2014-12-16T03:12:29Z
+1269,Websocket message size limits,2014-12-10T15:54:28Z,
+1267,Malformed Filenames Throw Exception on Upload,2014-12-10T07:54:47Z,2015-01-18T17:09:13Z
+1265,Potential SSL slowdowns?,2014-12-05T20:58:25Z,2015-09-29T16:08:14Z
+1263,replace call to platform.system() with sys.platform,2014-12-05T06:33:49Z,2014-12-05T14:52:01Z
+1259,Customize how to get real IPs,2014-11-25T12:29:17Z,2014-11-30T21:49:08Z
+1257,pip install tornado yields error,2014-11-21T18:20:15Z,2014-11-22T00:34:43Z
+1254,call AsyncHTTPClient in the requestHandler get method make all the unittestcase  raise timeout Exception,2014-11-19T06:33:44Z,2014-11-21T11:01:56Z
+1253,unittest with @gen_test and ioloop.run_sync raise timeout exception.,2014-11-17T03:49:39Z,2014-11-18T03:09:25Z
+1252,AsyncHTTPClient fails if fetch is initiated before IOLoop.start,2014-11-15T22:09:56Z,2015-01-18T18:18:35Z
+1251,kqueue on BSD fails with Mock transport,2014-11-14T13:20:42Z,2014-11-14T23:02:06Z
+1250,proposal: deprecate json_encode,2014-11-13T09:36:43Z,2014-12-06T02:01:31Z
+1249,about tornad design,2014-11-12T13:51:56Z,2014-11-12T17:08:00Z
+1248,Multiple cookie with the same name,2014-11-10T15:53:32Z,2014-11-11T04:20:10Z
+1247,Typo in docs about max_age_days for secure cookies,2014-11-10T04:34:40Z,2014-11-11T04:13:56Z
+1243,Anyway to modify sec_websocket_protocol using websocket_connect()?,2014-11-06T20:48:37Z,
+1242,WebSocketHandler open method has to receive arguments?,2014-11-06T01:57:06Z,2014-11-08T21:37:53Z
+1240,"StaticFileHandler throws exception ""missing 1 required positional argument: 'path'""",2014-11-02T10:55:20Z,2014-11-02T10:57:58Z
+1239,enhencment: auto reload with checking file finished uploading and syntax checking,2014-11-02T01:07:01Z,
+1237,AsyncTestCase.wait(condition) doesn't work if stop called too soon,2014-10-31T01:18:44Z,
+1236,`tornado.escape.url_escape` does not work when used inside urlspec,2014-10-30T02:31:45Z,2014-10-30T16:21:25Z
+1235,tornado web send_error treats exceptions as lists,2014-10-29T21:10:13Z,2014-10-31T13:14:41Z
+1234,Enable Sourcegraph,2014-10-28T14:25:08Z,2014-10-28T14:28:02Z
+1232,Enable Sourcegraph,2014-10-27T09:47:13Z,2014-10-28T14:14:07Z
+1230,"In some cases, on OS X on_close is not being called for terminated websocket connections",2014-10-24T21:08:16Z,2014-10-27T17:08:05Z
+1229,Typo on line tornado/iostream.py:334,2014-10-24T06:27:41Z,2014-10-27T00:52:16Z
+1228,test_gaierror failures on OSX,2014-10-23T01:03:54Z,2015-01-12T00:59:39Z
+1226,deleted,2014-10-18T17:28:57Z,2014-11-03T23:11:40Z
+1224,concurrency errors running multiple processes together with a process pool executor,2014-10-14T21:08:10Z,2015-01-12T00:56:39Z
+1223,Exceptions in data_received() (while using @stream_request_body) are not handled properly,2014-10-14T19:55:37Z,
+1221,Testing in python 3.4 fails when Deps = True,2014-10-12T04:55:10Z,2014-10-12T10:41:27Z
+1219,Add timeouts to TCPClient,2014-10-11T15:29:16Z,
+1218,Correctly parse If-None-Match header,2014-10-11T15:28:03Z,2015-03-06T03:56:48Z
+1216,url_concat: Enable doseq for urlencode,2014-10-04T07:50:44Z,2014-10-05T19:43:51Z
+1213,Body should be allowed to be empty for PUT,2014-10-01T14:27:59Z,2014-10-03T13:27:09Z
+1210,on_close handler doesn't seem to be called upon interruption to websocket connection,2014-09-26T20:44:45Z,2014-09-28T19:52:35Z
+1209,Raising HTTPError in streaming handler drops connection,2014-09-25T21:52:33Z,2014-09-26T03:52:34Z
+1208,StreamClosedError,2014-09-23T22:48:52Z,2014-10-12T03:34:37Z
+1205,Implement function returning Future aroud Subprocess.set_exit_callback,2014-09-23T06:40:54Z,2015-04-18T18:14:14Z
+1203,tornado.test.tcpclient_test fails in nosetest3,2014-09-21T22:18:33Z,2014-09-26T01:19:05Z
+1202,tornado escape json_encode problem,2014-09-21T07:14:35Z,2014-09-21T14:52:55Z
+1201,asyncio's ProactorEventLoop does not work with the AsyncIOMainLoop adapter,2014-09-20T07:58:57Z,2014-09-21T16:45:14Z
+1200,Tornado not closing keep-alive sockets,2014-09-19T21:04:37Z,2014-09-19T23:30:01Z
+1199,Normalizing of HTTP headers problem,2014-09-18T10:15:28Z,2014-09-18T13:23:40Z
+1196,Websocket error when writing faster,2014-09-17T13:29:42Z,2015-01-24T22:44:32Z
+1195,tornado template problem？,2014-09-17T08:57:54Z,2014-09-18T03:36:27Z
+1192,Monotime is a C extension which is unsuitable for PyPy,2014-09-15T13:08:10Z,2014-09-21T16:03:20Z
+1191,Add a speedups version that uses CFFI,2014-09-15T10:05:48Z,2014-09-15T17:51:26Z
+1188,curl_httpclient: executing request in streaming callback raises error,2014-09-15T04:52:51Z,2014-09-21T16:45:14Z
+1184,Speed up stack_context.py,2014-09-13T22:05:24Z,
+1177,AsyncTestCase swallows multiple callback exceptions,2014-09-10T09:28:02Z,2014-09-15T03:53:37Z
+1174,"Tornado 3.2, uncaught StreamClosedError exception",2014-09-05T04:45:29Z,2014-10-12T03:34:37Z
+1173,WebSocketHandler close() method should call on_close(),2014-09-05T02:49:17Z,2015-01-19T01:40:36Z
+1172,_parse_headers and latin1,2014-09-03T14:16:45Z,2014-09-05T08:20:38Z
+1170,reverse_url can not Create correct Url,2014-09-01T05:45:15Z,2014-09-01T14:25:59Z
+1169,I want to use the stream_request_body class decorator for uploading large file. How to use the stream_request_body class decorator?,2014-08-27T13:53:59Z,2014-08-27T14:51:43Z
+1168,HTTP client does not handle socket connection errors,2014-08-27T13:12:21Z,2014-09-01T03:48:46Z
+1167,Fail silently in template expressions,2014-08-27T11:29:17Z,2014-09-04T02:37:24Z
+1165,Memory leak,2014-08-26T08:34:41Z,2014-08-30T19:28:03Z
+1164,Proxying streamed uploads,2014-08-25T19:25:26Z,2014-08-27T20:50:35Z
+1163,Starting and stopping tornado server in thread,2014-08-25T18:50:39Z,2014-09-21T16:27:37Z
+1161,Blocking calls using @gen.coroutine,2014-08-25T05:54:47Z,2014-09-21T16:41:56Z
+1160,No child processes IOError with Python 2.7.8 and Tornado 4.0.1,2014-08-24T05:55:50Z,2014-08-24T14:31:35Z
+1159,problems via Handler's Pattern & reverse_url,2014-08-24T04:18:11Z,2014-08-24T14:28:23Z
+1156,gzip encoding does not work in 4.0,2014-08-23T08:13:52Z,2014-08-23T22:30:35Z
+1154,"Tornado 4.0.1, AsyncHTTPTestCase, IOLoop is already running",2014-08-22T15:02:49Z,
+1152,Implement PipeIOStream alternative for Windows.,2014-08-21T21:09:43Z,
+1151,"Write handle list like dict and output a Json,",2014-08-21T00:56:12Z,2014-08-21T13:41:32Z
+1147,Missing return statements in ioloop.call_later and ioloop.call_at,2014-08-12T22:31:33Z,2014-08-19T16:41:00Z
+1146,async_sleep function for coroutines,2014-08-12T15:20:20Z,2015-01-19T20:39:37Z
+1145,torndb Error 2006: MySQL Server has gone away,2014-08-11T04:51:31Z,2014-08-11T13:53:30Z
+1144,websocket same-origin policy causing issues on localhost,2014-08-09T22:59:54Z,2014-08-10T20:46:50Z
+1143,json_decode return a tornado.util.ObjectDict object,2014-08-09T09:44:03Z,2014-08-10T16:42:49Z
+1141,Order of Operations issue in constructor to RequestHandler,2014-08-06T23:46:44Z,
+1140,Tornado 4.0 raises AttributeError in WebSocketClientConnection._on_close,2014-08-06T14:16:37Z,2014-08-09T18:26:57Z
+1136,socket.gaierrors for ipv6 tests on OSX 10.6,2014-08-05T07:58:19Z,2014-08-12T12:55:18Z
+1134,Exceptions getting swallowed in coroutines,2014-07-29T23:09:15Z,2015-01-17T22:34:57Z
+1133,stall tearDown in AsyncTestCase with prepare’d WebSocketHandler,2014-07-29T02:44:43Z,2014-08-05T03:48:48Z
+1132,Facebook demo has Invalid App ID,2014-07-28T23:36:12Z,2014-08-24T15:51:40Z
+1131,"when coroutine in coroutine, why performance is so bad?",2014-07-28T06:55:59Z,2014-08-07T03:34:49Z
+1130,Update blog example to use GoogleOAuth2Mixin instead of GoogleMixin,2014-07-27T05:05:06Z,
+1127,WebSocket connection fail on V4.0,2014-07-24T08:16:27Z,2014-07-24T08:31:15Z
+1126,WebSocket disconnects and errors,2014-07-23T18:07:01Z,2014-07-27T17:05:00Z
+1123,redirect requests starting with '//' to '/' leading to wrong place,2014-07-21T06:11:08Z,2015-03-10T02:25:50Z
+1122,Unused client_secret parameter in OAuth2Mixin.authorize_redirect,2014-07-19T22:50:09Z,
+1121,Provide a mechanism to determine if there is an IOLoop on the current thread,2014-07-19T16:07:57Z,
+1119,"IOLoop.call_{at,later} don't return handles",2014-07-17T21:47:47Z,2014-07-18T03:49:24Z
+1118,getattr in httputil.py,2014-07-17T20:55:46Z,2014-07-18T03:49:24Z
+1117,Coroutines hangs on exceptions when using ThreadPoolExecutor.,2014-07-17T14:25:00Z,2014-07-17T14:32:17Z
+1115,v4 cannot be easily installed on Windows,2014-07-16T08:12:04Z,2014-07-17T00:25:36Z
+1114,tornado.httpserver.HTTPConnection is gone,2014-07-15T23:04:22Z,2014-07-16T02:39:42Z
+1112,doc error,2014-07-15T17:06:57Z,2014-07-16T02:48:00Z
+1111,Pycurl violates RFC 2616/10.3.2 and switch from POST to GET,2014-07-15T15:58:59Z,
+1110,Don't use BytesIO to make interface of read-only data file-like,2014-07-15T12:39:25Z,
+1104,NPE in iostream.py,2014-07-11T12:39:08Z,2015-01-24T22:47:25Z
+1103,KeyError in ioloop.py,2014-07-11T12:31:09Z,2015-01-24T22:47:32Z
+1100,How to add iframe code?,2014-07-10T05:26:46Z,2014-07-13T01:30:13Z
+1099,web.authenticated: allow 403 without redirection,2014-07-09T18:13:07Z,
+1096,Invalid XSRF cookie value throws TypeError,2014-07-07T11:09:11Z,2014-07-09T02:54:16Z
+1095,Provide control over gzip compression level in tornado.web.Application,2014-07-03T21:43:04Z,
+1094,HTTPHeaders.get_list() improve functionality,2014-07-03T13:39:13Z,
+1087,RequestHandler.send_error strips custom HTTP headers,2014-06-25T20:35:19Z,2014-06-26T02:13:43Z
+1083,Rendering template with compress_whitespace does not remove empty lines,2014-06-21T04:07:11Z,2015-07-05T22:44:29Z
+1082,Empty reply on malformed HTTP request,2014-06-20T11:21:24Z,
+1081,Truely coroutine based Chat Demo,2014-06-19T17:37:33Z,2014-06-20T03:16:20Z
+1080,Issue Labels,2014-06-17T00:56:25Z,2014-07-16T04:57:56Z
+1079,Potential memory leak in ioloop and httpclient module.,2014-06-16T12:41:55Z,2014-06-17T14:27:30Z
+1077,StaticFileHandler path for .apk and. ipa file extension download problems？,2014-06-12T14:37:30Z,2014-06-13T00:55:01Z
+1074,pip install fails for OSX machine with no compiler,2014-06-06T22:04:31Z,2014-06-07T16:16:18Z
+1073,max_age parameter not used when computing far-future cookie in decode_signed_value,2014-06-06T18:00:25Z,2014-06-13T03:07:51Z
+1072,"Help In php $ _SERVER ['HTTP_HOST'], tornado how to get?",2014-06-06T13:43:09Z,2014-06-06T13:44:21Z
+1070,Websocket connection closes exactly after one minute,2014-06-05T10:11:21Z,2014-06-05T11:58:51Z
+1067,Google OAuth Changes,2014-05-27T23:23:05Z,2014-06-01T17:22:16Z
+1066,Add debug-mode flag for translation files,2014-05-26T02:40:38Z,
+1065,Relax restrictions on WebSocketHandler methods,2014-05-25T00:58:16Z,2014-06-16T04:09:36Z
+1064,"""Stop"" exception in RequestHandler",2014-05-25T00:52:43Z,2014-06-19T13:52:08Z
+1063,Stack-context-local variable pattern,2014-05-25T00:40:22Z,
+1062,PyPi Index Broken HTTP 404,2014-05-19T14:52:08Z,2014-05-22T01:48:51Z
+1059,Google App Engine demo can't import fcntl when deployed to GAE,2014-05-15T10:33:47Z,2014-05-17T14:58:37Z
+1058,Changes in master branch gen module break code previously working,2014-05-14T19:15:28Z,2014-05-19T04:04:13Z
+1057,Duplicate payload in some websocket packets,2014-05-13T16:03:35Z,2014-05-13T16:09:52Z
+1056,The latest chatdemo.py doesn't work,2014-05-12T18:30:00Z,2014-05-23T19:17:07Z
+1052,Windows doesn't use standard error numbers: suggested quick fix,2014-05-11T19:03:23Z,2014-06-26T02:00:38Z
+1050,get_ssl_certificate is untested,2014-05-10T17:06:33Z,
+1049,Improve API for timeouts,2014-05-09T12:55:46Z,2014-06-18T14:31:12Z
+1048,Strange exceptions propagation with coroutines,2014-05-07T16:14:51Z,2014-07-19T23:16:56Z
+1047,websocket miss upgrade,2014-05-07T09:38:04Z,2014-05-07T13:15:17Z
+1046,Unexplained latency when serving large files (1GB+),2014-05-06T22:48:50Z,2014-05-08T01:39:07Z
+1043,Security Contact,2014-05-04T21:12:01Z,2014-05-04T21:19:45Z
+1040,nginx sample file change,2014-04-30T22:36:18Z,2014-05-03T13:22:31Z
+1039,"""yield None"" fails in Tornado 3.2, works fine in 3.1.1",2014-04-22T01:45:17Z,2014-04-23T01:45:18Z
+1038,run_sync leaking file descriptors,2014-04-18T17:02:16Z,2014-04-18T23:16:44Z
+1036,Parse proxy-style (absolute-url) requests,2014-04-15T01:38:48Z,
+1033,simple_httpclient _on_close handler loses error information,2014-04-10T02:14:12Z,2014-05-09T00:56:22Z
+1031,Add session support,2014-04-09T14:26:08Z,2014-04-16T02:25:56Z
+1028,A typo,2014-04-08T07:43:13Z,2014-04-08T12:04:39Z
+1026,tornado file upload problem in higher dimensions,2014-04-02T13:38:40Z,2014-04-02T22:36:03Z
+1024,Tornado web server sometimes did not manage the request,2014-03-28T02:02:28Z,2014-04-28T03:16:05Z
+1018,Speedups fail to build due to warnings treated as errors on Python 3.4.0,2014-03-18T06:57:10Z,2014-03-18T14:02:24Z
+1015,Consider using certifi instead of packaging an own trustdb,2014-03-16T13:01:23Z,2014-04-28T01:54:02Z
+1014,Dangerous defaults in TLS client code,2014-03-12T13:49:21Z,2014-03-13T14:29:12Z
+1013,Tornado websocket doesn't work on the ubuntu,2014-03-11T01:41:34Z,2014-03-11T04:13:42Z
+1009,Allow top level JSON arrays again,2014-03-08T18:21:40Z,2014-03-15T04:51:32Z
+1007,AttributeError: 'module' object has no attribute 'netutil_test',2014-03-08T00:20:51Z,2014-03-11T02:32:18Z
+1005,TypeError: __init__() got an unexpected keyword argument 'warnings',2014-03-07T23:32:33Z,2014-03-15T04:47:38Z
+1004,follow_redirects=False raises HTTPError,2014-03-06T17:41:05Z,2014-03-11T02:20:14Z
+1003,Better UDP support with a built in UDPServer class ,2014-03-05T15:14:54Z,
+1002,"why the static_file ""v"" value do not change",2014-03-05T07:15:28Z,2014-03-11T02:16:10Z
+1001,Example,2014-03-03T10:13:49Z,2014-03-03T10:14:18Z
+993,build errors when installing on windows via pip,2014-02-24T23:33:42Z,2014-02-25T04:03:34Z
+992,websocket on_close,2014-02-24T04:17:37Z,2014-02-24T07:45:02Z
+991,UnicodeDecodeError in template,2014-02-23T22:48:34Z,
+989,long connection,2014-02-21T10:18:19Z,2014-02-21T14:04:27Z
+988,HEAD request on large static files are very slow,2014-02-21T09:58:02Z,2014-05-25T16:52:52Z
+987,Calling close() on an IOStream doesn't cancel pending read callbacks,2014-02-19T09:19:57Z,
+986,get_argument() can't return default value if HTTP request argument is empty,2014-02-14T10:56:13Z,2014-02-15T01:00:59Z
+985,how can i pass arguments through blocks?,2014-02-13T13:37:00Z,2014-02-13T14:58:16Z
+983,Add ability to retrieve original response headers/data after an error occurs,2014-02-04T19:00:35Z,2014-02-05T01:19:08Z
+982,gzip Content-Encoding for text/event-stream,2014-01-29T23:45:02Z,2014-02-17T05:00:30Z
+981,AsyncTestCase intermittent AssertionError while in wait,2014-01-29T22:14:29Z,2014-01-30T02:11:29Z
+978,Rounding issues with poll_timeout in IOLoop,2014-01-23T13:55:14Z,
+975,"how to use ""-rotating"" in command line? ",2014-01-15T12:40:18Z,2014-01-15T12:45:04Z
+974,what's  long polling performance of tornado? ,2014-01-15T09:27:38Z,2014-01-16T01:50:26Z
+967,Docs Typo: Uppercase the First Character,2013-12-28T04:21:16Z,2013-12-29T00:38:43Z
+961,In locale.format_date relative is forced to False if locale starts with 'ru',2013-12-21T17:13:21Z,2013-12-22T05:47:07Z
+956,_curl_header_callback error (python3.3),2013-12-17T11:36:40Z,2013-12-22T23:00:21Z
+953,BaseIOStream.read_until methods should return Future and take optional keyword arg callback,2013-12-12T01:07:46Z,2014-01-20T22:06:32Z
+952,parse_command_line() side effect,2013-12-11T03:59:44Z,2014-02-19T04:36:03Z
+951,UnboundLocalError: local variable referenced before assignment,2013-12-09T12:04:20Z,2013-12-10T07:49:38Z
+948,tornado.web.RequestHandler write None,2013-11-29T18:43:07Z,2014-02-18T04:49:22Z
+947,Time out processing could be more robust to slow callbacks.,2013-11-29T00:04:12Z,2014-06-15T18:04:00Z
+946,"Sorry, it is already fixed :)",2013-11-27T04:25:30Z,2013-11-30T18:33:58Z
+943,BaseIOStream.read_bytes() filling buffer and throwing IOException when unnecessary?,2013-11-22T20:50:20Z,2013-12-01T21:13:25Z
+942,StaticFileHandler ,2013-11-22T11:44:19Z,2013-11-30T18:27:12Z
+939,add datetime serialization support to tornado.escsape.json_encode (patch included),2013-11-19T06:48:25Z,2013-12-01T03:18:58Z
+938,Websocket client/server inconsistencies,2013-11-18T10:47:23Z,
+935,Docs typo,2013-11-14T06:55:13Z,2013-12-01T20:08:01Z
+933,Documentation change,2013-11-10T09:27:04Z,2013-12-01T20:04:21Z
+932,Exploting non streaming validation of header.,2013-11-07T09:45:53Z,2013-11-07T19:47:29Z
+930,Templates - Populated html attributes only quote the first word of a string,2013-11-06T04:03:24Z,2013-11-06T17:12:05Z
+929,WebSocketClientConnection request timeout values,2013-11-05T19:23:42Z,2013-11-06T19:57:53Z
+927,"Uninformative error doing GET with body, or POST without.",2013-11-04T19:55:38Z,2013-11-04T20:23:28Z
+924,Calling Future.result() from synchronous function,2013-10-31T17:00:30Z,2013-10-31T19:55:55Z
+922,Coroutines block on OS X 10.9,2013-10-30T22:28:38Z,2013-10-31T08:26:47Z
+921,missing exception handling from parse_body_arguments in httputil.py,2013-10-26T00:23:38Z,2013-11-06T19:23:06Z
+920,sys.stderr does not always have an attribute isatty(),2013-10-25T20:42:40Z,2013-10-26T22:28:21Z
+919,RequestHandler doesn't parse HTTP PUT arguments from body,2013-10-25T18:21:39Z,2013-10-27T01:31:53Z
+918,IOLoop NotImplemented,2013-10-25T16:20:23Z,2013-10-25T16:53:38Z
+917,Warning: no previously-included files matching '_auto2to3*',2013-10-23T04:23:56Z,2013-10-23T17:04:57Z
+916,Why stop when retrieve 403,2013-10-22T03:01:39Z,2013-10-22T16:05:13Z
+914,Allow users to set JSONEncoder,2013-10-13T22:41:41Z,2013-10-14T22:20:56Z
+909,Allow UIModules to accept child html,2013-10-07T17:54:01Z,2013-10-08T02:58:28Z
+906,How to implement Flash socket policy server ?,2013-09-24T09:53:00Z,2013-09-25T03:04:54Z
+905,"use cygwin to install tornado,the 'Hello Word' don't run!!!",2013-09-24T01:26:11Z,2014-02-18T04:50:33Z
+904,Add method to get client's claimed IP,2013-09-22T16:28:03Z,
+903,Use stricter/platform-independent IP parsing for X-Forwarded-For,2013-09-22T16:24:25Z,
+902,HTTP 405 response must include an Allow header,2013-09-21T16:03:59Z,
+901,Download pdf file in IE10 is not working ,2013-09-17T10:37:07Z,2013-09-18T02:44:16Z
+899,Incorrect date in date header,2013-09-16T12:57:00Z,2013-09-16T14:52:03Z
+897,Websocket + Proxy = Method not supported for Web Sockets,2013-09-06T13:18:44Z,2013-09-08T01:45:37Z
+895,Daemon mode in Tornado ?,2013-09-02T12:05:29Z,2013-09-02T18:16:57Z
+894,How to redirect page after header set ?,2013-08-28T10:34:09Z,2013-09-01T16:04:34Z
+893,netutil.is_valid_ip() Returns True on Blank String,2013-08-24T19:51:04Z,2013-08-25T02:06:23Z
+892,Inconsistent behaviour of static file serving,2013-08-23T11:30:03Z,
+890,Websocket close reason,2013-08-23T05:50:06Z,2014-02-17T23:53:50Z
+886,How to download the pdf file ?,2013-08-21T12:08:48Z,2013-08-21T13:17:51Z
+883,Is there something wrong with the alias for render_string of templates?,2013-08-19T07:50:40Z,2013-08-20T01:50:28Z
+882,web.__call__'s usage of escape.url_unescape,2013-08-18T05:37:06Z,2013-08-19T03:57:25Z
+881,StaticFileHandler,2013-08-17T13:00:50Z,2013-08-17T16:10:21Z
+880,{% module Template(...) %} broken in v3.1.0 with global name '_tt_modules' is not defined,2013-08-15T17:12:54Z,2013-08-15T20:38:50Z
+879,How to handle the self.ws_connection.write_message ?,2013-08-15T13:54:43Z,2013-08-18T23:28:36Z
+878,It should be possible to add future without callback,2013-08-15T12:49:15Z,2013-09-01T22:41:43Z
+877,Chinese character error,2013-08-15T10:45:47Z,2013-08-16T01:32:19Z
+876,AsyncHttpClient how to make a request with login cookies?,2013-08-14T00:55:25Z,2013-08-19T03:51:20Z
+875,ThreadedResolver race condition on IOLoop shutdown,2013-08-13T04:50:16Z,2013-08-19T03:58:50Z
+871,Windows support in documentation,2013-08-09T07:17:57Z,2013-08-18T23:28:36Z
+870,websocket on_close in slug?,2013-08-08T14:41:50Z,2013-08-09T03:11:24Z
+868,Accept international RFC 2231 headers,2013-08-07T02:12:01Z,
+867,Add spawn_callback method,2013-08-04T19:31:10Z,2014-06-16T04:09:36Z
+866,Better error message for fetch() on closed AsyncHTTPClient,2013-08-04T19:26:42Z,2014-06-15T18:04:00Z
+865,XSRF cookie expiration issues,2013-08-04T19:21:38Z,
+864,Framework for setting cache-related headers,2013-08-04T19:07:22Z,
+863,tornado.escape.json_encode should allow to pass ensure_ascii,2013-08-01T19:13:52Z,2013-08-01T19:18:07Z
+862,Handling Transfer-Encoding: chunked requests,2013-07-30T20:29:11Z,2014-04-28T00:12:35Z
+861,"IOStream.connect((hostname, port)) does blocking DNS resolution",2013-07-26T18:21:36Z,2014-06-15T18:04:00Z
+860,IOLoop should provide thread safe method to check whether it's running,2013-07-19T14:28:09Z,2013-07-20T17:21:33Z
+855,SSLIOStream doesn't automatically initiate handshake,2013-07-17T12:45:41Z,2013-09-01T22:41:55Z
+854,Passing content-length header to GET from tornado 3.0.1 throws 500 internal server error,2013-07-16T11:12:07Z,2014-04-28T02:14:17Z
+852,POST requests are much slower than GET,2013-07-12T19:31:14Z,2013-07-17T00:41:49Z
+850,Error when using TwitterMixin from 3.1 version.,2013-07-11T11:51:37Z,2013-07-16T01:01:21Z
+849,Leaking file descriptors when using asynchronous stdin STREAM,2013-07-11T09:22:10Z,2013-07-12T02:05:17Z
+846,pycurl dependence,2013-07-07T18:10:55Z,2013-07-07T18:54:08Z
+845,Clear IOStream read buffer on connection close,2013-07-07T17:59:33Z,
+844,PollIOLoop.start still holds on to memory while blocking,2013-07-06T14:16:12Z,2013-07-07T16:14:09Z
+843,Support for wrapping extend in if statement,2013-07-03T16:46:09Z,2013-07-05T01:40:43Z
+842,except BaseException instead of Exception,2013-07-02T15:55:39Z,2013-07-04T01:50:00Z
+841,ERROR - Error in periodic callback,2013-07-01T21:27:36Z,2013-08-04T22:04:33Z
+839,tornado get argument with special prefix,2013-06-28T08:22:42Z,2013-08-04T22:00:29Z
+837,Allow the tornado.web.Application to use a custom error handler,2013-06-27T19:19:21Z,2014-07-03T01:55:28Z
+836,PollIOLoop.start holds on to memory while blocking,2013-06-27T16:28:00Z,2013-07-05T17:19:03Z
+835,Google auth doc in stable version,2013-06-27T12:32:46Z,2013-07-02T03:08:28Z
+834,tornado.process.Subprocess leaks file descriptors if Subprocess.STREAM is used and Popen raises an exception,2013-06-26T12:06:10Z,2013-07-05T17:19:03Z
+833,Escape apostrophe,2013-06-25T14:05:22Z,2013-07-05T17:19:03Z
+830,BUG REPORT  Application __call__ method pass the regex.groups as params to post/get...cause error,2013-06-22T05:02:18Z,2013-06-24T23:50:23Z
+829,Incorrect error message in _when_complete,2013-06-21T18:19:16Z,2013-06-30T23:38:53Z
+828,tornado memory leaks when serve html5 page with <video>,2013-06-21T02:04:31Z,2013-08-04T22:13:01Z
+827,Streaming callbacks may never run,2013-06-18T07:55:41Z,2014-04-28T00:14:56Z
+826,Partial override of StaticFileHandler.get results in AttributeError(absolute_path),2013-06-18T03:45:08Z,2016-06-10T16:01:24Z
+825,Tests fail with partial installation of Twisted,2013-06-17T10:46:14Z,2014-03-11T02:32:31Z
+822,Support for HTTP/1.0 Simple-Request,2013-06-11T05:37:41Z,2013-06-12T03:32:14Z
+821,HTTP extensions in HTTPError,2013-06-10T13:41:50Z,2013-06-10T14:05:08Z
+820,Laziness of RequestHandler.current_user,2013-06-08T00:42:26Z,
+818,Tornado debug ,2013-06-01T17:28:52Z,2013-06-01T21:19:27Z
+816,Centos6.2Memory Leak,2013-05-31T09:42:36Z,2013-06-18T12:04:23Z
+815,Revisit exception logging in simple_httpclient,2013-05-31T03:17:44Z,2013-05-31T23:31:41Z
+814,A simpler way for doing url mapping ,2013-05-30T12:42:57Z,2013-05-30T13:49:01Z
+813,A simpler way for doing url mapping ,2013-05-30T12:40:09Z,2013-05-30T13:48:56Z
+812,A simpler way for doing url mapping ,2013-05-30T12:38:57Z,2013-05-30T13:48:51Z
+811,A simpler way for doing url mapping ,2013-05-30T12:38:12Z,2013-05-30T13:52:37Z
+810,Server logging and slow server work.,2013-05-30T11:50:45Z,2013-05-30T14:48:54Z
+807,Hide request body on error dump,2013-05-29T18:43:51Z,2013-05-31T23:32:31Z
+804,FacebookGraphMixin needs some work,2013-05-27T03:10:35Z,
+801,update_handler errors when using digest auth with curl,2013-05-24T15:37:08Z,2013-05-25T19:27:43Z
+800,Invalid cookie expiration if locale set,2013-05-24T02:34:50Z,2013-05-24T04:49:01Z
+799,CVE-2013-2098 possible abuse of match_hostname() for DoS usings certs with many wildcards,2013-05-23T18:12:11Z,2013-05-24T04:03:08Z
+797,template static_url relative paths,2013-05-22T10:13:02Z,2013-05-23T03:42:27Z
+792,Why not support patch method in curl_httpclient,2013-05-17T21:43:32Z,2013-05-18T20:39:43Z
+791,duplicated self.file.find_named_blocks call in template.Template,2013-05-17T14:22:00Z,2013-05-18T20:04:43Z
+787,Coroutine hangs up when fetching a firewalled HTTPS url,2013-05-15T18:00:38Z,2013-05-16T01:45:22Z
+785,Add support for Range/Accept-Ranges to web.StaticFileHandler,2013-05-14T01:05:13Z,2013-05-19T20:58:52Z
+778,simple_httpclient connection pooling (feature),2013-05-07T21:33:04Z,
+775,"ioloop resets logging configuration, assuming root logger is always required",2013-04-30T18:44:12Z,2014-01-06T23:08:33Z
+774,IOStream read_until_close problem,2013-04-30T14:17:47Z,2013-05-01T03:06:42Z
+772,Read less aggressively in IOStream._handle_read,2013-04-29T03:47:12Z,2014-04-27T18:14:17Z
+771,IOStream runs its close callback too soon.,2013-04-29T03:35:48Z,
+768,Reserved variables in the templates,2013-04-28T20:12:43Z,2013-04-28T20:34:30Z
+766,getaddrinfo issue under solaris in tornado.netutil.ExecutorResolver,2013-04-28T05:44:24Z,2013-04-28T16:17:22Z
+765,Tornado does not handle node-http-proxy websockes on linux,2013-04-27T17:33:27Z,2013-04-28T16:20:33Z
+764,ssl_options in httpclient.HTTPRequest,2013-04-27T03:09:55Z,
+763,Refactor xheaders configuration,2013-04-27T03:05:33Z,
+762,Document AsyncHTTPClient(defaults=dict),2013-04-27T02:48:06Z,2014-06-15T18:04:00Z
+761,Only GET/HEAD in authenticated decorator,2013-04-26T22:48:28Z,2013-04-27T01:28:57Z
+760,Strange Leak on HTTPConnect/IOStream,2013-04-26T17:08:35Z,2013-04-29T03:31:58Z
+759,No way to catch exceptions when calling coroutine from gen.Task,2013-04-25T09:52:46Z,2013-04-27T11:40:01Z
+757,Errno 10054 (Connection reset by peer) while using IE,2013-04-24T05:59:00Z,2013-05-12T20:25:25Z
+756,Suggestion: add facebook_redirect_uri in settings,2013-04-24T04:09:47Z,
+755,Add interface to set TCP_NODELAY for websockets,2013-04-24T02:11:42Z,2013-05-12T20:17:13Z
+754,Pickup proxy settings from http_proxy environment variable,2013-04-23T18:55:24Z,2013-04-25T07:51:33Z
+753,"file web.py, line 1390 has no meaning",2013-04-23T08:41:31Z,2013-04-23T16:03:35Z
+751,TypeError caused by a None close_callback,2013-04-20T03:35:48Z,2013-04-24T03:18:28Z
+743,Handle stream greater then max_buffer_size.,2013-04-18T16:34:10Z,2014-04-28T00:10:49Z
+742,Which methods should put under @tornado.web.asynchronous,2013-04-18T12:00:59Z,2013-04-18T14:40:43Z
+740,Memory leak when process big file upload,2013-04-18T08:34:51Z,2013-04-29T03:31:57Z
+737,IOLoop.close is broken on Windows,2013-04-17T14:33:43Z,2014-01-18T21:43:29Z
+736,Http header name is wrongly changed ,2013-04-17T04:24:38Z,2013-04-17T14:41:37Z
+734,setup.py install fail in python3.3.1 (window xp professtinal 32bit),2013-04-15T05:02:34Z,2013-04-15T13:10:23Z
+732,Expose IOStream's max_buffer_size setting via HTTPServer,2013-04-14T18:16:52Z,2013-05-12T20:37:25Z
+731,Template loader problems with absolute paths,2013-04-14T18:13:09Z,
+730,Allow customization of logging behavior in RequestHandler._handle_request_exception,2013-04-14T18:07:41Z,2013-05-04T04:15:05Z
+729,Google OpenID switches from GET to POST when the response is large,2013-04-14T17:55:27Z,
+728,Gracefully handle ssl errors when client cert is required but not given,2013-04-14T17:47:12Z,
+726,"In blog demo, the _() not works as expect",2013-04-13T19:56:01Z,2013-04-13T22:21:10Z
+724,RequestHandler's set_cookie method with wrong formatted expires attribute,2013-04-12T16:36:55Z,2013-04-18T12:41:58Z
+722,tornado.database Importerror: No module named database,2013-04-10T23:15:45Z,2013-04-10T23:33:29Z
+721,application.listen and httpserver.listen,2013-04-10T02:50:45Z,2013-04-10T14:37:16Z
+718,HTTPResponse.request is _RequestProxy type in 3.0,2013-04-08T09:22:05Z,2013-04-09T01:48:31Z
+717,blog demo error,2013-04-07T11:30:07Z,2013-04-07T15:14:59Z
+716,StaticFileHandler errors with non-ascii path,2013-04-07T09:06:10Z,2013-04-19T02:27:21Z
+715,chat demo 500,2013-04-07T05:31:31Z,2013-04-07T23:55:34Z
+714,chat demo 500,2013-04-07T04:31:38Z,2013-04-07T15:15:35Z
+713,OverflowError execption in web.py,2013-04-06T08:16:26Z,2013-04-13T22:21:10Z
+712,curl_httpclient going into an infinite loop,2013-04-04T11:48:49Z,2013-04-13T22:21:10Z
+711,500 GET /static/chat.js?v=8dadd,2013-04-03T11:02:49Z,2013-04-03T13:50:07Z
+710,websocket demo 404,2013-04-03T09:58:51Z,2013-04-03T13:53:06Z
+709,chat demo can't auto refresh message,2013-04-03T09:57:49Z,2013-04-03T13:53:24Z
+708,Incorrect StringIO import in testing.py,2013-04-02T20:51:45Z,2013-04-03T00:30:52Z
+705,JSON encoder should accept (optional) arguments,2013-04-01T04:11:33Z,2013-04-01T04:21:43Z
+703,A way to set default values in templates,2013-03-29T15:57:40Z,
+699,HTTPServer._on_headers should catch ValueError from HTTPHeaders.parse(),2013-03-19T11:20:11Z,2013-04-14T00:35:54Z
+694,self.finish not terminating the http connection,2013-03-11T14:11:54Z,2013-03-13T01:55:04Z
+692,Tornado download speed limits and traffic records,2013-03-10T09:38:35Z,2013-03-10T15:10:45Z
+691,HTTPError creation raises an exception when connection is severed by the remote server during a long HTTPRequest,2013-03-06T19:01:20Z,
+689,"When sharing IOLoop, Requests on port x are serviced in the wrong thread.",2013-03-04T13:12:46Z,2013-03-05T03:16:54Z
+688,url quote in wsgi.HTTPRequest,2013-03-04T07:43:41Z,2013-05-12T20:41:10Z
+687,"@authenticated should raise HTTPError(401), not HTTPError(403)",2013-03-01T15:39:57Z,2013-03-02T20:09:59Z
+679,Tornado Middleware,2013-02-11T17:56:04Z,2013-04-16T17:50:59Z
+674,tornado.testing.LogTrapTestCase doesn't work with nose.plugin.logcapture,2013-02-04T15:42:54Z,2013-02-09T20:59:00Z
+673,IOLoop subclasses,2013-01-24T06:09:32Z,2013-04-16T02:01:36Z
+672,PollIOLoop.stop() aborts the current event loop iteration.,2013-01-24T05:28:43Z,2013-02-09T01:16:27Z
+671,python3 pycurl tests fail on ubuntu,2013-01-23T20:50:09Z,2014-01-18T23:18:18Z
+666,Allow options to be mutable ,2013-01-13T01:46:42Z,2013-04-14T01:11:58Z
+663,AsynHTTPTestCase tests fail on asynchronous handlers?,2013-01-08T11:35:45Z,2013-01-08T14:26:51Z
+661,WebSockets ucaught exception in,2013-01-06T04:42:59Z,2013-06-06T02:06:08Z
+660,Memory leak in gen engine with try/finally block when connections are closed,2013-01-05T03:34:54Z,2013-01-20T16:41:03Z
+658,parse_command_line in option method fail in windows,2012-12-27T07:46:54Z,2012-12-28T09:01:20Z
+657,Use absolute URI for the location header ,2012-12-20T19:29:51Z,2013-01-13T03:57:29Z
+656,Uncaught exception while using a unix socket,2012-12-20T15:12:11Z,2013-01-19T22:06:48Z
+651,IOStream.error is often wrong,2012-12-07T22:09:38Z,2012-12-22T17:08:18Z
+650,[feature request] in module ``tornado.gen`` -- need for function ``gen.NoWait(..)``,2012-12-07T16:54:18Z,2012-12-07T23:24:37Z
+649,async MySQL driver ( pure C ) for Tornado.,2012-12-06T11:38:03Z,2012-12-06T14:48:03Z
+648,recommend async MySQL driver ( pure C ) for Tornado.,2012-12-06T11:12:02Z,2012-12-06T14:48:38Z
+647,"remote_ip breaks if ""X-Forwarded-For"" is a list",2012-12-06T01:56:06Z,2013-05-12T20:42:32Z
+646,"json_encode, json_decode should pass kwargs through to the underlying libraries",2012-12-03T02:23:45Z,2012-12-03T02:43:50Z
+645,xsrf cookie not set,2012-11-28T03:40:45Z,2012-12-02T02:28:17Z
+644,"Automatic documentation generates trash for parameter ""autoescape"" for Template constructor",2012-11-26T16:09:48Z,2012-11-27T02:47:42Z
+641,"Setting no_keep_alive option on HTTPServer does not set ""Connection: close"" header",2012-11-22T19:24:50Z,2012-12-01T23:17:41Z
+640,Not work async for one IP,2012-11-21T15:32:19Z,2012-11-22T18:53:47Z
+638,tornado.web.ErrorHandler shouldn't set XSRF token.,2012-11-20T00:03:05Z,2012-11-25T17:04:34Z
+635,add_callback() not entirely thread-safe,2012-11-13T09:26:58Z,2012-11-17T20:47:14Z
+633,Silent failure when reading cookies if one cookie is invalid,2012-11-12T19:40:59Z,2016-10-01T04:38:28Z
+632,IOStream read errors logged twice,2012-11-12T17:32:06Z,2012-11-19T02:37:45Z
+631,IOStream's close callback does not get the reason for closing,2012-11-12T14:25:35Z,2012-11-12T15:27:08Z
+630,IOStream writes to the root logger,2012-11-12T14:20:49Z,
+629,Preprocess templates,2012-11-10T19:57:52Z,
+622,xgettext cannot extract strings from templates,2012-10-31T14:27:20Z,
+621,Way to override default headers set in WSGIContainer,2012-10-28T22:11:04Z,2012-10-29T04:54:57Z
+620,Circular reference in ExceptionStackContext / gen.Runner,2012-10-28T20:22:35Z,2012-10-29T22:23:39Z
+619,WSGIContainer overrids server name returned by set_default_headers,2012-10-27T19:56:21Z,2012-10-28T19:37:26Z
+618,SimpleAsyncHTTPClient queue bug with request.url,2012-10-24T08:13:48Z,2012-11-01T06:19:26Z
+615,startup failure,2012-10-21T18:58:25Z,2012-10-22T04:30:03Z
+613,WSGI module does not work (missing Cookie),2012-10-18T06:45:46Z,2012-10-18T06:49:08Z
+612,runtests.sh does not woth (Py3.2),2012-10-18T06:41:47Z,2012-10-19T01:21:21Z
+611,"Retain original HTTP Header of request (as string, not parsed dict)",2012-10-15T13:27:41Z,2012-11-01T07:01:02Z
+610,Header handling case sensitivity,2012-10-14T01:36:57Z,2012-11-26T05:41:01Z
+608,WebSocket connection closed on long messages,2012-10-09T21:14:18Z,
+607,tornado中使用tenjin模板xsrf问题,2012-10-09T13:29:59Z,2012-10-09T16:16:27Z
+604,Exception in callback <tornado.stack_context._StackContextWrapper using websockets in python2-tornado 2.3,2012-10-04T10:20:44Z,2013-06-06T02:06:08Z
+601,"finish() on closed connection raises IOError(""Stream is closed"")",2012-10-01T18:47:01Z,2012-10-04T06:48:36Z
+598,auth.TwitterMixin  is broken in python 3,2012-09-28T06:00:44Z,2012-11-19T03:04:04Z
+597,_handle_read and _try_inline_read does not allow processing of data as long as new data arrives,2012-09-24T09:51:16Z,2014-04-28T00:15:00Z
+594,raising HTTPError() has no way to get log_message or *args to client.,2012-09-11T17:05:03Z,2012-09-11T17:49:44Z
+589,body in blocking httpclient with get,2012-08-24T16:56:28Z,2012-08-24T17:33:56Z
+587,iostream.SSLIOStream client do ssl.wrap_socket() too late after connect() and therefore cannot write(),2012-08-17T18:09:32Z,2012-08-19T19:25:44Z
+584,Lookup Error: unknown encoding: latin1,2012-08-15T18:25:33Z,2012-08-16T17:35:20Z
+578,"When using compression, Vary: Accept-Encoding should be added",2012-08-06T23:27:24Z,2012-12-02T17:44:49Z
+566,There's no way to JSON encode/decode custom object types ,2012-07-21T00:25:01Z,2012-07-29T15:34:20Z
+565,Make 'next' paramater name configurable when forwarding to login_url,2012-07-19T12:55:48Z,2013-05-13T03:47:08Z
+564,Method to render string as template?,2012-07-17T23:43:51Z,2012-08-27T01:00:07Z
+563,Method to render a string as a template?,2012-07-17T23:42:16Z,2012-07-17T23:44:14Z
+559,Tornado httpclient fails requesting a url that urllib works with.,2012-07-05T00:29:23Z,
+550,Windows: SO_REUSEADDR allows listening on occupied port,2012-06-27T23:34:20Z,2012-06-29T06:57:13Z
+548,tornado.stack_context.wrap restricts kwargs for function,2012-06-27T01:01:44Z,2012-06-27T04:05:02Z
+538,curl_httpclient 2.3 - IOError with socks5 proxy,2012-06-16T16:34:06Z,2013-05-25T19:27:43Z
+537,add_handler() IOError,2012-06-14T23:58:36Z,2012-06-15T15:32:14Z
+534,test_gaierror failure in 2.3 and 0b432be307,2012-06-09T14:46:37Z,2012-06-14T06:14:07Z
+524,tornado 2.3: Test suite fails due to ImportWarnings,2012-06-02T03:36:17Z,2012-06-14T07:29:30Z
+523,Have option for HTTP redirect to HTTPS,2012-06-01T05:54:05Z,2012-08-27T00:18:56Z
+522,Module thread not at python3.x,2012-06-01T03:35:30Z,2012-06-01T04:01:05Z
+520,string exceptions used in gen_test.py,2012-05-27T23:16:01Z,2012-05-28T01:37:56Z
+518,StaticHandler - default_filename issue,2012-05-26T01:17:56Z,2012-05-26T18:38:12Z
+517,on_finish() is not called when the client closed first.,2012-05-25T15:26:55Z,
+515,Low perfomance on big chunks writing,2012-05-25T15:07:40Z,2012-05-26T18:12:42Z
+511,Tornado logs filled with [Errno 104] Connection reset by peer,2012-05-11T06:55:38Z,2012-10-05T04:35:47Z
+509,URL path starting with double-slash can never been matched,2012-05-09T12:53:21Z,2012-05-10T05:03:31Z
+508,_stack_context_handle_exception fails to create types requiring more than one argument,2012-05-09T06:04:58Z,2012-05-11T06:28:24Z
+507,tornado.gen and ExceptionStackContext make things painfully slow,2012-05-08T16:42:41Z,2012-05-21T05:16:18Z
+504,"SimpleAsyncHTTPCLient raise a CertificateError for ""dotted"" subdomains with a wildcard certificate",2012-05-04T09:12:43Z,2012-05-04T19:21:32Z
+502,"""KeyError: 6"" on ioloop.py:541, why?",2012-05-02T18:25:02Z,2012-05-10T07:18:34Z
+501,"in python 3.2, get_cookie() returns ""str"", but get_secure_cookie() returns ""bytes""",2012-05-01T03:51:12Z,2012-05-07T00:31:53Z
+496,Possible bug in tornado.testing.wait,2012-04-18T02:34:45Z,2012-04-18T22:30:41Z
+493,AsyncHTTPClient.configure max_clients not working,2012-04-14T19:44:40Z,2012-05-07T01:27:16Z
+492,RequestHandler.flush not calling callback if no data to write,2012-04-12T11:30:32Z,2012-04-19T05:27:57Z
+490,Broken Unicode handling in reverse_url function,2012-04-10T01:34:05Z,2012-05-07T07:19:21Z
+489,parse_multipart_form_data doesn't properly handle final boundary,2012-04-08T21:36:13Z,2012-05-21T06:07:58Z
+486,Implement SPDY protocol,2012-04-03T20:01:27Z,2012-06-03T07:51:50Z
+485,Sphinx autodoc error,2012-04-01T09:10:01Z,2012-04-01T21:42:27Z
+483,Retrieving list arguments of POST request,2012-03-27T06:36:29Z,2012-03-27T07:06:56Z
+478,BaseCookie parser incompatible with SimpleCookie generator,2012-03-13T05:43:34Z,2012-03-13T05:49:01Z
+474,upload source to pypi,2012-03-03T17:28:39Z,2012-06-01T07:04:25Z
+473,Uncaught exceptions when client closes connection,2012-02-29T13:00:27Z,2012-10-05T04:40:25Z
+472,websocket.write_message utf8 escapes even for binary payload,2012-02-29T10:30:46Z,2012-02-29T17:53:36Z
+471,websocket.on_message: no payload type arg,2012-02-29T10:29:03Z,2012-02-29T17:47:17Z
+466,tornado.testing can swallow exceptions,2012-02-22T17:34:53Z,2012-02-26T00:52:45Z
+465,HTTPRequest.full_url misses local port,2012-02-21T23:22:24Z,2012-02-21T23:27:25Z
+464,@addslash / @removeslash decorators,2012-02-21T07:45:39Z,2012-03-24T20:58:56Z
+463,tornado.database error?,2012-02-19T07:32:00Z,2013-03-30T02:56:55Z
+462,feature request: ability to set _xsrf cookie expiration,2012-02-17T08:37:23Z,
+459,"Replace ""copy.copy"" by ""copy.deepcopy"" in simple_httpclient.py",2012-02-09T12:59:20Z,2012-03-06T05:50:17Z
+455,Inconsistency in the IOStream.closed method,2012-02-03T22:24:39Z,
+451,ResourceWarnings with Python 3.2,2012-01-31T15:11:47Z,2012-02-01T17:22:15Z
+450,Test suite fails to run with Python 3.2,2012-01-31T00:17:21Z,2012-01-31T08:37:59Z
+447,make_static_url disable hash override,2012-01-27T05:50:57Z,2013-05-19T17:24:44Z
+445,Wrong cookie set logic in web.py,2012-01-25T08:46:57Z,2012-02-20T02:49:34Z
+441,CurlAsyncHTTPClient Does Not Send Basic Auth When Password is Blank,2012-01-22T21:55:05Z,2012-01-23T18:32:52Z
+440,add the support of Sec-WebSocket-Version 13,2012-01-20T12:06:58Z,2012-02-04T04:33:29Z
+438,SSL socket errors,2012-01-17T15:28:05Z,2014-04-28T00:00:38Z
+434,socket.error: [Errno 98] Address already in use,2012-01-10T17:36:57Z,2012-01-14T07:23:30Z
+433,an advice about tornadow.database,2012-01-10T03:12:20Z,2012-01-10T03:42:57Z
+431,SSLIOStream handshaking issue,2012-01-07T18:48:39Z,2012-01-10T18:27:36Z
+429,websocket messages are always binary,2012-01-06T20:42:01Z,2012-01-08T04:35:30Z
+427,@route decorator,2012-01-05T03:45:13Z,2013-05-13T03:41:25Z
+425,Serious performance related issue with `_merge_prefix`.,2011-12-28T20:48:28Z,2011-12-31T00:26:29Z
+424,Leave the user to decide witch HTTP redirect code to use,2011-12-28T11:38:18Z,2011-12-31T04:23:04Z
+423,WebSockets update needed (rfc 6455),2011-12-22T09:55:04Z,2012-01-30T19:35:12Z
+416,Control over automatic Content-Type and ETag generation,2011-12-08T13:23:36Z,2012-05-21T06:12:45Z
+410,Add support for specific fire times in PeriodicCallback(),2011-12-04T11:28:02Z,2014-04-28T01:13:56Z
+408,"[feature] scheduled functions ""cleaner""",2011-12-02T09:17:33Z,2013-05-13T03:36:56Z
+407,Ability to override encoding used in get_argument() maybe,2011-12-01T00:27:20Z,2011-12-01T05:48:20Z
+405,Can't catch error in gen.Task,2011-11-29T03:52:29Z,2012-01-02T03:22:54Z
+395,set_cookie domain,2011-11-02T02:30:26Z,2011-11-14T06:53:16Z
+392,httpserver.py does not validate X-Forwarded-For is an IP address,2011-10-27T21:29:20Z,2012-01-02T06:59:54Z
+391,Empty POST requests,2011-10-27T18:51:49Z,2011-10-27T21:20:55Z
+386,"http clients don't work with HEAD, PUT and DELETE requests - run into timeout",2011-10-21T00:31:29Z,2011-10-23T21:43:45Z
+385,updated Websocket in Chrome/Chromium,2011-10-19T05:08:19Z,2011-10-23T20:44:54Z
+384,Twisted Reactor breaks twisted.web.xmlrpc,2011-10-18T15:23:17Z,2011-12-07T05:58:23Z
+380,Resiliency to slightly non-RFC compliant HTTP requests,2011-10-08T15:11:24Z,2014-04-28T00:08:02Z
+377,TwitterMixin dosen't allow to define a oauth_callback,2011-10-07T19:20:20Z,2012-01-18T09:18:36Z
+376,"authdemo.py, logout not working.",2011-10-06T15:32:20Z,2012-08-26T23:28:04Z
+375,Allow for seperate autoreload arg,2011-10-06T06:19:17Z,2011-10-14T07:12:05Z
+374,WSGIContainer does not support Keep-Alive,2011-10-05T17:53:25Z,
+371,"iostream: assert isinstance(num_bytes, int)",2011-10-03T16:39:50Z,2011-10-04T05:45:52Z
+370,Template eats up consecutive blanks in javascript section,2011-10-01T08:12:10Z,2014-04-28T00:58:42Z
+366,Duplicate callbacks from ioLoop.PeriodicCallback,2011-09-23T15:00:37Z,2011-10-04T16:09:52Z
+365,Simple HTTP client swallows errors in callback,2011-09-23T07:47:18Z,2014-04-28T00:57:31Z
+361,get_secure_cookie and order of include_name= and value=,2011-09-14T11:18:40Z,2011-09-14T16:18:20Z
+360,HTTP 599 when fetching Yahoo! Weather RSS.,2011-09-13T09:22:56Z,2012-05-27T22:23:10Z
+355,Template engine does not have syntax reference,2011-09-09T19:09:26Z,2011-09-10T22:16:53Z
+352,Memory leak on timeout,2011-09-07T19:49:13Z,2011-09-09T05:53:09Z
+351,tornado.gen does not work with callbacks that have kwargs,2011-09-06T21:43:34Z,2011-09-11T22:51:22Z
+348,SimpleHTTPClient doesn't clear connect timeout correctly,2011-08-31T01:16:50Z,2011-08-31T03:27:56Z
+345,"559 Error Code Facebook auth error: HTTPResponse(code=599,",2011-08-28T14:19:18Z,2011-09-04T23:08:10Z
+333,database: should return rowcount on execute,2011-08-14T21:43:35Z,2011-08-28T06:25:26Z
+331,autoreload Does Not Provide Any Mechanism for Resource Cleanup,2011-08-13T00:28:14Z,2011-08-14T18:40:35Z
+330,Opcode shouldn't be overridden on continuation frame,2011-08-08T17:58:31Z,2011-08-15T16:39:39Z
+325,Quetion about post fields,2011-08-03T00:03:18Z,2011-08-03T00:24:58Z
+324,SimpleAsyncHTTPClient and Connection:Keep-Alive,2011-08-01T19:53:42Z,
+321,CurlAsyncHTTPClient timeout,2011-07-29T18:17:53Z,2011-07-30T03:46:29Z
+319,autoreload doesn't work on windows,2011-07-28T17:43:15Z,2011-08-28T06:31:12Z
+317,Add template keyword block for outputting code without changes,2011-07-27T20:26:09Z,2011-07-27T20:34:56Z
+315,KeyError exception in SimpleAsyncHTTPClient._on_fetch_complete(),2011-07-27T18:00:51Z,2012-05-27T22:24:13Z
+314,Tornado 2.0 template benchmark,2011-07-27T14:30:51Z,2011-07-28T06:21:09Z
+311,GET param without value not in request.arguments ,2011-07-22T16:54:54Z,2011-08-03T07:08:36Z
+308,Support Compression Extensions for WebSocket protocol ,2011-07-19T20:21:05Z,2014-07-27T05:42:03Z
+306,"exception in httpclient on certain valid, HTTP-200 server responses for unknown reason",2011-07-18T18:00:27Z,2011-07-19T06:53:58Z
+305,UnicodeDecodeError exception with bad url,2011-07-15T07:07:51Z,2011-07-20T10:59:45Z
+304,IOstream object has no attribute 'connect' ?,2011-07-13T02:39:34Z,2011-07-13T03:00:46Z
+301,Support for streamed HTTP,2011-07-12T14:38:55Z,2011-07-12T17:43:12Z
+296,Add support for testing locale,2011-07-06T13:50:26Z,2011-07-07T08:08:16Z
+293,HTTPS requires either python2.6+ or curl_httpclient,2011-07-01T04:28:51Z,2011-07-01T16:02:46Z
+291,Tornado Templates: Consume newline that follows {% %} tags,2011-06-29T12:51:33Z,2015-07-05T22:44:29Z
+290,WebSocket Draft 09,2011-06-28T23:42:18Z,2011-07-17T22:14:55Z
+288,tornado.websocket crashes with chatdemo on Python3.2,2011-06-23T15:40:20Z,2011-06-26T02:38:07Z
+287,socket.AI_ADDRCONFIG not supported on Windows XP,2011-06-23T04:46:33Z,2011-06-26T02:38:07Z
+285,Using a unicode object as the domain value when setting a cookie results in an error message that isn't very helpful,2011-06-21T15:03:04Z,2011-06-22T03:41:35Z
+283,Remove obsolete RequestHandler.async_callback method,2011-06-16T14:43:39Z,2014-06-15T18:04:00Z
+281,WSGIContainer passes PATH_INFO to application without unquoting,2011-06-14T19:16:27Z,2011-06-14T21:39:32Z
+280,Problem with non latin xhtml_escape() under python2,2011-06-14T12:00:01Z,2011-06-16T02:36:45Z
+276,interprocess communication,2011-06-06T18:04:19Z,2011-06-06T18:36:29Z
+275,Module importing in templates must be block-local,2011-06-04T22:05:54Z,
+274,RequestHandler._handle_request_exception throws TypeError,2011-05-30T17:11:54Z,2011-05-30T18:06:45Z
+271,Non-ascii characters cause UnicodeEncodeError,2011-05-24T22:29:27Z,2011-05-25T07:33:46Z
+270,http_server doesn't complain if chosen port is already busy,2011-05-24T21:55:49Z,2011-05-25T08:10:28Z
+266,"JSON responses should have mimetype ""application/json""",2011-05-18T11:28:39Z,2011-05-19T06:36:06Z
+264,More str vs. byte vs. unicode problems with latest commits,2011-05-16T07:39:28Z,2011-05-18T06:16:55Z
+263,Unicode Cookie header breaks self.cookies.load(),2011-05-15T20:21:43Z,2011-05-16T00:02:08Z
+261,Including POP3 and IMAP clients,2011-05-13T20:57:44Z,2011-05-14T20:25:59Z
+259,on_connection_close() does not get called in tornado 1.2.1,2011-05-05T11:39:30Z,2011-05-05T17:27:32Z
+257,Improved error handling for exceptions inside websocket on_message callbacks,2011-05-04T15:13:04Z,2011-05-06T05:51:58Z
+254,Add support for per-request CSRF protection,2011-04-28T18:18:49Z,2011-05-01T19:17:38Z
+252,Recursion loop between websocket and iostream,2011-04-26T18:45:41Z,2011-05-01T19:57:16Z
+251,Facebook Demo KeyError: 'actions',2011-04-24T19:43:42Z,2011-04-25T06:17:26Z
+249,simple_httpclient doesn't handle comma-separated Content-Length,2011-04-22T00:46:28Z,2011-07-25T03:00:15Z
+247,load_gettext_translations should not parse SVC tools meta dir,2011-04-20T02:01:03Z,2011-04-25T06:17:26Z
+245,wsgi request fails if the request contains HTTP_CONTENT_LENGTH,2011-04-15T14:22:12Z,2011-04-16T20:43:11Z
+244,"u"" "" triggers UnicodeDecodeError in Template",2011-04-15T02:52:19Z,2011-04-16T20:43:11Z
+243,simple_httpclient does not support HEAD requests,2011-04-14T05:05:34Z,2011-12-02T08:41:24Z
+241,Need to configure the domain for Facebook Graph API,2011-04-02T22:15:31Z,2013-05-27T19:19:29Z
+234,Could web.Application.get_arguments return all arguments if no name is passed?,2011-03-22T04:01:22Z,2011-03-22T05:05:13Z
+233,simple_httpclient has a problem passing expect header to Twitter,2011-03-15T02:49:22Z,2011-03-15T13:09:06Z
+231,Need a way to handler large file uploading,2011-03-14T14:03:53Z,2014-04-28T00:09:08Z
+230,httpclient raises an error in recent commit,2011-03-13T04:51:26Z,2011-03-28T03:33:06Z
+229,Error on facebook examples KeyError: 'access_token',2011-03-08T22:30:32Z,2011-03-09T23:16:01Z
+228,"Support for full HTTP Redirect codes,Line 387",2011-03-06T22:59:01Z,2011-12-31T04:23:03Z
+227,FacebookGraphMixin only returning picture field,2011-03-02T06:19:07Z,2011-03-03T20:50:49Z
+226,IOLoop.handle_callback_exception gone,2011-02-24T09:52:00Z,2011-02-24T11:10:10Z
+225,OPTIONS should not require an XSRF token,2011-02-23T13:32:42Z,2011-02-24T02:08:20Z
+224,Make xhtml_escaping optional in tornado.escape.linkify,2011-02-22T20:33:00Z,2011-02-23T05:06:18Z
+223,IOStream connect callback is called even when connection is refused (only kqueue),2011-02-21T14:28:06Z,2011-02-23T05:36:30Z
+221,Error to run authdemo.py when set env var USE_SIMPLE_HTTPCLIENT=1,2011-02-18T18:36:01Z,2011-02-20T07:58:58Z
+220,AttributeError in Tornado ioloop,2011-02-18T07:51:04Z,2011-02-18T18:27:58Z
+219,_cookie_signature ignores delimiters,2011-02-14T07:41:58Z,2014-06-15T16:22:14Z
+217,Secure WebSockets (wss) fail due to location mismatch (fix patch included),2011-02-10T17:31:00Z,2011-06-27T01:12:56Z
+216,1.1.1 from pypi borked,2011-02-09T08:26:19Z,2011-02-10T01:04:58Z
+214,Tornado vulnerable to XSRF attack,2011-02-09T04:34:59Z,2011-02-09T06:54:18Z
+211,SSLIOStream doesn't handle feckless http requests properly,2011-02-04T01:34:05Z,2011-02-07T02:45:03Z
+210,tornado.httpserver.HTTPRequest.full_url() fails on HTTPS,2011-02-04T01:10:32Z,2011-02-04T01:48:18Z
+209,Minor error in template.py documentation,2011-02-01T22:47:19Z,2011-02-07T03:18:04Z
+208,WebSocket Handshake URI,2011-01-25T03:18:19Z,2011-01-25T20:15:56Z
+207,httpclient fails on headers where value contains ': ',2011-01-24T15:17:52Z,2011-01-26T04:06:57Z
+205,RedirectHandler called with wrong signature,2011-01-15T06:48:08Z,2011-01-20T19:53:31Z
+202,HTTPRequest.protocol not correctly set using HTTPServer,2011-01-09T20:46:50Z,2011-01-20T20:00:12Z
+200,Untitled,2010-12-26T06:37:33Z,2010-12-26T06:43:43Z
+198,Add UIModule.html_body before adding UIModule.embedded_javascript to rendered template,2010-12-17T06:00:06Z,2011-01-31T02:19:55Z
+195,Timeouts are using an inefficient data structure,2010-12-15T21:16:00Z,2011-05-01T20:55:36Z
+194,ErrorHandler exception on server autoreload,2010-12-14T19:01:46Z,2010-12-14T20:23:15Z
+192,chatdemo crashes Python on Windows,2010-12-12T09:38:09Z,2013-03-30T02:54:45Z
+191,"StaticFileHandler, RedirectHandler, etc. don't allow **kwargs",2010-12-12T03:21:11Z,2010-12-13T20:36:34Z
+186,new lines when using {% set ... %},2010-12-02T07:41:28Z,2010-12-02T08:14:50Z
+185,HTTPRequest.__repr__() has two 'remote_ip',2010-12-01T05:08:48Z,2010-12-01T06:29:39Z
+184,HTTPConnection in httpserver.py cause memory leak?,2010-11-30T10:22:55Z,2010-12-02T07:06:59Z
+182,Send a message over websocket to all clients conneted ,2010-11-28T20:00:15Z,2010-11-28T21:14:47Z
+181,template expressions parsed incorrectly,2010-11-27T01:28:51Z,2010-11-28T05:17:44Z
+180,"""Etag"" header not sent for HEAD requests",2010-11-24T21:41:37Z,2010-11-29T21:49:43Z
+178,cannot set compress_whitespace's value for Template,2010-11-23T03:18:51Z,2015-07-05T22:44:29Z
+175,unable to access arguments on multipart/form-data requests,2010-11-23T00:40:03Z,2010-11-23T00:42:15Z
+174,Disable _xsrf checking on a per-handler basis,2010-11-22T01:16:16Z,2010-11-22T01:24:07Z
+171,format_date returns current date when working in the future,2010-11-16T23:54:19Z,2010-11-17T00:36:57Z
+170,remove import IOLoop in auth.py,2010-11-13T17:44:06Z,2010-11-14T06:35:10Z
+169,mistype in iostream.IOStream._add_io_state,2010-11-06T10:00:32Z,2010-11-06T18:08:20Z
+168,invalid translated language strings in locale.py,2010-11-05T20:36:51Z,2010-11-09T03:42:37Z
+164,Using websocket with SSL doesn't work.,2010-11-02T12:38:16Z,2010-11-08T18:57:04Z
+163,'socket' is sometimes None in IOStream::_add_io_state ,2010-10-31T22:29:36Z,2010-11-04T18:48:04Z
+162,'socket' is sometimes None in IOStream::_add_io_state (duplicate),2010-10-31T22:29:35Z,2010-11-16T05:26:28Z
+160,304 Responses sometimes include non zero Content-Length,2010-10-28T03:00:12Z,2010-10-28T11:28:11Z
+157,Add some way to close an ongoing HTTPRequest (AsyncHTTPClient),2010-10-24T00:43:09Z,
+150,locale's format_date() does not with future dates,2010-10-11T23:44:14Z,2010-10-12T07:20:47Z
+146,asynchronous connect,2010-10-07T22:06:40Z,2010-10-13T08:00:36Z
+145,Fix content_length test in httpserver.py,2010-10-04T17:18:18Z,2010-10-04T20:40:57Z
+143,New IOStream implementation doesn't detect closed socket in select and kqueue.,2010-09-27T08:23:02Z,2010-09-27T21:13:28Z
+142,Incorrect for readme directions in tornado 1.1 tarball,2010-09-23T07:47:11Z,2010-09-23T16:37:57Z
+141,A defect in tornado/web.py,2010-09-21T07:53:18Z,2010-09-21T19:15:40Z
+140,Authentication with FacebookGraph API sometimes fails.,2010-09-20T15:10:14Z,2011-07-03T02:22:02Z
+137,Tornado main loop quits unexpectedly,2010-09-13T15:33:32Z,2010-09-16T09:36:14Z
+135,PeriodicCallback can impede GC,2010-09-08T20:32:07Z,2010-09-09T05:07:09Z
+134,PeriodicCallback stop broken within callback,2010-09-08T20:29:57Z,2010-09-08T22:08:05Z
+133,websocket.py typo line 106,2010-09-06T18:21:47Z,2010-09-06T18:24:22Z
+132,tornado.escape has superfluous lambdas,2010-09-06T05:29:57Z,2010-09-06T07:01:17Z
+131,Need Model ,2010-09-05T09:06:40Z,2010-09-05T17:55:58Z
+125,HTTPResponse.__init__ starts cyclical reference ,2010-08-31T17:28:48Z,2010-09-01T22:18:30Z
+124,Request handler mapping by string,2010-08-31T03:56:54Z,2011-07-03T00:46:25Z
+123,HTTPServer docstring does not match with the code.,2010-08-28T04:59:19Z,2010-08-30T19:18:44Z
+122,RequestHandler.write doesn't convert list as json,2010-08-27T20:48:53Z,2010-08-27T20:55:07Z
+121,"pycurl's lack of thread safety affects Tornado, causing segfaults",2010-08-26T05:47:04Z,2010-08-26T18:10:24Z
+120,"locale.list method returns ""and"" in English only",2010-08-21T12:05:52Z,2010-08-21T16:57:30Z
+119,tornado.web.authenticated does not redirect correct if we use subdomain,2010-08-06T09:18:12Z,2010-08-06T20:15:07Z
+118,Untitled,2010-08-04T20:35:32Z,2010-08-05T04:57:10Z
+117,websocket support,2010-07-24T11:34:16Z,2010-07-25T00:36:53Z
+116,tornado.escape should use simplejson by default (instead of built-in json),2010-07-21T18:48:52Z,2010-07-21T21:22:40Z
+115,URI parsing breaks with optional captured groups,2010-07-20T04:49:57Z,2010-07-20T17:29:47Z
+114,"Remove dependency on json module when json_{encode,decode} not used",2010-07-19T20:28:40Z,2010-07-20T02:44:17Z
+113,Get the content of the same block in parent template like block.super in Django,2010-07-17T17:16:31Z,
+112,Facebook Mixin should be ported to use OAuth 2.0,2010-07-15T20:58:23Z,2010-07-16T20:29:57Z
+111,last update CONVERSIONS problem,2010-07-14T13:42:40Z,2010-07-14T15:44:50Z
+110,HTTPClient & AsyncHTTPClient Lag/Overhead,2010-07-13T00:25:25Z,2014-04-28T00:54:10Z
+109,RequestHandler.write should also auto-convert lists to JS,2010-07-12T16:49:21Z,2010-07-12T18:14:27Z
+108,can i have a testcase in tornado like django test ?,2010-07-12T01:52:38Z,2010-07-12T09:23:04Z
+107,WSGIContainer doesn't properly call close,2010-07-11T09:09:26Z,2010-07-12T02:26:19Z
+106,FacebookMixin still using REST,2010-06-29T04:05:44Z,2010-09-09T22:11:33Z
+105,options.parse_config_file's argument 'overwrite' doesn't do anything,2010-06-23T22:30:14Z,2010-06-24T01:02:42Z
+104,ioloop.add_handler raises IOError only if ioloop._poll is select.epoll,2010-06-22T18:54:08Z,2010-06-24T08:09:38Z
+103,Google Mixin OpenID endpoint typo,2010-06-22T18:24:46Z,2010-06-24T08:16:52Z
+102,New version of WebSocket,2010-06-21T15:34:23Z,2010-08-04T21:36:21Z
+101,Patch: workaround for libcurl CURL_MAX_WRITE_SIZE,2010-06-19T13:36:07Z,2014-04-28T00:52:13Z
+100,Secure websocket with ssl_options fails,2010-06-09T16:38:02Z,2011-07-03T02:04:13Z
+99,Template error on GAE,2010-06-09T01:49:48Z,2010-08-26T18:36:23Z
+98,Missing import sys module in httpclient module ,2010-06-07T07:39:41Z,2010-06-07T07:44:14Z
+97,"when we write much more data, iostream will raise 'message too long' exception.",2010-06-07T03:58:34Z,2010-10-11T18:21:07Z
+96,urllib.unquote() for static file handler,2010-05-31T11:40:33Z,2010-07-23T00:08:01Z
+95,Circular reference with RequestHandler.on_connection_close,2010-05-25T12:17:40Z,2010-05-26T03:36:48Z
+94,circular reference with RequestHandler.on_connection_close,2010-05-25T11:08:41Z,2010-05-25T16:46:50Z
+93,HTTPConnection::_on_headers seems to leak connection,2010-05-24T10:22:31Z,2010-08-27T06:00:37Z
+92,Security vulnerability,2010-05-21T13:37:54Z,2010-05-23T04:43:04Z
+90,"Support custom, non-standard, HTTP methods",2010-05-18T09:56:30Z,2010-05-31T06:43:23Z
+89,add unicode URLSpec support,2010-05-13T23:46:43Z,
+88,"when you reverse_url a handler with addslash, you are likely to get a ? in the result",2010-05-13T05:08:10Z,2010-05-13T05:32:33Z
+87,tornado.websocket will not work past one message,2010-05-04T22:46:00Z,2010-05-10T01:56:17Z
+86,Add .DS_Store to .gitignore,2010-05-01T14:28:54Z,2010-08-26T18:43:46Z
+85,httponly cookies,2010-04-30T17:14:13Z,2010-05-10T01:47:54Z
+84,"No handlers could be found for logger ""tornado.ioloop""",2010-04-17T20:35:34Z,2010-04-20T22:58:13Z
+83,AsyncHTTPClient is not properly closed when using close-method,2010-04-13T11:38:35Z,2010-04-19T19:00:45Z
+82,OpenID default realm not SSL-compatible,2010-04-12T21:36:46Z,2010-04-12T23:08:17Z
+81,"IOError ""Stream is closed"" not caught in finish()",2010-04-01T00:51:56Z,2010-08-04T21:12:08Z
+80,"According to PEP 333 start_response(status, headers) function must return  a write(body_data) callable.",2010-03-28T14:39:07Z,2010-08-04T22:09:21Z
+79,Can't set not ascii string cookie value,2010-03-26T10:00:51Z,2010-08-26T22:56:24Z
+78,File name win32_support.py ,2010-03-26T02:14:21Z,2010-08-26T22:56:45Z
+77,a bug in tornado.web.add_handlers,2010-03-25T08:23:00Z,2010-08-26T00:22:56Z
+76,a bug in tornado.web.add_handlers,2010-03-25T08:03:19Z,2010-08-26T00:22:27Z
+75,httpclient get method can't send body data,2010-03-22T17:45:32Z,2010-08-04T21:38:41Z
+74,Wrong docstring in tornado/web.py,2010-03-19T02:58:23Z,2010-08-04T20:53:40Z
+73,is there a httpclient wihout pycurl ?,2010-03-15T17:35:58Z,2011-03-29T04:28:00Z
+72,Simple bug with _running in ioloop.py PeriodicCallback,2010-03-11T12:18:41Z,2010-08-26T00:18:09Z
+71,custom 404 page for tornado,2010-03-10T06:43:19Z,2010-03-10T18:04:06Z
+70,CPU usage using _Select IOLoop,2010-03-02T20:53:29Z,2010-08-04T21:30:20Z
+69,WebSockets receive_message problem.,2010-03-02T06:53:54Z,2010-05-10T01:56:08Z
+68,host broken when reverse proxied,2010-02-26T10:55:39Z,2010-08-27T05:47:09Z
+67,StaticFileHandler assumes text-mode files,2010-02-25T03:13:33Z,2010-08-04T21:27:55Z
+66,some bugs in web.Application,2010-02-22T22:18:41Z,2010-08-04T21:27:24Z
+65,[bug] can't run multi-processor prefork with debug=True,2010-02-22T03:33:14Z,2010-08-26T18:41:08Z
+64,Fix for web._get_host_handlers(),2010-02-15T12:14:47Z,2010-08-26T18:30:56Z
+63,fix for iostream._handle_write(),2010-02-15T08:20:15Z,2010-08-26T00:11:34Z
+62,A little patch for supporting helloworld demo under windows,2010-02-11T07:43:46Z,2010-08-04T21:21:27Z
+61,HTTP Headers not parsed correctly.,2010-02-06T23:00:39Z,2010-08-04T21:23:37Z
+60,parse_command_line must add logging handler only once,2010-02-04T13:02:58Z,2013-03-30T02:52:37Z
+59,ioloop._KQueue does not always fire WRITE events when necessary,2010-02-03T21:53:11Z,2010-02-16T21:12:03Z
+58,Typo in web.py,2010-02-01T17:27:10Z,2010-08-04T21:00:44Z
+57,Exception in ioloop.py remove_handler (when usging tornado-0.2.tar.gz),2010-01-28T21:05:56Z,2010-08-04T21:02:36Z
+56,Space in url causes hang,2010-01-25T19:30:36Z,2010-08-03T20:25:48Z
+55,httpclient: connect_timeout and request_timeout cannot be set to zero (unlimited),2010-01-14T08:28:48Z,2010-01-28T07:47:04Z
+54,json_encode & json_decode do not support 'object_hook' and 'default' args,2010-01-07T22:14:10Z,2011-07-03T01:48:08Z
+53,Should not log to the root logger,2010-01-05T08:07:51Z,2012-09-10T02:52:10Z
+52,Option to reload modified templates without server restart,2010-01-04T18:02:05Z,2014-01-18T20:44:37Z
+51,twitter login should use /account/verify_credentials,2010-01-03T03:38:05Z,2013-06-01T02:27:45Z
+50,Need variable assignment in template,2010-01-01T08:40:35Z,2010-01-28T07:13:47Z
+49,Middleware for tornado?,2009-12-31T09:10:14Z,2010-01-19T19:28:38Z
+48,PUT should support request arguments in body as well as POST,2009-12-31T02:14:18Z,2010-08-04T21:23:59Z
+47,"CPU 100%, High load averages",2009-12-30T16:03:58Z,2010-08-26T22:57:38Z
+46,Support http OPTIONS method used by Firefox/Safari on Cross Domain requests,2009-12-22T18:49:44Z,2010-08-26T23:04:05Z
+45,"Escaping doesn't convert ' and """,2009-12-16T12:25:01Z,2010-08-04T21:26:22Z
+44,worth flagging up that pycurl needs to be >=7.16.4 if you want response headers?,2009-12-13T11:56:47Z,2010-08-04T21:16:03Z
+43,tornado.auth.FacebookMixin should use session secret instead of the application secret,2009-12-12T07:41:40Z,2010-01-28T08:46:08Z
+42,tornado.database with DBUtils,2009-12-10T06:17:49Z,2013-03-30T02:51:04Z
+41,Request body is ignored on HTTP PUT requests to HTTPServer,2009-12-10T00:51:15Z,2010-08-04T22:06:47Z
+40,DELETE method not supported by HTTPClient,2009-12-09T23:02:46Z,2010-01-28T08:39:58Z
+39,WSGIContainer's start_response method is incorrect,2009-12-06T12:01:24Z,2010-02-26T19:35:50Z
+38,PyPI package,2009-11-26T13:25:44Z,2010-09-09T17:09:57Z
+37,IOStream doesn't detect remote hang up when _Select is used,2009-11-12T23:08:36Z,2010-09-27T21:13:28Z
+36,cookie value must quote,2009-11-12T07:12:35Z,2011-07-10T22:31:17Z
+35,Not good news,2009-11-09T10:56:30Z,2010-08-04T21:18:43Z
+34,Some code snippet need to refactoring?,2009-11-08T17:24:25Z,2011-07-03T01:40:17Z
+33,blog/templates/compose.html escape is not enough,2009-11-06T02:46:14Z,2010-04-08T16:25:04Z
+32,IOError in AsyncHTTPClient,2009-10-31T03:33:45Z,2010-01-28T08:34:20Z
+31,web.py L127 ignores no_keep_alive,2009-10-30T00:51:25Z,2013-05-13T00:30:43Z
+30,"add a ""nice"" self.arguments  (in tornado.web)",2009-10-25T19:10:52Z,2010-08-04T20:50:09Z
+29,"Minor fix for ""/"" in web.py",2009-10-23T19:46:31Z,2010-08-04T20:50:45Z
+28,[solved] String formatting for dynamic query exhibiting failure ,2009-10-22T14:39:40Z,2010-01-28T08:04:34Z
+27,"Expiration of secure cookies hardcoded to 31 days, inconsistent with expires_days arg to set_secure_cookie",2009-10-21T01:25:18Z,2011-06-27T01:33:09Z
+26, Argument with multiple occurrences,2009-10-18T16:14:56Z,2010-08-04T20:49:53Z
+25," url_escape with a ""quote"" option (not quote_plus) ",2009-10-18T16:13:59Z,2013-05-12T20:12:57Z
+24, Crash with semicolon in filename ,2009-10-18T16:13:04Z,2011-07-10T21:00:32Z
+23,Use self.headers instead of headers?,2009-10-03T07:00:02Z,2010-01-28T07:36:35Z
+22,How about a version indicator?,2009-10-03T02:49:16Z,2010-08-25T23:55:27Z
+21,CSS embedding mistake,2009-09-30T15:15:59Z,2010-01-28T07:19:35Z
+20,Can Server Tag be changed Globally?,2009-09-27T05:03:36Z,2009-09-30T08:03:49Z
+19,Server does not listen on IPv6 socket,2009-09-26T20:26:57Z,2011-06-27T01:11:38Z
+18,static url is hard code,2009-09-22T10:01:49Z,2009-09-30T08:04:10Z
+17,ioloop.py IOLoop remove_callback,2009-09-22T06:59:15Z,2009-09-30T08:03:05Z
+16,tornado.escape.json_encode should have the same signature as simplejson.dumps,2009-09-22T01:01:05Z,2011-07-03T01:46:27Z
+15,PeriodicCallback bug,2009-09-21T05:06:39Z,2009-09-30T08:03:15Z
+14,libevent support,2009-09-18T12:03:39Z,2013-05-12T20:11:28Z
+13,_TemplateReader slice,2009-09-18T00:16:37Z,2010-08-26T18:57:46Z
+12,locale weekdays,2009-09-17T09:07:20Z,2009-09-18T00:48:09Z
+11,GoogleAuth fails due to pycurl not handeling SSL connections,2009-09-16T14:56:10Z,2009-09-18T00:49:22Z
+10,XSRF token not needed for Ajax requests,2009-09-16T01:30:34Z,2009-12-06T03:38:46Z
+9,server fails to parse folded headers,2009-09-14T22:01:45Z,2011-07-10T23:16:18Z
+8,OpenIdMixin is likely broken for some providers due to POST/GET issue,2009-09-13T19:28:21Z,2010-08-05T00:47:25Z
+7,HTTPClient may ignore method POST in some cases,2009-09-13T19:28:01Z,2010-08-04T23:12:41Z
+6,iostream log message,2009-09-11T19:45:08Z,2009-09-13T19:26:26Z
+5,Documentation Typo :: XSRF Form Example,2009-09-11T15:14:09Z,2009-09-11T18:43:39Z
+4,Documentation typo: javascript_file and css_file method names should be in plural,2009-09-11T08:16:44Z,2009-09-11T18:43:25Z
+3,"Automatically append / to urls, like django",2009-09-11T03:32:45Z,2009-09-13T19:27:05Z
+2,Is there a way to run a system process asynchronously?,2009-09-10T22:33:25Z,2013-03-30T02:50:21Z
+1,Can you test the speed vs. Pylons standalone and Django Standalone,2009-09-10T19:53:26Z,2009-09-13T19:25:00Z

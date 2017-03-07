@@ -1,0 +1,4 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+legit,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\legit\legit\cli.py,562,8,0,0,0
+legit,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\legit\legit\scm.py,29,2,0,0,0
+legit,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\legit\legit\settings.py,12,8,0,0,0

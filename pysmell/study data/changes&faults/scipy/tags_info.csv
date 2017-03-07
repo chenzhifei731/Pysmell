@@ -1,0 +1,75 @@
+hash,tag,author,date,title
+53b4f5d,v0.1.0,Travis Oliphant,2001-08-14 08:05:34,Minor array_import changes.
+661356a,v0.1.2,Eric Jones,2001-08-14 17:39:02,removed gplt from testing process
+f7d2eb7,v0.2.0,nobody,2003-10-01 06:52:21,This commit was manufactured by cvs2svn to create tag 'v0_2_0'.
+9646d5d,v0.2.2,nobody,2004-04-02 21:40:11,This commit was manufactured by cvs2svn to create tag 'v0_2_2'.
+ed1680d,v0.3.0,nobody,2004-04-16 23:59:00,This commit was manufactured by cvs2svn to create tag 'v0_3_0'.
+3672ce2,v0.3.2,Pearu Peterson,2004-10-08 09:15:13,Updated .pdf and .tex tutorial files.
+c73d4f6,v0.4.2,Travis Oliphant,2005-11-12 06:37:52,Fixed version number.
+3bcec41,v0.4.3,Travis Oliphant,2005-11-30 22:25:33,Fix the scipy version display.
+07b1fda,v0.4.4,edschofield,2006-01-14 19:34:42,"Stripped magic from version.py, as in the 0.4.4 release files."
+c80602f,v0.4.6,edschofield,2006-02-19 12:16:33,"Merged patches from trunk, versions 1605:1610"
+9707cbf,v0.4.8,edschofield,2006-03-18 14:59:59,Cleaned up versions for new release.  Minor doc reformatting.
+1acaecf,v0.4.9,edschofield,2006-05-24 13:07:37,Applied bug fix for ticket #204 from trunk
+e31b2fa,v0.5.0,edschofield,2006-07-26 13:44:08,Updated version numbers, removed SVN version magic for 0.5.0 release
+6a31f8f,v0.5.1,Travis Oliphant,2006-09-05 07:59:42,Fix version number
+d0c8252,v0.5.2,Travis Oliphant,2006-12-08 04:24:19,Fix author
+8124f93,v0.5.2.1,Jarrod Millman,2007-08-18 18:57:46,Make 0.5.2.1 tag a version release.
+30174bd,v0.6.0,Jarrod Millman,2007-09-22 08:13:20,Fix problem with version information being doubled (see r3310)
+4becfc9,v0.7.0b1,Jarrod Millman,2008-11-24 09:54:25,making the release
+d4f321a,v0.7.0rc1,Jarrod Millman,2009-01-17 05:16:25,making the new release
+8b569d3,v0.7.0rc2,David Cournapeau,2009-01-23 07:28:14,Update version for rc2.
+f6aa904,v0.7.0,Stefan van der Walt,2009-02-19 20:41:41,Backport 0.7.0 release notes from trunk.
+e141a1e,v0.7.1rc1,David Cournapeau,2009-06-04 06:41:37,scipy 0.7.1 RC1.
+898d130,v0.7.1rc2,David Cournapeau,2009-06-05 07:47:25,RC2 release (to deal with python 2.6 massive failures on Mac OS X).
+7adc03e,v0.7.1rc3,David Cournapeau,2009-06-12 03:38:23,Set up released version for RC3.
+e96e5f7,v0.7.1,David Cournapeau,2009-09-13 12:20:36,Make sure added paths are lists and not strings.
+cdcb54a,v0.7.2rc1,Stefan van der Walt,2010-04-08 14:25:40,Fix MakeNSIS call when building superpack.
+e56406f,v0.7.2rc2,rgommers,2010-04-18 07:23:44,Update version to 0.7.2rc2
+d026bb3,v0.7.2rc3,rgommers,2010-04-18 15:07:00,REL: set version to 0.7.2rc3.
+ef32dae,v0.7.2,rgommers,2010-04-22 11:00:00,REL: Set version to 0.7.2.
+689bde5,v0.8.0b1,rgommers,2010-06-04 15:02:05,BUG: Fix signal.ltisys test that crashes interpreter on Windows.
+e96c9df,v0.8.0rc1,rgommers,2010-07-04 08:49:18,REL: Change version number for the 0.8.0 RC1 release.
+e33d277,v0.8.0rc2,rgommers,2010-07-11 07:59:08,REL: Change version number on 0.8.x branch to 0.8.0rc2.
+7cd4365,v0.8.0rc3,rgommers,2010-07-15 11:18:08,REL: Set version number to 0.8.0rc3.
+6f97786,v0.8.0,rgommers,2010-07-26 14:50:13,REL: Change version number to 0.8.0
+887bddc,v0.9.0b1,rgommers,2010-12-12 09:29:30,REL: set version to 0.9.0b1
+06046a5,v0.9.0rc1,rgommers,2011-01-23 09:29:33,"REL: set version number to 0.9.0rc1, released=True"
+f7acac1,v0.9.0rc2,rgommers,2011-01-30 15:54:15,REL: set version number to 0.9.0rc2
+a6e1f7c,v0.9.0rc3,rgommers,2011-02-12 10:56:01,REL: set version number to 0.9.0rc3.
+05504a2,v0.9.0rc4,rgommers,2011-02-19 13:32:35,REL: set version number to 0.9.0rc4.
+f356ab6,v0.9.0rc5,rgommers,2011-02-20 09:35:39,REL: set released=True in setup.py (for 0.9.0rc5).
+8976333,v0.9.0,rgommers,2011-02-27 12:06:53,REL: set version to 0.9.0.
+7483939,v0.10.0b1,Ralf Gommers,2011-09-11 22:43:14,REL: set version to 0.10.0b1
+8edbea5,v0.10.0b2,Ralf Gommers,2011-09-16 18:26:31,REL: set version to 0.10.0b2
+549a7fe,v0.10.0rc1,Ralf Gommers,2011-11-03 21:39:29,REL: set version to 0.10.0rc1.
+c82deec,v0.10.0,Ralf Gommers,2011-11-13 12:33:57,REL: set version to 0.10.0
+7f7343e,v0.10.1rc1,Ralf Gommers,2012-02-10 20:24:43,REL: set version number to 0.10.1rc1.
+4aa0310,v0.10.1rc2,Ralf Gommers,2012-02-19 16:52:08,REL: set version to 0.10.1rc2.
+772893f,v0.10.1,Ralf Gommers,2012-02-26 22:45:10,REL: set version to 0.10.1.
+51e3206,v0.11.0b1,Ralf Gommers,2012-06-12 23:06:35,REL: set version to 0.11.0b1.
+61e4270,v0.11.0rc1,Ralf Gommers,2012-07-17 22:13:28,REL: set version to 0.11.0rc1
+ffd7eba,v0.11.0rc2,Ralf Gommers,2012-08-12 20:57:24,REL: set version to 0.11.0rc2
+827679b,v0.11.0,Ralf Gommers,2012-09-22 11:40:36,REL: set version to 0.11.0.
+f460088,v0.12.0b1,Ralf Gommers,2013-02-16 12:36:10,REL: set version to 0.12.0b1
+1977dc3,v0.12.0rc1,Ralf Gommers,2013-03-29 22:10:58,REL: tag version 0.12.0rc1
+cdd6b32,v0.12.0,Ralf Gommers,2013-04-06 13:00:32,REL: v0.12.0 release
+3cd80e9,v0.13.0b1,Ralf Gommers,2013-08-22 14:33:51,REL: set version to 0.13.0b1
+4b569ae,v0.12.1,Ralf Gommers,2013-10-08 23:03:00,REL: set version to 0.12.1
+6768fa5,v0.13.0rc1,Ralf Gommers,2013-10-10 22:05:22,REL: set version to 0.13.0rc1
+1cc8bee,v0.13.0,Ralf Gommers,2013-10-19 11:43:40,REL: set version to 0.13.0
+f0cff31,v0.13.1,Ralf Gommers,2013-11-16 15:25:39,REL: set version to 0.13.1
+f3ebcf8,v0.13.2,Ralf Gommers,2013-12-07 23:38:53,REL: set version to 0.13.2
+af356f4,v0.13.3,Ralf Gommers,2014-02-04 07:00:57,REL: set version number to 0.13.3
+9dc196c,v0.14.0b1,Ralf Gommers,2014-03-16 00:54:40,REL: set version to 0.14.0b1
+e4a767c,v0.14.0rc1,Ralf Gommers,2014-04-02 22:15:34,REL: set version to 0.14.0rc1
+e64e518,v0.14.0rc2,Ralf Gommers,2014-04-22 23:51:28,REL: set version to 0.14.0rc2
+f2ec91c,v0.14.0,Ralf Gommers,2014-05-03 12:27:45,REL: set version to 0.14.0
+62713a0,v0.14.1rc1,Pauli Virtanen,2014-11-23 21:08:11,REL: set version to 0.14.1rc1
+d53d3de,v0.15.0b1,Pauli Virtanen,2014-11-23 23:37:02,REL: set version to 0.15.0b1
+c5ded87,v0.15.0rc1,Pauli Virtanen,2014-12-15 16:54:46,REL: set version to 0.15.0rc1
+f9fbd6c,v0.14.1,Pauli Virtanen,2014-12-30 18:51:20,REL: set version to 0.14.1
+88fc9b0,v0.15.0,Pauli Virtanen,2015-01-11 16:14:22,REL: set version to 0.15.0
+fcdc3d7,v0.15.1,Pauli Virtanen,2015-01-18 18:35:06,REL: set version to 0.15.1 (second try)
+e153b5d,v0.16.0b1,Ralf Gommers,2015-05-12 23:06:21,REL: set version to 0.16.0b1
+51ff669,v0.16.0b2,Ralf Gommers,2015-05-24 10:15:25,REL: set version to 0.16.0b2

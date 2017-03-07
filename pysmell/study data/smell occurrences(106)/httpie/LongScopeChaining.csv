@@ -1,0 +1,8 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\core.py,70,2,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\input.py,445,2,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\output\formatters\xml.py,15,2,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\tests\test_downloads.py,77,3,1,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\tests\test_errors.py,11,2,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\tests\test_errors.py,37,2,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\tests\utils.py,78,2,0,0,0

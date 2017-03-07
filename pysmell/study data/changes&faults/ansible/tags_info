@@ -1,0 +1,67 @@
+982bad7; (tag: refs/tags/v1.9.2-0.1.rc1);James Cammarata;2015-05-15 21:02:17 -0500;Version bump for release candidate 1.9.2-0.1.rc1
+b47d1d7; (tag: refs/tags/v1.9.1-1);James Cammarata;2015-04-27 16:13:52 -0500;Version bump for release 1.9.1-1
+99af3a8; (tag: refs/tags/v1.9.1-0.4.rc4);James Cammarata;2015-04-09 13:45:21 -0400;version update for release candidate 1.9.1-0.4.rc4
+9a07855; (tag: refs/tags/v1.9.1-0.3.rc3);James Cammarata;2015-04-17 14:47:21 -0500;Version bump for release candidate 1.9.1-0.3.rc3
+e16e2b1; (tag: refs/tags/v1.9.1-0.2.rc2);James Cammarata;2015-04-15 10:30:45 -0500;Version bump for 1.9.1-0.2.rc2 release candidate
+b186f7b; (tag: refs/tags/v1.9.1-0.1.rc1);James Cammarata;2015-04-06 13:38:33 -0500;Version bump for 1.9.1-0.1.rc1
+29809bb; (tag: refs/tags/v1.9.0.1-1);James Cammarata;2015-03-25 18:39:45 -0500;Version bump for 1.9.0.1-1
+717ffe2; (tag: refs/tags/v1.9.0-2);James Cammarata;2015-03-25 17:07:21 -0500;Version bump for 1.9.0-2
+d76f8de; (tag: refs/tags/v1.9.0-1);James Cammarata;2015-03-25 14:57:16 -0500;Submodule updates for 1.9
+5d28d46; (tag: refs/tags/v1.9.0-0.2.rc2);James Cammarata;2015-03-20 14:48:21 -0500;VERSION bump and submodule update for 1.9.0-0.2.rc2
+bce4bb2; (tag: refs/tags/v1.9.0-0.1.rc1);Brian Coca;2014-11-24 16:36:31 -0500;preliminary privlege escalation unification  + pbrun - become constants inherit existing sudo/su ones - become command line options, marked sudo/su as deprecated and moved sudo/su passwords to runas group - changed method signatures as privlege escalation is collapsed to become - added tests for su and become, diabled su for lack of support in local.py - updated playbook,play and task objects to become - added become to runner - added whoami test for become/sudo/su - added home override dir for plugins - removed useless method from ask pass - forced become pass to always be string also uses to_bytes - fixed fakerunner for tests - corrected reference in synchronize action plugin - added pfexec (needs testing) - removed unused sudo/su in runner init - removed deprecated info - updated pe tests to allow to run under sudo and not need root - normalized become options into a funciton to avoid duplication and inconsistencies - pushed suppored list to connection classs property - updated all connection plugins to latest 'become' pe
+ebc8d48; (tag: refs/tags/v1.8.4, refs/remotes/origin/release1.8.4);James Cammarata;2015-02-19 10:29:56 -0600;Version bump for release 1.8.4
+64d1249; (tag: refs/tags/v1.8.3, refs/remotes/origin/release1.8.3);James Cammarata;2015-02-17 16:19:56 -0600;Removing delegate_to integration tests, since it's not enabled in devel either
+6f568bd; (tag: refs/tags/v1.8.2);James Cammarata;2014-12-04 16:17:10 -0600;Version bump for release 1.8.2
+6598c83; (tag: refs/tags/v1.8.1);James Cammarata;2014-11-26 21:35:53 -0600;Version bump for release 1.8.1
+dece0c3; (tag: refs/tags/v1.8.0, refs/remotes/origin/release1.8.0);James Cammarata;2014-11-25 15:58:28 -0600;Version bump for 1.8.0
+d3c28fe; (tag: refs/tags/v1.7.2, refs/remotes/origin/release1.7.2);James Laska;2014-09-10 17:56:28 -0400;Correct mysql integration indentation
+268e723; (tag: refs/tags/v1.7.1, refs/remotes/origin/release1.7.1);James Cammarata;2014-08-14 15:50:38 -0500;Version bump for 1.7.1
+2912793; (tag: refs/tags/v1.7.0, refs/remotes/origin/release1.7.0);James Cammarata;2014-08-06 15:37:24 -0500;Removing leftover import of atomic_move
+8959338; (tag: refs/tags/v1.6.10, refs/remotes/origin/release1.6.10);James Cammarata;2014-07-25 15:23:32 -0500;Adding unittest for space preservation within quotes when splitting args
+663ecd0; (tag: refs/tags/v1.6.9, refs/remotes/origin/release1.6.9);James Cammarata;2014-07-24 22:20:37 -0500;Version bump for release 1.6.9
+f88bf57; (tag: refs/tags/v1.6.8);James Cammarata;2014-07-22 16:32:42 -0500;Version bump for release 1.6.8
+907c98e; (tag: refs/tags/v1.6.7, refs/remotes/origin/release1.6.7);James Cammarata;2014-07-21 11:33:35 -0500;Fix ec2_setup task param quoting
+69d85c2; (tag: refs/tags/v1.6.6, refs/remotes/origin/release1.6.6);James Cammarata;2014-07-01 14:36:36 -0500;Version bump for release 1.6.6
+cb4b196; (tag: refs/tags/v1.6.5, refs/remotes/origin/release1.6.5);James Cammarata;2014-06-25 21:10:25 -0500;Version bump for 1.6.5
+cc4129f; (tag: refs/tags/v1.6.4, refs/remotes/origin/release1.6.4);James Cammarata;2014-06-25 14:20:46 -0500;Version bump for 1.6.4
+dffea7f; (tag: refs/tags/v1.6.3, refs/remotes/origin/release1.6.3);James Cammarata;2014-06-09 14:30:07 -0500;Version bump and CHANGELOG/RELEASES update for 1.6.3
+ce4883b; (tag: refs/tags/v1.6.2);James Cammarata;2014-05-23 15:37:57 -0500;Version bump for 1.6.2
+d4e11c5; (tag: refs/tags/v1.6.1, refs/remotes/origin/release1.6.1);James Cammarata;2014-05-07 12:33:07 -0500;Version bump for 1.6.1 release
+ab55000; (tag: refs/tags/v1.6.0);James Cammarata;2014-05-05 16:35:36 -0500;Update packaging dates for the 1.6.0 release
+7b319d8; (tag: refs/tags/v1.5.5, refs/remotes/origin/release1.5.5);James Cammarata;2014-04-18 13:45:36 -0500;Version bump for 1.5.5
+f1f6382; (tag: refs/tags/v1.5.4, refs/remotes/origin/release1.5.4);James Cammarata;2014-04-01 16:22:23 -0500;Version bump for 1.5.4 release
+157b783; (tag: refs/tags/v1.5.3, refs/remotes/origin/release1.5.3);Michael DeHaan;2014-03-14 10:21:31 -0500;Merge pull request #6491 from jlaska/apt_repository_signing_fix
+8588ac5; (tag: refs/tags/v1.5.2);Michael DeHaan;2014-03-11 10:47:53 -0400;Fix other reference to APT_ENV_VARS.
+16c05cb; (tag: refs/tags/v1.5.1);Richard C Isaacson;2014-03-10 17:40:36 -0500;Update files for 1.5.1 release.
+6221a27; (tag: refs/tags/v1.5.0, refs/remotes/origin/release1.5.0);James Cammarata;2014-02-28 14:17:07 -0600;Updating files for new upstream release 1.5.0
+c4db9ba; (tag: refs/tags/v1.4.5);James Cammarata;2014-02-12 15:23:11 -0600;Update files for 1.4.5 release.
+45dde5b; (tag: refs/tags/v1.4.4);James Tanner;2014-01-06 10:30:35 -0500;Update files for 1.4.4 release.
+5f8a906; (tag: refs/tags/v1.4.3);James Tanner;2013-12-20 13:19:01 -0500;Update files for 1.4.3 release.
+42d9936; (tag: refs/tags/v1.4.2);James Tanner;2013-12-18 20:30:44 -0500;Add ansible-galaxy python dependencies
+7bf799a; (tag: refs/tags/v1.4.1);Michael DeHaan;2013-11-27 18:13:21 -0500;Update files for 1.4.1 release.
+2a58c2b; (tag: refs/tags/v1.4.0);James Tanner;2013-11-21 15:11:16 -0500;Update files for 1.4 release
+8e3ba1f; (tag: refs/tags/v1.3.4);James Cammarata;2013-10-29 16:23:52 -0500;Version bump for 1.3.4
+298d8d7; (tag: refs/tags/v1.3.3);James Cammarata;2013-10-07 14:00:49 -0500;Version bump for 1.3.3
+9d5d88b; (tag: refs/tags/v1.3.2);James Cammarata;2013-09-19 11:08:45 -0500;CHANGELOG update for the PTY patch inclusion
+cac9e02; (tag: refs/tags/v1.3.1);James Cammarata;2013-09-16 05:27:23 -0500;Version bump for 1.3.1 release
+507b78f; (tag: refs/tags/v1.3.0);Michael DeHaan;2013-09-13 17:31:34 -0400;Update specfile -- no need for node fireball package, release dates
+5d370bf; (tag: refs/tags/v1.2.3);James Cammarata;2013-08-21 12:06:26 -0500;Release bump to v1.2.3
+90c8dcc; (tag: refs/tags/v1.2.2);Michael DeHaan;2013-07-05 22:05:05 -0400;Slight revisement to configuration file comment.
+bc03a29; (tag: refs/tags/v1.2.1);Michael DeHaan;2013-07-04 21:47:47 -0400;Update release versions for 1.2.1
+f67c13f; (tag: refs/tags/v1.2);Michael DeHaan;2013-06-10 15:23:51 -0400;Update packaging dates in preparation for release.
+2f944d8; (tag: refs/tags/v1.1);Michael DeHaan;2013-04-01 14:01:51 -0700;Merge pull request #2547 from jsmartin/cloudformation
+6a64e9f; (tag: refs/tags/v1.0);Michael DeHaan;2013-02-01 21:27:00 -0500;Update changelog
+0115d4b; (tag: refs/tags/v0.9);Michael DeHaan;2012-11-30 22:21:16 -0500;release process
+e072271; (tag: refs/tags/0.8);Michael DeHaan;2012-10-19 20:46:59 -0400;Update packaging and CHANGELOG for release
+6bb9814; (tag: refs/tags/0.7.2);Michael DeHaan;2012-10-10 08:09:18 -0400;update branch so 0.7.2 is buildable
+e63f401; (tag: refs/tags/0.7.1);Michael DeHaan;2012-09-11 17:47:24 -0400;Bump version
+2bf9a92; (tag: refs/tags/0.7);Michael DeHaan;2012-09-06 18:46:15 -0400;Don't load plugins starting with "_".
+53c927f; (tag: refs/tags/0.6);Michael DeHaan;2012-08-06 21:17:58 -0400;changelog dates
+22f3967; (tag: refs/tags/0.5);Michael DeHaan;2012-07-04 13:37:46 -0400;Bump dates in packaging files for release.
+f42b630; (tag: refs/tags/0.4.1);Michael DeHaan;2012-06-13 12:14:31 -0700;Merge pull request #470 from tbielawa/fixAuthor
+9551afc; (tag: refs/tags/0.4);Michael DeHaan;2012-05-23 19:38:59 -0400;Update changelog for release.
+5a156d6; (tag: refs/tags/0.3.1);Michael DeHaan;2012-05-01 15:40:39 -0700;Merge pull request #286 from tbielawa/PkgReviewRetagFixes
+4d62510; (tag: refs/tags/0.3);Michael DeHaan;2012-04-23 21:11:43 -0400;Version bump for 0.3 release
+09e690f; (tag: refs/tags/0.0.2);Michael DeHaan;2012-04-03 20:20:55 -0400;Indentation error causing forks to not be parallel.  Ahem :)
+2e1b59a; (tag: refs/tags/0.0.1);Michael DeHaan;2012-03-13 19:27:13 -0400;restructure the examples directory
+56de2e1; (tag: refs/tags/0.01);Michael DeHaan;2012-03-08 13:59:12 -0500;Update README.md

@@ -1,0 +1,10 @@
+subject,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,tuning machine
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\listen.py,16,27,1,6,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,18,45,1,9,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,21,40,1,7,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,60,50,1,8,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,80,105,2,23,1,0,1
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,93,46,2,16,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,96,19,1,5,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\quietnet.py,102,22,1,5,0,0,0
+quietnet,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\quietnet\notebooks\capture_audio.py,17,46,1,9,0,0,0

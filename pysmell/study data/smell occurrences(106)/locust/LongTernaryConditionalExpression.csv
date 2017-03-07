@@ -1,0 +1,3 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\inspectlocust.py,30,40,1,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\rpc\socketrpc.py,72,30,1,0,0,0

@@ -1,0 +1,12 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\__init__.py,51,27,1,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\analyse\analyzer.py,19,2,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\analyse\textrank.py,13,4,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\analyse\textrank.py,57,5,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\analyse\tfidf.py,15,7,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\analyse\tfidf.py,35,4,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\analyse\tfidf.py,59,4,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\posseg\__init__.py,63,7,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\jieba\posseg\__init__.py,88,16,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\test\jieba_test.py,102,13,0,0,0
+jieba,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\jieba\test\test_multithread.py,8,2,0,0,0

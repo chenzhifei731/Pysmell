@@ -1,0 +1,3 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+django-rest-framework,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-rest-framework\rest_framework\serializers.py,278,30,1,4,0,0,0
+django-rest-framework,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-rest-framework\tests\test_throttling.py,79,16,1,1,0,0,0

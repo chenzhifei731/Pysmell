@@ -1,0 +1,16 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\util\quoting.py,5,63,1,1,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\choosers.py,97,50,3,1,1,1
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\choosers.py,110,50,3,1,1,1
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\components.py,55,78,3,1,1,1
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\components.py,158,49,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,38,43,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,53,43,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,74,31,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,91,55,3,1,1,1
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,102,72,1,1,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,145,33,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\gui\widgets\widget_pack.py,215,43,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\python_bindings\argparse_to_json.py,97,55,1,0,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\python_bindings\config_generator.py,35,93,1,1,0,0
+Gooey,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\Gooey\gooey\python_bindings\docopt_to_json.py,55,27,1,0,0,0

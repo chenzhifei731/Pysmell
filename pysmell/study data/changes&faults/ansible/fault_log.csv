@@ -1,0 +1,706 @@
+commit,author,date,title,faultID,file
+6000db7,Brian Coca,2015-05-26 11:49:56,Merge pull request #9636 from Batmat/fix-message-i18n-parsing-error,9635
+b6ea8de,Serge van Ginderachter,2015-05-23 20:30:08,limit extensions for files in group/host_vars dir,11017,lib/ansible/utils/__init__.py
+ae9ba4a,Leonid Evdokimov,2014-07-03 10:32:31,"uri: provide raw_content, parse json without double-decoding. Fixes #7586",7586
+b23a879,Brian Coca,2015-05-04 16:42:25,now properly inherit data from ansible.cfg for sudo/su ask pass fixes #10891,10891,lib/ansible/utils/__init__.py
+b23a879,Brian Coca,2015-05-04 16:42:25,now properly inherit data from ansible.cfg for sudo/su ask pass fixes #10891,10891,v2/ansible/cli/__init__.py
+c58aaf7,James Cammarata,2015-04-21 09:48:13,Properly handle lack of stdout in results in v2,10549,v2/ansible/plugins/action/__init__.py
+d600c65,James Cammarata,2015-04-20 11:15:31,Fix fetch action plugin in v2 to use the inventory_hostname in the dest dir,10736,v2/ansible/plugins/action/fetch.py
+d8be6fe,Peter Oliver,2015-04-19 17:00:35,"Consistently use ""OracleLinux"" in OS detection.",10742,lib/ansible/module_utils/facts.py
+2a6a01e,Michael Scherer,2015-04-18 22:33:55,Port some changes that occured on v1 get_facts modules to v2,10485,v2/ansible/module_utils/facts.py
+f4172fb,James Cammarata,2015-04-17 13:00:25,Fix tag handling on meta:flush_handlers tasks,10758,lib/ansible/playbook/play.py
+f4172fb,James Cammarata,2015-04-17 13:00:25,Fix tag handling on meta:flush_handlers tasks,10758,lib/ansible/playbook/task.py
+5675982,Chris Church,2015-04-09 13:36:58,"Only try kerberos auth when username contains `@` and pass realm to pywinrm. Alternative to #10644, fixes #10577.",10577,lib/ansible/runner/connection_plugins/winrm.py
+1fa3dbb,Brian Coca,2015-04-01 12:12:34,capture IOErrors on backup_local (happens on non posix filesystems),10591,lib/ansible/module_utils/basic.py
+aaa25eb,Toshio Kuratomi,2015-03-25 12:22:45,Make run_command() work when we get byte str with non-ascii characters (instead of unicode type like we were expecting),10536,lib/ansible/module_utils/basic.py
+ec8118e,Brian Coca,2015-03-21 02:02:59,"now ansible ignores tempate errors on passwords they could be caused by random character combinations, fixes #10468",10468,lib/ansible/runner/__init__.py
+d4eddab,Eri Bastos,2015-03-20 14:40:44,Patch for bug #10485 - ansible_distribution fact populates as 'RedHat' on Oracle Linux systems,10485,lib/ansible/module_utils/facts.py
+23f7538,Toshio Kuratomi,2015-03-16 14:51:08,Merge pull request #10467 from sgargan/ec2_creds_error,10422
+fbff044,Steve Gargan,2015-03-15 12:20:34,fix for issue #10422. outputs informative error message when AWS credentials are not available,10422,plugins/inventory/ec2.py
+587ab17,Brian Coca,2015-03-11 15:55:37,fixes password error detection for ssh connection plugin removes sycnronize test that does not work with current sudo setup Fixes #10434,10434,lib/ansible/constants.py
+587ab17,Brian Coca,2015-03-11 15:55:37,fixes password error detection for ssh connection plugin removes sycnronize test that does not work with current sudo setup Fixes #10434,10434,lib/ansible/runner/connection_plugins/ssh.py
+587ab17,Brian Coca,2015-03-11 15:55:37,fixes password error detection for ssh connection plugin removes sycnronize test that does not work with current sudo setup Fixes #10434,10434,test/units/TestSynchronize.py
+de5eae2,Brian Coca,2015-03-11 12:18:53,fixed traceback when x_user implicitly sets the become method,10430,lib/ansible/playbook/play.py
+de5eae2,Brian Coca,2015-03-11 12:18:53,fixed traceback when x_user implicitly sets the become method,10430,lib/ansible/playbook/task.py
+2d73892,Shirou WAKAYAMA,2015-03-11 14:50:27,use to_unicode() in _jinja2_vars if type is str.,10426,lib/ansible/utils/template.py
+a8c02b7,Toshio Kuratomi,2015-03-02 12:25:41,Rework the shell quoting of remote checksumming,10363,lib/ansible/runner/shell_plugins/csh.py
+a8c02b7,Toshio Kuratomi,2015-03-02 12:25:41,Rework the shell quoting of remote checksumming,10363,lib/ansible/runner/shell_plugins/sh.py
+8915995,Toshio Kuratomi,2015-02-26 14:05:33,Fix name of a task containing a template causing traceback,10321,lib/ansible/playbook/__init__.py
+8a5067d,Toshio Kuratomi,2015-02-26 12:28:02,Adapt sanitize_output to log messages instead of assuming properly formatted key-value pairs,10332,lib/ansible/utils/__init__.py
+affb664,Toshio Kuratomi,2015-02-25 11:26:07,Port fix for #10300 to v2,10300,v2/ansible/plugins/action/template.py
+affb664,Toshio Kuratomi,2015-02-25 11:26:07,Port fix for #10300 to v2,10300,v2/ansible/plugins/shell/sh.py
+ac40ffa,Toshio Kuratomi,2015-02-25 11:09:27,"If remote_checksum fails because the dest is a directory, try a file within the dest.",10300,lib/ansible/runner/action_plugins/template.py
+b9aa8f0,Brian Coca,2015-02-23 05:17:41,skips certain ssh errors and attempts to continue should fix #10225,10225,lib/ansible/runner/connection_plugins/ssh.py
+2dc910b,Alvaro Lopez Ortega,2015-02-21 22:36:03,Fixes bug #10225 - Runtime error,10225,v2/ansible/plugins/connections/ssh.py
+2e929cf,Alvaro Lopez Ortega,2015-02-21 19:54:38,Fixes bug #10281 - Trailing zeros were truncated from strings,10281,lib/ansible/inventory/ini.py
+a14248f,Alvaro Lopez Ortega,2015-02-21 16:40:50,Fixes bug #10281 - Trailing zeros were truncated from strings,10281,lib/ansible/inventory/ini.py
+5416a99,Brian Coca,2015-02-16 15:02:48,Merge pull request #10258 from stratoukos/issue_10257,10257
+6caeded,Stratos Moros,2015-02-16 21:16:26,Fix umask calculation on file creation. Fixes #10257,10257,lib/ansible/module_utils/basic.py
+0b8101a,Brian Coca,2015-02-11 13:57:04,Merge pull request #10141 from dresden-weekly/fix_#10051,10051
+10df1b8,Toshio Kuratomi,2015-02-11 00:10:37,Fix template module broken when modifying symlinks,10208,lib/ansible/runner/action_plugins/template.py
+402a6d0,Toshio Kuratomi,2015-02-09 14:30:06,Explicitly close files opened by facts,10157,lib/ansible/module_utils/facts.py
+402a6d0,Toshio Kuratomi,2015-02-09 14:30:06,Explicitly close files opened by facts,10157,v2/ansible/module_utils/facts.py
+8b7dc6b,Brian Coca,2015-02-08 23:23:30,better missing editor message fixes #10182,10182,lib/ansible/utils/vault.py
+cbbe2f4,Brian Coca,2015-02-03 10:26:48,more resilient errors for bad host declarations in play should fix #10148,10148,lib/ansible/playbook/play.py
+6d78862,Toshio Kuratomi,2015-02-02 13:37:31,Be explicit about unicode str transformation,10126,lib/ansible/callbacks.py
+3d5523f,Toshio Kuratomi,2015-01-28 14:23:46,Fix for unicode filenames for template module,10110,lib/ansible/utils/template.py
+915d232,Toshio Kuratomi,2015-01-26 20:37:20,jinja2 cannot handle byte strs with non-ascii.  So we need to transform potential byte str into unicode type.  This fix is for dynamic inventory.,10007,lib/ansible/callbacks.py
+915d232,Toshio Kuratomi,2015-01-26 20:37:20,jinja2 cannot handle byte strs with non-ascii.  So we need to transform potential byte str into unicode type.  This fix is for dynamic inventory.,10007,lib/ansible/inventory/script.py
+915d232,Toshio Kuratomi,2015-01-26 20:37:20,jinja2 cannot handle byte strs with non-ascii.  So we need to transform potential byte str into unicode type.  This fix is for dynamic inventory.,10007,lib/ansible/module_utils/basic.py
+915d232,Toshio Kuratomi,2015-01-26 20:37:20,jinja2 cannot handle byte strs with non-ascii.  So we need to transform potential byte str into unicode type.  This fix is for dynamic inventory.,10007,v2/ansible/inventory/script.py
+915d232,Toshio Kuratomi,2015-01-26 20:37:20,jinja2 cannot handle byte strs with non-ascii.  So we need to transform potential byte str into unicode type.  This fix is for dynamic inventory.,10007,v2/ansible/module_utils/basic.py
+e8144b3,Akos Vandra,2015-01-25 14:51:01,fixes #10086,10086,lib/ansible/runner/shell_plugins/sh.py
+e8144b3,Akos Vandra,2015-01-25 14:51:01,fixes #10086,10086,v2/ansible/plugins/shell/sh.py
+e6b5cc9,Toshio Kuratomi,2015-01-20 12:19:42,Merge pull request #9887 from lmacken/devel,9886
+dde32a8,Toshio Kuratomi,2015-01-15 11:08:00,Set default values for shell variables that we use,9991
+dea0ee6,Luke Macken,2014-12-24 11:31:44,Use send instead of sendv on the systemd.journal (fixes #9886),9886,lib/ansible/module_utils/basic.py
+1ed9b66,Costi Ciudatu,2014-12-11 18:47:24,run_once tasks are skipped without checking the delegate_to host #9784,9784,lib/ansible/runner/__init__.py
+6d785ca,Nathan Cahill,2014-12-16 20:58:38,support variables with dashes - fixes #9786,9786,lib/ansible/utils/__init__.py
+b84fba4,Michael Scherer,2014-12-13 20:56:06,Strip the line to filter lines composed of only whitespaces,9395,lib/ansible/runner/connection_plugins/ssh.py
+4624712,jszwedko,2014-12-10 16:54:58,Allow retries to be templatable,5865,lib/ansible/runner/__init__.py
+a2b2e54,Toshio Kuratomi,2014-12-03 14:42:01,Fix checksum code to work with delegate_to/local_action,9704,lib/ansible/runner/__init__.py
+1ec8b6e,Toshio Kuratomi,2014-12-03 10:45:54,Have remote_expanduser honor sudo and su users.,9663,lib/ansible/runner/__init__.py
+29d41bb,James Cammarata,2014-12-01 21:25:35,Revise patch from earlier using even more variable sources for HostVars,9684,lib/ansible/runner/__init__.py
+6570a6c,James Cammarata,2014-12-01 14:59:25,Use additional vars when templating included file names,9669,lib/ansible/playbook/play.py
+e61e8a3,James Cammarata,2014-12-01 11:51:09,Use extra vars when creating HostVars,9667,lib/ansible/runner/__init__.py
+a1adff4,Baptiste Mathus,2014-11-26 10:35:45,Setting LC_MESSAGES: prevent unparseable messages,9635,lib/ansible/module_utils/basic.py
+a1adff4,Baptiste Mathus,2014-11-26 10:35:45,Setting LC_MESSAGES: prevent unparseable messages,9635,lib/ansible/runner/shell_plugins/sh.py
+968c56d,James Cammarata,2014-11-25 12:06:58,Expand playbook_dir in time for loading tasks,9618,lib/ansible/playbook/play.py
+4b6b58a,James Cammarata,2014-11-20 12:20:32,Fix role parameter precedence after 9a0f8f0,9497,lib/ansible/playbook/__init__.py
+4b6b58a,James Cammarata,2014-11-20 12:20:32,Fix role parameter precedence after 9a0f8f0,9497,lib/ansible/playbook/play.py
+4b6b58a,James Cammarata,2014-11-20 12:20:32,Fix role parameter precedence after 9a0f8f0,9497,lib/ansible/playbook/task.py
+4b6b58a,James Cammarata,2014-11-20 12:20:32,Fix role parameter precedence after 9a0f8f0,9497,lib/ansible/runner/__init__.py
+c4c3cc3,Toshio Kuratomi,2014-11-19 11:50:02,Transform both values of a task name into a byte str prior to comparing,9571,lib/ansible/callbacks.py
+c4c3cc3,Toshio Kuratomi,2014-11-19 11:50:02,Transform both values of a task name into a byte str prior to comparing,9571,lib/ansible/utils/__init__.py
+9a0f8f0,James Cammarata,2014-11-17 15:30:22,Split out various vars-related things to avoid merging too early,9498,lib/ansible/playbook/__init__.py
+9a0f8f0,James Cammarata,2014-11-17 15:30:22,Split out various vars-related things to avoid merging too early,9498,lib/ansible/playbook/play.py
+9a0f8f0,James Cammarata,2014-11-17 15:30:22,Split out various vars-related things to avoid merging too early,9498,lib/ansible/playbook/task.py
+9a0f8f0,James Cammarata,2014-11-17 15:30:22,Split out various vars-related things to avoid merging too early,9498,lib/ansible/runner/__init__.py
+9a0f8f0,James Cammarata,2014-11-17 15:30:22,Split out various vars-related things to avoid merging too early,9498,test/units/TestPlayVarsFiles.py
+9ae0fb5,James Cammarata,2014-11-03 14:32:15,Make OSX fallback to paramiko more selective,9470,lib/ansible/runner/__init__.py
+c86851b,Toshio Kuratomi,2014-10-22 18:45:02,Quote ControlPath ssh parameter,9316,lib/ansible/runner/connection_plugins/ssh.py
+9ee3cd1,James Cammarata,2014-10-22 11:08:01,Fix typo in vault edit helper code,9399,lib/ansible/utils/vault.py
+b4f9631,James Cammarata,2014-10-22 10:53:58,"Revert ""remove complex_args_hack as it was only needed for Baby JSON""",9400,lib/ansible/runner/__init__.py
+b4f9631,James Cammarata,2014-10-22 10:53:58,"Revert ""remove complex_args_hack as it was only needed for Baby JSON""",9400,lib/ansible/runner/action_plugins/normal.py
+feb9ed1,Toshio Kuratomi,2014-10-20 22:15:46,Fix template module incorrectly handling mode when dest is a directory,9350,lib/ansible/runner/action_plugins/template.py
+b61a785,James Cammarata,2014-10-20 13:10:42,Catch template syntax errors specifically when templating strings,9333,lib/ansible/utils/template.py
+5efc4ef,Christian Hammerl,2014-10-18 15:02:04,Fix os_family and distribution on archlinux,8732,lib/ansible/module_utils/facts.py
+9595201,David Kirchner,2014-10-14 14:43:28,Added _meta hostvars key to gce.py plugin per the discussion in issue #9291.,9291,plugins/inventory/gce.py
+2b9e235,Toshio Kuratomi,2014-10-10 10:28:07,Rework distribution fact checking to be a little less heinous and add support for Mandriva.,9282,lib/ansible/module_utils/facts.py
+d19fe8d,James Cammarata,2014-10-10 01:18:18,Fetch vars for host directly when calculating the delegated user,8224,lib/ansible/inventory/__init__.py
+d19fe8d,James Cammarata,2014-10-10 01:18:18,Fetch vars for host directly when calculating the delegated user,8224,lib/ansible/runner/__init__.py
+2a0d18b,James Cammarata,2014-10-09 16:45:08,Insert newlines correctly when splitting literal blocks,9274,lib/ansible/module_utils/splitter.py
+48a308a,Toshio Kuratomi,2014-10-09 02:47:41,Allow both old-style and new-style role dependencies to be valid.,9173,lib/ansible/utils/__init__.py
+48a308a,Toshio Kuratomi,2014-10-09 02:47:41,Allow both old-style and new-style role dependencies to be valid.,9173,test/units/TestUtils.py
+2769098,Rob Howard,2014-10-08 13:44:59,Make listify respect the global setting for undefined variables.,9008,lib/ansible/utils/__init__.py
+2769098,Rob Howard,2014-10-08 13:44:59,Make listify respect the global setting for undefined variables.,9008,test/units/TestUtils.py
+12d5b75,James Cammarata,2014-10-06 10:50:55,Template play vars after reading them,9242,lib/ansible/playbook/play.py
+0564468,James Cammarata,2014-10-04 21:40:59,Fix bug in plugin path caching,9263,lib/ansible/utils/plugins.py
+a175168,Bruce Pennypacker,2014-10-03 15:47:03,atfork import warning should be suppressed when system_warnings = False,9247,lib/ansible/runner/__init__.py
+0c40c6c,James Cammarata,2014-10-03 13:30:47,Fix order of resolving dependent role variables from vars files,9178,lib/ansible/playbook/play.py
+313f26f,James Cammarata,2014-09-30 15:50:46,Fix issue with vars precedence from roles,9219,lib/ansible/playbook/play.py
+313f26f,James Cammarata,2014-09-30 15:50:46,Fix issue with vars precedence from roles,9219,lib/ansible/runner/__init__.py
+a1809a3,Toshio Kuratomi,2014-09-29 17:54:15,Target unnecessary templating warning at lines consisting of a single variable,6407,lib/ansible/playbook/task.py
+6af5455,James Cammarata,2014-09-25 19:22:35,Default 'smart' connection to paramiko for OSX platforms,5007,lib/ansible/runner/__init__.py
+128c10b,James Cammarata,2014-09-25 14:46:16,Don't template 'vars' dictionary during templating,9132,lib/ansible/utils/template.py
+1970361,James Cammarata,2014-09-25 11:06:01,Fix action_plugins for modules not respecting check mode,9140,lib/ansible/runner/action_plugins/assemble.py
+1970361,James Cammarata,2014-09-25 11:06:01,Fix action_plugins for modules not respecting check mode,9140,lib/ansible/runner/action_plugins/unarchive.py
+c4f1785,James Cammarata,2014-09-23 16:12:01,Use split_args instead of shlex to split include params,8947,lib/ansible/playbook/__init__.py
+e47f613,James Cammarata,2014-09-23 15:19:50,Push the expanduser call on the source down to slurp rather than fetch,8942,lib/ansible/runner/action_plugins/fetch.py
+12c0378,James Cammarata,2014-09-23 14:51:56,Skip null id route tables when adding/deleting them in ec2_vpc,8552
+c289ba1,Toshio Kuratomi,2014-09-22 11:47:56,Merge pull request #9084 from mscherer/fix9704/fix_service,9704
+87b0b0e,Michael Scherer,2014-09-21 14:55:31,"Fix #9704, correctly set changed as false when nothing is done",9704
+1bae4e4,James Cammarata,2014-09-19 15:17:46,Add note on ec2_lc regarding immutability of configs once created,8927
+9d45f3a,James Cammarata,2014-09-19 15:08:38,Before decrypting check if vault password is set or error early,8926,lib/ansible/utils/__init__.py
+da5de72,James Cammarata,2014-09-18 15:53:41,Allow with_first_files to search relative to templates and vars in roles,8879,lib/ansible/runner/lookup_plugins/first_found.py
+6b1ae82,James Cammarata,2014-09-17 15:20:05,Allow filtering by availability zone for exact_count with ec2,8863
+c3612e0,James Cammarata,2014-09-16 20:51:00,Move delegate_to out of runner module_vars to prevent bleeding across runs,8705,lib/ansible/callbacks.py
+c3612e0,James Cammarata,2014-09-16 20:51:00,Move delegate_to out of runner module_vars to prevent bleeding across runs,8705,lib/ansible/runner/__init__.py
+8dfc54b,Toshio Kuratomi,2014-09-16 16:12:09,Refactor the Linux service_enable() method,9009
+e294e31,Toshio Kuratomi,2014-09-16 16:12:09,Refactor the Linux service_enable() method,9009
+4f03dd6,James Cammarata,2014-09-16 21:38:49,Ensure port in docker expose list is a string,8731
+4a9cf3f,James Cammarata,2014-09-11 15:01:34,Allow hostvars variables to be templated,7844,lib/ansible/runner/__init__.py
+b376e20,James Cammarata,2014-09-16 12:03:40,"Adding ""follow"" param for file/copy options",8998,lib/ansible/module_utils/basic.py
+b376e20,James Cammarata,2014-09-16 12:03:40,"Adding ""follow"" param for file/copy options",8998,lib/ansible/runner/action_plugins/template.py
+b376e20,James Cammarata,2014-09-16 12:03:40,"Adding ""follow"" param for file/copy options",8998,lib/ansible/utils/module_docs_fragments/files.py
+2303044,Will Thames,2014-09-16 10:22:36,Applied fix for sudo with no prompt to paramiko,8418,lib/ansible/runner/connection_plugins/paramiko_ssh.py
+de77f33,Matt Martz,2014-09-05 08:42:31,Don't throw away useful stdout and stderr. Fixes #8418,8418,lib/ansible/runner/connection_plugins/ssh.py
+cdf938f,James Cammarata,2014-09-15 13:15:46,Ensure remote files are chmod'd properly for su/su_user too,8594,lib/ansible/runner/action_plugins/assemble.py
+cdf938f,James Cammarata,2014-09-15 13:15:46,Ensure remote files are chmod'd properly for su/su_user too,8594,lib/ansible/runner/action_plugins/copy.py
+cdf938f,James Cammarata,2014-09-15 13:15:46,Ensure remote files are chmod'd properly for su/su_user too,8594,lib/ansible/runner/action_plugins/template.py
+cdf938f,James Cammarata,2014-09-15 13:15:46,Ensure remote files are chmod'd properly for su/su_user too,8594,lib/ansible/runner/action_plugins/unarchive.py
+0c4a749,James Cammarata,2014-09-15 11:29:04,Ensure checkmode is honored for templates that haven't changed,8998,lib/ansible/runner/action_plugins/template.py
+9fb6cab,Toshio Kuratomi,2014-09-15 09:00:11,Fix splitting the tag from the image name,8983
+dc9482d,James Cammarata,2014-09-11 16:27:10,Fix quoting issues in lineinfile for individual single-quotes,8806
+1c3039f,Toshio Kuratomi,2014-09-11 11:22:50,Omit tag from parsed image name,8925
+22dbb65,James Cammarata,2014-09-11 12:10:19,Move initscript rc check to later in service status check,7284
+e54178f,James Cammarata,2014-09-11 09:46:53,Catch additional errors in fetch_url,8971,lib/ansible/module_utils/urls.py
+2387da0,Michael DeHaan,2014-09-10 17:42:35,Merge pull request #8901 from jsmartin/ec2_replace_all,8501
+dacb6b8,James Cammarata,2014-09-10 16:32:26,Use utils.merge_hash() instead of update for cache merging,8968,lib/ansible/runner/__init__.py
+317ab06,James Cammarata,2014-09-04 09:35:41,Fixing multiline parsing to preserve newlines,8813,lib/ansible/module_utils/splitter.py
+317ab06,James Cammarata,2014-09-04 09:35:41,Fixing multiline parsing to preserve newlines,8813,test/units/TestUtils.py
+a571fd4,James Cammarata,2014-09-10 09:51:55,Convert boolean strings from set_fact to proper boolean values,8629,lib/ansible/runner/action_plugins/set_fact.py
+0365a05,James Martin,2014-08-25 01:18:41,Rolling termination working.  Fixes #8501.,8501
+a9b5b1b,Toshio Kuratomi,2014-09-09 15:41:58,Test that we can override variables set in inventory when the vars_file name is templated,8903
+10afaee,James Cammarata,2014-09-09 15:35:08,Fixing new caching related issue with host vars,8944,lib/ansible/cache/base.py
+10afaee,James Cammarata,2014-09-09 15:35:08,Fixing new caching related issue with host vars,8944,lib/ansible/cache/memcached.py
+10afaee,James Cammarata,2014-09-09 15:35:08,Fixing new caching related issue with host vars,8944,lib/ansible/cache/memory.py
+10afaee,James Cammarata,2014-09-09 15:35:08,Fixing new caching related issue with host vars,8944,lib/ansible/cache/redis.py
+10afaee,James Cammarata,2014-09-09 15:35:08,Fixing new caching related issue with host vars,8944,lib/ansible/runner/__init__.py
+2474ce5,Serge van Ginderachter,2014-09-09 21:57:23,Exit with rc 1 if role doesn't exist/is not found,8823
+9a29fee,Mathieu MD,2014-09-05 22:09:29,Remove namespace restrictions in ec2_metric_alarm Fixes #7970,7970
+8cc3543,James Cammarata,2014-09-04 16:00:02,"Re-allow templating of complex_args, but count params to prevent injection",8810,lib/ansible/playbook/play.py
+8cc3543,James Cammarata,2014-09-04 16:00:02,"Re-allow templating of complex_args, but count params to prevent injection",8810,lib/ansible/runner/__init__.py
+8cc3543,James Cammarata,2014-09-04 16:00:02,"Re-allow templating of complex_args, but count params to prevent injection",8810,lib/ansible/utils/__init__.py
+8cc3543,James Cammarata,2014-09-04 16:00:02,"Re-allow templating of complex_args, but count params to prevent injection",8810,test/units/TestUtils.py
+f14dba8,James Cammarata,2014-09-05 12:46:33,Don't re-add galaxy deps if they've already been added for install,8890
+286ab6a,James Cammarata,2014-09-04 10:00:40,Merge pull request #8868 from mike-d-d/fix-route_tables-default,8666
+9adde1e,James Cammarata,2014-09-04 09:34:32,Fix instance comparison for deps in bin/ansible-galaxy,8884
+14b8e2c,James Cammarata,2014-09-03 09:39:50,Make sure set_fact variables go into VARS_CACHE,8758,lib/ansible/playbook/__init__.py
+4510f2e,Mike Dixon,2014-09-02 19:16:39,Fix #8666 for real,8666
+a7d3870,Oleg Bulatov,2014-09-01 23:23:36,Fix #7711,7711
+b708267,Michael DeHaan,2014-08-28 10:48:32,Merge pull request #8790 from sivel/issue/8784,8784
+ab495d1,James Cammarata,2014-08-28 08:21:09,Set the shell variable on the ssh connection type for accelerated mode,8799,lib/ansible/runner/connection_plugins/accelerate.py
+2b30798,Matt Martz,2014-08-27 19:15:57,Don't use ternary if statements. Fixes #8784,8784,lib/ansible/module_utils/basic.py
+ed34cee,James Cammarata,2014-08-26 14:27:02,Atomically move known hosts file into place for paramiko connections,8169,lib/ansible/runner/connection_plugins/paramiko_ssh.py
+36bd9ef,James Cammarata,2014-08-14 23:35:54,Stop/remove existing docker container if the specified tag is different,8278
+75bd1fa,James Cammarata,2014-08-26 11:49:02,Merge pull request #8757 from sivel/issue/8752,8752
+206c201,Matt Martz,2014-08-26 09:02:22,The correct option is password_file. Fixes #8752,8752
+6b3f7a8,James Cammarata,2014-08-22 14:07:42,Fixing bug with image/tag pulling in docker module,8670
+311ec54,James Cammarata,2014-08-20 15:29:17,"If not specified, do not modify subnet/route_tables for ec2 VPCs",8666
+d011880,James Cammarata,2014-08-21 13:09:32,Checking for localized versions of the su password prompt,8681,lib/ansible/runner/connection_plugins/paramiko_ssh.py
+d011880,James Cammarata,2014-08-21 13:09:32,Checking for localized versions of the su password prompt,8681,lib/ansible/runner/connection_plugins/ssh.py
+d011880,James Cammarata,2014-08-21 13:09:32,Checking for localized versions of the su password prompt,8681,lib/ansible/utils/__init__.py
+d011880,James Cammarata,2014-08-21 13:09:32,Checking for localized versions of the su password prompt,8681,lib/ansible/utils/su_prompts.py
+d011880,James Cammarata,2014-08-21 13:09:32,Checking for localized versions of the su password prompt,8681,test/units/TestUtils.py
+3b19b83,James Cammarata,2014-08-21 16:12:05,Add GovCloud region to list of regions for AWS,8604,lib/ansible/module_utils/ec2.py
+8a1fbed,James Cammarata,2014-08-15 15:57:02,Correct variable blending from vars_files with hostvars in them,8638,lib/ansible/playbook/__init__.py
+8a1fbed,James Cammarata,2014-08-15 15:57:02,Correct variable blending from vars_files with hostvars in them,8638,lib/ansible/playbook/play.py
+8a1fbed,James Cammarata,2014-08-15 15:57:02,Correct variable blending from vars_files with hostvars in them,8638,lib/ansible/runner/__init__.py
+8a1fbed,James Cammarata,2014-08-15 15:57:02,Correct variable blending from vars_files with hostvars in them,8638,lib/ansible/utils/__init__.py
+8a1fbed,James Cammarata,2014-08-15 15:57:02,Correct variable blending from vars_files with hostvars in them,8638,test/units/TestPlayVarsFiles.py
+8956c63,James Cammarata,2014-08-20 12:02:56,Remove incorrect use of module.fail_json during import check for s3,8698
+d4ff0d1,James Cammarata,2014-08-19 11:30:04,Make sure password files from lookups are created with restrictive permissions,8652,lib/ansible/runner/lookup_plugins/password.py
+8a5675c,James Cammarata,2014-08-19 10:35:01,Fixing no_log for the playbook level use,8647,lib/ansible/playbook/play.py
+8a5675c,James Cammarata,2014-08-19 10:35:01,Fixing no_log for the playbook level use,8647,lib/ansible/playbook/task.py
+8648fa1,James Cammarata,2014-08-19 09:09:13,Removing skipped=True from result when using creates= and removes=,8645
+ca6db40,James Cammarata,2014-08-19 09:02:50,"When serializing inventory, pop from the start of the hosts list",8646,lib/ansible/playbook/__init__.py
+c8494cd,James Cammarata,2014-08-18 22:04:25,Set prompt encoding to a sane value when sys.stdout.encoding is None,8644,lib/ansible/callbacks.py
+379e318,James Cammarata,2014-08-18 16:02:45,Fix check mode issues with copy module,8639,lib/ansible/runner/action_plugins/copy.py
+379e318,James Cammarata,2014-08-18 16:02:45,Fix check mode issues with copy module,8639,lib/ansible/utils/__init__.py
+542f071,James Cammarata,2014-08-18 13:33:23,Correct check for role library/ existence,8633,lib/ansible/playbook/play.py
+e2b8f05,James Cammarata,2014-08-18 12:59:00,Add option to disable ControlPath to ssh options during rsync,8473
+e389584,James Cammarata,2014-08-18 12:27:03,Make sure group_vars/all is loaded for ungrouped hosts,6563,lib/ansible/inventory/__init__.py
+92f7aa7,James Cammarata,2014-08-18 10:37:07,Fix bad commit from #8095 and fix bad splitting on :'s in the image,8658
+8dafacd,James Cammarata,2014-08-15 11:03:29,Make env param a dict type instead of list,8199,lib/ansible/module_utils/basic.py
+600a465,James Cammarata,2014-08-07 00:07:55,Catch error in atomic_move when creating temporary file,8480,lib/ansible/module_utils/basic.py
+ee18c55,James Cammarata,2014-08-14 13:18:26,Load group_vars for new groups loaded via add_host,8605,lib/ansible/runner/action_plugins/add_host.py
+b4476c2,James Cammarata,2014-08-14 12:26:52,Use match() instead of search() for pattern matching,8614,lib/ansible/inventory/__init__.py
+f48fa37,James Cammarata,2014-08-14 12:13:40,Fix host pattern matching and enhance error detection,8614,lib/ansible/inventory/__init__.py
+a01d97f,James Cammarata,2014-08-14 10:55:26,Fixing variable name bug introduced in ac8950f,8617,lib/ansible/playbook/__init__.py
+fc7859f,James Cammarata,2014-08-12 09:51:21,Make sure playbook_dir variable is an absolute path,8317,lib/ansible/playbook/__init__.py
+fc7859f,James Cammarata,2014-08-12 09:51:21,Make sure playbook_dir variable is an absolute path,8317,lib/ansible/playbook/play.py
+fc7859f,James Cammarata,2014-08-12 09:51:21,Make sure playbook_dir variable is an absolute path,8317,lib/ansible/runner/__init__.py
+ac8950f,James Cammarata,2014-08-11 19:21:39,Set special vars in play.vars rather than load_vars,8534,lib/ansible/playbook/__init__.py
+ac8950f,James Cammarata,2014-08-11 19:21:39,Set special vars in play.vars rather than load_vars,8534,lib/ansible/playbook/play.py
+20957a1,James Cammarata,2014-08-11 13:13:48,Remove duplicate compiling of task when: statements,8538,lib/ansible/playbook/play.py
+20957a1,James Cammarata,2014-08-11 13:13:48,Remove duplicate compiling of task when: statements,8538,lib/ansible/playbook/task.py
+b3371b8,James Cammarata,2014-08-11 11:01:23,Unquote lines that were quoted for safety during eval in lineinfile,8535
+a650421,James Cammarata,2014-08-11 10:16:31,Catch task parameter splitting errors nicely,8481,lib/ansible/playbook/task.py
+a48328f,Michael DeHaan,2014-08-08 13:50:52,Merge pull request #7725 from slapers/network-secondaries-issue,7724
+63bf2f6,James Cammarata,2014-08-08 11:54:38,Preserve all line breaks in literal blocks,8512,lib/ansible/module_utils/splitter.py
+63bf2f6,James Cammarata,2014-08-08 11:54:38,Preserve all line breaks in literal blocks,8512,lib/ansible/utils/__init__.py
+63bf2f6,James Cammarata,2014-08-08 11:54:38,Preserve all line breaks in literal blocks,8512,test/units/TestUtils.py
+ba36eb9,Michael DeHaan,2014-08-08 10:54:01,Merge pull request #8518 from awasilyev/devel,8344
+88ff64e,Alexey Wasilyev,2014-08-08 18:42:40,Fix for #8344,8344
+d4cedfc,James Cammarata,2014-08-07 23:49:36,Fix missing variable initialization for async jid,8491,lib/ansible/runner/poller.py
+e19ed34,James Cammarata,2014-08-07 13:28:09,Make sure default vars are used in template calls for tasks,8499,lib/ansible/playbook/task.py
+4bf826f,James Cammarata,2014-08-07 11:17:13,Include *.ps1 files in the library for installation,8490,setup.py
+4a157a7,James Cammarata,2014-08-06 12:10:07,Catch auth errors in winrm and properly raise errors,7875,lib/ansible/runner/connection_plugins/winrm.py
+4e6685d,Michael DeHaan,2014-08-04 21:18:46,Merge pull request #8442 from Jmainguy/rpm_key_8424,8424
+150feb6,Jonathan Mainguy,2014-08-04 20:55:49,"Removed max 8192 bytes, fixes #8424",8424
+5d0bb33,James Cammarata,2014-08-04 15:32:41,Make run_command process communication smarter,7452,lib/ansible/module_utils/basic.py
+74cbeb1,James Cammarata,2014-07-30 15:06:50,Default interface type to ipv4 when checking flags for Solaris,8330,lib/ansible/module_utils/facts.py
+542aa49,Michael DeHaan,2014-08-04 14:14:22,Merge pull request #8409 from Jmainguy/hostname_8339,8339
+bd49a83,James Cammarata,2014-08-04 13:07:21,Atomically move known hosts file into place when edited by paramiko connections,8169,lib/ansible/runner/connection_plugins/paramiko_ssh.py
+af0d8cd,James Cammarata,2014-08-04 09:31:30,Fix literal block multiline parsing,8394,lib/ansible/module_utils/splitter.py
+af0d8cd,James Cammarata,2014-08-04 09:31:30,Fix literal block multiline parsing,8394,test/units/TestUtils.py
+6d94ae6,James Cammarata,2014-08-04 09:43:08,Remove unnecessary unicode conversions from parse_kv,8425,lib/ansible/runner/__init__.py
+6d94ae6,James Cammarata,2014-08-04 09:43:08,Remove unnecessary unicode conversions from parse_kv,8425,lib/ansible/utils/__init__.py
+6d94ae6,James Cammarata,2014-08-04 09:43:08,Remove unnecessary unicode conversions from parse_kv,8425,test/units/TestUtils.py
+c0966ee,Jonathan Mainguy,2014-08-02 15:38:52,Fixes issue #8339 where Scientific Linux incorrectly tries to use FedoraStrategy of hostnamectl,8339
+745b280,James Cammarata,2014-07-31 14:01:44,"Check for the numeric ""all"" value (-1) for the rule protocol",7832
+7a5076c,James Cammarata,2014-07-30 14:47:50,Catching shlex splitting error in fact gathering get_cmdline call,8352,lib/ansible/module_utils/facts.py
+8ee6906,Kurt Yoder,2014-07-30 14:33:01,Fix Docker image name parsing,8357
+189824d,James Cammarata,2014-07-30 08:51:27,Remove whitespace around args,8343,lib/ansible/module_utils/splitter.py
+189824d,James Cammarata,2014-07-30 08:51:27,Remove whitespace around args,8343,lib/ansible/utils/__init__.py
+e6fa50a,James Cammarata,2014-07-29 14:16:47,Move splitter to module_utils so modules can use it and fix command arg splitting,8338,lib/ansible/module_utils/splitter.py
+e6fa50a,James Cammarata,2014-07-29 14:16:47,Move splitter to module_utils so modules can use it and fix command arg splitting,8338,lib/ansible/playbook/play.py
+e6fa50a,James Cammarata,2014-07-29 14:16:47,Move splitter to module_utils so modules can use it and fix command arg splitting,8338,lib/ansible/runner/__init__.py
+e6fa50a,James Cammarata,2014-07-29 14:16:47,Move splitter to module_utils so modules can use it and fix command arg splitting,8338,lib/ansible/utils/__init__.py
+e6fa50a,James Cammarata,2014-07-29 14:16:47,Move splitter to module_utils so modules can use it and fix command arg splitting,8338,lib/ansible/utils/splitter.py
+e6fa50a,James Cammarata,2014-07-29 14:16:47,Move splitter to module_utils so modules can use it and fix command arg splitting,8338,test/units/TestUtils.py
+aee940a,James Cammarata,2014-07-28 15:27:54,Reworking _clean_data() to be smarter about replaces,8228,lib/ansible/utils/__init__.py
+aee940a,James Cammarata,2014-07-28 15:27:54,Reworking _clean_data() to be smarter about replaces,8228,test/units/TestUtils.py
+6e81456,James Cammarata,2014-07-28 16:34:59,Unquote params passed to an include statement,8315,lib/ansible/playbook/play.py
+f948a94,Michael DeHaan,2014-07-28 15:48:51,Merge pull request #8313 from sivel/issue/8250,8250
+571f343,Matt Martz,2014-07-28 12:44:33,Make sure to assign pyrax.cloudservers to cs. Fixes #8250,8250
+8b77aa9,Michael DeHaan,2014-07-28 11:30:27,Merge pull request #7949 from hacosta/apt_key,7936
+a9eef02,Veeti Paananen,2014-07-28 17:34:54,Expand variables in configuration files,6373,lib/ansible/constants.py
+6eac47e,James Cammarata,2014-07-26 00:30:42,Use split_args instead of shlex.split for included params,8296,lib/ansible/playbook/play.py
+1453f7b,James Martin,2014-07-25 10:56:25,Fixes #8290.,8290
+b21875d,James Cammarata,2014-07-21 11:01:41,Make sure 'item' variable is set when using first_available_file,8220,lib/ansible/playbook/task.py
+9fac3b0,Michael DeHaan,2014-07-18 07:52:07,Merge pull request #8187 from willangenent/devel,8152
+0e33db8,Will Angenent,2014-07-17 23:04:21,Fix for issue #8152: Missing auth headers and a faulty JSON decode,8152
+50f5136,Michael DeHaan,2014-07-15 18:04:50,Merge pull request #8106 from muff1nman/pacman-update-checkmode-fix,8047
+4b8dcb2,James Cammarata,2014-07-15 09:28:17,Merge pull request #8135 from rmarchei/8102,8102
+d6bca15,Ruggero Marchei,2014-07-14 22:51:40,fix issue #8102,8102
+5fdd2a7,Andrew DeMaria,2014-07-12 10:57:30,Fix #8047,8047
+aa08368,James Cammarata,2014-07-11 14:22:53,Merge pull request #8094 from ghjm/vsphere-fixes,8067
+5e0d07c,James Cammarata,2014-07-11 11:59:12,Merge pull request #8092 from ghjm/mysql-exceptions,8075
+9dc1931,James Cammarata,2014-07-11 11:57:20,Merge pull request #8093 from ghjm/mysql-dbname,8065
+fb83bdf,Graham Mainwaring,2014-07-10 23:05:23,"Fixed tracebacks when datacenter not found, when notes not given, and when collecting facts after VM creation. Fixes #8067.",8067
+22390e5,Graham Mainwaring,2014-07-10 22:37:46,"Switched primary and alias names of the name/db parameter, to match documentation. Fixes #8065.",8065
+980d9da,Graham Mainwaring,2014-07-10 22:28:56,Added exception handling to database creation and deletion. Fixes #8075.,8075
+7f8de3a,James Cammarata,2014-07-04 23:15:17,Merge pull request #8024 from kcghost/7941,7941
+0ee28c1,James Cammarata,2014-07-02 09:26:14,Make sure subnets and route_tables are initialized before using,7712
+379e1a4,dewey hylton,2014-06-30 17:23:55,fix swap translation on 4.x openbsd with 2.5.4 python,7992,lib/ansible/module_utils/facts.py
+f870120,Hector Acosta,2014-06-27 03:16:12,Check at most 16 characters of the key. Fixes #7936,7936
+b5b8402,Casey Fitzpatrick,2014-06-24 20:37:37,"apache2_module handles multiple lines of output, fixes #7736 and #7857",7736
+375edbd,James Cammarata,2014-06-24 12:16:57,Check to make sure key exists in tag list before using it,7910
+45cf1db,Michael Peters,2014-06-23 16:58:07,Fixing issue #7906 Catch any InvalidInstanceID.NotFound errors coming from the boto library when trying to find the newly created instance. When this happens We should just wait and try again.,7906
+f8bf9cd,Paul Sokolovsky,2014-06-23 15:00:05,Handle TemplateNotFound to render more helpful error message.,7103,lib/ansible/runner/action_plugins/template.py
+f8bf9cd,Paul Sokolovsky,2014-06-23 15:00:05,Handle TemplateNotFound to render more helpful error message.,7103,lib/ansible/utils/template.py
+2bfdad1,James Cammarata,2014-06-23 12:35:08,Merge pull request #7904 from loglevel9/7903,7903
+677e99e,Dann Bohn,2014-06-23 11:16:03,"force evaluation of vars memory_mb, num_cpus to be int fixes #7903",7903
+b869f76,James Cammarata,2014-06-21 20:06:48,Allow deb package installation via with_items,7863
+59698e7,James Cammarata,2014-06-21 00:53:30,Merge pull request #7876 from chrishoffman/shell_expand_roles_path,4897
+cf997be,Chris Hoffman,2014-06-20 19:22:11,Shell expand DEFAULT_ROLES_PATH fixes #4897,4897,lib/ansible/constants.py
+3f1cf5a,Michael Peters,2014-06-19 14:25:05,"This should fix issue #7848 We need to catch any InvalidVpcID.NotFound errors and treat them just like getting back a vpc that's not ""available""",7848
+853471f,James Cammarata,2014-06-19 00:04:04,Handle integer param values that are calculated values,7828
+aac194e,James Cammarata,2014-06-18 14:54:44,Double check whether the parent directory really exists using stat(),7760
+360d8b0,James Cammarata,2014-06-18 14:22:20,Don't try to scan SSH signatures for non-ssh urls,7812,lib/ansible/module_utils/known_hosts.py
+3fb3e7e,James Cammarata,2014-06-12 16:16:42,Properly parse urls for ssh-keyscan use,7474,lib/ansible/module_utils/known_hosts.py
+c548d0f,James Cammarata,2014-06-12 08:53:21,Merge pull request #7737 from toddmowen/zfs-fix-7696,7696
+4230a9a,Todd Owen,2014-06-12 16:18:16,zfs: work around incompatibility by renaming share.nfs to sharenfs,7696
+78f4842,Stefan Lapers,2014-06-11 09:32:35,"fix incorrect secondary ip handling, fixes #7724",7724,lib/ansible/module_utils/facts.py
+61325f5,James Cammarata,2014-06-09 10:48:06,Cleaning up svr4pkg commit fix for #7645,7645
+4c30b3d,James Cammarata,2014-06-09 08:58:55,Fixing mysql master replication boolean,7528
+fdbb77d,Casey Fitzpatrick,2014-06-08 19:59:44,"fix for svr4pkg module failure reporting, issue #7645",7645
+9cb05a0,James Cammarata,2014-06-05 19:40:21,Catch failed connection due to a bad region in ec2_scaling_policy,7505
+a760299,James Cammarata,2014-06-05 16:44:55,Catch failed connection due to a bad region in ec2_scaling_policy,7506
+26aaa7b,James Cammarata,2014-06-05 15:41:56,Fix typo in nova_keypair import of exceptions from novaclient,7640
+43f96a6,James Cammarata,2014-06-04 23:31:59,Fix issue with symlink path detection,7627
+7483acd,James Cammarata,2014-06-04 22:48:08,Fix linking issue to directories in file module,7657
+ad97c61,James Cammarata,2014-06-04 15:20:59,Add support for relative paths in the file lookup plugin for roles,7628,lib/ansible/runner/lookup_plugins/file.py
+b3bbca0,James Cammarata,2014-06-04 13:52:44,Add additional params to get_target_from_rule method in ec2_group,7592
+82a7849,James Cammarata,2014-06-04 13:22:50,Fix error passing play vars to an included playbook with empty vars,7658,lib/ansible/playbook/__init__.py
+8ff0c0f,James Cammarata,2014-06-04 13:02:14,Tweaking make_su_cmd test,7652,test/units/TestUtils.py
+d9df607,James Cammarata,2014-06-04 10:50:41,Fix order of merging variables for the combined cache,7598,lib/ansible/runner/__init__.py
+74f20eb,James Cammarata,2014-06-03 13:33:26,Removing cruft leftover from the deprecation of include+with_items,7535,lib/ansible/playbook/play.py
+f892cc7,Marc Pujol,2014-05-30 08:54:48,Merge and intersect lists without using sets.,7596,lib/ansible/utils/__init__.py
+188ab7b,James Cammarata,2014-05-29 11:01:11,Check groupnames for None as well as an empty string in add_host,7585,lib/ansible/runner/action_plugins/add_host.py
+202ac68,Brian Coca,2014-05-28 11:46:06,Correctly examine path for relative links in file module,7515
+e99df21,James Cammarata,2014-05-27 16:04:02,Support checking for su user to atomic_move,7553,lib/ansible/module_utils/basic.py
+cfd8c68,James Cammarata,2014-05-27 10:55:09,Correct issue of handlers running on all hosts incorrectly,7559,lib/ansible/playbook/__init__.py
+d77a696,James Cammarata,2014-05-23 13:36:45,Merge module_vars into inject during template instead of updating,7510,lib/ansible/runner/__init__.py
+f6792b7,Abhijit Menon-Sen,2014-05-23 21:03:50,Don't double (or triple) up common error messages,7498,lib/ansible/utils/__init__.py
+1e672a0,James Cammarata,2014-05-23 10:06:09,Fixes for su on freebsd,7503,lib/ansible/runner/connection_plugins/paramiko_ssh.py
+1e672a0,James Cammarata,2014-05-23 10:06:09,Fixes for su on freebsd,7503,lib/ansible/runner/connection_plugins/ssh.py
+1e672a0,James Cammarata,2014-05-23 10:06:09,Fixes for su on freebsd,7503,lib/ansible/utils/__init__.py
+1e672a0,James Cammarata,2014-05-23 10:06:09,Fixes for su on freebsd,7503,test/units/TestUtils.py
+062e829,James Cammarata,2014-05-21 12:48:27,Fixing absolute path calculation for file module when linking,7403
+e36a8d4,James Cammarata,2014-05-19 16:39:47,Don't re-query inventory when trimming failed/dark hosts,7446,lib/ansible/playbook/__init__.py
+365bfd7,James Cammarata,2014-05-20 13:39:23,"Don't use listify_ function, when all we want to do is template variables",7396,lib/ansible/runner/lookup_plugins/env.py
+d44ed53,James Cammarata,2014-05-19 23:04:13,Default use_proxy to True for fetch_url(),7322,lib/ansible/module_utils/urls.py
+08406c0,James Cammarata,2014-05-16 08:48:29,Adding the capability to proxy the ssl cert check,7413,lib/ansible/module_utils/urls.py
+285d987,James Cammarata,2014-05-19 10:26:06,Reset locale to 'C' if the specified one is invalid,7448,lib/ansible/module_utils/basic.py
+cbea442,James Cammarata,2014-05-16 14:44:31,Pull the link out of the alternatives output when not specified,7414
+e3ee778,James Cammarata,2014-05-16 08:46:59,Remove erroneous set of status_code causing a traceback in module uri,7416
+df877f2,James Cammarata,2014-05-13 13:52:38,Check module_path permissions when creating ssh_wrapper for git,7375,lib/ansible/module_utils/basic.py
+67d8df0,James Cammarata,2014-05-14 15:56:08,During vsphere config check attempt cast before marking values missing,7385
+56515a3,James Cammarata,2014-05-14 09:59:12,Only chown on atomic move if the uid/gid don't match the src/tmp file,7372,lib/ansible/module_utils/basic.py
+85bd681,James Cammarata,2014-05-13 15:54:32,Pass vars_files on to included playbooks too,7384,lib/ansible/playbook/__init__.py
+85bd681,James Cammarata,2014-05-13 15:54:32,Pass vars_files on to included playbooks too,7384,lib/ansible/utils/__init__.py
+360ffc4,James Cammarata,2014-05-14 01:45:35,Properly merge role conditionals in with pre-existing conditionals,7387,lib/ansible/playbook/play.py
+19dbff9,James Cammarata,2014-05-13 15:13:13,Correctly cast the size_gb value for vpshere disks,7385
+187619c,James Cammarata,2014-05-13 11:24:15,Use utils.combine_vars on vars_files data,7345,lib/ansible/playbook/play.py
+d725636,Chris Church,2014-05-12 13:48:11,Correctly initialize combined_cache for hosts if setup is skipped,7364,lib/ansible/runner/__init__.py
+bfc1201,James Cammarata,2014-05-12 12:27:07,"Make sure the docker data has a ""Names"" field before using it",7363
+38c2c60,James Cammarata,2014-05-12 12:02:38,Do not base synchronize source on the inventory directory,7366,lib/ansible/runner/action_plugins/synchronize.py
+fd27afd,James Cammarata,2014-05-09 16:27:46,Adding ansible_shell_type and basic environment construction on it,7352,lib/ansible/runner/__init__.py
+9b9b4d5,James Cammarata,2014-05-09 00:29:31,Merge pull request #7058 from jkleckner/fix-vars_prompt-when-default-False,7057
+2e2e5d5,James Cammarata,2014-05-08 13:09:36,Use the existing module_vars during the templating of module_vars,6979,lib/ansible/playbook/play.py
+2e2e5d5,James Cammarata,2014-05-08 13:09:36,Use the existing module_vars during the templating of module_vars,6979,lib/ansible/runner/__init__.py
+713657d,James Cammarata,2014-05-07 20:52:03,Make sure the default ec2_group egress rule is not removed,7309
+393124e,James Cammarata,2014-05-07 09:59:13,Add pyc/pyo to ignore list for inventory directories,7308,lib/ansible/inventory/dir.py
+b71a451,James Cammarata,2014-05-07 08:09:46,Close fds when running commands from the accelerate daemon,7307
+5c70f39,James Cammarata,2014-05-07 08:09:46,Close fds when running commands from the accelerate daemon,7307
+4d118d1,James Cammarata,2014-05-06 12:51:26,"Make sure dwim'd relative path ends in a ""/"" if the original does",7296,lib/ansible/runner/action_plugins/synchronize.py
+537494c,James Cammarata,2014-05-06 08:43:37,Make sure distro variable is set if python-apt is installed,7295
+faf733b,James Cammarata,2014-05-05 11:57:58,Removing zone choices that overly-limit available zones for gce,7270
+d6f4d9b,Veeti Paananen,2014-05-04 18:22:00,Fix error handling on missing dest with unarchive,7107,lib/ansible/runner/action_plugins/unarchive.py
+b753625,James Cammarata,2014-05-02 14:45:51,Refuse to convert a non-empty directory into a link with the file module,7254
+deb532c,James Cammarata,2014-05-02 12:52:36,Remove OrderedDict references from runner,7256,lib/ansible/runner/__init__.py
+50080b3,someda,2014-05-02 01:36:42,fix #7244 recursive copy fails when setting directory attributes,7244
+54b1f82,James Cammarata,2014-05-01 10:34:53,Modify the way we set the localization environment,7060,lib/ansible/module_common.py
+54b1f82,James Cammarata,2014-05-01 10:34:53,Modify the way we set the localization environment,7060,lib/ansible/module_utils/basic.py
+54b1f82,James Cammarata,2014-05-01 10:34:53,Modify the way we set the localization environment,7060,lib/ansible/runner/__init__.py
+d287179,James Cammarata,2014-04-29 20:01:51,Updating Makefile for setuptools change,7224
+30e4759,James Cammarata,2014-04-29 16:11:23,Merge pull request #7208 from jf/copy-module,7193
+ac1948c,James Cammarata,2014-04-29 15:46:48,Minor tweak to rsync_path construction in synchronize module,7182
+0bf1a27,Jeffrey 'jf' Lim,2014-04-29 21:52:09,"Fix ""no_log=True"" option for copy module (fixes #7193)",7193,lib/ansible/runner/action_plugins/copy.py
+50cd3a4,James Cammarata,2014-04-28 11:40:00,Make sure values are integers for certain hardware items for vpshere_guest,7180
+a8d9470,Skyler Leigh Amador,2014-04-27 20:21:54,Remove --timeout option to rsync from synchronize defaults,6809
+89fa9b7,James Cammarata,2014-04-23 13:44:36,Add parameters to get_url for the url username/password,6928,lib/ansible/module_utils/urls.py
+5e598c5,James Cammarata,2014-04-17 13:18:57,Fix handling of non-JSON lines in responses,6962,lib/ansible/utils/__init__.py
+e83a494,James Cammarata,2014-04-22 13:03:06,Make sure VARS_CACHE for hosts are updated with the play vars too,6979,lib/ansible/playbook/play.py
+a6068b0,James Cammarata,2014-04-22 14:21:00,Fix collision in random filter name by merging functionality,7113,lib/ansible/runner/filter_plugins/core.py
+c115c34,James Cammarata,2014-04-22 00:47:26,Set the default LANG to en_US.UTF-8 and also set LC_CTYPE,6737,lib/ansible/constants.py
+c115c34,James Cammarata,2014-04-22 00:47:26,Set the default LANG to en_US.UTF-8 and also set LC_CTYPE,6737,lib/ansible/module_utils/basic.py
+78b9a11,faust64,2014-04-21 19:44:47,Update facts.py,7093,lib/ansible/module_utils/facts.py
+68c3054,James Cammarata,2014-04-21 11:32:22,Properly catch and decode unicode strings in module _log_invocation(),7084,lib/ansible/module_utils/basic.py
+a32dd34,James Cammarata,2014-04-18 16:23:01,Make sure HostVars object is instantiated before assigning it,7006,lib/ansible/runner/__init__.py
+46ec238,Jim Kleckner,2014-04-18 12:01:26,Fix #7057 missing False default for vars_prompt,7057,lib/ansible/callbacks.py
+3715482,James Cammarata,2014-04-17 16:16:54,Determine selinux context for NFS mount points correctly,7009,lib/ansible/module_utils/basic.py
+1ef0402,James Cammarata,2014-04-17 15:24:18,Make sure a default allow out rule exists if no other egress rules do,7027
+337a005,Andreas Fleig,2014-04-17 03:51:19,apt_key: fix key lookup for 64 bit key ids,7018
+a37a842,James Cammarata,2014-04-16 12:21:32,Check resource_tags value before using it in ec2_vpc,7024
+e8b3363,James Cammarata,2014-04-15 20:38:39,Get the bin path for commands in the unarchive module,6927
+f547733,James Cammarata,2014-04-15 15:03:52,Check to make sure the firewalld client is connected before proceeding,6911
+d240d07,James Cammarata,2014-04-15 13:44:43,Changing SSL cert detection method to allow for auto-negotiation of SSL protocols,6904,lib/ansible/module_utils/urls.py
+aad128b,James Tanner,2014-04-15 10:54:43,Use combined cache for templating module vars,6901,lib/ansible/runner/__init__.py
+40b958e,James Cammarata,2014-04-14 16:35:16,Don't turn complex args back into a k=v string for the synchronize module,6951,lib/ansible/runner/action_plugins/synchronize.py
+2cc4ac2,James Cammarata,2014-04-14 12:36:54,Catch traceback caused by permissions errors during a local md5 sum,6948,lib/ansible/utils/__init__.py
+dfdc3b8,James Tanner,2014-04-10 16:06:35,Fixes #6929 remote file module doc fragments from copy and template,6929
+4eb6268,James Tanner,2014-04-10 13:43:59,Refactor play._update_vars_files_for_host to make common functions and easier debugging,4883,lib/ansible/playbook/play.py
+e834b23,Constantine Peresypkin,2014-04-10 14:13:23,fix issue #6932,6932
+eebc72a,James Cammarata,2014-04-08 13:21:42,Add a timeout decorator for timing out functions that may hang,6891,lib/ansible/module_utils/facts.py
+2d33cd1,James Tanner,2014-04-08 13:22:23,Fixes #6894 add missing file and remove debug line,6894,lib/ansible/utils/module_docs.py
+2d33cd1,James Tanner,2014-04-08 13:22:23,Fixes #6894 add missing file and remove debug line,6894,lib/ansible/utils/module_docs_fragments/files.py
+68cd725,James Tanner,2014-04-08 13:20:15,Fixes #6894 create docs fragment for files,6894,lib/ansible/utils/module_docs.py
+567f381,James Cammarata,2014-04-08 11:42:29,Fixing newline escapes in lineinfile,5679
+b2701d0,James Tanner,2014-04-07 12:44:34,Fixes #6780 Update version_added for source_dest_check in ec2 module,6780
+b73cddc,James Cammarata,2014-04-07 09:42:27,"Revert ""Fix #5679 again after recent changes in core""",5679
+318e752,James Tanner,2014-04-07 10:51:04,Fixes #6845 evaluate changed_when only if task is not skipped,6845,lib/ansible/runner/__init__.py
+036c819,James Tanner,2014-04-04 16:36:38,Fixes #6857 Make the url parameter required for get_url,6857
+5a65dc3,James Tanner,2014-04-04 13:05:33,Fixes #6820 fix erroneous missing vault password error when using the template module,6820,lib/ansible/runner/__init__.py
+5a65dc3,James Tanner,2014-04-04 13:05:33,Fixes #6820 fix erroneous missing vault password error when using the template module,6820,lib/ansible/runner/action_plugins/template.py
+5a65dc3,James Tanner,2014-04-04 13:05:33,Fixes #6820 fix erroneous missing vault password error when using the template module,6820,lib/ansible/utils/template.py
+5a65dc3,James Tanner,2014-04-04 13:05:33,Fixes #6820 fix erroneous missing vault password error when using the template module,6820,lib/ansible/utils/vault.py
+3ac7310,Peter Gehres,2014-03-09 12:35:45,Fix for #6353 adding a newline between assembled files,6353
+ee0a0b4,James Cammarata,2014-04-03 15:26:02,Allow isprintable() util function to work with unicode,6842,lib/ansible/utils/string_functions.py
+cca0281,James Tanner,2014-04-03 15:21:54,Fixes #6750 Check git subcommand for --remote and expose errors,6750
+b660062,James Tanner,2014-04-03 13:53:43,Fixes #6454 verify ec2 key fingerprints,6454
+cdc0819,James Tanner,2014-04-03 12:02:40,Fixes #6088 turn off sudo and su if the connection is local the sudo user matches the current user,6088,lib/ansible/runner/__init__.py
+317c2f4,James Cammarata,2014-04-02 19:46:51,Fixes to variable issues introduced by recent changes,6801,lib/ansible/playbook/play.py
+0ad855f,Michael DeHaan,2014-04-02 19:17:59,Merge pull request #6828 from hlieberman/devel,6812
+a6a4680,James Cammarata,2014-04-02 16:13:22,Fix variable naming issue in _load_tasks(),6800,lib/ansible/playbook/play.py
+6f34a63,James Cammarata,2014-04-02 15:52:08,Differentiate decryption failures from empty data files in ansible-vault,6822,lib/ansible/utils/vault.py
+eb15d2f,James Cammarata,2014-04-02 15:25:17,Fix issue with sysctl parameter parsing introduced by 0e8c7b1,6806
+684d46b,James Cammarata,2014-04-02 14:25:24,Fixing some parsing issues in authorized_key module,6700
+ba4838c,James Cammarata,2014-04-01 22:14:35,Adding wait/wait_timeout parameters to the ec2_key module,6455
+612a1a6,James Cammarata,2014-03-31 15:31:10,Apply extra vars after all other vars have been merged in a play,6677,lib/ansible/playbook/play.py
+f23bb34,James Cammarata,2014-03-31 13:37:43,Catch errors when duping stdin,6657,lib/ansible/runner/__init__.py
+2492c27,James Tanner,2014-03-31 12:25:40,Fixes #5307 set relative paths to the files dir for roles and the inventory dir for non-role tasks,5307,lib/ansible/runner/action_plugins/synchronize.py
+b698f7a,James Cammarata,2014-03-30 01:34:33,Add option to create host_key directory if it doesn't exist,6731,lib/ansible/module_utils/known_hosts.py
+6e809c2,James Cammarata,2014-03-29 23:47:11,Removing wait loop around initial state check during registration,6543
+c1f4142,James Tanner,2014-03-27 11:47:49,Fixes #4109 Filter plays by tags when using --list-hosts,4109
+e093131,James Cammarata,2014-03-26 13:20:52,Make async jid's unique per host,5582,lib/ansible/runner/poller.py
+8991e40,James Tanner,2014-03-26 13:29:34,Fixes #6705 Give each role a unique uuid and apply tags only to tasks matching the uuid,6705,lib/ansible/playbook/play.py
+9ede6f7,James Cammarata,2014-03-26 12:01:15,Convert gather_facts to a boolean value if it is not None,5618,lib/ansible/playbook/play.py
+2a976ac,James Tanner,2014-03-26 11:28:43,Fixes #5059 Ignore lookup failures when templating a task name,5059,lib/ansible/utils/template.py
+7a3fa63,James Cammarata,2014-03-25 20:45:04,Fix for unicode environment variable handling,5395,lib/ansible/runner/__init__.py
+3194fbd,James Tanner,2014-03-25 16:07:05,Fixes #6655 catch unicode encoding errors before sending to syslog,6655,lib/ansible/module_utils/basic.py
+c9bf7eb,James Cammarata,2014-03-25 13:59:57,Don't run {failed|changed}_when checks until async_status is done,5117,lib/ansible/runner/__init__.py
+4ea12c1,James Cammarata,2014-03-25 13:00:38,Make sure stat of dest is available in atomic_move,6682,lib/ansible/module_utils/basic.py
+f9018a6,James Tanner,2014-03-25 13:32:11,Ensure handlers run when meta tasks are defined and add handler integration tests,6678,lib/ansible/playbook/__init__.py
+8c7828d,James Cammarata,2014-03-25 11:56:55,Tweaking error message resulting from undefined template variables,5114,lib/ansible/utils/template.py
+846933d,James Cammarata,2014-03-25 11:41:00,Make inventory parsing error detection smarter,5113,lib/ansible/inventory/__init__.py
+bc93732,James Cammarata,2014-03-24 16:32:31,Catch permissions errors related to opening a known_hosts file in modules,6644,lib/ansible/module_utils/known_hosts.py
+dc658ea,James Cammarata,2014-03-24 15:59:43,Check to make sure the host is in the inventory vars cache before clearing it,6660,lib/ansible/runner/action_plugins/group_by.py
+db34539,James Cammarata,2014-03-24 15:10:43,Fixing ownership when atomic_move is creating a file while sudo'ing,6647,lib/ansible/module_utils/basic.py
+3ea5d57,James Cammarata,2014-03-19 12:59:06,Acclerate improvements,5171,lib/ansible/constants.py
+3ea5d57,James Cammarata,2014-03-19 12:59:06,Acclerate improvements,5171,lib/ansible/runner/connection_plugins/accelerate.py
+14499e8,James Tanner,2014-03-20 16:09:58,Fixes #4325 allow async and poll parameters to be templated vars,4325,lib/ansible/playbook/task.py
+ea5186c,James Tanner,2014-03-20 13:55:02,Fixes #6590 add set_remote_user parameter to synchronize,6590,lib/ansible/runner/action_plugins/synchronize.py
+95c79ad,James Tanner,2014-03-20 13:12:33,Fixes #4239 merge injects with new vars loaded from files,4239,lib/ansible/playbook/play.py
+d327e3d,James Tanner,2014-03-20 11:55:46,Fixes #5622 included tasks in roles now inherit tags from the role,5622,lib/ansible/playbook/play.py
+bf251e3,James Cammarata,2014-03-07 14:35:18,Correct overly broad import from chube in linode inventory script,4875,plugins/inventory/linode.py
+5f42804,James Tanner,2014-03-19 15:42:40,Fixes #6582 Re-add regex to ignore untracked files that were never tracked,6582
+a9000e7,James Cammarata,2014-03-19 14:09:03,Making the error messages for bad key/dir permissions more understandable,6254,lib/ansible/utils/__init__.py
+4090441,James Tanner,2014-03-19 14:36:52,Fixes #6579 allow for vault passwords ending with newline chars,6579,test/units/TestVaultEditor.py
+67517e9,James Tanner,2014-03-19 10:30:10,Fixes #6567 put the git wrapper script in the module temp dir,6567,lib/ansible/module_utils/basic.py
+324a943,James Tanner,2014-03-18 21:21:18,Fixes #6548 correct issues from rhn_register refactoring,6548
+eb7717a,James Cammarata,2014-03-18 12:30:54,Make sure all tags are in a list before merging for role deps,6557,lib/ansible/playbook/play.py
+4980787,James Tanner,2014-03-18 12:21:26,Fixes #6550 Use shell for pipe lookup subprocess.popen calls,6550,lib/ansible/runner/lookup_plugins/pipe.py
+3f5440f,James Cammarata,2014-03-18 10:17:44,Make modules set a valid working directory,6546,lib/ansible/module_utils/basic.py
+cf0a0ca,James Tanner,2014-03-18 09:30:21,Fixes #6519 Properly handle state=absent in sysctl module,6519
+db3d2e1,James Tanner,2014-03-18 09:03:55,Fixes #6542 rewrite test string for osx compatibility,6542,test/units/TestModuleUtilsBasic.py
+84908a5,James Cammarata,2014-03-17 23:00:50,Don't filter role deps on tags,6439,lib/ansible/playbook/play.py
+7c5ad1f,James Tanner,2014-03-17 22:21:30,Fixes #6539 Workaround py26 vs py27 difflib results,6539,test/units/TestUtils.py
+94e3350,Michael DeHaan,2014-03-17 17:14:32,Catch a unquoted line error.  Fixes #6532,6532,lib/ansible/runner/__init__.py
+94e3350,Michael DeHaan,2014-03-17 17:14:32,Catch a unquoted line error.  Fixes #6532,6532,lib/ansible/runner/action_plugins/assemble.py
+94e3350,Michael DeHaan,2014-03-17 17:14:32,Catch a unquoted line error.  Fixes #6532,6532,lib/ansible/utils/__init__.py
+ad70e9b,James Tanner,2014-03-17 16:54:25,Fixes #6227 skip non-unicode strings and catch decode errors silently in template_from_string,6227,lib/ansible/utils/template.py
+70f4e08,James Tanner,2014-03-17 15:03:05,Fixes #6467 ansible command should not assume sudo if ask_sudo_pass or sudo_user,6467
+7edee91,James Cammarata,2014-03-17 11:28:01,Fixing a bug in role tag handling where only the first tag was used,6517,lib/ansible/playbook/play.py
+5c05982,Michael DeHaan,2014-03-16 12:43:10,Merge pull request #6448 from jirutka/fix-5679-2,5679
+0939a83,Michael DeHaan,2014-03-16 12:32:28,Merge pull request #6203 from garetharmstronghp/fix_rpm_key_issue_5621,5621
+9d6518d,James Tanner,2014-03-14 11:16:45,Fixes #6482 Check sysctl file path and catch read exceptions,6482
+ccc0a8c,James Cammarata,2014-03-12 20:45:51,Fix regression in dnsmadeeasy module caused by fetch_url change,6457
+bbf320f,Dan Koch,2014-03-12 14:59:50,Work around for cwd stat problems with run_command and sudo,6443,lib/ansible/module_utils/basic.py
+2bfaacd,Jakub Jirutka,2014-03-12 18:21:53,Fix #5679 again after recent changes in core,5679
+86d2ee4,James Cammarata,2014-03-12 10:41:18,Don't append tags from roles to the plays tags list,6393,lib/ansible/playbook/play.py
+804e416,James Cammarata,2014-03-12 09:19:35,Rewriting ssl validation to try multiple certs found in paths,6412,lib/ansible/module_utils/urls.py
+6da2c37,James Tanner,2014-03-11 21:38:00,Fixes #6411 Return None for ec2 api endpoints that return 404,6411
+5978567,Michael DeHaan,2014-03-11 10:17:47,Merge pull request #6366 from cloudify/devel,6365
+e215f56,James Cammarata,2014-03-05 22:06:59,Create the tempdir in the accelerate module if it doesn't exist,6047
+9ba1245,James Tanner,2014-03-05 18:49:54,Fixes #6077 decode escaped newline characters in content for the copy module,6077,lib/ansible/runner/action_plugins/copy.py
+7603716,James Tanner,2014-03-05 14:51:40,Fixes #6298 and adds a sudo unit test for synchronize,6298,lib/ansible/runner/action_plugins/synchronize.py
+7603716,James Tanner,2014-03-05 14:51:40,Fixes #6298 and adds a sudo unit test for synchronize,6298,test/units/TestSynchronize.py
+118d24d,Luca Berruti,2014-03-04 18:20:01,fixes #6244,6244,lib/ansible/runner/__init__.py
+9de3b03,anatoly techtonik,2014-03-04 20:00:18,setup: Fix KeyError: 'ipv4_secondaries' (issue #6274),6274
+5341040,James Cammarata,2014-03-03 10:12:03,Adding a wait loop to ec2_elb for the initial lb state when registering,5305
+4b400ca,Matt Martz,2014-03-10 13:43:34,"Only used stripped data for testing if the file is json, but used unstripped when actually parsing. Fixes #6348",6348,lib/ansible/utils/__init__.py
+b9ab31e,Federico Feroldi,2014-03-10 13:11:09,Fix for #6365: cloudformation module fails to update if stack exists,6365
+04a6dc6,James Cammarata,2014-03-08 14:02:42,Check for skipped tags in passed role variables before adding to them,6330,lib/ansible/playbook/play.py
+3cd7d47,James Cammarata,2014-03-07 14:36:54,Correctly catch template errors without returning invalid data,6329,lib/ansible/utils/template.py
+b605604,James Cammarata,2014-03-06 21:11:57,Partial revert of 73c883c due to issues with handlers in roles,6322,lib/ansible/playbook/__init__.py
+b605604,James Cammarata,2014-03-06 21:11:57,Partial revert of 73c883c due to issues with handlers in roles,6322,lib/ansible/playbook/play.py
+2a0028e,James Cammarata,2014-03-06 13:33:18,Sanitize run_command argument output,6316,lib/ansible/module_utils/basic.py
+dbad5d7,g-k-r,2014-01-31 12:34:21,modifed test to use get_hosts instead of get_groups,5749,test/units/TestInventory.py
+6626cb0,g-k-r,2014-01-31 12:46:00,add test same host in different files in dir,5749,test/units/TestInventory.py
+25cf215,James Cammarata,2014-03-05 22:06:59,Create the tempdir in the accelerate module if it doesn't exist,6047
+4e8ed92,James Tanner,2014-03-05 18:49:54,Fixes #6077 decode escaped newline characters in content for the copy module,6077,lib/ansible/runner/action_plugins/copy.py
+6129ea7,James Tanner,2014-03-05 14:51:40,Fixes #6298 and adds a sudo unit test for synchronize,6298,lib/ansible/runner/action_plugins/synchronize.py
+6129ea7,James Tanner,2014-03-05 14:51:40,Fixes #6298 and adds a sudo unit test for synchronize,6298,test/units/TestSynchronize.py
+a3c36a6,g-k-r,2014-01-31 12:34:21,modifed test to use get_hosts instead of get_groups,5749,test/units/TestInventory.py
+23fee4b,g-k-r,2014-01-31 12:46:00,add test same host in different files in dir,5749,test/units/TestInventory.py
+b5e487f,Michael DeHaan,2014-03-05 08:06:39,Merge pull request #6290 from lberruti/fix_complex_args,6244
+7cf3639,Luca Berruti,2014-03-04 18:20:01,fixes #6244,6244,lib/ansible/runner/__init__.py
+da2126e,Michael DeHaan,2014-03-04 14:24:36,Merge pull request #6279 from techtonik/patch-1,6274
+a48f0da,anatoly techtonik,2014-03-04 20:00:18,setup: Fix KeyError: 'ipv4_secondaries' (issue #6274),6274
+7f1989d,James Cammarata,2014-03-03 10:12:03,Adding a wait loop to ec2_elb for the initial lb state when registering,5305
+7964553,James Cammarata,2014-02-28 12:49:25,Handle empty results from failed connections in _remote_md5(),5800,lib/ansible/runner/__init__.py
+57486b2,James Cammarata,2014-02-28 11:40:19,Use the no-user-groups option (-N) for useradd in the user module,6210
+df9de6e,James Cammarata,2014-02-27 12:50:35,Expand the source path in the action plugin when not using a remote source,6209,lib/ansible/runner/action_plugins/assemble.py
+c11e210,James Cammarata,2014-02-27 10:29:38,Save the original transport in runner after detecting the smart transport,6192,lib/ansible/runner/__init__.py
+02477ee,Gareth Armstrong,2014-02-27 14:52:56,"Fix issue 5621, rpm_key doesn't work for el5",5621
+d6b912c,James Cammarata,2014-02-26 13:31:17,Modifying the wait logic for newly created images to avoid tracebacks,4619
+0cca4a3,James Tanner,2014-02-25 14:52:45,Fixes #5255 yum: set disabled repos before enabled repos and fix the parameters used,5255
+9209581,James Tanner,2014-02-25 08:58:58,Fixes #6155 Inject checkmode into synchronize module args,6155,lib/ansible/runner/action_plugins/synchronize.py
+0f95a90,James Tanner,2014-02-24 20:54:26,Fixes #5965 Ensure the inject for each item in a loop is un-altered,5965,lib/ansible/runner/__init__.py
+3b2d409,James Cammarata,2014-02-24 14:24:25,Fixing several bugs in assemble and updating tests,5581,lib/ansible/module_utils/basic.py
+3b2d409,James Cammarata,2014-02-24 14:24:25,Fixing several bugs in assemble and updating tests,5581,lib/ansible/runner/action_plugins/assemble.py
+4af1d60,James Tanner,2014-02-21 15:54:09,Fixes #5939 Allow for delegate hosts that are not in inventory,5939,lib/ansible/runner/__init__.py
+7fe3db4,James Tanner,2014-02-19 21:26:12,Fixes #6082 Set vault password to None by default,6082
+b6222ab,James Cammarata,2014-02-19 09:41:35,Fix unicode decode error in syslog for modules,6056,lib/ansible/module_utils/basic.py
+788ac51,James Cammarata,2014-02-17 12:46:15,Sanitize sudo success_key from stdout for raw/script modules,5533,lib/ansible/runner/action_plugins/raw.py
+cb7c2b7,Richard C Isaacson,2014-02-12 01:57:00,Updates for the unarchive module and action_plugin.,5431,lib/ansible/runner/action_plugins/unarchive.py
+cb7c2b7,Richard C Isaacson,2014-02-12 01:57:00,Updates for the unarchive module and action_plugin.,5431,test/TestPlayBook.py
+a023cbc,James Cammarata,2014-02-11 14:19:00,"When using jsonify in modules, try several unicode encoding for dumps()",4821,lib/ansible/module_utils/basic.py
+3f90020,James Cammarata,2014-02-10 15:51:52,Open LOG_LOCK file with FD_CLOEXEC to prevent file descriptor leakage,5399,lib/ansible/callbacks.py
+a72dc2e,James Cammarata,2014-02-06 00:43:31,Use finalize method in jinja2 to convert None values to empty strings,4812,lib/ansible/utils/template.py
+3260e69,James Cammarata,2014-02-05 23:11:23,Make tmp paths in TestRunner dynamic based on pid,4723,test/TestRunner.py
+959a156,James Cammarata,2014-02-05 15:13:19,Properly count newlines appearing at the end of templates after rendering,4633,lib/ansible/utils/string_functions.py
+959a156,James Cammarata,2014-02-05 15:13:19,Properly count newlines appearing at the end of templates after rendering,4633,lib/ansible/utils/template.py
+ca0ec80,James Cammarata,2014-02-05 13:43:52,Revising method for parsing ranges from --limit subsets,4620,lib/ansible/inventory/__init__.py
+ca0ec80,James Cammarata,2014-02-05 13:43:52,Revising method for parsing ranges from --limit subsets,4620,test/TestInventory.py
+77d5a18,James Cammarata,2014-02-05 09:45:24,"When force=yes, get_url should always download the specified file",5104
+a326150,Richard C Isaacson,2014-02-04 12:44:10,Addresses #5739 and cleans up copy.py,5739,lib/ansible/runner/__init__.py
+a326150,Richard C Isaacson,2014-02-04 12:44:10,Addresses #5739 and cleans up copy.py,5739,lib/ansible/runner/action_plugins/copy.py
+d355d3c,James Tanner,2014-02-03 16:59:30,Fixes #5818 Default to all known connection information for the delegate host,5818,lib/ansible/runner/__init__.py
+ae9843f,James Cammarata,2014-02-03 10:10:45,Fix issue with handler notifications being sent out incorrectly,5848,lib/ansible/playbook/__init__.py
+9574f89,James Cammarata,2014-01-30 14:39:52,Detect remote_user change in accelerate daemon and allow a restart,5812,lib/ansible/runner/connection_plugins/accelerate.py
+f955d9d,James Cammarata,2014-01-30 12:45:19,"Handle implicit localhost when using '-i host,' syntax",5820,lib/ansible/inventory/__init__.py
+e563f84,Manuel Tiago Pereira,2014-01-30 00:09:28,Fixes #5819: Added --executables to gem uninstall command.,5819
+5cc3546,James Cammarata,2014-01-29 12:29:26,Build variable dictionary on included plays without using dict(),5801,lib/ansible/playbook/__init__.py
+3ec043e,James Tanner,2014-01-28 11:49:35,Fixes #5750 Fail on missing ~/.ssh and ignore accept_hostkey if stricthoskeychecking is off,5750,lib/ansible/module_utils/known_hosts.py
+821858e,jctanner,2014-01-27 11:41:21,Merge pull request #5380 from dhml/devel,5309
+3fddd78,James Cammarata,2014-01-27 11:28:07,Fixing traceback caused by incorrect argument passing to json.dumps,5756,lib/ansible/runner/filter_plugins/core.py
+3fddd78,James Cammarata,2014-01-27 11:28:07,Fixing traceback caused by incorrect argument passing to json.dumps,5756,lib/ansible/utils/template.py
+1ca6e4b,James Cammarata,2014-01-22 14:29:50,Adding a check for pending tranasctions to the yum module,4649
+012e3ae,Jakub Jirutka,2014-01-19 02:24:26,Fixes #5679: lineinfile ignores newline in line argument,5679,test/TestRunner.py
+e3e6f02,Michael DeHaan,2014-01-17 14:20:22,Merge pull request #5669 from mscherer/fix_synchronize_local,5668
+5c5c8fd,Michael Scherer,2014-01-17 17:07:59,"Make synchronize module work better with local transport, fix #5668",5668,lib/ansible/runner/action_plugins/synchronize.py
+3bd9990,James Tanner,2014-01-17 11:30:07,Fixes #5661 Handle null values for sysctl parameters,5661
+19cb22b,James Tanner,2014-01-16 16:30:13,Fixes #5656 quote values with multiple columns before calling the sysctl command. Calling sysctl should also not be true by default,5656
+559e890,James Tanner,2014-01-16 14:24:11,Fixes #5631 Return a unique list of hosts when joining groups,5631,lib/ansible/inventory/__init__.py
+e22af25,James Tanner,2014-01-15 17:10:10,Fixes #5486 Keep authorized key options in tact and ordered,5486
+6e39adb,jctanner,2014-01-14 13:00:08,Merge pull request #5426 from lichesser/debian_release_4565,4565
+fbba0bb,James Tanner,2014-01-14 14:22:37,Fixes #5601 Do not append extra args when checking for pip command options,5601
+e4d0ce5,jctanner,2014-01-14 08:52:12,Merge pull request #5383 from janitha/devel,5381
+ca05584,James Tanner,2014-01-13 18:53:02,"Fixes #5469 Refactor sysctl module into object oriented code, and add a sysctl_set parameter to manage the values in /proc",5469
+d7c8cf6,James Tanner,2014-01-10 15:08:45,Fixes #4958 Truncate printed stdout if it contains non-printable characters,4958,lib/ansible/runner/__init__.py
+d7c8cf6,James Tanner,2014-01-10 15:08:45,Fixes #4958 Truncate printed stdout if it contains non-printable characters,4958,lib/ansible/utils/string_functions.py
+0b64408,James Tanner,2014-01-08 16:50:40,Fixes #5531 Give the user a better error message when sshpass does not know the remote hostkey,5531,lib/ansible/runner/connection_plugins/ssh.py
+0b64408,James Tanner,2014-01-08 16:50:40,Fixes #5531 Give the user a better error message when sshpass does not know the remote hostkey,5531,lib/ansible/runner/connection_plugins/ssh_alt.py
+c8bd149,James Tanner,2014-01-07 14:43:22,Fixes #5369 Do not pass --force-yes to aptitude,5369
+dee9607,James Tanner,2014-01-07 14:21:22,Fixes #5353 create etc/hostname file in debian if it does not exist,5353
+d6b78e9,James Tanner,2014-01-06 16:47:19,Fixes #5238 Improve error messaging about unquoted variable references in playbooks,5238,lib/ansible/utils/__init__.py
+5c64d70,James Tanner,2014-01-06 15:40:11,Fixes #5227 Corrected doc example of with_first_found,5227
+ab51bd2,James Tanner,2014-01-06 14:19:20,Fixes #5196 return a unique list of hostnames for a single host pattern,5196,lib/ansible/inventory/__init__.py
+1c632af,Michael DeHaan,2014-01-04 10:55:58,Merge pull request #5468 from jeromew/ansible_ssh_alt,5372
+e0cd4a4,Michael DeHaan,2014-01-04 10:52:03,Merge pull request #5489 from daghoidahl/devel,5488
+21fdb2b,James Tanner,2014-01-03 11:18:20,Fixes #5200 Handle template contents with unicode strings better,5200,lib/ansible/utils/template.py
+fc473b3,James Tanner,2014-01-03 09:46:16,Fixes #5146 Handle missing stdin when running under celery with rabbitmq or redis,5146,lib/ansible/runner/__init__.py
+86719ce,James Tanner,2014-01-02 16:17:24,Fixes #5040 setup module: do not add primary interface info to the secondary interface data,5040
+cb2214d,James Tanner,2014-01-02 14:58:12,"Fixes #4935 Synchronize module: set destination to an fqdn if connection is not local, and abide by ansible_remote_user",4935,lib/ansible/runner/action_plugins/synchronize.py
+b2cd4a6,jeromew,2013-12-31 14:29:46,fix issue #5372 on ssh_alt: accept -K option even for a user with NOPASSWD,5372,lib/ansible/runner/connection_plugins/ssh_alt.py
+b49cb2e,lichesser,2013-12-26 17:53:17,Partial fix for #4565. Works only for Debian 7 and later,4565
+fd037f5,Janitha Karunaratne,2013-12-20 16:44:18,Fixes #5381 easy_install bug when used with virtualenv,5381
+5d02218,James Tanner,2013-12-18 22:40:58,Fixes #5341 Use constants.py to set the roles directory,5341,lib/ansible/constants.py
+4209b8a,jctanner,2013-12-17 11:46:17,Merge pull request #5203 from sivel/irc-rfc-loops,5186
+53a3671,jctanner,2013-12-16 12:17:33,Merge pull request #5160 from JensRantil/fix-issue-5159,5159
+1679d83,jctanner,2013-12-13 11:00:41,Merge pull request #5131 from janeznemanic/devel,4730
+8cef210,Jesse Keating,2013-12-11 17:32:01,Make sure ssh pipes are empty before moving on,5082,lib/ansible/runner/connection_plugins/ssh.py
+c04b21d,jctanner,2013-12-10 10:02:29,Merge pull request #5232 from jsdalton/fix_elb_instance_state_issue,5076
+ac1e84d,Jim Dalton,2013-12-09 19:38:03,Account for instances that have not yet been registered. Fixes #5076,5076
+19d4c1a,jctanner,2013-12-09 06:51:52,Merge pull request #5215 from dhml/devel,5214
+cc36787,David Hummel,2013-12-07 21:10:42,Fix issue #5214: hostname persistence on RedHat/CentOS,5214
+01388d1,jctanner,2013-12-05 07:55:10,Merge pull request #5179 from dhml/devel,5043
+614efad,David Hummel,2013-12-05 10:47:22,Fix issue #5043: ec2_vpc module wait=yes state attribute retrieval,5043
+cbfeb0a,James Tanner,2013-12-05 00:44:55,Fixes #5169 Evaluate check_mode in the user module SunOS class,5169
+2096c66,Jens Rantil,2013-12-04 14:32:26,`env-setup` fix for zsh <= 4.3.10,5026
+705316e,Jens Rantil,2013-12-04 13:13:49,`file` module: Don't catch `SystemExit`,5159
+942ee4b,jctanner,2013-12-03 14:08:53,Merge pull request #5151 from sivel/new-new-module-style,5148
+8873c36,Matt Martz,2013-12-03 15:34:43,Ensure we are looking for the right import to determine if the module_style is new. Fixes #5148,5148,lib/ansible/module_common.py
+d227614,James Tanner,2013-12-03 14:46:44,Fixes #5109 synchronize module ssh port,5109,lib/ansible/runner/action_plugins/synchronize.py
+872a1ee,jctanner,2013-12-02 14:02:43,Merge pull request #5107 from maetthu/devel,5032
+8752ae6,Janez Nemanic,2013-12-02 18:25:43,Fix for issue #4730 - stacktrace when deferenencing a non-existent group,4730,lib/ansible/utils/template.py
+c050872,James Tanner,2013-12-02 11:56:38,Fixes #4796 handle unicodedecode errors from dmidecode output,4796
+9d44224,Matthias Blaser,2013-11-30 09:03:35,"rewrite options to dict parser, fixes #5032",5032
+9101c2a,James Cammarata,2013-11-29 08:47:03,Fix traceback in template error detection code,5081,lib/ansible/utils/template.py
+b6879ca,James Tanner,2013-11-27 17:01:53,Fixes #5030 compare connection user and sudo user and disable sudo if identical,5030,lib/ansible/runner/__init__.py
+12ed39e,James Tanner,2013-11-27 13:04:10,Fixes #5056 Append new hosts to the groups cache,5056,lib/ansible/runner/action_plugins/add_host.py
+1f80aa7,James Cammarata,2013-11-27 11:57:15,"Fix bug in error detection code, where a zero-length string was causing a traceback",5064,lib/ansible/utils/__init__.py
+26374d8,Justin Ludwig,2013-11-26 19:29:06,Fix AWS credential params for s3 and other modules,4540
+b938554,James Tanner,2013-11-25 22:13:42,Fixes #5032 escape and safely split key options in authorized_keys module,5032
+d187066,James Tanner,2013-11-25 14:56:46,Fixes #5010 Add user to all defined supplementary groups,5010
+b8146e3,James Tanner,2013-11-25 10:57:10,Fixes #4979 Check for the correct context when inside the inventory_hostnames plugin,4979,lib/ansible/runner/lookup_plugins/inventory_hostnames.py
+903c4ca,James Tanner,2013-11-25 10:13:55,Fixes #5031 Template the delay value and cast to float for loops,5031,lib/ansible/runner/__init__.py
+32986c4,James Tanner,2013-11-22 16:36:31,Fixes #5021 safely split hostkeys with quotes,5021
+1aa1e53,Michael DeHaan,2013-11-22 07:35:53,Merge pull request #5015 from mscherer/fix_5006,5006
+9731f38,Michael Scherer,2013-11-22 16:06:41,"Do not use construct not compatible with python 2.4, fix #5006",5006
+82a9387,Michael DeHaan,2013-11-19 14:54:32,Merge pull request #4971 from erjohnso/devel,4954
+8ff58eb,Eric Johnson,2013-11-19 22:30:22,fixes #4954 plus updates for gcutil/v1beta16 tests,4954,plugins/inventory/gce.py
+8ff58eb,Eric Johnson,2013-11-19 22:30:22,fixes #4954 plus updates for gcutil/v1beta16 tests,4954,test/gce_tests.py
+bfb1d46,James Cammarata,2013-11-19 14:54:20,Checking for a transitional running state in supervisorctl,3977
+e8b54dd,James Tanner,2013-11-18 10:40:49,Fixes #4852 properly evaluate log_path writability,4852,lib/ansible/callbacks.py
+0ce1123,James Tanner,2013-11-18 09:56:12,Fixes #4851 Set syslog debug mode for accelerate properly,4851
+f332bb0,James Tanner,2013-11-13 09:48:56,Fixes #4891 Catch unicodedecode errors from python-apt,4891
+5a3032a,James Tanner,2013-11-12 18:17:20,Fixes #4884 Do not prematurely exit from file module if src not defined,4884
+aafe7f5,James Tanner,2013-11-11 23:23:56,Fixes #4877 set type to bool for cache parameter in apt module,4877
+80fd22d,Serge van Ginderachter,2013-11-09 13:29:39,Check real user's known_hosts when sudo ansible...,4834,lib/ansible/runner/connection_plugins/ssh.py
+74e7eba,James Tanner,2013-11-08 13:17:02,Fixes #4506 test length of context before checking invalid indexes,4506,lib/ansible/module_utils/basic.py
+2b50056,James Tanner,2013-11-05 14:38:21,Fixes #4635 pass role conditionals to dependent roles,4635,lib/ansible/playbook/play.py
+8e105bb,jctanner,2013-11-04 15:36:02,Merge pull request #4772 from mscherer/fix_4763,4763
+c1ed479,James Tanner,2013-11-04 17:20:03,Fixes #4485 add an ipv6 parameter to accelerate so that the daemon will bind to an ipv6 port instead of ipv4,4485,lib/ansible/playbook/__init__.py
+c1ed479,James Tanner,2013-11-04 17:20:03,Fixes #4485 add an ipv6 parameter to accelerate so that the daemon will bind to an ipv6 port instead of ipv4,4485,lib/ansible/playbook/play.py
+c1ed479,James Tanner,2013-11-04 17:20:03,Fixes #4485 add an ipv6 parameter to accelerate so that the daemon will bind to an ipv6 port instead of ipv4,4485,lib/ansible/runner/__init__.py
+c1ed479,James Tanner,2013-11-04 17:20:03,Fixes #4485 add an ipv6 parameter to accelerate so that the daemon will bind to an ipv6 port instead of ipv4,4485,lib/ansible/runner/connection_plugins/accelerate.py
+1ef9bed,Michael Scherer,2013-11-01 17:42:54,"Try/finally is a python 2.5 construct, so not working on EL5. Fix #4763",4763
+afa5988,James Tanner,2013-11-01 11:59:24,Fixes #4540 Use shared module snippet to evaluate ec2 credentials,4540,lib/ansible/module_utils/ec2.py
+dc4d589,James Tanner,2013-11-01 09:41:22,Fixes #4767 detect hard links and set state in add_file_info,4767,lib/ansible/module_utils/basic.py
+f4b59fe,James Tanner,2013-11-01 09:31:32,Fixes #4516 file module: check prev_state earlier and use that if state is not specified,4516
+9e7b02a,Michael Scherer,2013-10-31 18:23:04,make cron module work on solaris,4648
+b5c9d5a,Michael DeHaan,2013-10-30 20:48:53,Inventory directory should always be absolute.  Fixes #4535.,4535,lib/ansible/inventory/__init__.py
+d3c8832,James Tanner,2013-10-29 10:33:46,Fixes #4720 Use mysql command to restore database instead of mysqldump,4720
+a1fcaf5,jctanner,2013-10-29 06:03:49,Merge pull request #4715 from mscherer/fix_4702,4702
+0faecdf,James Tanner,2013-10-28 22:50:55,Fixes #4653 Set dest on results for copy module even if using file module,4653,lib/ansible/runner/action_plugins/copy.py
+3f0b3a7,Michael Scherer,2013-10-28 23:41:18,"Fix #4702, make setup work on windows",4702
+0e9184e,James Cammarata,2013-10-28 12:41:56,Fixing authorized_keys module to make the key part detection better,4677
+9249cf5,James Tanner,2013-10-28 12:56:46,"Fixes #4572 Run until loop if until is set, ignoring result failures",4572,lib/ansible/runner/__init__.py
+40886c4,James Tanner,2013-10-25 16:09:43,Fixes #4561 Compare task name without role prefix for start-at-task,4561,lib/ansible/callbacks.py
+1f6edf7,James Tanner,2013-10-25 13:46:41,Fixes #4665 and #4666 If task is conditional do not flatten items list for packaging modules,4665,lib/ansible/runner/__init__.py
+9b1fe45,James Tanner,2013-10-25 10:27:38,Fixes #4549 Do not call lookup plugins when templating a task's name,4549,lib/ansible/playbook/__init__.py
+9b1fe45,James Tanner,2013-10-25 10:27:38,Fixes #4549 Do not call lookup plugins when templating a task's name,4549,lib/ansible/utils/template.py
+b803aac,James Tanner,2013-10-24 09:18:14,Fixes #4500 change ec2 module params to type=bool,4500,lib/ansible/module_common.py
+b9dd514,James Cammarata,2013-10-23 12:09:36,Minor fix for putting 0-length files over accelerated connections,4652,lib/ansible/runner/connection_plugins/accelerate.py
+4833c2f,James Tanner,2013-10-23 15:54:36,"Fixes #4500 python bools return uppercase True and False, so allow those for BOOLEANS in module common",4500,lib/ansible/module_common.py
+214b0b0,James Tanner,2013-10-22 12:00:54,Fixes #4608 add lookup to template globals to make plugins work again,4608,lib/ansible/utils/template.py
+4f13967,James Tanner,2013-10-21 12:07:51,Fixes #4536 Get the remote_user from multiple sources in a preferred order,4536,lib/ansible/playbook/task.py
+2bd8cb5,Michael DeHaan,2013-10-19 14:14:16,Make the deprecation detector in templates more accurate.  Fixes #4514.,4514,lib/ansible/utils/template.py
+64bbeb9,Michael DeHaan,2013-10-19 13:57:28,Suggest fixing unbalanced quotes in a bit less cases.  Fixes #4501,4501,lib/ansible/utils/__init__.py
+232eb9f,Michael DeHaan,2013-10-18 17:09:23,Merge pull request #4595 from mscherer/fix_4563,4563
+b5c3430,Michael DeHaan,2013-10-18 17:08:35,Merge pull request #4594 from mscherer/fix_4587,4587
+d5c290b,Michael Scherer,2013-10-19 01:51:42,"fix logic in module host to add aliases even if none exist already, fix #4563",4563
+19bb442,Michael Scherer,2013-10-19 00:57:08,"fix distribution detection in apt_repository module, so it also work on Mint as it work on Debian, fix #4587.",4587
+3c4dd61,James Tanner,2013-10-18 17:42:40,Fixes #4454 Make a temporary clean cnf file if unable to parse existing,4454
+8478e82,James Tanner,2013-10-18 11:19:16,Fixes #4583 enforce that vars_files is a list,4583,lib/ansible/playbook/play.py
+242f20c,James Tanner,2013-10-17 15:43:39,Fixes #4402 wrong order for isinstance parameters in dnstxt.py,4402,lib/ansible/runner/lookup_plugins/dnstxt.py
+4f674ec,James Tanner,2013-10-17 13:15:32,Fixes #4554 Enumerate user homedir if not passed as an argument,4554
+23cbdba,James Tanner,2013-10-16 20:08:41,Fixes #4350 Create homedirectory if create=yes and directory is missing,4350
+84a692b,James Tanner,2013-10-16 09:51:08,Fixes #4301 Use module_common functions for mysqldump and return better errors,4301
+84a57b7,Gabe Mulley,2013-10-15 21:15:00,ensure non-root users can read arguments file when using sudo_user,4438,lib/ansible/runner/__init__.py
+00f3ec6,James Tanner,2013-10-15 18:15:08,Fixes #4532 Send easy_install to get_bin_path instead of None,4532
+3528481,James Cammarata,2013-10-15 09:05:50,Handle ssh key files that may only have a type/key specified,4513
+c90a82f,Michael DeHaan,2013-10-13 09:19:41,Handle possible scenario where conditional might be an integer (whoa!) down the error path.  Super rare but fixes #4483.,4483,lib/ansible/utils/__init__.py
+41aaad6,Michael DeHaan,2013-10-11 16:36:48,"Make add_host clear the inventory pattern cache, add some more aliases.  Fixes #4442.",4442,lib/ansible/inventory/__init__.py
+41aaad6,Michael DeHaan,2013-10-11 16:36:48,"Make add_host clear the inventory pattern cache, add some more aliases.  Fixes #4442.",4442,lib/ansible/runner/action_plugins/add_host.py
+d21a028,James Tanner,2013-10-11 11:28:47,Remove all sys.exit calls in the cloud/s3 module,4458
+e3849f1,James Tanner,2013-10-11 09:10:35,Fixes #4312 for older versions of usermod which do not have --append,4312
+9124ebb,James Cammarata,2013-10-09 15:07:19,Clear out complex_args before running async_status,3150,lib/ansible/runner/poller.py
+bd10aad,Joost Cassee,2013-10-09 12:48:07,Add in a retry loop for route53 requests,4085
+948d019,James Cammarata,2013-10-09 11:03:07,Detect IPv6 addresses in INI inventory,3888,lib/ansible/inventory/ini.py
+98f6bc1,James Cammarata,2013-10-08 15:12:36,Apply tags to dependent roles correctly,4339,lib/ansible/playbook/play.py
+f081c68,Michael DeHaan,2013-10-07 17:15:19,Prevent duplicately loaded handlers from running more than once.,3863,lib/ansible/playbook/__init__.py
+5ed28ef,Michael DeHaan,2013-10-07 17:05:58,"Script module should return changed attribute so handlers always fire, unless ""changed_when"" is specified.",4053,lib/ansible/runner/action_plugins/script.py
+a7adc8e,Michael DeHaan,2013-10-07 16:57:45,"Allow doing things like ""groups.groupname"" in with_nested.",3858,lib/ansible/runner/lookup_plugins/nested.py
+a7adc8e,Michael DeHaan,2013-10-07 16:57:45,"Allow doing things like ""groups.groupname"" in with_nested.",3858,lib/ansible/runner/lookup_plugins/together.py
+a2ac5d6,James Cammarata,2013-10-07 15:12:07,Better detection/categorization of ipv4 secondaries/virtual IPs,3916
+5e30cd9,Michael DeHaan,2013-10-07 15:18:51,Make it possible to say:,4110,lib/ansible/playbook/task.py
+44e391f,Michael DeHaan,2013-10-07 05:44:06,Merge pull request #4255 from mcodd/legacy_vars_fix,4254
+2bd6c5e,Alexander Saltanov,2013-10-03 03:31:04,Remove options and protocols in source line with regex.,4311
+d4e0f2b,Michael DeHaan,2013-10-02 16:17:03,Merge pull request #4344 from AndydeCleyre/patch-1,2470
+ee054a4,Andy Kluger,2013-10-02 17:55:30,Fix for Issue #2470 - gem version string processing,2470
+59a5ce2,James Cammarata,2013-09-19 12:21:10,Adding an accelerate_timeout parameter for plays,4162,lib/ansible/constants.py
+59a5ce2,James Cammarata,2013-09-19 12:21:10,Adding an accelerate_timeout parameter for plays,4162,lib/ansible/playbook/__init__.py
+59a5ce2,James Cammarata,2013-09-19 12:21:10,Adding an accelerate_timeout parameter for plays,4162,lib/ansible/playbook/play.py
+59a5ce2,James Cammarata,2013-09-19 12:21:10,Adding an accelerate_timeout parameter for plays,4162,lib/ansible/runner/__init__.py
+59a5ce2,James Cammarata,2013-09-19 12:21:10,Adding an accelerate_timeout parameter for plays,4162,lib/ansible/runner/connection_plugins/accelerate.py
+344d8d5,James Cammarata,2013-10-01 14:47:50,"Use atomic_move to put the file, rather than shelling out",4321
+20489f1,Joshua Lund,2013-09-27 14:37:21,* Updated SHA-256 functionality in the get_url module   (fixes issue #4277),4277
+44aeea7,Julien Phalip,2013-09-26 17:12:29,In the script action: Get around a bug in that's been fixed in Python 2.7 but not Python 2.6. See: http://bugs.python.org/issue6988 Fixes #4256.,4256,lib/ansible/runner/action_plugins/script.py
+8b010cb,James Cammarata,2013-09-25 16:12:38,Make the ec2 wait code a little smarter,3980
+2f39d37,James Cammarata,2013-09-23 17:12:24,Expand destination path in the fetch action,4215,lib/ansible/runner/action_plugins/fetch.py
+27b5c2e,Stephen Fromm,2013-09-17 14:47:00,Fix how module_common handles selevel (issue #4142),4142,lib/ansible/module_common.py
+c5bb139,James Cammarata,2013-09-16 13:16:06,Check to make sure default_vars in the datastructure isn't empty,4129,lib/ansible/playbook/play.py
+f4b3def,James Cammarata,2013-09-15 20:19:38,Set sudo in accelerate commands correctly,4111,lib/ansible/runner/connection_plugins/accelerate.py
+35d138a,James Cammarata,2013-09-13 13:52:58,"When checking conditionals, don't dereference when the variable contains dashes",4104,lib/ansible/utils/__init__.py
+d0236f6,James Cammarata,2013-09-12 20:44:10,Check for link in path in utils.path_dwim_relative(),3312,lib/ansible/utils/__init__.py
+0d408ff,James Cammarata,2013-09-11 23:33:59,Use low-level package objects in the apt module to check installed state,3421
+72eaa05,James Cammarata,2013-09-11 15:48:36,Allow service module to manage services not ending in .service,3417
+5110b2d,James Cammarata,2013-09-11 13:13:32,Slight refactorization of the sysctl module,3380
+3e9b63f,James Cammarata,2013-09-10 23:24:24,Compare exploded values in the sysctl module to avoid whitespace errors,3931
+b2741f4,James Cammarata,2013-09-10 22:19:15,Fixes to the service module for Ubuntu 12.04 (LTS),3615
+9a3a3e6,James Cammarata,2013-09-10 19:27:54,Check for systemd ownership of a service even if an init.d script exists,3474
+808d959,James Cammarata,2013-09-09 17:26:44,Fixing typos in is_keyid function definition and usage,4068
+b3c0e3e,James Cammarata,2013-09-09 15:17:27,"Revert ""Styling: deprecation""",4069
+75a9357,James Cammarata,2013-09-09 15:14:03,Fixing role variable precedence for top-level roles,4026,lib/ansible/playbook/play.py
+294451d,James Cammarata,2013-09-09 14:50:21,Correctly handle variable issues when evaluating jinja2 when statements,4025,lib/ansible/utils/__init__.py
+294451d,James Cammarata,2013-09-09 14:50:21,Correctly handle variable issues when evaluating jinja2 when statements,4025,lib/ansible/utils/template.py
+4e9dee6,James Cammarata,2013-09-06 09:11:10,Use StringIO to feed md5 calculation to prevent unicode issues,4014,lib/ansible/utils/__init__.py
+ae9e38d,James Cammarata,2013-09-05 23:04:16,Change hostvars to a mutable mapping to more closely resemble a dict,4030,lib/ansible/runner/__init__.py
+2cbf283,James Cammarata,2013-09-05 20:20:25,Move check for accelerate mode deeper to account for ansible_connection,4045,lib/ansible/runner/__init__.py
+cc21e5c,James Cammarata,2013-09-04 15:29:46,Adding hostvars to injected variables in accelerate ssh runner,4021,lib/ansible/runner/connection_plugins/accelerate.py
+d27372f,James Cammarata,2013-09-03 16:13:25,Modified ec2_elb doc per issue #3849,3849
+2696135,James Cammarata,2013-09-03 12:27:58,Display error during launch of accelerated daemon,4012,lib/ansible/runner/connection_plugins/accelerate.py
+53c2f4c,James Cammarata,2013-09-03 10:59:50,Fix race condition on creating the temp directory for ControlPersist,3943,lib/ansible/runner/connection_plugins/ssh.py
+26a8d4c,James Cammarata,2013-09-03 09:49:19,Added 'reloaded' state to list of states checked for bounced services,3556
+af4f0bd,James Cammarata,2013-08-21 22:37:09,"Fix for ""argument must be an int, or have a fileno() method"" error",3841,lib/ansible/runner/__init__.py
+978af89,James Cammarata,2013-08-21 16:43:12,Disallow running async tasks with lookup plugins,2897,lib/ansible/runner/__init__.py
+00256af,Michael DeHaan,2013-08-18 13:17:14,Merge pull request #3878 from sjahl/apt_repository-perms-fix,3857
+4dd68c0,sjahl,2013-08-18 11:03:43,setting 0644 permissions on mkstemp file handles. Fixes issue #3857,3857
+9991a53,Serge van Ginderachter,2013-08-08 22:09:45,fix an encoding bug in copy content = lookup plugin,3518,lib/ansible/runner/action_plugins/copy.py
+1a4e6e4,Serge van Ginderachter,2013-08-08 16:21:03,Check for ansible_facts in results for with_ tasks,3704,lib/ansible/playbook/__init__.py
+82c8069,James Cammarata,2013-08-02 15:39:38,Only use LOG_LOCK in log_flock if a runner is not specified,3466,lib/ansible/callbacks.py
+0c1f6b4,Lorin Hochstein,2013-08-02 22:23:41,ec2: check for changes,3746
+d98ad7b,James Cammarata,2013-08-02 20:32:56,Set result to skipped when vol group is missing and lv state=absent,3714
+7d521ee,James Cammarata,2013-08-02 18:03:20,Allow destination paths in the hg module to include a tilde (~),3360
+ba38d6b,James Cammarata,2013-08-02 11:08:02,Adding support for hashed known_hosts entries,3716,lib/ansible/runner/connection_plugins/ssh.py
+a303fca,Lorin Hochstein,2013-07-30 16:14:25,Fix sudo_user copy regression,3705,lib/ansible/module_common.py
+8410939,Stoned Elipot,2013-07-28 18:47:26,Add extra module path early during playbook parsing.,3668,lib/ansible/playbook/__init__.py
+8410939,Stoned Elipot,2013-07-28 18:47:26,Add extra module path early during playbook parsing.,3668,lib/ansible/utils/plugins.py
+78b7a3a,Dietmar Schinnerl,2012-09-22 17:01:37,[Issue #1075] Fixing setup module fails if PATH is not set on target host,1075,lib/ansible/module_common.py

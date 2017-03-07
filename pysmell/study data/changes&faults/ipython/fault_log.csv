@@ -1,0 +1,614 @@
+commit,author,date,title,faultID,file
+4d2c248,Thomas Kluyver,2015-03-13 12:29:41,Allow inspection of source code for magics,8033,IPython/core/oinspect.py
+883fe6f,Min RK,2015-03-13 12:25:05,Merge pull request #8027 from bollwyvl/fix-select-multiple,8012
+2aff1ee,Nicholas Bollweg,2015-03-12 07:42:50,fixes #8012,8012
+ae7f6d6,Matthias Bussonnier,2015-02-26 20:34:47,Fix #4777 and #7887,4777
+8250266,Min RK,2015-01-26 10:56:09,remove duplicated border in indicator area,7599
+336c639,Min RK,2015-01-20 21:23:55,Merge pull request #7515 from jhamrick/fix-tour,5570
+52bc0c3,Thomas Kluyver,2015-01-16 10:54:00,Fix %load files with trailing newline to qtconsole,7485,IPython/qt/console/console_widget.py
+d596129,Min RK,2015-01-14 12:09:07,Merge pull request #7413 from Carreau/end_Space,7409
+b7ba30a,Min RK,2015-01-14 11:50:26,support markdown output in nbconvert,7394,IPython/nbconvert/exporters/html.py
+c38a54b,Matthias Bussonnier,2015-01-11 16:03:26,Prevent jump when clicking on action in menu.,7367
+3996b0e,Johannes Feist,2015-01-13 18:40:52,fix access to png width and height in nbconvert html basic template,7436
+d9cea04,Matthias Bussonnier,2015-01-11 15:41:07,update to component master CM11,7395
+b3fa9de,Matthias Bussonnier,2015-01-11 15:31:06,fix end_space size,7409
+3d6485b,Matthias Bussonnier,2014-12-24 18:52:22,remove whitespace below menubar when toolbar hidden.,7292
+f0bcc52,Thomas Kluyver,2014-12-17 10:40:55,Fix HEAD requests for kernelspec resources,7237,IPython/html/kernelspecs/handlers.py
+6792aa5,Thomas Kluyver,2014-11-11 16:15:06,Shut down kernel correctly when closing tab in Qt console,6893,IPython/qt/console/mainwindow.py
+29a0deb,Thomas Kluyver,2014-10-28 12:54:07,Fix Qt inputhook,6804,IPython/lib/inputhook.py
+1325ac1,Thomas Kluyver,2014-10-17 10:20:33,Fix markdown rendering with inline maths,6724,IPython/nbconvert/filters/markdown.py
+7c1173b,Thomas Kluyver,2014-09-04 12:07:02,Fix relative import in appnope,6409,IPython/external/appnope/__init__.py
+0530ec9,Thomas Kluyver,2014-06-20 16:14:31,Only allow '>>>' prompt without space afterwards if line is blank,6025,IPython/core/inputtransformer.py
+0530ec9,Thomas Kluyver,2014-06-20 16:14:31,Only allow '>>>' prompt without space afterwards if line is blank,6025,IPython/core/tests/test_inputsplitter.py
+45ff082,Thomas Kluyver,2014-06-20 16:07:28,Add failing test for gh-6025,6025,IPython/core/tests/test_inputtransformer.py
+5579eee,Thomas Kluyver,2014-06-10 12:29:41,Skip some tests if nbformat not importable,5970,IPython/core/tests/test_magic.py
+5579eee,Thomas Kluyver,2014-06-10 12:29:41,Skip some tests if nbformat not importable,5970,IPython/core/tests/test_run.py
+5579eee,Thomas Kluyver,2014-06-10 12:29:41,Skip some tests if nbformat not importable,5970,IPython/terminal/tests/test_help.py
+a67ac8e,MinRK,2014-05-12 14:17:01,remove Firefox-specific CSS workaround,5192
+3bde653,MinRK,2014-05-05 16:54:09,fix some issues in dict key completion,5790,IPython/core/completer.py
+3bde653,MinRK,2014-05-05 16:54:09,fix some issues in dict key completion,5790,IPython/core/tests/test_completer.py
+eef061e,Thomas Kluyver,2014-04-19 11:45:02,Fix %bookmark -l for Python 3,5676,IPython/core/magics/osm.py
+eef061e,Thomas Kluyver,2014-04-19 11:45:02,Fix %bookmark -l for Python 3,5676,IPython/core/tests/test_magic.py
+664c4f4,Thomas Kluyver,2014-03-28 11:51:21,Fix starting notebook server with file/directory at command line.,5460,IPython/html/notebookapp.py
+6bc5512,Thomas Kluyver,2014-03-20 09:13:54,Merge pull request #5388 from shashi/semicolon-fix,4525
+5ed16ec,Shashi Gowda,2014-03-20 04:23:52,Suppress output even when a comment follows ;. Fixes #4525.,4525,IPython/core/displayhook.py
+5ed16ec,Shashi Gowda,2014-03-20 04:23:52,Suppress output even when a comment follows ;. Fixes #4525.,4525,IPython/core/tests/test_interactiveshell.py
+808ea63,Min RK,2014-03-19 12:21:03,Merge pull request #5310 from ivanov/fix-5238,5238
+49639e8,Paul Ivanov,2014-03-09 11:41:25,"remove raw cell placeholder on focus, closes #5238",5238
+3ec67fc,Thomas Kluyver,2014-02-05 17:44:09,Store timestamps for modules to autoreload,4127,IPython/extensions/autoreload.py
+3ec67fc,Thomas Kluyver,2014-02-05 17:44:09,Store timestamps for modules to autoreload,4127,IPython/extensions/tests/test_autoreload.py
+709fe10,MinRK,2014-03-02 20:45:34,display any output from this session in terminal console,5251,IPython/terminal/console/interactiveshell.py
+e18be79,Fernando Perez,2014-02-21 18:08:19,Merge pull request #5112 from minrk/completion-band-aid,4860
+c586bb9,MinRK,2014-02-18 14:08:27,Some template static_url tweaks,5141
+c212c9c,MinRK,2014-02-12 18:20:51,use non-breaking space for button with no description,5113
+991071f,Fernando Perez,2014-02-10 18:16:22,Merge pull request #5077 from minrk/qt-hmm,4997
+c83ff4b,MinRK,2014-02-02 11:12:07,require print_method to be a bound method,4990,IPython/core/formatters.py
+c83ff4b,MinRK,2014-02-02 11:12:07,require print_method to be a bound method,4990,IPython/core/tests/test_formatters.py
+4850ed8,MinRK,2014-02-07 20:20:24,fix flex: auto,5069
+ea44f6e,MinRK,2014-02-07 16:43:49,show traceback in widget handlers,5064,IPython/html/widgets/widget.py
+e80633d,MinRK,2013-07-05 12:31:48,set overflow-x: hidden on Firefox only,3549
+1229497,Thomas Kluyver,2014-02-03 17:56:12,Prevent 'iptest IPython' from trying to run.,4006,IPython/testing/iptestcontroller.py
+9b8c058,Min RK,2014-01-31 20:40:25,Merge pull request #4929 from ellisonbg/modal-fixes,4809
+32dc84b,Min RK,2014-01-29 15:59:11,Merge pull request #4950 from ellisonbg/file-upload,4825
+7c82276,MinRK,2014-01-29 12:41:48,`ipython profile create` respects `--ipython-dir`,4704,IPython/core/profileapp.py
+7c82276,MinRK,2014-01-29 12:41:48,`ipython profile create` respects `--ipython-dir`,4704,IPython/core/tests/test_profile.py
+f1061cc,MinRK,2014-01-29 12:21:46,always point py3compat.input to builtin_mod.input,4583,IPython/utils/py3compat.py
+93c0079,MinRK,2014-01-28 19:53:15,ZMQCompleter inherits from IPCompleter,1181,IPython/terminal/console/completer.py
+da3801e,Thomas Kluyver,2014-01-28 15:41:36,Mark known failure test on Windows.,4907,IPython/core/tests/test_run.py
+68cef00,Thomas Kluyver,2014-01-28 15:33:17,Skip failing test part on Windows,4906,IPython/terminal/tests/test_embed.py
+2dce7a8,Paul Ivanov,2014-01-23 18:24:01,"cleaner string/bytes solution, closes #4759",4759,IPython/terminal/tests/test_embed.py
+75618df,MinRK,2014-01-23 17:40:57,fix tb_offset when running a file,4835,IPython/core/interactiveshell.py
+131a4ab,Thomas Kluyver,2013-11-26 16:32:50,Fix bytes regex for Python 3.,4602,IPython/parallel/apps/baseapp.py
+e6f14d5,MinRK,2013-11-25 11:55:34,re-cast int/float subclasses to int/float in json_clean,4598,IPython/utils/jsonutil.py
+d18be24,Thomas Kluyver,2013-11-22 10:59:29,Use unicode_std_stream in nbconvert stdout writer,4578,IPython/nbconvert/writers/stdout.py
+d18be24,Thomas Kluyver,2013-11-22 10:59:29,Use unicode_std_stream in nbconvert stdout writer,4578,IPython/nbconvert/writers/tests/test_stdout.py
+c1cf1a9,Matthias Bussonnier,2013-11-10 11:20:25,Merge pull request #4497 from minrk/datetime-session,4493
+015e707,MinRK,2013-11-08 11:17:42,allow restart in `%run -d`,3043,IPython/core/magics/execution.py
+f205225,MinRK,2013-11-05 17:12:21,fix ISO8601 re,4493,IPython/utils/jsonutil.py
+14625df,Min RK,2013-11-05 12:30:55,Merge pull request #4466 from minrk/pandoc-preamble,4245
+325e76d,MinRK,2013-10-30 15:38:13,add missing pandoc declarations,4245
+414a88d,Thomas Kluyver,2013-10-29 17:40:52,"Better clipboard handling, esp. with pywin32",3386,IPython/lib/clipboard.py
+414a88d,Thomas Kluyver,2013-10-29 17:40:52,"Better clipboard handling, esp. with pywin32",3386,IPython/terminal/interactiveshell.py
+bf72d2f,MinRK,2013-10-07 17:44:27,save before download-as,852,IPython/html/services/notebooks/handlers.py
+4481c32,Min RK,2013-10-11 06:40:32,Merge pull request #4372 from takluyver/i4361,4361
+3d1aa16,Thomas Kluyver,2013-10-09 15:53:52,Don't assume that SyntaxTB is always called with a SyntaxError,4361,IPython/core/ultratb.py
+bdcd3f6,Thomas Kluyver,2013-10-09 15:52:04,Add failing test for gh-4361,4361,IPython/core/tests/test_ultratb.py
+bdcd3f6,Thomas Kluyver,2013-10-09 15:52:04,Add failing test for gh-4361,4361,IPython/testing/tools.py
+654c9fe,Pablo de Oliveira,2013-10-08 22:59:30,set_next_input: squash multiple calls from the same cell execution,1349,IPython/core/payload.py
+654c9fe,Pablo de Oliveira,2013-10-08 22:59:30,set_next_input: squash multiple calls from the same cell execution,1349,IPython/kernel/zmq/zmqshell.py
+6ef833d,Matthias Bussonnier,2013-10-03 05:08:46,Merge pull request #4336 from minrk/kernel_cmd_format,4334
+57aefd0,MinRK,2013-10-02 21:26:26,adjust default value of level in sync_imports,4296,IPython/parallel/client/view.py
+88c8875,MinRK,2013-10-02 16:29:31,use simple replacement rather than string formatting in format_kernel_cmd,4334,IPython/kernel/manager.py
+71dcfc1,Thomas Kluyver,2013-09-23 12:13:48,Use plain string searching for test exclusions.,4243,IPython/testing/iptest.py
+b0efb86,MinRK,2013-09-17 11:03:45,clear previous callbacks on execute,4223
+2ce2ce4,MinRK,2013-09-13 16:08:47,use TextIOWrapper when communicating with pandoc subprocess,4122,IPython/nbconvert/utils/pandoc.py
+fd48b58,Min RK,2013-09-13 12:16:47,Merge pull request #4201 from minrk/no-merge-heading,4200
+beb8192,MinRK,2013-09-12 12:28:26,HeadingCells are not splittable or mergeable,4200
+8c88aec,Min RK,2013-09-08 17:16:55,Merge pull request #4174 from minrk/markup-templates,4024
+c138b06,MinRK,2013-09-04 10:39:22,minor adjustments to markdown / rst templates,4024
+617b769,Min RK,2013-09-04 08:50:30,Merge pull request #4158 from minrk/guitk,4156
+20bada8,MinRK,2013-09-01 13:43:36,generate choices for `--gui` configurable from real mapping,4156,IPython/core/shellapp.py
+20bada8,MinRK,2013-09-01 13:43:36,generate choices for `--gui` configurable from real mapping,4156,IPython/lib/inputhook.py
+91ee2b2,Min RK,2013-08-29 14:58:34,Merge pull request #4137 from takluyver/restore-autorestore,4078
+151b4ff,Thomas Kluyver,2013-08-29 12:28:48,Restore autorestore option for storemagic.,4078,IPython/extensions/storemagic.py
+151b4ff,Thomas Kluyver,2013-08-29 12:28:48,Restore autorestore option for storemagic.,4078,IPython/terminal/ipapp.py
+27f366a,Min RK,2013-08-25 05:10:08,Merge pull request #4101 from minrk/engineerror,4100
+3670ae7,MinRK,2013-08-24 09:15:19,fix a couple of default block values,4103,IPython/parallel/client/view.py
+8be7b86,MinRK,2013-08-23 19:46:25,restore accidentally removed EngineError,4100,IPython/parallel/error.py
+6072327,Thomas Kluyver,2013-08-21 10:55:36,Use msvcrt.getwch() for Windows pager.,1591,IPython/core/page.py
+250c2bd,MinRK,2013-08-18 22:53:36,only strip continuation prompts if regular prompts seen first,4059,IPython/core/inputtransformer.py
+250c2bd,MinRK,2013-08-18 22:53:36,only strip continuation prompts if regular prompts seen first,4059,IPython/core/tests/test_inputtransformer.py
+d3e2f73,Min RK,2013-08-14 21:20:37,Merge pull request #4016 from takluyver/IPython-start-funcs,4005
+70d6bef,Thomas Kluyver,2013-08-13 11:02:34,Fix IPython.start_kernel(),4005,IPython/kernel/zmq/kernelapp.py
+cd02a4e,MinRK,2013-08-09 09:36:50,logging.Formatter is not new-style in 2.6,3968,IPython/config/application.py
+b8cf4d1,Matthias BUSSONNIER,2013-08-08 11:17:33,complete on % for magic in notebook,3954
+1cd85c3,Min RK,2013-08-06 12:34:16,Merge pull request #3913 from ivanov/alt-fix-3774,3774
+2e7a631,MinRK,2013-08-05 13:51:23,explicitly load python mode before IPython mode,3636
+2416e0e,Paul Ivanov,2013-08-02 20:52:28,quick fix for #3881,3881,IPython/utils/tests/test_tempdir.py
+f067052,Min RK,2013-07-31 13:38:41,Merge pull request #3840 from minrk/never-no-profile,3837
+b634ae2,Min RK,2013-07-31 12:04:57,Merge pull request #3854 from takluyver/i2431,2431
+7416da5,Thomas Kluyver,2013-07-31 10:01:29,Catch errors filling readline history on startup.,2431,IPython/core/interactiveshell.py
+8d0a6b7,Min RK,2013-07-26 17:46:10,Merge pull request #3720 from jstenar/nbconvert-datefmt,3719
+2000e41,Min RK,2013-07-26 17:38:53,Merge pull request #3787 from minrk/raw_input_sigint,3786
+32356f5,MinRK,2013-07-25 17:59:26,fix raw_input in qtconsole,3785,IPython/qt/console/console_widget.py
+695206e,MinRK,2013-07-25 17:26:16,re-raise KeyboardInterrupt in raw_input,3786,IPython/kernel/zmq/ipkernel.py
+1cae5c5,Jörgen Stenarson,2013-07-22 09:08:19,Fix for #3719,3719,IPython/nbconvert/exporters/exporter.py
+27a741f,MinRK,2013-07-17 15:51:53,remove special-case in get_home_dir for frozen dists,2702,IPython/utils/path.py
+5ea5ed1,Min RK,2013-07-17 12:53:03,Merge pull request #3669 from minrk/qtclient,3668
+094340a,MinRK,2013-07-10 18:08:32,push cell magic to the head of the transformer line,3604,IPython/core/inputsplitter.py
+f55aa8f,Min RK,2013-07-17 10:27:12,Merge pull request #3662 from minrk/coding_transform,3245
+17a5709,MinRK,2013-07-17 10:25:21,set default client_class for QtKernelManager,3668,IPython/qt/manager.py
+acdb8b0,MinRK,2013-07-16 16:12:44,add strip_encoding_cookie transformer,3245,IPython/core/inputsplitter.py
+acdb8b0,MinRK,2013-07-16 16:12:44,add strip_encoding_cookie transformer,3245,IPython/core/inputtransformer.py
+ae04a0d,Min RK,2013-07-16 13:00:32,Merge pull request #3601 from minrk/headingmath2,3053
+84e8bb0,Min RK,2013-07-15 10:59:55,Merge pull request #3338 from takluyver/i3316,3316
+62c0f6d,Min RK,2013-07-14 11:19:57,Merge pull request #3624 from minrk/argunicode,3494
+56cc9a4,Min RK,2013-07-13 14:13:12,Merge pull request #3626 from ivanov/fix-3625,3625
+35cab9f,Paul Ivanov,2013-07-13 00:05:21,"passing cell to showInPager, closes #3625",3625
+c60a91d,MinRK,2013-07-12 18:47:56,fix some unicode in zmqhandlers,3494,IPython/html/base/zmqhandlers.py
+14d77dc,MinRK,2013-07-10 10:50:28,Markdown in heading cells (take 2),3053
+ced013f,Min RK,2013-07-09 11:50:53,Merge pull request #3560 from minrk/longcell,3124
+02b1654,Min RK,2013-07-07 10:28:04,Merge pull request #3572 from takluyver/win-skip-irunner,3544
+291fade,Thomas Kluyver,2013-07-07 11:56:47,Skip import irunner test on Windows.,3544,IPython/lib/tests/test_imports.py
+b708c7a,Matthias Bussonnier,2013-07-06 09:54:58,Merge pull request #3529 from minrk/rawin,1145
+b2821ef,MinRK,2013-07-05 12:31:48,set overflow-x: hidden on Firefox only,3549
+10d191b,MinRK,2013-07-04 11:15:39,allow cython cache dir to be deleted,3010,IPython/extensions/cythonmagic.py
+8c83c3b,MinRK,2013-07-03 18:33:24,allow markdown in heading cells,3053
+b009e52,MinRK,2013-07-03 18:11:08,update %store magic docstring,2434,IPython/extensions/storemagic.py
+eed0c91,MinRK,2013-07-03 18:07:00,ensure raw_input returns str in zmq shell,1145,IPython/kernel/zmq/ipkernel.py
+d05a9a4,MinRK,2013-07-03 17:34:00,fix local mathjax with custom base_project_url,2720,IPython/html/notebookapp.py
+1aa6f51,MinRK,2013-07-02 10:47:24,update CodeMirror component to 3.14,3361
+94b5038,Min RK,2013-07-01 11:11:22,Merge pull request #3504 from minrk/fixsession,3502
+f14e0fb,MinRK,2013-07-01 10:55:06,don't use parent=self in handlers,3502,IPython/html/base/zmqhandlers.py
+3dc04f8,Min RK,2013-06-29 15:16:46,Merge pull request #3491 from takluyver/notebook-kernel-died,3474
+19f5a23,Thomas Kluyver,2013-06-29 23:01:34,Remove unexpected keyword parameter to remove_kernel,3474,IPython/html/services/kernels/kernelmanager.py
+c4841e8,Thomas Kluyver,2013-06-29 22:29:51,Add test suite for autoreload extension,1912,IPython/testing/iptest.py
+3c5b196,Thomas Kluyver,2013-06-29 18:26:10,Catch some pathological cases inside oinspect,2577,IPython/core/oinspect.py
+3c5b196,Thomas Kluyver,2013-06-29 18:26:10,Catch some pathological cases inside oinspect,2577,IPython/core/tests/test_oinspect.py
+f074f89,Thomas Kluyver,2013-06-29 17:05:38,Allow classic prompts without space.,2790,IPython/core/inputtransformer.py
+f074f89,Thomas Kluyver,2013-06-29 17:05:38,Allow classic prompts without space.,2790,IPython/core/tests/test_inputtransformer.py
+eae0b3a,Paul Ivanov,2013-06-26 14:56:18,Merge pull request #3463 from ivanov/fix-3462,3462
+22236ba,Paul Ivanov,2013-06-24 14:56:01,"fix typo, closes #3462",3462,IPython/config/application.py
+9dc6da8,MinRK,2013-06-13 11:25:43,base IPClusterApp inherits from BaseIPythonApp,3424,IPython/parallel/apps/ipclusterapp.py
+3c4d819,Thomas Kluyver,2013-05-30 11:17:51,Make submodule checks work under Python 3.,3385,IPython/utils/submodule.py
+3c4d819,Thomas Kluyver,2013-05-30 11:17:51,Make submodule checks work under Python 3.,3385,setup.py
+48313c2,Min RK,2013-05-29 15:50:11,Merge pull request #3328 from minrk/launcherbytes,3326
+22cfb98,MinRK,2013-05-28 22:43:22,disable CodeMirror drag/drop on Safari,3375
+e995cde,MinRK,2013-05-28 19:58:57,allow class.__module__ to be None,3376,IPython/lib/pretty.py
+5cf9891,Thomas Kluyver,2013-05-25 18:28:33,Use new input transformation API in %paste,3246,IPython/frontend/terminal/interactiveshell.py
+6521c63,Thomas Kluyver,2013-05-25 18:27:03,Failing test for gh-3246,3246,IPython/frontend/terminal/tests/test_interactivshell.py
+689d7bf,Min RK,2013-05-18 11:07:38,Merge pull request #3323 from takluyver/strip-prompts,3206
+f39df5b,Thomas Kluyver,2013-05-18 11:52:29,Allow filename with extension in find_cmd in Windows.,3316,IPython/utils/_process_win32.py
+f6657cb,MinRK,2013-05-16 09:22:21,decode subprocess output in launchers,3326,IPython/parallel/apps/launcher.py
+e3df40c,Thomas Kluyver,2013-05-15 22:35:45,Strip prompts even if the prompt isn't present on the first line.,3206,IPython/core/inputtransformer.py
+e3df40c,Thomas Kluyver,2013-05-15 22:35:45,Strip prompts even if the prompt isn't present on the first line.,3206,IPython/core/tests/test_inputtransformer.py
+5352194,Julian Taylor,2013-05-10 15:55:18,fix documentation and test of getoutput,3280,IPython/utils/_process_common.py
+5352194,Julian Taylor,2013-05-10 15:55:18,fix documentation and test of getoutput,3280,IPython/utils/tests/test_process.py
+9087bb9,Bradley M. Froehle,2013-05-03 14:28:07,Merge pull request #3066 from tkf/run-module,2727
+a18e013,Thomas Kluyver,2013-05-02 13:45:50,Fix for checking submodules location,3257,setupbase.py
+89abca7,Min RK,2013-04-30 12:22:58,Merge pull request #3242 from babouaya/master,3236
+e7a98b1,Min RK,2013-04-23 21:07:58,Merge pull request #3212 from jusic/master,2563
+410df96,Min RK,2013-04-21 11:04:27,Merge pull request #3203 from takluyver/cell-magics-wholecell,3178
+014d7ca,Thomas Kluyver,2013-04-20 11:33:34,Separate InteractiveShell.input_splitter into two instances.,3178,IPython/core/interactiveshell.py
+719c4f8,MinRK,2013-04-19 13:01:02,use much faster regexp for ansi coloring,3198
+ad7b12c,Min RK,2013-04-10 22:40:22,Merge pull request #2791 from minrk/forksafe_nomp,2438
+d3b4926,Min RK,2013-04-06 12:14:51,Merge pull request #3136 from jfeser/8b94eddb4d15ce6f0c98675116d4609bdaaf99d9,2385
+d515902,Min RK,2013-03-31 10:38:58,Merge pull request #3097 from minrk/qt-4.10,3084
+04c4279,MinRK,2013-03-27 14:38:48,use self._document = self.document(),3084,IPython/frontend/qt/console/pygments_highlighter.py
+b1d999c,MinRK,2013-03-27 22:16:41,set `spellcheck=false` in CodeCell inputarea,3087
+d8ed554,MinRK,2013-03-25 16:56:05,fix regular expression for detecting links in stdout,2834
+ced51b9,Takafumi Arakaki,2013-03-23 18:25:33,Test for #2727 (%run -m doesn't support relative imports),2727,IPython/core/tests/test_run.py
+3fb35dc,Min RK,2013-03-21 12:52:41,Merge pull request #3046 from minrk/popen_cwdu_win32,3039
+0ad2e21,MinRK,2013-03-20 17:07:44,cast kernel cwd to bytes on Python 2 on Windows,3039,IPython/kernel/launcher.py
+8bb3f53,Min RK,2013-03-15 23:16:37,Merge pull request #3022 from takluyver/i3020,3020
+b0001fc,Thomas Kluyver,2013-03-15 20:16:03,Fix test for Windows,3020,IPython/core/tests/test_interactiveshell.py
+72bc759,MinRK,2013-03-10 18:06:53,py3 workaround for reload in cythonmagic,3007,IPython/extensions/cythonmagic.py
+c961d78,Min RK,2013-03-10 16:12:38,Merge pull request #2957 from ChrisBeaumont/qt_refactor,2955
+8fcce72,MinRK,2013-03-04 11:52:24,expanduser on %%file targets,2993,IPython/core/magics/osm.py
+7ec1888,Chris Beaumont,2013-02-20 14:45:43,Refactor qt import logic. Fixes #2955,2955,IPython/external/qt.py
+7ec1888,Chris Beaumont,2013-02-20 14:45:43,Refactor qt import logic. Fixes #2955,2955,IPython/external/qt_for_kernel.py
+7ec1888,Chris Beaumont,2013-02-20 14:45:43,Refactor qt import logic. Fixes #2955,2955,IPython/external/qt_loaders.py
+427f551,MinRK,2013-02-16 15:38:45,fix qtconsole history logic for end-of-line,2943,IPython/frontend/qt/console/history_console_widget.py
+465f43c,Min RK,2013-02-12 16:06:19,Merge pull request #2926 from y-p/GH2925,2925
+ac09b5e,Lessandro Mariano,2013-02-10 20:06:49,Use inputhook_wx2 on osx,2762,IPython/lib/inputhookwx.py
+17ffaf0,MinRK,2013-02-07 09:03:42,exclude fabfile from tests,2890,IPython/testing/iptest.py
+f2abc0f,MinRK,2013-01-19 14:01:09,"in %edit, don't save ""last_call"" unless last call succeeded",2466,IPython/core/magics/code.py
+9db8811,Min RK,2013-01-18 23:35:18,Merge pull request #2808 from minrk/parallel_wait,2807
+1cba5f9,MinRK,2013-01-18 21:42:40,remove nonfunctional `-la` short arg in cython magic,2709,IPython/extensions/cythonmagic.py
+59bc5cd,MinRK,2013-01-18 14:16:29,improve patience for slow Hub in client tests,2807,IPython/parallel/tests/test_client.py
+7e89099,Min RK,2013-01-17 20:25:37,Merge pull request #2799 from takluyver/exit-code,2794
+4f8465e,Min RK,2013-01-17 20:03:07,Merge pull request #2800 from minrk/typecheck,2793
+a6d0b5e,MinRK,2013-01-17 10:20:28,use `type(obj) is cls` as switch when canning,2793,IPython/utils/pickleutil.py
+818ae35,Thomas Kluyver,2013-01-17 13:36:09,Correct exit code from os.system() on Unix.,2794,IPython/core/interactiveshell.py
+b02db49,MinRK,2013-01-11 12:32:51,remove non-functional View.kill method,2772,IPython/parallel/client/view.py
+697ec09,Bradley M. Froehle,2013-01-09 22:26:28,Define __file__ when we %edit a real file.,2765,IPython/core/magics/code.py
+1d350ef,Thomas Kluyver,2013-01-09 13:16:22,Reset readline delimiters after loading rmagic.,2759,IPython/core/interactiveshell.py
+1d350ef,Thomas Kluyver,2013-01-09 13:16:22,Reset readline delimiters after loading rmagic.,2759,IPython/extensions/rmagic.py
+d5ed309,Bradley M. Froehle,2012-11-26 16:11:50,Fix 'import '... completion for py3 & egg files.,2555,IPython/core/completerlib.py
+a2f3ace,Bradley M. Froehle,2012-12-16 14:23:21,Add test for gh-2684.,2684,IPython/lib/tests/test_pretty.py
+13bc13e,Bussonnier Matthias,2012-12-16 14:06:25,Merge pull request #2604 from filmor/master,2533
+9b11523,Bradley M. Froehle,2012-12-14 16:32:23,Fix pretty print of types when `__module__` is not available.,2684,IPython/lib/pretty.py
+a8a0f16,Aaron Meurer,2012-12-02 16:33:14,Fix %paste in Python 3 on Mac,2637,IPython/lib/clipboard.py
+4e73029,Bussonnier Matthias,2012-11-17 09:02:02,Merge pull request #2574 from dkua/Fix#2244,2244
+ea37b42,Thomas Kluyver,2012-11-08 23:33:15,Fix display of plain text containing multiple carriage returns before line feed.,2560
+63dfa20,Bradley M. Froehle,2012-07-26 23:34:42,Avoid stopping in ipdb until we reach the main script.,1679,IPython/core/magics/execution.py
+2962dae,Fernando Perez,2012-11-01 21:51:56,Merge pull request #2517 from ahmadia/mathjax_fix2,2289
+c930eff,MinRK,2012-10-11 12:48:47,use new _winapi instead of removed _subprocess,2471,IPython/zmq/entry_point.py
+c930eff,MinRK,2012-10-11 12:48:47,use new _winapi instead of removed _subprocess,2471,IPython/zmq/parentpoller.py
+d347c34,Thomas Kluyver,2012-09-06 23:53:21,Catch sqlite DatabaseErrors in more places when reading the history database.,2097,IPython/core/history.py
+66c77ff,Bradley M. Froehle,2012-09-07 11:40:41,inputhook_qt4: Use QEventLoop instead of starting up the QCoreApplication.,2080,IPython/lib/inputhookqt4.py
+5d645a2,Jörgen Stenarson,2012-09-06 02:22:52,Merge pull request #1715 from jstenar/ultratb-pycolorize-unicode,1688
+c1d0b69,MinRK,2012-09-03 17:20:03,use Singleton.instance() for embed() instead of manual global,1884,IPython/frontend/terminal/embed.py
+5b09a81,MinRK,2012-09-01 09:52:17,fix missing imports in core.interactiveshell,2372,IPython/core/interactiveshell.py
+52bdc1d,Bradley M. Froehle,2012-08-31 12:00:35,qtconsole: Create a prompt newline by inserting a new block (w/o formatting),2314,IPython/frontend/qt/console/console_widget.py
+ddde2e1,Min RK,2012-08-30 13:11:18,Merge pull request #2364 from ikn/client-use-location,2361
+bf94297,Joseph Lansdowne,2012-08-30 20:38:35,make clients use 'location' properly (fixes #2361),2361,IPython/parallel/client/client.py
+660787d,JÃ¶rgen Stenarson,2012-05-09 21:16:19,"Quick fix for #1688, traceback-unicode issue",1688,IPython/core/ultratb.py
+660787d,JÃ¶rgen Stenarson,2012-05-09 21:16:19,"Quick fix for #1688, traceback-unicode issue",1688,IPython/utils/PyColorize.py
+58335ad,Min RK,2012-08-26 16:16:19,Merge pull request #2305 from minrk/render_traceback,2303
+5bb0ae4,Thomas Kluyver,2012-08-26 02:04:55,Merge pull request #2338 from jstenar/fix-2315,2315
+ced21cc,Jörgen Stenarson,2012-08-25 13:59:29,"Normalize line endings for ipexec_validate, fix for #2315.",2315,IPython/testing/tools.py
+09b440a,MinRK,2012-08-14 13:46:09,RemoteError._render_traceback_ calls self.render_traceback,2303,IPython/parallel/error.py
+31afb62,Min RK,2012-08-10 21:32:53,Merge pull request #2280 from ikn/master,2266
+f9a87d2,Joseph Lansdowne,2012-08-10 10:55:24,fix check for passwordless OpenSSH (fixes #2266),2266,IPython/external/ssh/tunnel.py
+75c66c8,Min RK,2012-08-09 15:52:45,Merge pull request #2246 from minrk/canning_depth,2239
+1ab4b53,MinRK,2012-08-01 16:14:21,remove spurious print statement from setupbase.py,2235,setupbase.py
+298fdab,Thomas Kluyver,2012-08-01 20:19:50,Reapply our monkeypatch to inspect.findsource().,1456,IPython/core/ultratb.py
+b4231a4,Thomas Kluyver,2012-08-01 20:13:13,Add failing test for issue gh-1456,1456,IPython/core/tests/test_ultratb.py
+b4231a4,Thomas Kluyver,2012-08-01 20:13:13,Add failing test for issue gh-1456,1456,IPython/testing/tools.py
+06c27d8,Thomas Kluyver,2012-07-31 04:58:22,Merge pull request #2223 from takluyver/custom_traceback,2221
+6c86c46,Thomas Kluyver,2012-07-30 21:10:53,Allow custom tracebacks for exception types with a _render_traceback_() method.,2223,IPython/core/interactiveshell.py
+6c86c46,Thomas Kluyver,2012-07-30 21:10:53,Allow custom tracebacks for exception types with a _render_traceback_() method.,2223,IPython/parallel/error.py
+2ff8a90,Min RK,2012-07-29 16:30:12,Merge pull request #2214 from minrk/engine_startup,2213
+43a8117,Bussonnier Matthias,2012-07-28 03:41:00,Merge pull request #2190 from Carreau/update_code_mirror,1464
+e9d22bf,Fernando Perez,2012-07-26 10:51:17,Merge pull request #2198 from Carreau/fix-mpr,2195
+fbc781d,MinRK,2012-07-23 13:48:31,clean nan/inf in json_clean,2194,IPython/utils/jsonutil.py
+7fedb4a,Min RK,2012-07-21 09:14:49,Merge pull request #2185 from cqmckay/magicfix,2099
+2933cdd,Fernando Perez,2012-07-20 00:04:03,Merge pull request #2170 from bfroehle/embed_kernel_completer,2162
+a9e7148,Matthias BUSSONNIER,2012-07-03 14:40:32,re-aliad %ed to %edit in qtconsole,2085,IPython/zmq/zmqshell.py
+c7401c9,Fernando Perez,2012-07-08 13:15:48,Merge pull request #2110 from asmeurer/inputsplitter,2108
+9bd0c90,Aaron Meurer,2012-07-07 22:06:42,Line continuations now terminate after one blank line (#2108),2108,IPython/core/inputsplitter.py
+9bd0c90,Aaron Meurer,2012-07-07 22:06:42,Line continuations now terminate after one blank line (#2108),2108,IPython/core/tests/test_inputsplitter.py
+811283a,Fernando Perez,2012-07-05 09:54:35,Merge pull request #2101 from Carreau/fixes-2082,2082
+dd5f651,Matthias BUSSONNIER,2012-07-05 15:09:18,fix completer deletting newline,2082,IPython/frontend/qt/console/console_widget.py
+70ea9a8,Min RK,2012-07-01 16:21:51,Merge pull request #2076 from fperez/exclude-static-tests,2075
+b2ab7f5,Fernando Perez,2012-06-30 15:57:23,Merge pull request #2068 from minrk/sysinfo,2054
+e682e91,MinRK,2012-06-30 15:17:46,record sysinfo in sdist,2054,setup.py
+e682e91,MinRK,2012-06-30 15:17:46,record sysinfo in sdist,2054,setupbase.py
+ba2907d,Fernando Perez,2012-06-30 07:57:02,Remove umlauts so py3 installations on LANG=C systems succeed.,2057,IPython/core/release.py
+6dc11dc,Fernando Perez,2012-06-30 07:39:24,Merge pull request #2061 from Carreau/fixes-2056,2056
+e7a6506,Matthias BUSSONNIER,2012-06-30 16:29:10,use explicit tuple in exception,2056,IPython/core/magics/osm.py
+11b77df,Fernando Perez,2012-06-27 18:51:23,Merge pull request #2015 from fperez/paste_1258,1258
+bb4488a,Min RK,2012-06-27 15:16:30,Merge pull request #2046 from jstenar/iptest-unicode,760
+9a42e23,Fernando Perez,2012-06-26 14:32:03,Merge pull request #2043 from minrk/remoteimport,1688
+4a7a056,MinRK,2012-06-26 12:50:52,move RemoteError import to top-level,1688,IPython/core/interactiveshell.py
+28ad69d,Fernando Perez,2012-06-25 20:20:14,Properly clean up input for interactive pasting.,1258,IPython/frontend/terminal/interactiveshell.py
+238877a,Fernando Perez,2012-06-25 12:05:45,Merge pull request #2038 from minrk/shdoc,1297
+280759b,MinRK,2012-06-25 11:59:03,add extra clear warning to shell doc,1297
+0f8aede,Fernando Perez,2012-06-24 18:53:59,Merge pull request #2030 from minrk/wx2.6,1885
+b1eae24,Min RK,2012-06-24 16:48:59,Merge pull request #2025 from jdmarch/win_xp_parallel_test_wait_for_cleanup,1901
+48d4896,MinRK,2012-06-24 15:25:30,check wxPython version in inputhook,1885,IPython/lib/inputhook.py
+bbc8619,Jonathan March,2012-06-24 10:50:49,Fix parallel test on WinXP - wait for resource cleanup.,1901,IPython/parallel/tests/test_view.py
+0e92be8,Min RK,2012-06-19 20:38:21,Merge pull request #1988 from minrk/active_restart,1982
+cb305fc,MinRK,2012-06-18 16:33:02,check for active frontend in update_restart_checkbox,1982,IPython/frontend/qt/console/mainwindow.py
+172b680,Min RK,2012-06-15 13:44:15,Merge pull request #1965 from ivanov/fix-1678,1678
+4eb5db2,Min RK,2012-06-14 17:53:57,Merge pull request #1962 from minrk/uprompt,1961
+221ff6a,Paul Ivanov,2012-06-14 17:36:34,"fix for #1678, undo no longer clears cells",1678
+6927660,MinRK,2012-06-14 14:45:21,add missing Normal on NoColors,1963,IPython/utils/coloransi.py
+3ee91c3,Matthias BUSSONNIER,2012-06-13 15:57:31,take #!%...  prefix into account for completion,1767,IPython/core/inputsplitter.py
+3ee91c3,Matthias BUSSONNIER,2012-06-13 15:57:31,take #!%...  prefix into account for completion,1767,IPython/frontend/qt/console/console_widget.py
+5de4611,Min RK,2012-06-13 02:38:58,Merge pull request #1942 from minrk/i1941,1941
+3606205,MinRK,2012-06-13 02:35:45,swallow stderr of which in utils.process.find_cmd,1941,IPython/utils/_process_posix.py
+960408f,Fernando Perez,2012-06-13 00:24:42,Merge pull request #1925 from int3/fix-css,1924
+958821f,Fernando Perez,2012-06-13 00:22:58,Merge pull request #1936 from minrk/savenotify,1461
+468a8fd,Fernando Perez,2012-06-13 00:18:54,Merge pull request #1937 from minrk/save,1542
+fc7b2a4,Fernando Perez,2012-06-13 00:09:39,Merge pull request #1935 from minrk/pyreadline,1572
+029bbad,Fernando Perez,2012-06-12 23:40:38,Merge pull request #1759 from Carreau/mpr,1688
+8d53f9a,MinRK,2012-06-12 20:48:38,add %save -f,1542,IPython/core/magics/code.py
+ee28689,MinRK,2012-06-12 19:41:20,add version checking to pyreadline import test,1572,setupext/setupext.py
+2e28c7b,Thomas Kluyver,2012-06-12 23:17:28,Fix adding functions to CommandChainDispatcher with equal priority on Python 3.,1916,IPython/core/hooks.py
+2e28c7b,Thomas Kluyver,2012-06-12 23:17:28,Fix adding functions to CommandChainDispatcher with equal priority on Python 3.,1916,IPython/core/tests/test_hooks.py
+21edb9c,Jez Ng,2012-06-12 02:35:18,Fix styling of superscripts and subscripts. Closes #1924.,1924
+673e533,Fernando Perez,2012-06-11 21:14:18,Merge pull request #1921 from bfroehle/_1890_magic_arguments_docstring,1890
+df97f2d,Bradley M. Froehle,2012-06-11 20:44:38,magic_arguments: dedent but otherwise preserve indentation.,1890,IPython/core/magic_arguments.py
+01d7b93,Min RK,2012-06-11 14:23:08,Merge pull request #1917 from takluyver/i1914,1914
+08402f9,Thomas Kluyver,2012-06-11 22:09:57,"In pdef, only check for old style class instances on Python 2.",1914,IPython/core/oinspect.py
+d2951f6,Thomas Kluyver,2012-06-11 22:07:51,Add failing test for gh-1914,1914,IPython/core/tests/test_oinspect.py
+967ce49,Fernando Perez,2012-06-11 13:42:49,Merge pull request #1913 from jstenar/fix-1428,1428
+4af3a6a,Fernando Perez,2012-06-11 12:31:03,Merge pull request #1909 from jstenar/fixfor-1908,1908
+a353316,Jörgen Stenarson,2012-06-11 20:40:02,"Fix for #1908, use os.path.normcase for safe filename comparisons",1908,IPython/core/tests/test_oinspect.py
+a7d33e6,Fernando Perez,2012-06-11 00:51:56,Merge pull request #1906 from minrk/magic_info,1904
+cf4447b,MinRK,2012-06-10 23:54:32,oinfo finds cell magics with same name as line magics,1904,IPython/core/interactiveshell.py
+cf4447b,MinRK,2012-06-10 23:54:32,oinfo finds cell magics with same name as line magics,1904,IPython/core/prefilter.py
+44b8121,Fernando Perez,2012-06-10 23:11:44,Merge pull request #1845 from fperez/magic_inspect,1799
+6f61cb0,Fernando Perez,2012-06-10 21:14:56,Merge pull request #1902 from jdmarch/win32-shell-revert,1632
+e241de7,Jonathan March,2012-04-25 20:52:46,Fixes gh-1632; minimal revert of gh-1424 Win32 shell interactivity broke qtconsole cd magic,1632,IPython/utils/_process_win32.py
+41f79e7,Fernando Perez,2012-06-10 16:33:25,Merge pull request #1889 from invisibleroads/patch-3,1577
+981ef5c,Matthias BUSSONNIER,2012-06-06 20:37:46,"re-write columnize, with intermediate step.",1860,IPython/utils/tests/test_text.py
+981ef5c,Matthias BUSSONNIER,2012-06-06 20:37:46,"re-write columnize, with intermediate step.",1860,IPython/utils/text.py
+7a50de9,Fernando Perez,2012-06-07 21:10:45,Merge pull request #1882 from bfroehle/_1874_import_module,1874
+09ae0f3,Fernando Perez,2012-06-07 20:12:43,Merge pull request #1841 from Carreau/deduplicate_completion,1840
+7067c17,Bradley M. Froehle,2012-06-07 17:19:51,Remove importlib dependency which not available in Python 2.6.,1874,IPython/extensions/cythonmagic.py
+66a567b,Min RK,2012-06-06 16:24:04,Merge pull request #1815 from ellisonbg/nbsavebug,1781
+bcfb30d,Thomas Kluyver,2012-06-06 20:07:05,Protect zmqshell against non-unicode safe exceptions.,1827,IPython/zmq/zmqshell.py
+81fb4e9,Matthias BUSSONNIER,2012-06-03 11:36:07,[notebook] deduplicate completion results,1840
+8a438b4,Fernando Perez,2012-05-31 18:02:32,Merge pull request #1813 from takluyver/nose-assert-methods,1775
+bd1da13,Min RK,2012-05-30 20:13:17,Merge pull request #1707 from bfroehle/_1532_qtconsole_gui_switch,1532
+090f718,Bradley M. Froehle,2012-05-07 11:59:58,Accept --gui=<...> switch in IPython qtconsole.,1532,IPython/zmq/ipkernel.py
+e7f8981,Fernando Perez,2012-05-30 17:55:54,Merge pull request #1792 from takluyver/i1777,1777
+0eeff21,Thomas Kluyver,2012-05-30 22:05:01,Make logging unicode-aware,1777,IPython/core/logger.py
+0eeff21,Thomas Kluyver,2012-05-30 22:05:01,Make logging unicode-aware,1777,IPython/core/magics/logging.py
+68fa263,Fernando Perez,2012-05-10 18:17:50,Merge pull request #1724 from minrk/lazyscatter,1723
+6cbe507,Fernando Perez,2012-05-09 17:07:25,Merge pull request #1691 from minrk/1442,1442
+cb19d0d,Min RK,2012-05-09 10:44:49,Merge pull request #1703 from takluyver/i211,211
+cdd3c85,Thomas Kluyver,2012-05-06 12:09:02,Allow TryNext to have an error message without it affecting the command chain.,211,IPython/core/error.py
+cdd3c85,Thomas Kluyver,2012-05-06 12:09:02,Allow TryNext to have an error message without it affecting the command chain.,211,IPython/lib/clipboard.py
+2b6643e,Bussonnier Matthias,2012-05-06 01:42:04,Merge pull request #1698 from Carreau/fixes-1696,1696
+a32ceb2,Matthias BUSSONNIER,2012-05-04 09:02:34,fix tooltip on token with number,1696
+ba75fa5,Min RK,2012-05-03 11:04:26,Merge pull request #1689 from bfroehle/_1240_ipython_kernel_sys_path,1240
+79e365b,Bradley M. Froehle,2012-05-02 10:13:31,Fix sys.path missing '' as first entry in `ipython kernel`.,1240,IPython/zmq/ipkernel.py
+feff928,Min RK,2012-04-28 12:45:37,Merge pull request #1669 from minrk/pyout,1667
+8bfca10,Min RK,2012-04-27 12:40:39,Merge pull request #1656 from minrk/embed_kernel_tests,1653
+538bc5a,Min RK,2012-04-25 17:45:30,Merge pull request #1662 from bfroehle/flush_softspace,1512
+64a5061,Fernando Perez,2012-04-23 22:59:07,Merge pull request #1652 from minrk/zmqcompat,1520
+add0161,Thomas Kluyver,2012-04-23 07:22:09,Merge pull request #1633 from takluyver/i1479,1479
+e544c6d,Fernando Perez,2012-04-22 19:36:53,Merge pull request #1645 from bfroehle/test_deepreload,1636
+9b5abe1,Bradley M. Froehle,2012-04-22 18:08:53,Exclude UserDict when deep reloading NumPy.,1636,IPython/lib/tests/test_deepreload.py
+72d5107,Thomas Kluyver,2012-04-19 21:16:35,Fix installing extension from local file on Windows.,1479,IPython/core/extensions.py
+9e4479b,Jonathan March,2012-04-19 11:56:42,Merge pull request #1631 from punchagan/qapplication-exists-test-error,1628
+e3e7134,Puneeth Chaganti,2012-04-19 10:19:11,TST: QApplication doesn't quit early enough with PySide.,1628,IPython/frontend/qt/console/tests/test_console_widget.py
+e3e7134,Puneeth Chaganti,2012-04-19 10:19:11,TST: QApplication doesn't quit early enough with PySide.,1628,IPython/frontend/qt/console/tests/test_kill_ring.py
+7c0a10b,Fernando Perez,2012-04-18 13:08:54,Merge pull request #1624 from takluyver/i1470,1470
+0eb2ae9,Fernando Perez,2012-04-18 13:04:31,Merge pull request #1625 from takluyver/i1622,1622
+74f5db3,Thomas Kluyver,2012-04-18 19:47:26,Fix deepreload on Python 3.,1622,IPython/lib/deepreload.py
+975e8c4,Thomas Kluyver,2012-04-18 14:02:29,Force setuptools to skip byte compilation when installing on Python 3.,1470,setup.py
+9b9fb9e,Fernando Perez,2012-04-15 14:52:44,Merge pull request #1599 from takluyver/run-d-py3,1421
+ae222d0,Fernando Perez,2012-04-15 14:37:52,Merge pull request #1602 from takluyver/i1201,1201
+e913c0b,Thomas Kluyver,2012-04-15 12:30:26,Fix %env magic on Python 3.,1201,IPython/core/magic.py
+e913c0b,Thomas Kluyver,2012-04-15 12:30:26,Fix %env magic on Python 3.,1201,IPython/core/tests/test_magic.py
+3e1a509,Thomas Kluyver,2012-04-15 11:55:52,Fix for %run -d on Python 3,1421,IPython/core/magic.py
+c4cf940,Fernando Perez,2012-04-14 17:20:48,Merge pull request #1480 from minrk/npmagic,1545
+d13bbaf,Fernando Perez,2012-04-14 02:33:29,Merge pull request #1502 from minrk/pyflakes,1499
+ed4fe90,Fernando Perez,2012-04-13 20:29:58,Merge pull request #1569 from punchagan/support-backspace-and-beep-sequences,1561
+9249576,Puneeth Chaganti,2012-04-11 12:06:57,BUG: qtconsole -- non-standard handling of \a and \b. [Fixes #1561],1561,IPython/frontend/qt/console/ansi_code_processor.py
+9249576,Puneeth Chaganti,2012-04-11 12:06:57,BUG: qtconsole -- non-standard handling of \a and \b. [Fixes #1561],1561,IPython/frontend/qt/console/console_widget.py
+9249576,Puneeth Chaganti,2012-04-11 12:06:57,BUG: qtconsole -- non-standard handling of \a and \b. [Fixes #1561],1561,IPython/frontend/qt/console/tests/test_ansi_code_processor.py
+bbcc4ed,Min RK,2012-03-24 23:49:19,Merge pull request #1477 from minrk/py3numpy,1401
+db762d9,Min RK,2012-03-16 16:33:04,Merge pull request #1496 from rkern/fix-finalize-displayhook,1241
+7db18f8,Min RK,2012-03-16 16:30:00,Merge pull request #1508 from minrk/i1507,1507
+3912ea7,Min RK,2012-03-13 09:42:19,Merge pull request #1472 from minrk/ipexec_esc,662
+6608a6b,MinRK,2012-03-04 21:38:45,more general fix for #662,662,IPython/testing/tools.py
+5c23e25,Fernando Perez,2012-02-28 15:14:48,Merge pull request #1451 from minrk/headlevel,1439
+5f4fbef,Paul,2012-02-28 20:34:20,Fix for #875 Unicode Encoding Error,875,IPython/utils/path.py
+5f4fbef,Paul,2012-02-28 20:34:20,Fix for #875 Unicode Encoding Error,875,IPython/utils/tests/test_path.py
+4480299,Min RK,2012-02-27 13:20:48,Merge pull request #1414 from minrk/var_expand,1412
+8e8b2a9,Min RK,2012-02-08 15:14:47,Merge pull request #1353 from takluyver/i1345,1345
+6e492bd,Min RK,2012-02-07 13:34:23,Merge pull request #1296 from fperez/wxgui,645
+54c3e06,Fernando Perez,2012-02-02 13:41:01,Merge pull request #1361 from ellisonbg/nbissues,1359
+ecc950e,Brian Granger,2012-02-01 14:36:09,Updating CodeMirror to c813c94 to fix #1344.,1344
+07435e3,Brian Granger,2012-02-01 10:26:07,Fixing #1337. Tooltip stops TAB from being handled by others.,1337
+5cf294c,Brian Granger,2012-02-01 10:16:14,Fixing #1359. We are not using itex mode in sympyprinting.,1359,IPython/extensions/sympyprinting.py
+ddeaebc,Thomas Kluyver,2012-01-30 21:43:48,Save notebook as script using unicode file handle.,1345,IPython/frontend/html/notebook/notebookmanager.py
+a1769ad,Fernando Perez,2012-01-29 11:25:51,Merge pull request #1341 from takluyver/i1317,1317
+9fbeb53,Thomas Kluyver,2012-01-29 17:58:25,Don't attempt to tokenize binary files for tracebacks.,1317,IPython/core/ultratb.py
+1487f2f,Min RK,2012-01-23 14:14:18,Merge pull request #1312 from minrk/hb,1304
+6bc0f53,Fernando Perez,2012-01-20 19:04:07,Merge pull request #1306 from ivanov/fix1302,1302
+1f92833,Paul Ivanov,2012-01-20 16:33:25,fix prun parsing of escapes (closes #1302),1302,IPython/core/magic.py
+8a8884b,Thomas Kluyver,2012-01-18 22:51:46,Make autoreload extension work on Python 3.,846,IPython/extensions/autoreload.py
+8a8884b,Thomas Kluyver,2012-01-18 22:51:46,Make autoreload extension work on Python 3.,846,IPython/extensions/tests/test_autoreload.py
+a42431b,Thomas Kluyver,2012-01-18 21:03:29,Don't ask for confirmation when stdin isn't available (i.e. in the notebook),1268,IPython/core/history.py
+a42431b,Thomas Kluyver,2012-01-18 21:03:29,Don't ask for confirmation when stdin isn't available (i.e. in the notebook),1268,IPython/core/magic.py
+8e9cbc1,Min RK,2012-01-18 12:56:52,Merge pull request #1283 from minrk/i1281,1281
+84910f5,Paul Ivanov,2012-01-17 16:10:38,"shlex shouldn't parse out comments, closes #1269",1269,IPython/utils/_process_common.py
+0d05c58,Min RK,2012-01-13 20:18:19,Merge pull request #1262 from minrk/hbgil,1260
+83dea09,Fernando Perez,2012-01-12 16:11:08,Merge pull request #1229 from takluyver/i1225,1225
+e73fe99,Fernando Perez,2012-01-05 22:00:51,Merge pull request #1187 from minrk/nbshutdown,1232
+de0ead4,Thomas Kluyver,2012-01-04 21:03:43,Fix display of SyntaxError in Python 3.,1225,IPython/core/interactiveshell.py
+de0ead4,Thomas Kluyver,2012-01-04 21:03:43,Fix display of SyntaxError in Python 3.,1225,IPython/core/ultratb.py
+de0ead4,Thomas Kluyver,2012-01-04 21:03:43,Fix display of SyntaxError in Python 3.,1225,IPython/lib/tests/test_irunner.py
+010073c,Thomas Kluyver,2011-12-28 18:32:56,Tweak import statement so 2to3 from Python 3.1 doesn't mangle it.,1197,IPython/core/interactiveshell.py
+c8874d7,Fernando Perez,2011-12-17 18:39:27,Merge pull request #1173 from minrk/pylab-noop,1170
+0c6c879,Thomas Kluyver,2011-12-15 23:23:37,Strip out encoding declaration in %loadpy,1103,IPython/core/magic.py
+688cc09,Fernando Perez,2011-12-15 14:44:46,Merge pull request #1158 from takluyver/nbpy-encoding-declaration,1156
+464cb89,Fernando Perez,2011-12-15 14:09:50,Merge pull request #1160 from ipython/inputhookqt4,1157
+1e80cee,Thomas Kluyver,2011-12-15 21:25:13,Add coding header when notebook exported to .py file.,1156,IPython/nbformat/v2/nbpy.py
+cbfb011,epatters,2011-12-13 22:11:36,BUG: Ctrl+K and Ctrl+U shortcuts unsafe in Qt console.,1134,IPython/frontend/qt/console/console_widget.py
+26662f4,MinRK,2011-12-13 10:33:22,add strict kwarg to win32 arg_split,1148,IPython/utils/_process_win32.py
+b24c9d2,MinRK,2011-12-12 14:02:18,Merge PR #1122 (IPythonWidget.execute_file),755
+5d96131,MinRK,2011-12-10 16:56:33,extract svg tag from svg files,700,IPython/core/display.py
+c87e2e8,Thomas Kluyver,2011-12-07 23:04:59,Add test for gh-1117,1117,IPython/core/tests/test_handlers.py
+7a144e2,MinRK,2011-12-07 14:00:08,Merge PR #1091 (qtconsole pager copy),1088
+fd88eb7,MinRK,2011-12-05 21:26:12,minor py3 fixes in IPython.parallel,1067,IPython/parallel/apps/ipcontrollerapp.py
+fd88eb7,MinRK,2011-12-05 21:26:12,minor py3 fixes in IPython.parallel,1067,IPython/parallel/controller/hub.py
+fd88eb7,MinRK,2011-12-05 21:26:12,minor py3 fixes in IPython.parallel,1067,IPython/parallel/engine/engine.py
+fd88eb7,MinRK,2011-12-05 21:26:12,minor py3 fixes in IPython.parallel,1067,IPython/parallel/tests/test_view.py
+9f99569,MinRK,2011-12-05 21:19:56,exclude mathjax from notebook package_data,1018,setupbase.py
+2ee14fc,Fernando Perez,2011-12-05 17:40:30,Merge pull request #1053 from ipython/rawin,993
+411ba6a,Thomas Kluyver,2011-12-05 16:24:40,Fix display of errors in compiled code on Python 3.,1100,IPython/core/ultratb.py
+0040446,Min RK,2011-12-05 16:49:04,Merge pull request #1077 from minrk/nb,1071
+762b0ea,Thomas Kluyver,2011-11-30 12:41:15,"After a SyntaxError in code run by run_cell, only increment execution count where we would normally.",633,IPython/core/interactiveshell.py
+a6de8a3,Matthias BUSSONNIER,2011-12-04 11:31:28,fix cancell->cancel typo in js,1095
+32dd9b5,Matthias BUSSONNIER,2011-12-03 09:49:39,qtconsole : allow copy with shortcut in pager,1088,IPython/frontend/qt/console/console_widget.py
+32dd9b5,Matthias BUSSONNIER,2011-12-03 09:49:39,qtconsole : allow copy with shortcut in pager,1088,IPython/frontend/qt/console/frontend_widget.py
+32dd9b5,Matthias BUSSONNIER,2011-12-03 09:49:39,qtconsole : allow copy with shortcut in pager,1088,IPython/frontend/qt/console/ipython_widget.py
+32dd9b5,Matthias BUSSONNIER,2011-12-03 09:49:39,qtconsole : allow copy with shortcut in pager,1088,IPython/frontend/qt/console/mainwindow.py
+4b8920a,Fernando Perez,2011-12-01 14:47:48,Merge pull request #1083 from takluyver/prompts,1075
+6376dd8,Thomas Kluyver,2011-12-01 11:28:18,Fix wildcard search for new namespace model.,1076,IPython/core/interactiveshell.py
+6376dd8,Thomas Kluyver,2011-12-01 11:28:18,Fix wildcard search for new namespace model.,1076,IPython/core/magic.py
+6376dd8,Thomas Kluyver,2011-12-01 11:28:18,Fix wildcard search for new namespace model.,1076,IPython/core/oinspect.py
+ef48cc0,MinRK,2011-11-30 20:11:37,allow the notebook to run without MathJax,1071,IPython/frontend/html/notebook/handlers.py
+ef48cc0,MinRK,2011-11-30 20:11:37,allow the notebook to run without MathJax,1071,IPython/frontend/html/notebook/notebookapp.py
+13c8185,MinRK,2011-11-30 14:58:36,remove erroneous trailing comma in lib.pretty,1074,IPython/lib/pretty.py
+a5fd0a3,Fernando Perez,2011-11-29 22:06:27,Merge pull request #1065 from Carreau/qtconsole-racecondition,1057
+8553345,Matthias BUSSONNIER,2011-11-28 20:31:24,"qtconsole: fix race-cond, handle multiple exec",1057,IPython/frontend/qt/console/frontend_widget.py
+8553345,Matthias BUSSONNIER,2011-11-28 20:31:24,"qtconsole: fix race-cond, handle multiple exec",1057,IPython/frontend/qt/console/history_console_widget.py
+8553345,Matthias BUSSONNIER,2011-11-28 20:31:24,"qtconsole: fix race-cond, handle multiple exec",1057,IPython/frontend/qt/console/ipython_widget.py
+8553345,Matthias BUSSONNIER,2011-11-28 20:31:24,"qtconsole: fix race-cond, handle multiple exec",1057,IPython/frontend/qt/console/mainwindow.py
+8553345,Matthias BUSSONNIER,2011-11-28 20:31:24,"qtconsole: fix race-cond, handle multiple exec",1057,IPython/frontend/qt/console/qtconsoleapp.py
+52fc956,Fernando Perez,2011-11-28 13:01:23,"Fix bug where ""don't leave"" dialog was appearing when not needed in nb.",1058
+65546bf,Fernando Perez,2011-11-27 18:46:11,Temporary fix to work around #1057.,1057,IPython/frontend/qt/console/mainwindow.py
+65546bf,Fernando Perez,2011-11-27 18:46:11,Temporary fix to work around #1057.,1057,IPython/frontend/qt/console/qtconsoleapp.py
+a1e4911,Fernando Perez,2011-11-26 18:45:27,Merge pull request #648 from takluyver/usermod,29
+b26bf6a,Thomas Kluyver,2011-11-27 02:29:35,Add test for gh-693 (%run -i after %reset).,693,IPython/core/tests/test_run.py
+b4609459,Thomas Kluyver,2011-07-30 14:28:17,"Use user_ns as global namespace if it is passed without user_module, and add test for pickling interactively defined objects.",29,IPython/core/interactiveshell.py
+b4609459,Thomas Kluyver,2011-07-30 14:28:17,"Use user_ns as global namespace if it is passed without user_module, and add test for pickling interactively defined objects.",29,IPython/core/tests/test_interactiveshell.py
+b4609459,Thomas Kluyver,2011-07-30 14:28:17,"Use user_ns as global namespace if it is passed without user_module, and add test for pickling interactively defined objects.",29,IPython/testing/globalipapp.py
+b4609459,Thomas Kluyver,2011-07-30 14:28:17,"Use user_ns as global namespace if it is passed without user_module, and add test for pickling interactively defined objects.",29,IPython/testing/plugin/ipdoctest.py
+0adc60e,Thomas Kluyver,2011-11-25 12:17:17,"Use qt4agg, not qtagg, mpl backend in pylab profile.",1043,IPython/config/profile/pylab/ipython_config.py
+807f914,Thomas Kluyver,2011-11-24 21:22:00,Notebook: don't change cell when selecting code using shift+up/down.,787
+b3785ba,MinRK,2011-11-21 12:47:18,fix autopx regex after recent change,1024,IPython/extensions/parallelmagic.py
+f967531,MinRK,2011-11-21 10:55:12,flush messages printed during startup,1022,IPython/lib/pylabtools.py
+f967531,MinRK,2011-11-21 10:55:12,flush messages printed during startup,1022,IPython/zmq/kernelapp.py
+09c9952,Fernando Perez,2011-11-20 14:53:58,Merge pull request #1020 from takluyver/dollar-formatter,822
+f5687fc,Thomas Kluyver,2011-11-20 17:23:23,Use DollarFormatter to fill in names in ! shell calls.,822,IPython/core/interactiveshell.py
+f5687fc,Thomas Kluyver,2011-11-20 17:23:23,Use DollarFormatter to fill in names in ! shell calls.,822,IPython/utils/tests/test_text.py
+f5687fc,Thomas Kluyver,2011-11-20 17:23:23,Use DollarFormatter to fill in names in ! shell calls.,822,IPython/utils/text.py
+f3fe1c1,MinRK,2011-11-13 15:42:27,don't unregister interrupted post-exec functions,992,IPython/core/interactiveshell.py
+f3fe1c1,MinRK,2011-11-13 15:42:27,don't unregister interrupted post-exec functions,992,IPython/zmq/pylab/backend_inline.py
+467b5b2,Fernando Perez,2011-11-10 17:56:49,Catch errors raised by user objects when accessing attributes.,988,IPython/core/prefilter.py
+467b5b2,Fernando Perez,2011-11-10 17:56:49,Catch errors raised by user objects when accessing attributes.,988,IPython/core/tests/test_prefilter.py
+c956c22,MinRK,2011-11-02 13:36:20,"add wantDirectory to ipdoctest, so that directories will be checked for exclusion",918,IPython/testing/plugin/ipdoctest.py
+55d81f8,MinRK,2011-11-09 15:41:54,handle targets='all' in remotefunction,986,IPython/parallel/client/client.py
+55d81f8,MinRK,2011-11-09 15:41:54,handle targets='all' in remotefunction,986,IPython/parallel/client/remotefunction.py
+55d81f8,MinRK,2011-11-09 15:41:54,handle targets='all' in remotefunction,986,IPython/parallel/tests/test_client.py
+a7b4809,MinRK,2011-11-08 19:47:18,"use system_raw in terminal, even on Windows",978,IPython/frontend/terminal/interactiveshell.py
+7c0ffa5,Min RK,2011-11-07 15:01:28,Merge pull request #929 from juliantaylor/multiline-history,911
+8ddc568,Min Ragan-Kelley,2011-11-05 14:36:20,use universal-newline in pickleshare,971,IPython/utils/pickleshare.py
+c3d885f,Min RK,2011-11-02 14:36:45,Merge pull request #964 from takluyver/default-profile,939
+dbc15c1,MinRK,2011-11-02 12:46:07,clarify close dialog on qtconsole,946,IPython/frontend/qt/console/mainwindow.py
+71b3a3d,Thomas Kluyver,2011-11-01 19:26:12,Disable the pager for the test suite.,949,IPython/core/tests/test_page.py
+71b3a3d,Thomas Kluyver,2011-11-01 19:26:12,Disable the pager for the test suite.,949,IPython/testing/globalipapp.py
+020c172,MinRK,2011-11-01 13:28:25,"%profile points to application value, not shell value",939,IPython/core/magic.py
+020c172,MinRK,2011-11-01 13:28:25,"%profile points to application value, not shell value",939,IPython/zmq/ipkernel.py
+1f7e9d7,Fernando Perez,2011-10-28 15:24:42,Merge pull request #815 from cboos/issue481-qt4-input-hook,481
+2d60716,MinRK,2011-10-26 11:01:15,fix inappropriate str.replace in completer.expand_user,869,IPython/core/completer.py
+4c90e86,Min RK,2011-10-25 14:29:03,Merge pull request #910 from minrk/pypynumpy,904
+11bca29,MinRK,2011-10-24 21:07:47,Don't let invalid aliases crash IPython,886,IPython/config/loader.py
+afeadfc,MinRK,2011-10-24 16:30:13,various small fixes in qtconsole,808,IPython/frontend/qt/console/frontend_widget.py
+afeadfc,MinRK,2011-10-24 16:30:13,various small fixes in qtconsole,808,IPython/frontend/qt/console/ipython_widget.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/config/application.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/core/application.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/frontend/html/notebook/notebookapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/frontend/qt/console/qtconsoleapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/frontend/terminal/ipapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/parallel/apps/baseapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/parallel/apps/ipclusterapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/parallel/apps/ipcontrollerapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/parallel/apps/ipengineapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/parallel/apps/iploggerapp.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/zmq/ipkernel.py
+7ed219c,MinRK,2011-10-22 10:46:33,Show invalid config message on TraitErrors during initialization,908,IPython/zmq/kernelapp.py
+7e0d999,MinRK,2011-10-21 14:10:34,fix a few doc typos,917
+243604a,Jörgen Stenarson,2011-10-20 21:30:01,Add magic for cls on windows. Fix for #181.,181,IPython/core/magic.py
+e686606,Julian Taylor,2011-10-20 23:31:39,move hlen_before_cell into _replace_rlhist_multiline,911,IPython/frontend/terminal/interactiveshell.py
+2e01c88,Thomas Kluyver,2011-10-20 22:02:39,Silence errors from custom attribute completer functions.,907,IPython/core/completer.py
+2e01c88,Thomas Kluyver,2011-10-20 22:02:39,Silence errors from custom attribute completer functions.,907,IPython/core/tests/test_completer.py
+c64ec5b,MinRK,2011-10-20 13:20:36,add password notes to htmlnotebook doc,867
+8719351,MinRK,2011-10-20 11:52:20,Make import checks more explicit in %whos,904,IPython/core/magic.py
+33cfae8,MinRK,2011-10-20 11:17:47,add 4-space soft-tabs to qtconsole,900,IPython/frontend/qt/console/console_widget.py
+71d3d18,MinRK,2011-10-18 13:58:01,don't inject unicode into sys.argv,710,IPython/core/magic.py
+71d3d18,MinRK,2011-10-18 13:58:01,don't inject unicode into sys.argv,710,IPython/core/shellapp.py
+9379231,MinRK,2011-09-09 09:59:59,relax timestamp comparison from \ge to \geq in test,749,IPython/parallel/tests/test_lbview.py
+71ae352,MinRK,2011-10-16 19:56:38,fix typo in stripping kernel args in nb and qt,885,IPython/frontend/html/notebook/notebookapp.py
+71ae352,MinRK,2011-10-16 19:56:38,fix typo in stripping kernel args in nb and qt,885,IPython/frontend/qt/console/qtconsoleapp.py
+d16b38e,MinRK,2011-10-15 09:49:46,re-enable pydb flag,636,IPython/core/debugger.py
+d16b38e,MinRK,2011-10-15 09:49:46,re-enable pydb flag,636,IPython/core/shellapp.py
+0d065b1,MinRK,2011-10-14 14:01:14,show tb before entering debug when %pdb is on,690,IPython/core/interactiveshell.py
+ed5078c,MinRK,2011-10-14 13:55:57,protect IPython from bad custom exception handlers,692,IPython/core/debugger.py
+ed5078c,MinRK,2011-10-14 13:55:57,protect IPython from bad custom exception handlers,692,IPython/core/interactiveshell.py
+ed5078c,MinRK,2011-10-14 13:55:57,protect IPython from bad custom exception handlers,692,IPython/core/tests/test_interactiveshell.py
+fec4f7e,MinRK,2011-10-13 18:51:24,fix kernel connection messsage with non-default profile,871,IPython/zmq/kernelapp.py
+6e92ffd,MinRK,2011-10-12 14:49:35,Merge branch 'stdin',673
+a2ac298,MinRK,2011-10-12 14:29:22,use ROUTER/DEALER sockets for stdin,673,IPython/core/error.py
+a2ac298,MinRK,2011-10-12 14:29:22,use ROUTER/DEALER sockets for stdin,673,IPython/zmq/ipkernel.py
+a2ac298,MinRK,2011-10-12 14:29:22,use ROUTER/DEALER sockets for stdin,673,IPython/zmq/kernelapp.py
+a2ac298,MinRK,2011-10-12 14:29:22,use ROUTER/DEALER sockets for stdin,673,IPython/zmq/kernelmanager.py
+a2ac298,MinRK,2011-10-12 14:29:22,use ROUTER/DEALER sockets for stdin,673,IPython/zmq/pykernel.py
+14ae4c0,epatters,2011-09-14 13:59:16,BUG: Don't use readline in the ZMQShell.,617,IPython/core/interactiveshell.py
+14ae4c0,epatters,2011-09-14 13:59:16,BUG: Don't use readline in the ZMQShell.,617,IPython/core/magic.py
+14ae4c0,epatters,2011-09-14 13:59:16,BUG: Don't use readline in the ZMQShell.,617,IPython/zmq/zmqshell.py
+e783b1c,Thomas Kluyver,2011-09-12 21:03:33,Parse user code to AST using compiler flags.,777,IPython/core/compilerop.py
+e783b1c,Thomas Kluyver,2011-09-12 21:03:33,Parse user code to AST using compiler flags.,777,IPython/core/interactiveshell.py
+e783b1c,Thomas Kluyver,2011-09-12 21:03:33,Parse user code to AST using compiler flags.,777,IPython/core/tests/test_interactiveshell.py
+17494a1,Min RK,2011-09-09 14:34:56,Merge pull request #745 from minrk/history,667
+6cf495c,Min RK,2011-09-09 14:28:09,Merge pull request #725 from minrk/i724,724
+bc4e206,MinRK,2011-09-09 11:05:49,json_clean zmqshell replies,535,IPython/zmq/zmqshell.py
+6cc41ec,MinRK,2011-09-06 12:23:54,Don't treat bytes objects as json-safe,767,IPython/utils/jsonutil.py
+be3e7ed,MinRK,2011-08-24 15:42:00,version check Qt bindings in external.qt,724,IPython/external/qt.py
+2a8de3c,MinRK,2011-08-03 13:36:22,use tempdir if no usable ipython_dir is found,669,IPython/utils/path.py
+2a8de3c,MinRK,2011-08-03 13:36:22,use tempdir if no usable ipython_dir is found,669,IPython/utils/tests/test_path.py
+b1ec990,MinRK,2011-08-03 11:38:25,"check for writable dirs, not just existence, in utils.path",669,IPython/utils/path.py
+8ef2842,MinRK,2011-08-02 14:25:42,strip leading 'ESC[?1034h' in tests caused by `import readline`,662,IPython/testing/tools.py
+fe44943,Fernando Perez,2011-07-25 19:40:28,Revert commit that fixed gh-617 as it broke %run in the Qt console.,617,IPython/zmq/zmqshell.py
+35869db,Thomas Kluyver,2011-07-22 20:13:33,Comment explaining fix for gh-597.,597,IPython/core/formatters.py
+7a59ef3,Thomas Kluyver,2011-07-19 23:36:23,Fix bug with non-ascii reprs inside pretty-printed lists.,597,IPython/core/formatters.py
+902e67f,epatters,2011-07-19 16:12:04,Fix ConsoleWidget bug: cannot scroll freely with Page Up/Down.,621,IPython/frontend/qt/console/console_widget.py
+b8d87c2,Thomas Kluyver,2011-07-16 21:25:25,Handle tokenizing errors when checking if the ? at the end of the line is in a comment.,586,IPython/core/inputsplitter.py
+b8d87c2,Thomas Kluyver,2011-07-16 21:25:25,Handle tokenizing errors when checking if the ? at the end of the line is in a comment.,586,IPython/core/tests/test_inputsplitter.py
+d306e58,MinRK,2011-07-11 14:13:06,exec_files works when specified in config file,566,IPython/core/shellapp.py
+330ffc2,MinRK,2011-07-04 09:38:45,don't let missing config prevent embed from launching,553,IPython/frontend/terminal/ipapp.py
+e1d1d8e,MinRK,2011-06-30 22:13:52,check linux with startswith('linux') instead of =='linux2',549,IPython/testing/decorators.py
+e1d1d8e,MinRK,2011-06-30 22:13:52,check linux with startswith('linux') instead of =='linux2',549,IPython/testing/tests/test_decorators.py
+f519f17,MinRK,2011-06-27 18:10:04,catch another unconditional encode in completerlib,440,IPython/core/completerlib.py
+0e4fe98,MinRK,2011-06-26 01:43:43,add `log_level` to base app aliases,541,IPython/core/application.py
+933e2d9,MinRK,2011-06-24 16:54:29,Merge branch 'winsetup' (PR #536),351
+f1278cb,MinRK,2011-06-18 16:39:57,fallback on lsof if otool not found in libedit detection,524,IPython/utils/rlineimpl.py
+b5570f7,MinRK,2011-06-13 16:36:48,use dict.get(key) instead of dict[key] for pure kernel,516,IPython/core/oinspect.py
+b5570f7,MinRK,2011-06-13 16:36:48,use dict.get(key) instead of dict[key] for pure kernel,516,IPython/frontend/qt/console/frontend_widget.py
+3fdb23a,MinRK,2011-06-08 15:40:39,properly handle nothing to recv in pykernel._abort_queue,508,IPython/zmq/pykernel.py
+3e19444,MinRK,2011-06-02 17:53:16,ignore EINTR in channel loops,499,IPython/zmq/kernelmanager.py
+3902dd4,Thomas Kluyver,2011-06-02 11:43:36,Check for .pyd as extension for binary files.,497,IPython/core/oinspect.py
+6a0fa99,Min RK,2011-06-01 15:11:31,Merge pull request #490 from mspacek/svg-unicode,489
+5acdcc1,Martin Spacek,2011-05-31 20:02:31,"fix UnicodeEncodeError writing SVG string to .svg file, fixes #489",489,IPython/frontend/qt/svg.py
+22a3c9a,Thomas Kluyver,2011-05-29 22:26:31,"IPython.core.tests.test_run.test_obj_del apparently no longer fails on Windows, so we don't need to skip it.",59,IPython/core/tests/test_run.py
+66eefcd,muzuiget,2011-05-29 13:48:46,embed() doesn't load default config,458,IPython/frontend/terminal/embed.py
+bdb012c,MinRK,2011-05-20 10:12:33,split shell.system into shell.system_raw/system_piped,297,IPython/core/interactiveshell.py
+bdb012c,MinRK,2011-05-20 10:12:33,split shell.system into shell.system_raw/system_piped,297,IPython/frontend/terminal/interactiveshell.py
+df86e70,Thomas Kluyver,2011-05-24 19:45:28,Add test decorator onlyif_unicode_paths.,466,IPython/core/tests/test_application.py
+df86e70,Thomas Kluyver,2011-05-24 19:45:28,Add test decorator onlyif_unicode_paths.,466,IPython/testing/decorators.py
+34e2283,Thomas Kluyver,2011-05-24 13:15:49,Add skip_doctest decorator for magic_install_default_config.,467,IPython/core/magic.py
+0437a1f,Thomas Kluyver,2011-05-17 21:06:46,Tweak Inspector.info() so it doesn't fail on old style classes. Added test.,447,IPython/core/oinspect.py
+0437a1f,Thomas Kluyver,2011-05-17 21:06:46,Tweak Inspector.info() so it doesn't fail on old style classes. Added test.,447,IPython/core/tests/test_oinspect.py
+f02a1aa,Thomas Kluyver,2011-05-11 23:41:10,Fix subtle bug with error message on Python 2.6 - code to be compiled must end in a newline.,409,IPython/core/interactiveshell.py
+f02a1aa,Thomas Kluyver,2011-05-11 23:41:10,Fix subtle bug with error message on Python 2.6 - code to be compiled must end in a newline.,409,IPython/lib/tests/test_irunner.py
+b2146ae,MinRK,2011-05-10 14:03:52,"Remove ""\M-"" readline bindings",88,IPython/config/default/ipython_config.py
+b2146ae,MinRK,2011-05-10 14:03:52,"Remove ""\M-"" readline bindings",88,IPython/core/interactiveshell.py
+285a7f7,Min RK,2011-05-09 13:32:46,Merge pull request #415 from minrk/i216,216
+29c4624,MinRK,2011-05-04 14:43:03,prevent errors in prefilter from crashing IPython,216,IPython/core/interactiveshell.py
+29c4624,MinRK,2011-05-04 14:43:03,prevent errors in prefilter from crashing IPython,216,IPython/core/tests/test_interactiveshell.py
+4ccea6a,Thomas Kluyver,2011-04-18 23:52:16,Check return value of all directory-finding functions is unicode.,392,IPython/utils/path.py
+9521bea,MinRK,2011-04-11 12:49:05,fallback on defaultencoding if filesystemencoding is None,137,IPython/utils/path.py
+2c9c2c6,epatters,2011-04-26 13:24:53,Update guiref with correct paging options.,379,IPython/core/usage.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/client/client.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/controller/dictdb.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/controller/hub.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/controller/mongodb.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/controller/sqlitedb.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/streamsession.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/tests/test_db.py
+5dadef8,MinRK,2011-04-16 00:33:21,General improvements to database backend,391,IPython/parallel/util.py
+0d3d807,MinRK,2011-04-14 16:12:09,Start each test with clear engine namespaces,386,IPython/parallel/tests/clienttest.py
+0d3d807,MinRK,2011-04-14 16:12:09,Start each test with clear engine namespaces,386,IPython/parallel/tests/test_client.py
+0d3d807,MinRK,2011-04-14 16:12:09,Start each test with clear engine namespaces,386,IPython/parallel/tests/test_view.py
+932c5c4,MinRK,2011-04-18 14:27:26,update install doc to reflect 0.11 changes and GitHub move,368
+3085904,MinRK,2011-04-13 12:19:12,update test exclusions,375,IPython/testing/iptest.py
+cf7081f,MinRK,2011-04-11 13:01:49,fix too-restrictive use of split(os.linesep) in %page,147,IPython/core/page.py
+2b92905,David Warde-Farley,2011-04-09 02:16:02,Fix behaviour of dedent triggering. Closes gh-142.,142,IPython/core/inputsplitter.py
+0c41d1b,MinRK,2011-04-08 16:57:03,restore auto debug behavior,296,IPython/core/interactiveshell.py
+1f0e9da,MinRK,2011-04-08 15:20:37,fix displayhook.quiet() check,307,IPython/core/displayhook.py
+1f0e9da,MinRK,2011-04-08 15:20:37,fix displayhook.quiet() check,307,IPython/core/tests/test_interactiveshell.py
+4863c51,Thomas Kluyver,2011-04-07 21:45:12,"Enable test for cells ending in multiline strings, as it now passes.",306,IPython/core/tests/test_interactiveshell.py
+7d1bdfa,Thomas Kluyver,2011-04-01 10:39:44,Do not store file contents in history when running a .ipy file.,328,IPython/core/interactiveshell.py
+6301a14,Thomas Kluyver,2011-03-29 20:12:46,Fix function call in terminal embed code.,322,IPython/frontend/terminal/embed.py
+7df9676,Thomas Kluyver,2011-03-27 17:55:18,"Cleanup old calls to save_history and reload_history methods, which were removed.",318,IPython/core/interactiveshell.py
+7df9676,Thomas Kluyver,2011-03-27 17:55:18,"Cleanup old calls to save_history and reload_history methods, which were removed.",318,IPython/core/magic.py
+14b9125,MinRK,2011-03-25 11:40:25,Merge unicode-command-line fixes,310
+86de13f,MinRK,2011-03-24 23:04:30,"add 'osx' to known pylab backends, fix pylab mode with MacOSX backend",202,IPython/core/magic.py
+86de13f,MinRK,2011-03-24 23:04:30,"add 'osx' to known pylab backends, fix pylab mode with MacOSX backend",202,IPython/lib/inputhook.py
+86de13f,MinRK,2011-03-24 23:04:30,"add 'osx' to known pylab backends, fix pylab mode with MacOSX backend",202,IPython/lib/pylabtools.py
+950a970,Thomas Kluyver,2011-03-23 01:38:12,Require blank line to end input cell immediately after dedenting.,290,IPython/core/inputsplitter.py
+950a970,Thomas Kluyver,2011-03-23 01:38:12,Require blank line to end input cell immediately after dedenting.,290,IPython/core/tests/test_inputsplitter.py
+ef40b1c,andy wilson,2010-11-22 01:32:32,Fix emacs tab-completion with simpler implementation.,204,IPython/core/completer.py
+d43c3dc,Thomas Kluyver,2011-03-21 23:35:03,"Change order in which things are tried in %edit, so filenames starting with numbers can be edited.",55,IPython/core/magic.py
+90af987,Ville M. Vainio,2008-04-15 21:04:04,"module completer looks inside .egg zip files, close #196.",196,IPython/Extensions/ipy_completers.py
+d36f053,Ville M. Vainio,2008-02-21 00:18:21,"%cpaste enhancement (accept '> > > as prefix), patch + test by Stefan, close #216",216,IPython/Magic.py
+1612d8c,vivainio,2007-12-31 14:11:34,allow %edit ClassName if the class was created by '%edit' (look for the source file from method objs instead of class obj). Closes #132,132,IPython/Magic.py
+8fa9fe1,vivainio,2007-12-31 12:53:16,catch exceptions on prompts. Close #202.,202,IPython/iplib.py
+9660fbe,vivainio,2007-12-30 22:42:25,"Store _ip in user_ns now, instead of __builtin__. Closes #197 and probably zillion other bugs with embedded ipython instances",197,IPython/ipapi.py
+9660fbe,vivainio,2007-12-30 22:42:25,"Store _ip in user_ns now, instead of __builtin__. Closes #197 and probably zillion other bugs with embedded ipython instances",197,IPython/iplib.py
+3f8b558,fperez,2007-12-30 22:20:33,"Include documentation sources in released tarball, as well as the lyxport Perl script used to generate the PDF/HTML docs.",204
+da60267,vivainio,2007-11-08 20:26:27,add xml to root module list. Closes \#196,196,IPython/Extensions/ipy_completers.py
+e0a1757,fperez,2007-05-02 06:42:49,Close #147,147,test/test_irunner.py
+8c78c72,fperez,2007-04-04 06:04:01,- Close #131.,131,IPython/PyColorize.py
+d0c455d,fperez,2006-09-27 05:47:28,"Apply Ville's patch, closes #87",87,IPython/Debugger.py
+d0c455d,fperez,2006-09-27 05:47:28,"Apply Ville's patch, closes #87",87,IPython/iplib.py
+d0c455d,fperez,2006-09-27 05:47:28,"Apply Ville's patch, closes #87",87,IPython/irunner.py
+d0c455d,fperez,2006-09-27 05:47:28,"Apply Ville's patch, closes #87",87,IPython/ultraTB.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/FakeModule.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/Magic.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/completer.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/genutils.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/hooks.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/ipapi.py
+8dcaadd,fperez,2006-05-24 07:51:39,"- add support for PyCrust-style _getAttributeNames magic method. Closes #50. - don't delete exit/quit.  Closes #55. - rename 'with' to 'with_obj' to avoid problems in python 2.5.  Closes #53. - fix FakeModule, which also closes #59. - add -n option to %edit. - fix various other crashes reported by the automatic crash handler.",59,IPython/iplib.py
+57de16c,vivainio,2006-04-03 16:25:59,Walter's ipipe patch #9:,9,IPython/Extensions/ipipe.py

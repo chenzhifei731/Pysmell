@@ -1,0 +1,17 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\algorithms.py,171,51,1,7,1,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\algorithms.py,187,53,1,7,1,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\distributions.py,237,26,1,5,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,218,38,2,8,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,231,52,2,10,1,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,244,53,2,10,1,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,1055,38,1,8,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,1056,47,1,10,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,1066,17,1,5,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,1067,25,1,9,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\linearmodels.py,1202,47,2,10,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\external\husl.py,193,33,1,4,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\external\husl.py,199,31,1,4,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\tests\test_algorithms.py,49,38,2,9,0,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\tests\test_algorithms.py,85,60,2,19,1,0,0
+seaborn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\seaborn\seaborn\tests\test_axisgrid.py,382,57,3,10,1,0,0

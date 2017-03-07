@@ -1,0 +1,17 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\contrib\aws\gen-json.py,89,49,1,12,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_build.py,20,16,0,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,590,15,1,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,601,15,1,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,602,15,1,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,630,15,1,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,682,15,1,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,697,15,1,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_config.py,49,16,0,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_container.py,54,16,0,3,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_container.py,85,32,0,5,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_container.py,21,16,0,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_hooks.py,20,16,0,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_release.py,20,16,0,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\api\tests\test_scheduler.py,20,16,0,1,0,0,0
+deis,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\deis\controller\deis\context_processors.py,8,32,0,3,0,0,0

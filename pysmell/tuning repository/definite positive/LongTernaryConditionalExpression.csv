@@ -1,0 +1,3 @@
+subject,tag,file,lineno,NOC,NOL
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\django\db\models\fields\related.py,1918,206,8
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\tests\invalid_models_tests\test_ordinary_fields.py,521,197,7

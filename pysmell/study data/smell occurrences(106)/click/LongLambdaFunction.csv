@@ -1,0 +1,16 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\core.py,1531,17,1,5,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\core.py,1635,33,1,5,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\formatting.py,247,12,1,3,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\_compat.py,177,21,1,3,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\_compat.py,206,9,1,1,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\_compat.py,239,24,1,3,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\_compat.py,240,23,1,5,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\_compat.py,609,17,0,2,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\click\_compat.py,611,17,0,2,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\tests\test_normalization.py,4,17,1,3,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\tests\test_termui.py,13,12,1,1,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\tests\test_utils.py,147,12,1,1,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\tests\test_utils.py,155,14,1,1,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\tests\test_utils.py,223,12,1,1,0,0,0
+click,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\click\tests\test_utils.py,224,9,0,1,0,0,0

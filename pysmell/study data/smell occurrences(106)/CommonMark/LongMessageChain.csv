@@ -1,0 +1,11 @@
+subject,file,lineno,LMC,experience-based,statistics-based,tuning machine
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\cmark.py,33,2,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\cmark.py,35,2,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\normalize.py,37,2,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\normalize.py,45,2,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\spec_tests.py,36,3,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\spec_tests.py,74,3,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\test\spec_tests.py,120,2,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\tools\makespec.py,10,3,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\tools\makespec.py,13,3,0,0,0
+CommonMark,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\CommonMark\tools\makespec.py,86,2,0,0,0

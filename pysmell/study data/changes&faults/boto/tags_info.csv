@@ -1,0 +1,78 @@
+hash,tag,author,date,title
+55b1b77,1.9b,Mitch.Garnaat,2009-12-21 20:48:04,Fixing setup.py to include rds and vpc modules in build.  Updating version number in README and __init__ for incremental release.
+77e2b9e,2.0a2,walsh159,2010-07-07 20:26:30,"Set the connection class in the RegionInfo constructor call, as well as after the list of regions is created, so that regionInfo.get_connection() works properly."
+2b87799,2.0b1,Mitch Garnaat,2010-07-22 08:07:17,Updating README info and bumping version number.
+7bb3a03,2.0b2,Mitch Garnaat,2010-08-19 12:35:59,Bumping version number prior to release.
+4b92eaf,2.0b3,Mitch Garnaat,2010-10-12 17:08:46,Allow a spot instance request type to be passed to request_spot_instances.  Fixes issue 466.
+ac720c2,1.9c,Patrick Altman,2010-10-14 09:40:29,bumped version to 1.9c
+1060695,2.0b4,garnaat,2011-02-13 20:10:43,Removing test for newline character in key name for GS.
+d4c0334,2.0rc1,garnaat,2011-06-02 10:30:58,Bumping version numbers.
+033457f,2.0,Mitch Garnaat,2011-07-13 20:51:10,Bumping version numbers for 2.0 release.
+6ea0379,2.1rc1,Mitch Garnaat,2011-09-13 21:27:47,Small tweak to exception handling in roboto stuff.
+de833d0,2.1rc2,Mitch Garnaat,2011-10-12 22:55:36,A few more docstring changes for route53 module.
+a0a1fd5,2.1.0,Mitch Garnaat,2011-10-27 09:02:11,Bumping version numbers for 2.1.0 release.
+4ce1c15,2.1.1,Mitch Garnaat,2011-10-31 08:56:37,Bumping version number for 2.1.1 release.
+26c8eb1,2.2.0,Mitch Garnaat,2012-01-31 15:02:06,Bumping version numbers for 2.2.0 release.
+e34453b,2.2.1,Mitch Garnaat,2012-02-01 07:36:17,Fixing setup.py and MANIFEST to make a clean release with setup.py sdist and bumping version number to avoid confusion.
+f221d39,2.2.2,Mitch Garnaat,2012-02-14 19:15:24,Bumping version number and changing project home page in setup.py.
+2d88202,2.3.0,Mitch Garnaat,2012-03-20 05:05:53,Merging from release-2.3.0 branch to master.
+1aa1133,2.4.0,Mitch Garnaat,2012-05-15 18:59:46,Merge branch 'release-2.4.0'
+fe2064f,2.4.1,Mitch Garnaat,2012-05-16 07:30:31,Merge branch 'hotfix-2.4.1'
+3478305,2.5.0,Mitch Garnaat,2012-06-13 11:48:33,Fixing a reference to ParseError in ElementTree that only works in Python 2.7.
+1734786,2.5.1,Mitch Garnaat,2012-06-14 08:19:30,Merge branch 'hotfix-2.5.1'
+1371e06,2.5.2,Mitch Garnaat,2012-06-21 11:45:19,Merge branch 'hotfix-2.5.2'
+7073e7a,2.6.0,Mitch Garnaat,2012-09-19 21:22:22,Merge branch 'develop'
+f325c6e,2.7.0,Mitch Garnaat,2013-01-10 14:36:10,Merge branch 'release-2.7.0'
+b5852b0,2.8.0,Mitch Garnaat,2013-01-31 16:49:38,Merge branch 'release-2.8.0'
+89f4947,2.9.0,James Saryerwinnie,2013-04-18 04:14:08,Merge branch 'release-2.9.0'
+a9e834a,2.9.1,James Saryerwinnie,2013-04-30 18:15:59,Merge branch 'release-2.9.1'
+29d2ddb,2.9.2,James Saryerwinnie,2013-04-30 18:24:35,Merge branch 'hotfix-2.9.2'
+fc8d7dd,2.9.3,Daniel Lindsley,2013-05-15 15:01:25,Merge branch 'release-2.9.3'
+9bffa78,2.9.4,Daniel Lindsley,2013-05-20 16:49:28,Merge branch 'release-2.9.4'
+c611820,2.9.5,Daniel Lindsley,2013-05-28 21:31:56,Merge branch 'release-2.9.5'
+25be2b7,2.9.6,Daniel Lindsley,2013-06-18 14:46:38,Merge branch 'release-2.9.6'
+f3fc2c5,2.9.7,Daniel Lindsley,2013-07-08 22:15:08,Merge branch 'release-2.9.7'
+3c56d13,2.9.8,Daniel Lindsley,2013-07-18 12:28:04,Merge branch 'release-2.9.8'
+15c650e,2.9.9,Daniel Lindsley,2013-07-24 14:51:18,Merge branch 'release-2.9.9'
+32761fa,2.10.0,Daniel Lindsley,2013-08-13 03:12:46,Merge branch 'release-2.10.0'
+efa5d58,2.11.0,Daniel Lindsley,2013-08-29 12:37:35,Merge branch 'release-2.11.0'
+ad40af1,2.12.0,Daniel Lindsley,2013-09-04 13:33:58,Merge branch 'release-2.12.0'
+7b70eaf,2.13.0,Daniel Lindsley,2013-09-12 15:42:59,Merge branch 'release-2.13.0'
+d7fa338,v2.13.1,Daniel Lindsley,2013-09-16 14:25:30,Merge branch 'release-v2.13.1'
+1ab0270,v2.13.2,Daniel Lindsley,2013-09-16 14:42:28,Merge branch 'release-v2.13.2'
+3ec8a39,2.13.3,Daniel Lindsley,2013-09-16 14:55:15,Merge branch 'release-2.13.3'
+5005178,2.14.0,Daniel G. Taylor,2013-10-09 14:19:40,Merge branch 'release-2.14.0'
+46d3ffe,2.15.0,Daniel G. Taylor,2013-10-17 20:08:27,Merge branch 'release-2.15.0'
+15faa3d,2.16.0,Daniel G. Taylor,2013-11-08 14:25:17,Merge branch 'release-2.16.0'
+671edf0,2.17.0,Daniel G. Taylor,2013-11-14 10:39:57,Merge branch 'release-2.17.0'
+bc48be4,2.18.0,Daniel G. Taylor,2013-11-22 13:28:51,Merge branch 'release-2.18.0'
+2fcb853,2.19.0,Daniel G. Taylor,2013-11-27 11:35:06,Merge branch 'release-2.19.0'
+29a7fc6,2.20.0,Daniel G. Taylor,2013-12-12 19:49:22,Merge branch 'release-2.20.0'
+b98f85c,2.20.1,Daniel G. Taylor,2013-12-13 12:46:00,Merge branch 'release-2.20.1'
+87a45cd,2.21.0,Daniel G. Taylor,2013-12-19 16:12:26,Merge branch 'release-2.21.0'
+d3c0d9c,2.21.1,Daniel Lindsley,2013-12-23 14:56:32,Bumped to version 2.21.1!
+3cbc44f,2.21.2,Daniel Lindsley,2013-12-24 16:06:52,Bumped to 2.21.2!
+06a3dae,2.22.0,Daniel Lindsley,2014-01-02 11:13:53,Bumped to 2.22.0!
+487ea4e,2.22.1,Daniel Lindsley,2014-01-06 14:21:48,Merge branch 'hotfix-2.22.1'
+5b3d205,2.23.0,Daniel Lindsley,2014-01-10 14:29:36,Merge branch 'release-2.23.0'
+4d4746e,2.24.0,Daniel G. Taylor,2014-01-29 16:38:09,Merge branch 'release-2.24.0'
+522d67f,2.25.0,Daniel Lindsley,2014-02-07 13:37:10,Merge branch 'release-2.25.0'
+b7d9f44,2.26.0,Daniel Lindsley,2014-02-27 11:15:26,Merge branch 'release-2.26.0'
+502813b,2.26.1,Daniel Lindsley,2014-03-03 13:45:48,Bumped to 2.26.1!
+f77752a,2.27.0,Daniel G. Taylor,2014-03-06 16:20:31,Bumped to 2.27.0
+b28e7fc,2.28.0,Daniel G. Taylor,2014-05-08 13:21:32,Merge branch 'release-2.28.0'
+2414892,2.29.0,Daniel G. Taylor,2014-05-29 15:41:32,Merge branch 'release-2.29.0'
+5a6fab8,2.29.1,Daniel G. Taylor,2014-05-30 13:49:34,Merge branch 'release-2.29.1'
+34e0dcf,2.30.0,Daniel G. Taylor,2014-07-01 14:38:40,Merge branch 'release-2.30.0'
+e4a2bd5,2.31.0,Daniel G. Taylor,2014-07-10 11:31:25,Merge branch 'release-2.31.0'
+9cb6b1b,2.31.1,Daniel G. Taylor,2014-07-10 15:08:49,Add release notes, bump to 2.31.1
+614e844,2.32.0,Daniel G. Taylor,2014-07-30 15:33:39,Merge branch 'release-2.32.0'
+ff3d815,2.32.1,Daniel G. Taylor,2014-08-04 15:42:30,Merge branch 'release-2.32.1'
+2517f66,2.33.0,kyleknap,2014-10-08 12:41:04,Merge branch 'release-2.33.0'
+d7be53e,2.34.0,kyleknap,2014-10-23 09:19:50,Merge branch 'release-2.34.0'
+b1fd68e,2.35.0,kyleknap,2015-01-08 15:42:24,Merge branch 'release-2.35.0'
+350edd8,2.35.1,kyleknap,2015-01-09 11:22:23,Merge branch 'release-2.35.1'
+3213c25,2.35.2,kyleknap,2015-01-19 16:21:23,Merge branch 'release-2.35.2'
+edfa222,2.36.0,kyleknap,2015-01-27 12:17:15,Merge branch 'release-2.36.0'
+c5aa4f5,2.37.0,Daniel G. Taylor,2015-04-02 15:44:05,Merge branch 'release-2.37.0'
+cb8aeec,2.38.0,Daniel G. Taylor,2015-04-09 11:57:51,Merge branch 'release-2.38.0'

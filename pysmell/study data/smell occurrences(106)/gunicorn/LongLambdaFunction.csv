@@ -1,0 +1,7 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+gunicorn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\gunicorn\gunicorn\arbiter.py,111,24,1,3,0,0,0
+gunicorn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\gunicorn\gunicorn\arbiter.py,485,16,1,4,0,0,0
+gunicorn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\gunicorn\gunicorn\config.py,409,43,4,5,0,0,0
+gunicorn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\gunicorn\gunicorn\config.py,411,38,4,4,0,0,0
+gunicorn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\gunicorn\tests\test_config.py,141,12,1,1,0,0,0
+gunicorn,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\gunicorn\tests\test_selectors.py,345,16,0,1,0,0,0

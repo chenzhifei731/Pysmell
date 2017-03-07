@@ -1,0 +1,14 @@
+hash,tag,author,date,title
+4b802fc,2.0.1rc1,Steven Bird,2011-04-11 04:32:39,* updated changelog * fixed lots of doctest-related issues
+6a1b724,2.0.1rc2,Steven Bird,2011-12-01 18:23:46,updates to support building 2.0.1rc2
+b0132e6,2.0.1rc3,Steven Bird,2012-01-07 16:33:49,updated for 2.0.1rc3
+65f2cc4,2.0.1rc4,Steven Bird,2012-02-10 10:02:56,updated for 2.0.1rc4
+bbee301,2.0.3,Steven Bird,2012-09-24 19:21:15,finalising 2.0.3
+18c842f,2.0.4,Steven Bird,2012-11-07 23:04:29,bugfix release to solve numpy dependency
+3ff3764,3.0a1,Steven Bird,2013-02-13 22:45:39,update windowdiff tests
+045e481,3.0a4,Steven Bird,2014-05-20 13:08:15,"re-applied changes from https://github.com/heatherleaf/nltk/commit/c65dffdf4bf10a81aa07e508175f7818a12f5183, cf https://github.com/nltk/nltk/issues/670"
+13a3120,3.0.0b1,Steven Bird,2014-07-11 14:14:16,updates for NLTK 3
+48c40a0,3.0.0b2,Steven Bird,2014-08-21 18:45:18,updates for 3.0.0b2
+82e137d,3.0.0,Steven Bird,2014-09-07 17:01:22,news update
+efe8596,3.0.1,Mikhail Korobov,2015-01-09 02:06:21,Fixed installation with recent setuptools.
+d24d94f,3.0.2,Steven Bird,2015-03-13 14:44:25,updated for 3.0.2

@@ -1,0 +1,36 @@
+hash,tag,author,date,title
+eb5b3d8,v1.0.0,Ben Darnell,2010-07-22 15:15:37,Set version number to 1.0
+2b5064b,v1.0.1,Ben Darnell,2010-08-13 10:49:03,Set version number to 1.0.1
+2338348,v1.1.0,Ben Darnell,2010-09-07 17:05:12,Bump version number to 1.1
+b912454,v1.1.1,Ben Darnell,2011-02-08 22:43:07,Tag release 1.1.1
+f543620,v1.2.0,Ben Darnell,2011-02-20 12:56:18,Update version number to 1.2
+f36fb66,v1.2.1,Ben Darnell,2011-03-03 12:41:26,Set version number to 1.2.1
+94078a6,v2.0.0,Ben Darnell,2011-06-21 22:28:35,Set version number to 2.0
+b419316,v2.1.0,Ben Darnell,2011-09-20 21:21:52,Set version number to 2.1
+fa15928,v2.1.1,Ben Darnell,2011-10-04 09:59:49,Set version number to 2.1.1
+02bc761,v2.2.0,Ben Darnell,2012-01-30 11:01:44,Set version number to 2.2.
+8d7f9f0,v2.2.1,Ben Darnell,2012-04-23 22:04:06,Version number bump for 2.2.1
+1359890,v2.3.0,Ben Darnell,2012-05-31 21:39:21,Set version number to 2.3
+648bebf,v2.4.0,Ben Darnell,2012-09-03 22:09:29,Final 2.4 release notes
+169ac4e,v2.4.1,Ben Darnell,2012-11-24 21:22:10,"Bump version to 2.4.1, update release notes."
+6c6b72f,v3.0.0,Ben Darnell,2013-03-29 09:02:04,Set version number to 3.0
+e555908,v3.0.1,Ben Darnell,2013-04-08 23:26:51,Set version number to 3.0.1
+1a3088b,v3.0.2,Ben Darnell,2013-06-02 16:27:28,Version bump and release notes for 3.0.2.
+2d7ce58,v3.1.0,Ben Darnell,2013-06-15 14:15:54,Set version to 3.1.
+f36652d,v3.1.1,Ben Darnell,2013-09-01 14:21:36,Set version number to 3.1.1
+541331a,v3.2.0b1,Ben Darnell,2013-12-30 14:18:28,Set version number to 3.2b1.
+b2039a3,v3.2.0b2,Ben Darnell,2014-01-07 22:01:38,Set version number to 3.2b2
+76a6987,v3.2.0,Ben Darnell,2014-01-14 08:41:27,Set version number to 3.2.
+9896931,v3.2.1,Ben Darnell,2014-05-05 22:28:23,Set version number to 3.2.1
+6765549,v3.2.2,Ben Darnell,2014-06-03 23:30:18,Set version number to 3.2.2
+681882b,v4.0.0b1,Ben Darnell,2014-06-21 16:02:18,Set version number to 4.0b1
+aa7b15f,v4.0.0b2,Ben Darnell,2014-07-01 08:37:02,Set version number to 4.0b2
+8b5c4ae,v4.0.0b3,Ben Darnell,2014-07-08 22:50:05,Set version number to 4.0b3.
+f182402,v4.0.0,Ben Darnell,2014-07-15 08:42:27,Set version number to 4.0
+54bfbee,v4.0.1,Ben Darnell,2014-08-12 09:11:20,Set version number to 4.0.1.
+b18b12b,v4.0.2,Ben Darnell,2014-09-10 23:47:51,Set version number to 4.0.2
+343ceb1,v4.1.0b1,Ben Darnell,2015-01-24 19:12:08,Set version number to 4.1b1
+fff09e9,v4.1.0b2,Ben Darnell,2015-02-01 14:27:54,Set version number to 4.1b2
+a30dcd0,v4.1.0,Ben Darnell,2015-02-07 12:47:11,Set version number to 4.1
+61a16c9,v4.2.0b1,Ben Darnell,2015-05-10 13:16:50,Fix title of 4.2 release notes page
+fdfaf3d,v4.2.0,Ben Darnell,2015-05-26 21:46:05,Set version number to 4.2.0

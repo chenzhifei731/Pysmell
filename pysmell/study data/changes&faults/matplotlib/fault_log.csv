@@ -1,0 +1,189 @@
+commit,author,date,title,faultID,file
+37927b2,Thomas A Caswell,2015-05-12 22:14:39,FIX : turn path snapping off on 'o' marker path,4421,lib/matplotlib/markers.py
+66a8ac0,Thomas A Caswell,2015-05-06 08:18:59,FIX : do not pass empty curve list through,4323,lib/matplotlib/backends/qt_editor/figureoptions.py
+8e64eed,Thomas A Caswell,2015-03-16 00:49:43,BUG : fix non-uniform grids in pcolorfast,4227,lib/matplotlib/image.py
+8e64eed,Thomas A Caswell,2015-03-16 00:49:43,BUG : fix non-uniform grids in pcolorfast,4227,lib/matplotlib/tests/test_axes.py
+3ab6b24,Thomas A Caswell,2015-04-04 22:03:37,BUG : bbox with any nan points can not overlap,4309,lib/matplotlib/tests/test_transforms.py
+3ab6b24,Thomas A Caswell,2015-04-04 22:03:37,BUG : bbox with any nan points can not overlap,4309,lib/matplotlib/transforms.py
+94e6944,Thomas A Caswell,2015-04-03 13:45:20,Merge pull request #4304 from Acanthostega/master,4303
+3f03e2e,Thomas A Caswell,2015-03-07 20:08:39,Merge pull request #4198 from efiring/plot_color_alias,4162,lib/matplotlib/axes/_axes.py
+3f03e2e,Thomas A Caswell,2015-03-07 20:08:39,Merge pull request #4198 from efiring/plot_color_alias,4162,lib/matplotlib/tests/test_axes.py
+66c5aa6,Thomas A Caswell,2015-03-18 14:05:32,Merge pull request #4244 from mdboom/issue4239,4239
+0c8c640,Michael Droettboom,2015-03-18 12:41:04,Fix #4239: Don't include scientific notation in path strings,4239,lib/matplotlib/tests/test_path.py
+ac335d9,Thomas A Caswell,2015-03-07 20:08:39,Merge pull request #4198 from efiring/plot_color_alias,4162
+308fae5,Eric Firing,2015-03-07 13:15:50,"Plot: convert 'c' to 'color' immediately; closes #4162, #4157",4162,lib/matplotlib/axes/_axes.py
+308fae5,Eric Firing,2015-03-07 13:15:50,"Plot: convert 'c' to 'color' immediately; closes #4162, #4157",4162,lib/matplotlib/tests/test_axes.py
+54abca4,Cimarron Mittelsteadt,2015-03-05 19:55:55,TST: Added test to check that axis labels are located correctly when no tick labels are present and axis spines are offset (see issue #3715),3715,lib/matplotlib/tests/test_spines.py
+2077a46,Ian Thomas,2015-03-03 18:59:03,"Fixed issue #4180, trirefiner not dealing with fortran-contiguous triangles",4180,lib/matplotlib/tests/test_triangulation.py
+2077a46,Ian Thomas,2015-03-03 18:59:03,"Fixed issue #4180, trirefiner not dealing with fortran-contiguous triangles",4180,lib/matplotlib/tri/triangulation.py
+98d1d24,Eric Firing,2015-03-03 11:26:10,Merge pull request #4184 from ianthomas23/4180_trirefiner_fortran_contiguous_triangles,4180
+fcbea4a,Ian Thomas,2015-03-03 18:59:03,"Fixed issue #4180, trirefiner not dealing with fortran-contiguous triangles",4180,lib/matplotlib/tests/test_triangulation.py
+fcbea4a,Ian Thomas,2015-03-03 18:59:03,"Fixed issue #4180, trirefiner not dealing with fortran-contiguous triangles",4180,lib/matplotlib/tri/triangulation.py
+08b8adb,Thomas A Caswell,2015-02-15 22:12:12,Merge pull request #4097 from lichri12/patch-1,4043
+63e1c1b,lichri12,2015-02-13 16:42:27,Fix scale factor label issue #4043,4043,lib/matplotlib/axis.py
+9e700a9,Eric Firing,2015-02-11 07:01:49,Merge pull request #4087 from mdboom/collection-picking,4076
+0f204ec,Michael Droettboom,2015-02-09 14:33:48,Fix #4076. Change how result is stored in point_in_path/point_on_path. Return indices as signed integers (since that's what Numpy wants).,4076,lib/matplotlib/tests/test_collections.py
+36c14b5,Thomas A Caswell,2015-01-30 18:18:44,Merge pull request #4050 from mdboom/issue4049,4049
+c98a90d,Thomas A Caswell,2015-01-30 11:02:18,BUG : fix PowerNorm with scalars,4053,lib/matplotlib/colors.py
+c98a90d,Thomas A Caswell,2015-01-30 11:02:18,BUG : fix PowerNorm with scalars,4053,lib/matplotlib/tests/test_colors.py
+b4563d8,Thomas A Caswell,2014-10-11 00:11:28,BUG : fix cla behavior with twinx,3633,lib/matplotlib/axes/_base.py
+b4563d8,Thomas A Caswell,2014-10-11 00:11:28,BUG : fix cla behavior with twinx,3633,lib/matplotlib/tests/test_axes.py
+9aa8e5f,Thomas A Caswell,2015-01-25 14:50:50,Merge pull request #4034 from efiring/quiverdraw,3709,lib/matplotlib/quiver.py
+9aa8e5f,Thomas A Caswell,2015-01-25 14:50:50,Merge pull request #4034 from efiring/quiverdraw,3709,lib/matplotlib/tests/test_quiver.py
+b280f7d,Thomas A Caswell,2015-01-25 14:50:50,Merge pull request #4034 from efiring/quiverdraw,3709
+6260c48,Eric Firing,2015-01-23 11:10:31,"quiver: always recalculate when drawing; improve docstring; closes #3709, #3817",3709,lib/matplotlib/quiver.py
+6260c48,Eric Firing,2015-01-23 11:10:31,"quiver: always recalculate when drawing; improve docstring; closes #3709, #3817",3709,lib/matplotlib/tests/test_quiver.py
+9d97a21,Phil Elson,2014-12-09 10:49:46,Merge pull request #3863 from maxalbert/fix_log_transforms,3809,lib/matplotlib/tests/test_transforms.py
+9d97a21,Phil Elson,2014-12-09 10:49:46,Merge pull request #3863 from maxalbert/fix_log_transforms,3809,lib/matplotlib/transforms.py
+d8965dd,Peter Würtz,2015-01-08 17:21:31,backend_pgf: Partial support of file-like streams without filenames (fixes #3982),3982,lib/matplotlib/backends/backend_pgf.py
+543a222,Phil Elson,2014-12-09 10:49:46,Merge pull request #3863 from maxalbert/fix_log_transforms,3809
+ca10a34,Phil Elson,2014-11-30 15:13:07,Merge pull request #3861 from maxalbert/fix_get_window_extent,2980
+b5685f4,Matt Li,2014-11-29 16:36:57,Ensure that 'points' is an array to avoid errors when indexing (completes fix for #3809).,3809,lib/matplotlib/transforms.py
+488eb61,Maximilian Albert,2014-11-29 15:37:01,Added missing implementation of get_window_extent for AxisImage and test (fixes #2980).,2980,lib/matplotlib/image.py
+488eb61,Maximilian Albert,2014-11-29 15:37:01,Added missing implementation of get_window_extent for AxisImage and test (fixes #2980).,2980,lib/matplotlib/tests/test_image.py
+9e1b7ae,Michael Droettboom,2014-11-21 11:28:26,Avoid draw_marker optimization on large paths,3626,lib/matplotlib/collections.py
+9e1b7ae,Michael Droettboom,2014-11-21 11:28:26,Avoid draw_marker optimization on large paths,3626,lib/matplotlib/tests/test_agg.py
+2c1bc6b,Michael Droettboom,2014-11-21 10:41:04,points_in_path etc. should return bool.,3824,lib/matplotlib/tests/test_path.py
+7ba2c2a,Eric Firing,2014-11-16 15:59:22,Merge pull request #3808 from tacaswell/colorbar_norm_bug,3805,lib/matplotlib/colorbar.py
+7ba2c2a,Eric Firing,2014-11-16 15:59:22,Merge pull request #3808 from tacaswell/colorbar_norm_bug,3805,lib/matplotlib/tests/test_colorbar.py
+91db612,Eric Firing,2014-11-16 15:59:22,Merge pull request #3808 from tacaswell/colorbar_norm_bug,3805
+e9f0839,Thomas A Caswell,2014-11-16 14:14:32,BUG : fix #3805,3805,lib/matplotlib/colorbar.py
+09191a4,Thomas A Caswell,2014-11-09 12:45:36,BUG : correct default value alpha on legend patch,3766,lib/matplotlib/rcsetup.py
+09191a4,Thomas A Caswell,2014-11-09 12:45:36,BUG : correct default value alpha on legend patch,3766,lib/matplotlib/tests/test_legend.py
+d684890,Thomas A Caswell,2014-10-28 12:52:52,Merge pull request #3729 from alimuldal/fix_eventplot_colors_arg,3728,lib/matplotlib/axes/_axes.py
+d684890,Thomas A Caswell,2014-10-28 12:52:52,Merge pull request #3729 from alimuldal/fix_eventplot_colors_arg,3728,lib/matplotlib/tests/test_axes.py
+6091d11,Thomas A Caswell,2014-10-28 12:52:52,Merge pull request #3729 from alimuldal/fix_eventplot_colors_arg,3728
+a2d46ff,Alistair Muldal,2014-10-27 12:29:08,"handling of color=None by eventplot(), fixes #3728",3728,lib/matplotlib/axes/_axes.py
+e0b9c67,Thomas A Caswell,2014-09-10 09:07:10,"BUG : don't use super(self.__class__, self)",3493,lib/mpl_toolkits/mplot3d/art3d.py
+d3c0b23,Thomas A Caswell,2014-08-25 23:41:58,Merge pull request #3378 from cimarronm/custommarkersizefix,1980,lib/matplotlib/markers.py
+98d19db,Thomas A Caswell,2014-08-25 23:41:58,Merge pull request #3378 from cimarronm/custommarkersizefix,1980
+481314e,Cimarron Mittelsteadt,2014-08-17 16:09:53,BUG: Fixes custom path marker sizing for issue #1980,1980,lib/matplotlib/markers.py
+519dbfc,Thomas A Caswell,2014-08-01 08:34:31,BUG : don't assign color to flier props if None,3336,lib/matplotlib/axes/_axes.py
+9900271,Thomas A Caswell,2014-07-30 23:14:38,Merge pull request #3324 from mdboom/backend-agg-crash,3304
+3ca461e,Thomas A Caswell,2014-07-30 23:14:38,Merge pull request #3324 from mdboom/backend-agg-crash,3304
+d797bc1,Michael Droettboom,2014-07-29 12:27:07,Fix #3304.,3304
+ec2aff4,Michael Droettboom,2014-07-28 18:31:18,"Fix #3298.  Wedge's shouldn't special case the ""round the horn""",3298,lib/matplotlib/path.py
+ec2aff4,Michael Droettboom,2014-07-28 18:31:18,"Fix #3298.  Wedge's shouldn't special case the ""round the horn""",3298,lib/matplotlib/tests/test_patches.py
+d6d8238,Benjamin Root,2013-06-28 18:55:21,Much better alpha control in mplot3d. Closes #1541,1541,lib/mpl_toolkits/mplot3d/art3d.py
+10bc45e,Thomas A Caswell,2014-06-29 15:47:37,BUG : raise exception in subplot if num out of range,3166,lib/matplotlib/axes/_subplots.py
+10bc45e,Thomas A Caswell,2014-06-29 15:47:37,BUG : raise exception in subplot if num out of range,3166,lib/matplotlib/tests/test_subplots.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,examples/pylab_examples/font_table_ttf.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,lib/matplotlib/backends/backend_pdf.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,lib/matplotlib/backends/backend_qt4.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,lib/matplotlib/backends/backend_svg.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,lib/matplotlib/mathtext.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,lib/matplotlib/tests/test_backend_qt4.py
+788f130,Thomas A Caswell,2014-06-09 08:47:44,DOC : sixify unichr,3117,lib/matplotlib/type1font.py
+81ea556,Eric Firing,2014-06-01 13:12:20,"BUG: in Spine.set_position(), preserve most Axis info.",2941,lib/matplotlib/spines.py
+60cc436,Eric Firing,2014-05-31 21:16:08,Image: handle images with zero columns or rows.,3091,lib/matplotlib/image.py
+f511ef9,Eric Firing,2014-05-31 15:02:08,Use autolim kwarg in add_collection to prevent duplication of effort.,3095,lib/matplotlib/axes/_axes.py
+f511ef9,Eric Firing,2014-05-31 15:02:08,Use autolim kwarg in add_collection to prevent duplication of effort.,3095,lib/matplotlib/contour.py
+380fe29,Thomas A Caswell,2014-04-27 18:31:38,BUG : minimal fix for date x-values in stem plots,2602,lib/matplotlib/axes/_axes.py
+96d5473,Thomas A Caswell,2014-05-02 22:23:21,BUG : removed unicode string marker for backend_qt4,3028,lib/matplotlib/backends/backend_qt4.py
+51b6bc9,Thomas A Caswell,2014-04-27 16:40:21,BUG : improved input clean up in Axes.{h|v}line,2197,lib/matplotlib/axes/_axes.py
+9a7991d,solvents,2014-04-25 18:18:46,"Fix for issue #2963 Image::resize will now raise a runtime error if the user passes in an invalid width or height. BboxImage.make_image will now ensure that the width and height it passes to Image::resize are positive or zero. BboxImage.draw now calculates the bottom left corner of its Bbox, rather than using the ""first"" corner of its Bbox.",2963,lib/matplotlib/image.py
+8ada91f,Thomas A Caswell,2014-04-10 20:55:18,Merge pull request #2968 from mpyrozhok/issue-2964,2964
+aaa2970,Thomas A Caswell,2014-03-20 09:35:58,Merge pull request #2735 from cimarronm/divider_append_axes_fix,966
+bcc9ead,Cimarron Mittelsteadt,2014-01-15 21:40:15,"BUG: Fixes issue #966. When appending the new axes, there is a bug where it does not account for the reference horizontal locator index when adding a veritcal axes and does not accout for the reference vertical locator index when adding a horizontal axes. This fixes that bug so that the append_axes function adds the axes where it is expected.",966,lib/mpl_toolkits/axes_grid1/axes_divider.py
+e6e4e04,Eric Firing,2014-02-12 16:54:39,quiver: handle autoscaling with quiverkey when animated,2616,lib/matplotlib/quiver.py
+e6e4e04,Eric Firing,2014-02-12 16:54:39,quiver: handle autoscaling with quiverkey when animated,2616,lib/matplotlib/tests/test_quiver.py
+3d297ff,Michael Droettboom,2014-01-27 08:38:17,Merge pull request #2558 from tacaswell/quiver_memory_leak,2556
+129c738,Thomas A Caswell,2014-01-23 04:57:35,Merge pull request #2734 from cimarronm/im_setclipbox_fix,1733
+fbc71d1,Cimarron Mittelsteadt,2014-01-15 18:06:10,Fixed issue #1733 - AxesImage draw function now takes into account the clipbox set for the artist,1733,lib/matplotlib/image.py
+4cc466e,Thomas A Caswell,2014-01-13 21:28:11,fixed memory leak in quiverkey,2556,lib/matplotlib/quiver.py
+c312cca,Thomas A Caswell,2014-01-13 21:14:25,added test_quiver module,2556,lib/matplotlib/__init__.py
+c312cca,Thomas A Caswell,2014-01-13 21:14:25,added test_quiver module,2556,lib/matplotlib/tests/test_quiver.py
+efa1822,Cimarron Mittelsteadt,2014-01-08 15:38:08,Fixes issue #2525: clears _suptitle instance on clf() and fixes a bug where suptitle endlessly adds text artists to the figure,2525,lib/matplotlib/figure.py
+e51e256,Phil Elson,2014-01-08 07:41:03,Merge pull request #2704 from cimarronm/figuretextremovefix,1747
+80b3c71,Cimarron Mittelsteadt,2014-01-04 15:46:07,Bugfix for issue #1747. Allows removal of figure text artists.,1747,lib/matplotlib/figure.py
+b57c6dc,Thomas A Caswell,2013-11-30 13:15:03,Check if iterator has length,1769,lib/matplotlib/animation.py
+1b81e9f,Thomas A Caswell,2013-10-29 13:26:39,fixes issue #2556,2556,lib/matplotlib/quiver.py
+ea4f313,Michael Droettboom,2013-10-01 18:13:15,Fix #2423: Clip markers off figure.,2423,lib/matplotlib/backends/backend_pdf.py
+ea4f313,Michael Droettboom,2013-10-01 18:13:15,Fix #2423: Clip markers off figure.,2423,lib/matplotlib/backends/backend_ps.py
+ea4f313,Michael Droettboom,2013-10-01 18:13:15,Fix #2423: Clip markers off figure.,2423,lib/matplotlib/backends/backend_svg.py
+ea4f313,Michael Droettboom,2013-10-01 18:13:15,Fix #2423: Clip markers off figure.,2423,lib/matplotlib/tests/test_backend_pdf.py
+aeef93a,Michael Droettboom,2013-09-27 10:21:23,Fix #2418: Crash in PDF backend due to complicated clipping pattern.,2418,lib/matplotlib/backends/backend_pdf.py
+731f6c8,Michael Droettboom,2013-09-27 09:59:48,Fix #2425: setters without arguments should not be added to the list of parameters,2425,lib/matplotlib/artist.py
+eb38caa,Michael Droettboom,2013-08-12 13:08:37,Fixes #2229: Hatching on line collections in PDF backend works,2229,lib/matplotlib/backends/backend_pdf.py
+48f594c,Thomas A Caswell,2013-08-27 17:44:14,changed colorbar outline from a Line2D object to a Polygon object,2296,lib/matplotlib/colorbar.py
+6846892,Michael Droettboom,2013-07-22 07:26:23,Merge pull request #2238 from efiring/quad_offset_bug,560,lib/matplotlib/collections.py
+54f7d3e,Michael Droettboom,2013-07-22 07:26:23,Merge pull request #2238 from efiring/quad_offset_bug,560
+071158b,Eric Firing,2013-07-21 15:55:40,bug: fix unit support for offsets in QuadMesh; closes #560,560,lib/matplotlib/collections.py
+d6c6afd,Michael Droettboom,2013-05-24 11:36:39,Merge pull request #2056 from efiring/gtk_filechooser_no_hide,1530
+bb6e6a9,Eric Firing,2013-05-23 11:27:06,backend_gtk: don't hide FileChooserDialog; closes #1530,1530,lib/matplotlib/backends/backend_gtk.py
+016d120,Michael Droettboom,2013-05-20 12:37:08,Merge pull request #1753 from bingjeff/master,1737
+af07100,Michael Droettboom,2013-05-10 18:24:04,Merge pull request #1964 from cimarronm/data_spine_right_top_location_fix,1960
+377facb,Jae-Joon Lee,2013-04-30 09:02:12,SubplotBase._make_twin_axes always creates a new subplot instance. Fixes #1957.,1957,lib/matplotlib/axes.py
+247689d,Cimarron Mittelsteadt,2013-04-30 12:20:21,Fixes issue #1960. Account for right/top spine data offset on transform when doing spine.set_position(). Also includes a testcase for the data locations.,1960,lib/matplotlib/spines.py
+247689d,Cimarron Mittelsteadt,2013-04-30 12:20:21,Fixes issue #1960. Account for right/top spine data offset on transform when doing spine.set_position(). Also includes a testcase for the data locations.,1960,lib/matplotlib/tests/test_spines.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/backend_bases.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/backends/backend_agg.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/backends/backend_pdf.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/backends/backend_pgf.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/backends/backend_ps.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/backends/backend_svg.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/mathtext.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/tests/test_axes.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/tests/test_mathtext.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/tests/test_text.py
+f4b57da,Michael Droettboom,2013-04-15 18:23:27,"Fix #1810: Fix vertical text alignment in the Cairo and OS-X backends. The renderer backends' draw_text method is now passed the location of the text baseline, not the bottom of the text bounding box.",1810,lib/matplotlib/text.py
+a082e6a,Michael Droettboom,2013-04-10 13:47:26,Fix #1894: Composite images do not have a transparent background,1894,lib/matplotlib/image.py
+a082e6a,Michael Droettboom,2013-04-10 13:47:26,Fix #1894: Composite images do not have a transparent background,1894,lib/matplotlib/tests/test_image.py
+4652560,Nelle Varoquaux,2012-12-06 18:59:48,FIX Removes code that does work from the axes module,1465,lib/matplotlib/axes.py
+37466d5,Michael Droettboom,2012-11-01 09:56:06,Save and restore state around the PDF backend path collection draw.  Fixes #1444,1444,lib/matplotlib/backends/backend_pdf.py
+0d7d252,Michael Droettboom,2012-11-01 09:56:06,Save and restore state around the PDF backend path collection draw.  Fixes #1444,1444,lib/matplotlib/backends/backend_pdf.py
+53fd0d3,Eric Firing,2012-10-14 01:05:11,Merge pull request #1392 from efiring/fix_hist_step,841
+e5744c0,Eric Firing,2012-10-13 21:56:45,Fix by Yannick Copin for hist autoscaling bug; closes issue #841,841,lib/matplotlib/axes.py
+8aca5e7,Michael Droettboom,2012-09-28 10:55:58,Fixes #1316.  Default to `None` for rasterization_zorder.,1316,lib/matplotlib/axes.py
+b930aa7,Phil Elson,2012-09-14 10:50:23,Fixes #1246. Repeated drawing handling fixed by correcting the affine/non-affine transformation of a BlendedGenericTransform.,1246,lib/matplotlib/__init__.py
+b930aa7,Phil Elson,2012-09-14 10:50:23,Fixes #1246. Repeated drawing handling fixed by correcting the affine/non-affine transformation of a BlendedGenericTransform.,1246,lib/matplotlib/scale.py
+b930aa7,Phil Elson,2012-09-14 10:50:23,Fixes #1246. Repeated drawing handling fixed by correcting the affine/non-affine transformation of a BlendedGenericTransform.,1246,lib/matplotlib/tests/test_scale.py
+b930aa7,Phil Elson,2012-09-14 10:50:23,Fixes #1246. Repeated drawing handling fixed by correcting the affine/non-affine transformation of a BlendedGenericTransform.,1246,lib/matplotlib/transforms.py
+15fd0ae,Michael Droettboom,2012-09-05 10:48:22,Merge pull request #1192 from efiring/issue835_2,835
+21adc0a,Phil Elson,2012-09-03 04:21:03,Merge pull request #1197 from pelson/streamline_consistency,1194
+64e35f2,Phil Elson,2012-09-03 11:45:33,Handled future division changes for python3 (fixes #1194).,1194,lib/matplotlib/streamplot.py
+ff4bb1e,Benjamin Root,2012-08-21 06:22:21,Merge pull request #563 from mdboom/issue563,563
+4b9f77d,Michael Droettboom,2012-08-20 11:02:26,Remove the mutable kward from sankey.add.  Fixes #563.,563,lib/matplotlib/sankey.py
+988b328,Eric Firing,2012-08-16 09:11:49,add tests/test_colors.py with test for issue #1005,1005,lib/matplotlib/__init__.py
+988b328,Eric Firing,2012-08-16 09:11:49,add tests/test_colors.py with test for issue #1005,1005,lib/matplotlib/tests/test_colors.py
+c28e8d7,Paul Ivanov,2012-07-02 22:44:53,support current and future FreeBSD releases,225,setupext.py
+a6a9624,Benjamin Root,2012-06-22 09:13:35,Implements @cgra (Christopher Graves) suggestion for issue #807.,807,lib/matplotlib/ticker.py
+4cd75cd,Jouni K. Seppänen,2012-04-06 17:50:07,Fix issue #804 by altering path clipping,804,lib/matplotlib/tests/test_axes.py
+4cd75cd,Jouni K. Seppänen,2012-04-06 17:50:07,Fix issue #804 by altering path clipping,804,lib/matplotlib/tests/test_transforms.py
+47a29b2,Michael Droettboom,2012-03-20 09:33:30,Hide the warning when saving a file to a new filename in the Gtk backend.  Issue #769,769,lib/matplotlib/backends/backend_gtk.py
+aa5bdbe,Ben Root,2012-03-13 11:52:31,Fix scatter3d bug,761,lib/mpl_toolkits/mplot3d/art3d.py
+c9cefdc,Eric Firing,2012-01-14 20:49:39,fix error in merge commit bca1fb05; fixes issue #673,673
+b1c4d4a,Eric Firing,2011-12-31 22:51:11,Merge branch 'jkseppan-issue621',621
+847f0f5,Eric Firing,2011-12-31 22:49:58,Merge branch 'issue621' of https://github.com/jkseppan/matplotlib into jkseppan-issue621,621
+129750f,Jouni K. Seppänen,2011-12-29 17:38:54,"Unify ps stroking logic, fixes ps part of issue #621",621,lib/matplotlib/backends/backend_ps.py
+d2cba84,Michael Droettboom,2011-11-08 06:39:55,Merge pull request #408 from mdboom/issue408,408
+af9c4d7,Michael Droettboom,2011-10-21 10:31:29,Don't pixel snap histogram step lines.  It makes them not align properly with smoothed curves.  Closes #408.,408,lib/matplotlib/axes.py
+d664879,Michael Droettboom,2011-10-19 11:20:13,Merge pull request #541 from mdboom/issue520,520
+fc30d92,Michael Droettboom,2011-10-18 15:39:41,Fix inclusion of source code in the documentation build.  Closes #520.,520,doc/sphinxext/gen_rst.py
+fc30d92,Michael Droettboom,2011-10-18 15:39:41,Fix inclusion of source code in the documentation build.  Closes #520.,520,lib/matplotlib/sphinxext/plot_directive.py
+0fc9830,Michael Droettboom,2011-10-06 11:55:41,"Fix font sizes when displaying SVGs with fonttype ""none"" or ""svgfont"" in Firefox.  Closes #510.",510,lib/matplotlib/backends/backend_svg.py
+497681c,Michael Droettboom,2011-08-30 13:47:36,Implements a new version of symlog that is smooth around linthresh contributed by ssyr.  Also includes a cleaner implementation of the symlog ticker.  Closes #396.,396,examples/pylab_examples/symlog_demo.py
+497681c,Michael Droettboom,2011-08-30 13:47:36,Implements a new version of symlog that is smooth around linthresh contributed by ssyr.  Also includes a cleaner implementation of the symlog ticker.  Closes #396.,396,lib/matplotlib/scale.py
+497681c,Michael Droettboom,2011-08-30 13:47:36,Implements a new version of symlog that is smooth around linthresh contributed by ssyr.  Also includes a cleaner implementation of the symlog ticker.  Closes #396.,396,lib/matplotlib/ticker.py
+5bbaeee,Jae-Joon Lee,2011-08-09 00:04:19,Use set_marker() in legend_handler.py. Closes #412,412,lib/matplotlib/legend_handler.py
+0e6a2b6,Michael Droettboom,2011-07-13 14:28:52,"Change how symlog works to avoid numerical problems, particular when linthresh <= 1.0.  This changes the appearance of symlog plots hopefully for the for the better.  Closes #396",396,lib/matplotlib/scale.py
+0e6a2b6,Michael Droettboom,2011-07-13 14:28:52,"Change how symlog works to avoid numerical problems, particular when linthresh <= 1.0.  This changes the appearance of symlog plots hopefully for the for the better.  Closes #396",396,lib/matplotlib/tests/test_axes.py
+0e6a2b6,Michael Droettboom,2011-07-13 14:28:52,"Change how symlog works to avoid numerical problems, particular when linthresh <= 1.0.  This changes the appearance of symlog plots hopefully for the for the better.  Closes #396",396,lib/matplotlib/ticker.py
+fcd9fd8,Ben Root,2011-07-14 11:12:51,"Added a ""can_pan()"" function and included it in the generic panning logic. Also added the function to the geo, polar, and mplot3d axes with the appropriate return values. This closes issue #110.",110,lib/matplotlib/axes.py
+fcd9fd8,Ben Root,2011-07-14 11:12:51,"Added a ""can_pan()"" function and included it in the generic panning logic. Also added the function to the geo, polar, and mplot3d axes with the appropriate return values. This closes issue #110.",110,lib/matplotlib/backend_bases.py
+fcd9fd8,Ben Root,2011-07-14 11:12:51,"Added a ""can_pan()"" function and included it in the generic panning logic. Also added the function to the geo, polar, and mplot3d axes with the appropriate return values. This closes issue #110.",110,lib/matplotlib/projections/geo.py
+fcd9fd8,Ben Root,2011-07-14 11:12:51,"Added a ""can_pan()"" function and included it in the generic panning logic. Also added the function to the geo, polar, and mplot3d axes with the appropriate return values. This closes issue #110.",110,lib/matplotlib/projections/polar.py
+fcd9fd8,Ben Root,2011-07-14 11:12:51,"Added a ""can_pan()"" function and included it in the generic panning logic. Also added the function to the geo, polar, and mplot3d axes with the appropriate return values. This closes issue #110.",110,lib/mpl_toolkits/mplot3d/axes3d.py
+84b6f17,Benjamin Root,2011-07-10 18:03:54,Merge pull request #394 from WeatherGod/mplot3d/asanyarray,181
+9bb3520,Ben Root,2011-07-10 17:32:00,plot_surface now supports any array-like input. Closes #181 Also fixed an un-noticed issue with tricontourf.,181,lib/mpl_toolkits/mplot3d/axes3d.py
+581e60b,Eric Firing,2011-07-10 11:05:42,Merge pull request #392 from ianthomas23/203_tripcolor_indexerror,203
+c4f603e,Ian Thomas,2011-07-10 16:18:59,Fixed issue #203,203,lib/matplotlib/tri/triangulation.py
+c4f603e,Ian Thomas,2011-07-10 16:18:59,Fixed issue #203,203,lib/matplotlib/tri/tricontour.py
+c4f603e,Ian Thomas,2011-07-10 16:18:59,Fixed issue #203,203,lib/matplotlib/tri/tripcolor.py
+c4f603e,Ian Thomas,2011-07-10 16:18:59,Fixed issue #203,203,lib/matplotlib/tri/triplot.py
+d5a20a1,Michael Droettboom,2011-06-22 15:25:19,"Add set_theta_offset, set_theta_direction and set_theta_zero_location to polar axes to control the location of 0 and directionality of theta.  Closes #316.",316,lib/matplotlib/projections/polar.py
+d5a20a1,Michael Droettboom,2011-06-22 15:25:19,"Add set_theta_offset, set_theta_direction and set_theta_zero_location to polar axes to control the location of 0 and directionality of theta.  Closes #316.",316,lib/matplotlib/tests/test_axes.py
+32293ed,Michael Droettboom,2011-06-22 14:21:52,Add axes.labelweight rcParam.  Closes #332.,332,lib/matplotlib/axis.py
+32293ed,Michael Droettboom,2011-06-22 14:21:52,Add axes.labelweight rcParam.  Closes #332.,332,lib/matplotlib/rcsetup.py
+32293ed,Michael Droettboom,2011-06-22 14:21:52,Add axes.labelweight rcParam.  Closes #332.,332,lib/mpl_toolkits/axisartist/axis_artist.py
+1d39eda,Michael Droettboom,2011-06-22 12:31:11,Make the connection of callbacks faster by adding a WeakKeyDictionary from function to cid to avoid the linear search.  Closes #370.,370,lib/matplotlib/cbook.py

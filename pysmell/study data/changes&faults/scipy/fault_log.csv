@@ -1,0 +1,1120 @@
+commit,author,date,title,faultID,file
+dbe50f0,argriffing,2015-05-26 16:33:39,Merge pull request #4912 from rgommers/fix-typo,4911
+44b596e,Ralf Gommers,2015-05-26 22:30:02,MAINT: fix typo in stats tutorial.  Closes gh-4911.,4911
+cf1f43f,Warren Weckesser,2015-05-09 12:22:41,BUG: signal: Make spectrogram's return values order match the docs and test.,4844,scipy/signal/spectral.py
+7509169,Ralf Gommers,2015-05-09 15:07:25,TST: fix test failures in scipy.special with mingw32 due to test precision.,2680,scipy/special/tests/test_basic.py
+7509169,Ralf Gommers,2015-05-09 15:07:25,TST: fix test failures in scipy.special with mingw32 due to test precision.,2680,scipy/special/tests/test_data.py
+21483e7,Eric Moore,2015-05-05 08:52:48,BUG: Relaxed strides cleanup in decomp_update.pyx.in,4736,scipy/linalg/tests/test_decomp_update.py
+6115c09,CJ Carey,2015-05-01 16:04:19,BUG: numpoints wasn't incremented for new points,4791
+406e88a,CJ Carey,2015-05-01 14:39:56,TST: adding test case for #4791,4791,scipy/spatial/tests/test_qhull.py
+1d61b06,Denis Laxalde,2015-04-27 22:30:35,Merge pull request #4756 from Andreea-G/brute,4733
+d461e86,Andreea_G,2015-04-19 15:45:52,BUG: Fixes #4733: optimize.brute finish option is not compatible with optimize.minimize,4733,scipy/optimize/optimize.py
+d461e86,Andreea_G,2015-04-19 15:45:52,BUG: Fixes #4733: optimize.brute finish option is not compatible with optimize.minimize,4733,scipy/optimize/tests/test_optimize.py
+e83e981,Thomas Robitaille,2015-04-10 17:27:24,BUG: io.idl: don’t crash if a pointer reference is not found in the heap.,4613,scipy/io/idl.py
+67dce17,Denis Laxalde,2015-04-25 13:28:27,Merge pull request #4769 from Andreea-G/cobyla_rhoend,4726
+5b802a1,Andreea_G,2015-04-24 18:40:13,Fixes #4726: test_cobyla.test_vector_constraints Set rhoend and tol as 1e-5 in test_cobyla for fmin_cobyla and minimize.,4726,scipy/optimize/tests/test_cobyla.py
+bca1d9c,argriffing,2015-04-23 21:30:52,Merge pull request #4762 from Andreea-G/linprog_artificial,4746
+260f6a8,Andreea_G,2015-04-21 23:25:53,BUG: Fixes #4746: linprog returns solution violating equality constraint,4746,scipy/optimize/_linprog.py
+260f6a8,Andreea_G,2015-04-21 23:25:53,BUG: Fixes #4746: linprog returns solution violating equality constraint,4746,scipy/optimize/tests/test_linprog.py
+9438fb7,Andreea_G,2015-03-31 17:48:11,BUG: Fixes #4594: scipy.optimize.linprog IndexError when a callback is provided,4594,scipy/optimize/_linprog.py
+9438fb7,Andreea_G,2015-03-31 17:48:11,BUG: Fixes #4594: scipy.optimize.linprog IndexError when a callback is provided,4594,scipy/optimize/tests/test_linprog.py
+a7ded12,ldamewood,2015-04-13 11:46:51,MAINT: Fix gengamma _nump failure at large values of `a`,4724,scipy/stats/_continuous_distns.py
+a7ded12,ldamewood,2015-04-13 11:46:51,MAINT: Fix gengamma _nump failure at large values of `a`,4724,scipy/stats/tests/test_distributions.py
+643cd58,Eric Moore,2015-04-06 16:29:24,BUG: fix broadcasting in lfilter with some singleton dims.,4681,scipy/signal/tests/test_signaltools.py
+ce9c441,Abraham Escalante,2015-04-05 00:23:56,ENH: added functionality to handle scalars in `stats._chk_asarray`,4550,scipy/stats/stats.py
+ce9c441,Abraham Escalante,2015-04-05 00:23:56,ENH: added functionality to handle scalars in `stats._chk_asarray`,4550,scipy/stats/tests/test_stats.py
+1dbecec,Clancy Rowley,2015-03-29 17:35:17,Rework lsim; fixes #2652 and #1104,2652,scipy/signal/ltisys.py
+d3431cd,Clancy Rowley,2015-03-29 17:17:26,Add tests showing problems with lsim,2652,scipy/signal/tests/test_ltisys.py
+8a6e358,Abraham Escalante,2015-03-21 18:36:05,DEP: deprecate scipy.stats.signaltonoise,609,scipy/stats/stats.py
+8a6e358,Abraham Escalante,2015-03-21 18:36:05,DEP: deprecate scipy.stats.signaltonoise,609,scipy/stats/tests/test_stats.py
+c3baa71,Ralf Gommers,2015-03-14 11:11:05,Merge pull request #4619 from aeklant/issue_#4550,4550
+8624f69,Evgeni Burovski,2015-03-13 22:27:27,Merge pull request #4629 from woodscn/fix_nquad_bug,4599
+bd71dc9,Nathan Woods,2015-03-12 16:21:30,BUG: integrate.nquad; resolve issue #4599,4599,scipy/integrate/quadpack.py
+bd71dc9,Nathan Woods,2015-03-12 16:21:30,BUG: integrate.nquad; resolve issue #4599,4599,scipy/integrate/tests/test_quadpack.py
+2157c66,Abraham Escalante,2015-03-10 18:38:15,ENH: add capability for stats.mode to handle empty arrays as parameters.,4550,scipy/stats/stats.py
+2157c66,Abraham Escalante,2015-03-10 18:38:15,ENH: add capability for stats.mode to handle empty arrays as parameters.,4550,scipy/stats/tests/test_stats.py
+6d07cd0,Eric Moore,2015-03-10 10:57:52,"BUG: lfilter, the size of zi was not checked correctly or nd in.",4612,scipy/signal/tests/test_signaltools.py
+d4e9201,Jonas Hahnfeld,2015-03-02 13:41:59,uses_mkl: Fix broken check when linking against libmkl_rt.so,4521,scipy/_build_utils/_fortran.py
+ec15a93,Jonas Hahnfeld,2015-03-02 13:34:33,g77_abi_wrapper: Enable wrapper for Intel MKL on Linux,4520,scipy/_build_utils/_fortran.py
+5a73d31,Ralf Gommers,2015-02-15 04:37:19,ENH: rewrite of stats.ppcc_plot.  Closes gh-679.,679,scipy/stats/morestats.py
+97f34c5,Ralf Gommers,2015-02-26 17:08:38,DEP: deprecate stats.fastsort.  Closes gh-667.,667,scipy/stats/stats.py
+db165bd,bewithaman,2015-02-19 15:33:15,BUG: Changed zip() to list(zip()) so that it could work in Python 3 also. Fixes gh-4527,4527,scipy/spatial/kdtree.py
+3b6afc3,Rupak,2015-01-15 10:47:54,ENH: stats: increase accuracy of gompertz distribution for small x.,4031,scipy/stats/_continuous_distns.py
+3b6afc3,Rupak,2015-01-15 10:47:54,ENH: stats: increase accuracy of gompertz distribution for small x.,4031,scipy/stats/tests/test_distributions.py
+ea703b7,maniteja123,2015-01-23 03:16:21,"ENH: Improve rayleigh accuracy for large x.closes #4034 Included tests for rayleigh, lomax and truncexpon distributions",4034,scipy/stats/tests/test_distributions.py
+76f257e,Pauli Virtanen,2015-01-20 10:46:30,DOC: optimize: fix wrong result in docstring,4438,scipy/optimize/_linprog.py
+c88c142,maniteja123,2015-01-18 07:25:08,ENH: Updated tests for lomax and rayleigh accuracy Take care of floating point comparison in tests.closes #4034,4034,scipy/stats/_continuous_distns.py
+c88c142,maniteja123,2015-01-18 07:25:08,ENH: Updated tests for lomax and rayleigh accuracy Take care of floating point comparison in tests.closes #4034,4034,scipy/stats/tests/test_distributions.py
+bcb7c3a,Ralf Gommers,2015-01-18 17:38:31,BLD: fix build failure with numpy 1.7.x and 1.8.x.,4417
+515fa79,maniteja123,2015-01-18 05:08:01,ENH: Improve accuracy of truncexpon for small x. closes #4035,4035,scipy/stats/_continuous_distns.py
+515fa79,maniteja123,2015-01-18 05:08:01,ENH: Improve accuracy of truncexpon for small x. closes #4035,4035,scipy/stats/tests/test_distributions.py
+5bae3f1,argriffing,2015-01-17 17:54:07,Merge pull request #4416 from rgommers/splilu-doc-issue-4393,4393
+e2e3f0a,Ralf Gommers,2015-01-17 10:22:16,DOC: correct a parameter name in docstring of SuperLU.solve.  Closes gh-4393.,4393,scipy/sparse/linalg/dsolve/_add_newdocs.py
+3622154,maniteja123,2015-01-16 14:11:17,ENH: Improve accuracy of lomax. Closes #4033,4033,scipy/stats/_continuous_distns.py
+3622154,maniteja123,2015-01-16 14:11:17,ENH: Improve accuracy of lomax. Closes #4033,4033,scipy/stats/tests/test_distributions.py
+fa5f390,Eric Moore,2015-01-16 09:01:35,"BUG: Tests too strict, f2py doesn't have to overwrite this array",4410,scipy/linalg/tests/test_blas.py
+4a38353,Andreas Mayer,2015-01-13 15:45:13,BUG: fix argcheck of stat.hypergeom,2325,scipy/stats/_discrete_distns.py
+51ef0bf,Andreas Mayer,2015-01-13 14:51:54,TST: add tests of stat.hypergeom for corner cases (Issue #2325),2325,scipy/stats/tests/test_distributions.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/__init__.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/_minimize.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/anneal.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/optimize.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/tests/test__basinhopping.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/tests/test_anneal.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/tests/test_optimize.py
+a13e116,Ralf Gommers,2015-01-01 15:28:02,MAINT: remove optimize.anneal for 0.16.0 (was deprecated in 0.14.0).,1653,scipy/optimize/zeros.py
+7b8a4c2,Eric Moore,2014-05-23 16:02:38,BUG: fix sporadic slepian failures,3675,scipy/signal/windows.py
+4cc2be7,bewithaman,2014-12-29 16:36:34,MAINT: Implement stats.betaprime.cdf,4030,scipy/stats/_continuous_distns.py
+4cc2be7,bewithaman,2014-12-29 16:36:34,MAINT: Implement stats.betaprime.cdf,4030,scipy/stats/tests/test_distributions.py
+e4e9284,argriffing,2014-12-26 14:28:44,Merge pull request #4310 from bewithaman/master,4028
+c18beb4,Aman Singh,2014-12-24 16:59:27,BUG#4028,4028,scipy/stats/_discrete_distns.py
+aed6d2f,Aman Singh,2014-12-24 16:29:28,BUG#4028,4028,scipy/stats/_discrete_distns.py
+69568c4,bewithaman,2014-12-24 15:28:22,'BUG:4028',4028,scipy/stats/_discrete_distns.py
+69568c4,bewithaman,2014-12-24 15:28:22,'BUG:4028',4028,scipy/stats/tests/test_distributions.py
+f564c70,Gregory R. Lee,2014-10-09 16:36:34,"TST: add test for special.diric, including values near 2*pi (see gh-4001)",4001,scipy/special/basic.py
+f564c70,Gregory R. Lee,2014-10-09 16:36:34,"TST: add test for special.diric, including values near 2*pi (see gh-4001)",4001,scipy/special/tests/test_basic.py
+2077254,argriffing,2014-12-18 17:32:33,Merge pull request #4287 from rgommers/deprecate-pdffromgamma,699
+221cfa2,Ralf Gommers,2014-12-17 22:02:52,DEP: deprecate stats.pdf_fromgamma.  Closes gh-699.,699,scipy/stats/morestats.py
+b5aeaf5,argriffing,2014-12-18 14:39:25,Merge pull request #3 from larsmans/hamming-unequal-length,4290
+832147f,Lars Buitinck,2014-12-18 20:31:05,TST: spatial: regression test for gh-4290,4290,scipy/spatial/tests/test_distance.py
+17d2d34,Warren Weckesser,2014-12-16 01:09:43,BUG: integrate: odeint crashed when the integration time was 0.,4282,scipy/integrate/odepack.py
+17d2d34,Warren Weckesser,2014-12-16 01:09:43,BUG: integrate: odeint crashed when the integration time was 0.,4282,scipy/integrate/tests/test_integrate.py
+ec45ce6,Aldrian Obaja,2014-12-15 13:42:57,Add benchmark for large matrix multiplication,4203,scipy/sparse/benchmarks/bench_sparse.py
+4d73c55,Matthias Feurer,2014-12-11 18:24:22,BUG: io.arff: Fix ARFF reader crashing when a comment line follows a blank line. Closes gh-2088,2088,scipy/io/arff/arffread.py
+181db58,Ralf Gommers,2014-12-08 23:25:29,Merge pull request #4212 from matthew-brett/test-sparse-patch,4208
+7018c11,Ralf Gommers,2014-12-08 00:31:53,BUG: optimize: fix issue with incorrect use of closure for slsqp.,4240,scipy/optimize/slsqp.py
+7018c11,Ralf Gommers,2014-12-08 00:31:53,BUG: optimize: fix issue with incorrect use of closure for slsqp.,4240,scipy/optimize/tests/test_optimize.py
+7a7f734,Matthew Brett,2014-11-29 23:33:22,BUG: make matlab happy with empty sparse arrays,4208,scipy/io/matlab/mio5.py
+0a95823,Matthew Brett,2014-11-30 08:38:16,ENH: specific warning if matlab file is empty,4081,scipy/io/matlab/miobase.py
+0a95823,Matthew Brett,2014-11-30 08:38:16,ENH: specific warning if matlab file is empty,4081,scipy/io/matlab/tests/test_mio.py
+2ba92c8,Julian Taylor,2014-11-13 15:11:56,BUG: fix ndimage functions for large data,3733,scipy/ndimage/tests/test_ndimage.py
+c20b2bd,Chris Kerr,2014-08-31 11:00:48,"Deprecate nanmean, nanstd, nanmedian in favour of the numpy equivalents",1727,scipy/stats/stats.py
+4a042f4,Evgeni Burovski,2014-10-21 20:16:36,"BUG: fitpack: avoid a memory error in splev(x, tck, der=k)",2188,scipy/interpolate/tests/test_fitpack.py
+b60daa6,Warren Weckesser,2014-10-07 18:34:34,MAINT: stats: Add note about change to scoreatpercentile in release 0.12.0.,3329,scipy/stats/tests/test_stats.py
+30eb376,Warren Weckesser,2014-10-06 17:44:15,BUG: stats: Refactor argument validation to avoid a unicode issue.,4026,scipy/stats/_binned_statistic.py
+30eb376,Warren Weckesser,2014-10-06 17:44:15,BUG: stats: Refactor argument validation to avoid a unicode issue.,4026,scipy/stats/tests/test_binned_statistic.py
+c128dd9,Warren Weckesser,2014-09-30 15:44:15,BUG: misc: Ensure that the 'size' argument of PIL's 'resize' method is a tuple.,4032,scipy/misc/pilutil.py
+49eccee,Warren Weckesser,2014-09-17 11:47:47,"BUG: stats: gengamma.pdf(0,1,1) now returns 1.0 instead of nan.",3985,scipy/stats/_continuous_distns.py
+49eccee,Warren Weckesser,2014-09-17 11:47:47,"BUG: stats: gengamma.pdf(0,1,1) now returns 1.0 instead of nan.",3985,scipy/stats/tests/test_distributions.py
+0a04cf7,Warren Weckesser,2014-09-17 11:35:22,BUG: stats: Better handling of x=0 in the 'exponpow' distribution.,3982,scipy/stats/_continuous_distns.py
+0a04cf7,Warren Weckesser,2014-09-17 11:35:22,BUG: stats: Better handling of x=0 in the 'exponpow' distribution.,3982,scipy/stats/tests/test_distributions.py
+be16da3,Warren Weckesser,2014-09-16 16:13:57,"BUG: stats: correct value of powerlaw.logpdf(0, 1) is 0. Closes gh-3986.",3986,scipy/stats/_continuous_distns.py
+be16da3,Warren Weckesser,2014-09-16 16:13:57,"BUG: stats: correct value of powerlaw.logpdf(0, 1) is 0. Closes gh-3986.",3986,scipy/stats/tests/test_distributions.py
+6a5d0a1,Pauli Virtanen,2014-08-31 16:32:07,BUG: io.netcdf: do not close mmap if there are references left to it,3630,scipy/io/netcdf.py
+6a5d0a1,Pauli Virtanen,2014-08-31 16:32:07,BUG: io.netcdf: do not close mmap if there are references left to it,3630,scipy/io/tests/test_netcdf.py
+b365f9b,Bastian Venthur,2014-08-31 15:53:06,FIX: Corrected error message of eigsh.,3714,scipy/sparse/linalg/eigen/arpack/arpack.py
+dca6e0b,Andreas Hilboll,2014-08-31 11:30:59,BUG: FITPACK conditions were not properly checked in LSQUnivariateSpline.,2611,scipy/interpolate/fitpack2.py
+dca6e0b,Andreas Hilboll,2014-08-31 11:30:59,BUG: FITPACK conditions were not properly checked in LSQUnivariateSpline.,2611,scipy/interpolate/tests/test_fitpack2.py
+abcac91,Joris Vankerschaver,2014-08-31 10:57:40,DOC: surround methods in class docstrings with backticks.,3915,scipy/stats/_distn_infrastructure.py
+0860ded,Bastian Venthur,2014-08-31 10:50:54,Coerce args into tuple if necessary.,3503,scipy/optimize/_minimize.py
+d6f85ca,Evgeni Burovski,2014-08-31 10:26:58,Merge pull request #3922 from venthur/fix-3905,3905
+678149b,Bastian Venthur,2014-08-31 10:02:22,Fixed Docstring issues in linprog (Fixes #3905).,3905,scipy/optimize/_linprog.py
+2c91339,Ralf Gommers,2014-08-28 15:48:42,TST: fix test errors in sparse tests that compare NaNs.  Closes gh-3901.,3901,scipy/sparse/tests/test_base.py
+2d1fb16,Warren Weckesser,2014-08-05 17:19:00,BUG: signal: fix handling of multi-output systems in ss2tf.  Closes gh-2669,2669,scipy/signal/ltisys.py
+2d1fb16,Warren Weckesser,2014-08-05 17:19:00,BUG: signal: fix handling of multi-output systems in ss2tf.  Closes gh-2669,2669,scipy/signal/tests/test_ltisys.py
+13a73f4,argriffing,2014-08-04 23:57:05,Merge pull request #3857 from pfctdayelise/master,3814
+909d1fc,Brianna Laugher,2014-08-05 11:57:01,Fix for stats.mode to work on character arrays. Closes #3814,3814,scipy/stats/stats.py
+909d1fc,Brianna Laugher,2014-08-05 11:57:01,Fix for stats.mode to work on character arrays. Closes #3814,3814,scipy/stats/tests/test_stats.py
+1dd2992,Zhenya,2014-01-24 14:00:25,BUG: use special.log1p instead of np.log1p,4225,scipy/stats/_continuous_distns.py
+1dd2992,Zhenya,2014-01-24 14:00:25,BUG: use special.log1p instead of np.log1p,4225,scipy/stats/tests/test_continuous_basic.py
+1dd2992,Zhenya,2014-01-24 14:00:25,BUG: use special.log1p instead of np.log1p,4225,scipy/stats/tests/test_distributions.py
+150270f,Evgeni Burovski,2014-07-23 11:03:56,"MAINT: avoid spurious warnings in binom(n, p=0).mean() etc",3817,scipy/stats/_discrete_distns.py
+150270f,Evgeni Burovski,2014-07-23 11:03:56,"MAINT: avoid spurious warnings in binom(n, p=0).mean() etc",3817,scipy/stats/tests/test_distributions.py
+85ba6f5,Pauli Virtanen,2014-07-21 23:20:25,Merge pull request #3779 from ewmoore/incbet_fix,3761
+effd693,Ralf Gommers,2014-07-13 11:17:30,BUG: fix issue in scipy.special tutorial example.  Closes gh-3784.,3784
+3278bf7,Jacob Carey,2014-07-11 21:32:00,BUG: Fix lombscargle ZeroDivisionError,3787
+816638f,Pauli Virtanen,2014-07-10 12:50:46,BUG: sparse: fix omitted types in sparsetools typemaps,3780
+200a030,Eric Moore,2014-07-09 14:52:14,"BUG: don't try to calculate beta in betainc, just call it.",3761,scipy/special/tests/test_basic.py
+d0536f2,Ralf Gommers,2014-07-06 21:18:44,"BUG: in integrate/quadpack.h, put all declarations before statements.",2362
+eaadbb0,Eric Larson,2014-06-04 17:19:34,BUG: signal.lfiltic: make integer input work.  Closes gh-3699.,3699,scipy/signal/signaltools.py
+eaadbb0,Eric Larson,2014-06-04 17:19:34,BUG: signal.lfiltic: make integer input work.  Closes gh-3699.,3699,scipy/signal/tests/test_signaltools.py
+eccd8be,Eric Moore,2014-06-02 17:04:07,"BUG: special: ellip(k,e)inc nan and double expected value",3550,scipy/special/tests/test_basic.py
+7e67f23,Pauli Virtanen,2014-06-14 19:55:50,Merge pull request #3647 from foogod/bugfix-3596,3596
+1d62968,Andreas Hilboll,2014-06-04 09:23:59,BUG: handle fill_value dtype checks correctly in RegularGridInterpolator,3703,scipy/interpolate/interpolate.py
+1d62968,Andreas Hilboll,2014-06-04 09:23:59,BUG: handle fill_value dtype checks correctly in RegularGridInterpolator,3703,scipy/interpolate/tests/test_interpolate.py
+bae27f0,Andreas Hilboll,2014-06-01 22:40:38,BUG: cast 'x' to correct dtype in KroghInterpolator._evaluate,3669,scipy/interpolate/polyint.py
+604a793,Andreas Hilboll,2014-06-01 22:21:53,ENH: check for valid 'orientation' kwarg in dendrogram(),3668,scipy/cluster/hierarchy.py
+604a793,Andreas Hilboll,2014-06-01 22:21:53,ENH: check for valid 'orientation' kwarg in dendrogram(),3668,scipy/cluster/tests/test_hierarchy.py
+589c372,CJ Carey,2014-05-13 15:06:38,BUG: sparse: smarter random index selection,3648,scipy/sparse/construct.py
+589c372,CJ Carey,2014-05-13 15:06:38,BUG: sparse: smarter random index selection,3648,scipy/sparse/tests/test_construct.py
+5fa60c9,Ralf Gommers,2014-05-27 01:34:30,DOC: add docstring to special.assoc_laguerre and add that to built docs.,2746,scipy/special/__init__.py
+5fa60c9,Ralf Gommers,2014-05-27 01:34:30,DOC: add docstring to special.assoc_laguerre and add that to built docs.,2746,scipy/special/basic.py
+7209146,Ralf Gommers,2014-05-26 22:50:42,DOC: add some docstrings for special functions in the ncfdtr family.,2746,scipy/special/__init__.py
+7209146,Ralf Gommers,2014-05-26 22:50:42,DOC: add some docstrings for special functions in the ncfdtr family.,2746,scipy/special/add_newdocs.py
+e97ae71,Ralf Gommers,2014-05-26 22:05:08,DOC: add some docstrings for special functions in the nctdtr family.,2746,scipy/special/__init__.py
+e97ae71,Ralf Gommers,2014-05-26 22:05:08,DOC: add some docstrings for special functions in the nctdtr family.,2746,scipy/special/add_newdocs.py
+e97ae71,Ralf Gommers,2014-05-26 22:05:08,DOC: add some docstrings for special functions in the nctdtr family.,2746,scipy/special/basic.py
+c8648f1,Pauli Virtanen,2014-05-20 20:40:46,BUG: interpolate/fitpack: arguments to fortran routines may not be aliased,2911
+bdaec40,Eric Moore,2014-05-16 15:14:33,BUG: signal.welch: ensure floating point dtype regardless of input dtype,3655,scipy/signal/spectral.py
+bdaec40,Eric Moore,2014-05-16 15:14:33,BUG: signal.welch: ensure floating point dtype regardless of input dtype,3655,scipy/signal/tests/test_spectral.py
+6f1be7d,Víctor Zabalza,2014-05-14 22:06:44,DOC: stats: fix wrong option name in power_divergence dosctring example,3652,scipy/stats/stats.py
+972481f,Alex Stewart,2014-05-12 18:25:53,Fix for #3596: Make fftconvolve threadsafe,3596,scipy/signal/signaltools.py
+b20db6c,Richard Tsai,2014-03-28 10:43:37,BUG: cluster.vq.whiten returns nan or inf when std==0,3499,scipy/cluster/tests/test_vq.py
+b20db6c,Richard Tsai,2014-03-28 10:43:37,BUG: cluster.vq.whiten returns nan or inf when std==0,3499,scipy/cluster/vq.py
+15fbaa8,Pauli Virtanen,2014-04-27 23:31:23,Merge pull request #3484 from rgommers/mingw64-qhull,3237
+3c4255e,Lars Buitinck,2014-04-27 19:06:31,BUG: sparse: fix operator overloading with custom types,3580,scipy/sparse/compressed.py
+3c4255e,Lars Buitinck,2014-04-27 19:06:31,BUG: sparse: fix operator overloading with custom types,3580,scipy/sparse/data.py
+3c4255e,Lars Buitinck,2014-04-27 19:06:31,BUG: sparse: fix operator overloading with custom types,3580,scipy/sparse/dok.py
+3c4255e,Lars Buitinck,2014-04-27 19:06:31,BUG: sparse: fix operator overloading with custom types,3580,scipy/sparse/lil.py
+3c4255e,Lars Buitinck,2014-04-27 19:06:31,BUG: sparse: fix operator overloading with custom types,3580,scipy/sparse/tests/test_base.py
+c656841,Charles Harris,2014-04-22 14:50:48,Merge pull request #3564 from rgommers/numpy-deps,3554
+7cd8e3e,Ralf Gommers,2014-04-19 20:47:07,TST: reduce test tolerance for LSMR test by 1 decimal.  See gh-3554.,3554,scipy/sparse/linalg/isolve/tests/test_lsmr.py
+469a61b,Ralf Gommers,2014-04-19 19:07:02,TST: fix a test failure in stats.mstats reported in gh-3554.,3554,scipy/stats/tests/test_mstats_basic.py
+fe01bc4,Warren Weckesser,2014-03-30 12:23:03,MAINT: stats: Reimplement the pdf and logpdf methods of exponweib.,3508,scipy/stats/_continuous_distns.py
+fe01bc4,Warren Weckesser,2014-03-30 12:23:03,MAINT: stats: Reimplement the pdf and logpdf methods of exponweib.,3508,scipy/stats/tests/test_distributions.py
+b35fc62,Thomas A Caswell,2014-04-13 16:12:43,TST : make tests use non-interactive matplotlib backend,3544,scipy/cluster/tests/test_hierarchy.py
+387b42a,Evgeni Burovski,2014-04-05 09:09:06,Merge pull request #3523 from rgommers/rvfrozen,3522
+6b8cb65,Ralf Gommers,2014-04-05 00:54:15,BUG: re-add `rv_frozen` to stats.distributions namespace.  Closes gh-3522.,3522,scipy/stats/distributions.py
+6b8cb65,Ralf Gommers,2014-04-05 00:54:15,BUG: re-add `rv_frozen` to stats.distributions namespace.  Closes gh-3522.,3522,scipy/stats/tests/test_distributions.py
+2b0ade8,André Gaul,2014-03-27 14:56:07,[BUG] fix scipy.linalg.hessenberg,3364,scipy/linalg/decomp.py
+19d9b69,Ralf Gommers,2014-03-23 23:07:02,BLD: fix Qhull build issue with MinGW-w64.  Closes gh-3237.,3237
+01e88d8,Ankit Agrawal,2014-02-28 05:49:03,BUG: make stats.f_oneway work with integer array input.,3376,scipy/stats/stats.py
+01e88d8,Ankit Agrawal,2014-02-28 05:49:03,BUG: make stats.f_oneway work with integer array input.,3376,scipy/stats/tests/test_stats.py
+b54a499,Ralf Gommers,2014-03-09 18:16:41,Merge branch 'pr/3394' into master.  Closes gh-2177.,2177
+3ece75e,jamestwebber,2014-02-26 10:21:26,BUG: modified ClusterNode.pre_order() for non-root nodes.,2177,scipy/cluster/hierarchy.py
+3879d21,Ralf Gommers,2014-02-28 08:11:58,Merge pull request #3414 from WarrenWeckesser/signal-test-tols,3412
+95b63d1,Warren Weckesser,2014-02-27 17:59:03,TST: signal: loosen some error tolerances in the filter tests.  Closes gh-3412.,3412,scipy/signal/tests/test_filter_design.py
+48d994f,Ralf Gommers,2014-02-25 21:58:47,"TST: fix sparse test errors due to axis=-1,-2 usage in np.matrix.sum().",3330,scipy/sparse/tests/test_base.py
+2703450,Andreas Hilboll,2014-02-08 18:41:03,MAINT: use implementation from scipy.stats in scipy.stats.mstats for gmean and hmean,3196,scipy/stats/mstats.py
+2703450,Andreas Hilboll,2014-02-08 18:41:03,MAINT: use implementation from scipy.stats in scipy.stats.mstats for gmean and hmean,3196,scipy/stats/mstats_basic.py
+2703450,Andreas Hilboll,2014-02-08 18:41:03,MAINT: use implementation from scipy.stats in scipy.stats.mstats for gmean and hmean,3196,scipy/stats/tests/test_mstats_basic.py
+541dcc4,Andreas Hilboll,2014-02-19 19:43:24,TST: test if fix for #2152 works,2152,scipy/io/tests/test_mmio.py
+9a5820b,Andreas Hilboll,2014-02-18 22:21:49,BUG: add proper error handling when using interp2d on regular grids,1889,scipy/interpolate/interpolate.py
+e634d59,Andreas Hilboll,2014-02-12 13:00:32,BUG: fix scipy.io.mmread() of gzipped and bzip2ed files under Python3,2152,scipy/io/mmio.py
+312ddb9,Andreas Hilboll,2014-02-18 21:27:53,BUG: fix use of np.max in stats.fisher_exact,3014,scipy/stats/stats.py
+312ddb9,Andreas Hilboll,2014-02-18 21:27:53,BUG: fix use of np.max in stats.fisher_exact,3014,scipy/stats/tests/test_stats.py
+869bce9,Pauli Virtanen,2014-02-18 22:00:07,BUG: sparse: restore previous behavior in numpy ufuncs with object arrays,3345,scipy/sparse/base.py
+869bce9,Pauli Virtanen,2014-02-18 22:00:07,BUG: sparse: restore previous behavior in numpy ufuncs with object arrays,3345,scipy/sparse/tests/test_base.py
+937c197,Ralf Gommers,2014-02-04 09:45:52,"BUG: put back dbhash import in weave/catalog.py, while unused it had a purpose",3182,scipy/weave/catalog.py
+0370917,Ralf Gommers,2014-01-01 22:11:20,TST: weave tests: add context manager to create/clean tempdirs for blitz().,2092,scipy/weave/inline_tools.py
+0370917,Ralf Gommers,2014-01-01 22:11:20,TST: weave tests: add context manager to create/clean tempdirs for blitz().,2092,scipy/weave/tests/test_blitz_tools.py
+0370917,Ralf Gommers,2014-01-01 22:11:20,TST: weave tests: add context manager to create/clean tempdirs for blitz().,2092,scipy/weave/tests/weave_test_utils.py
+f7b417a,Andreas Hilboll,2014-02-12 09:38:11,BUG: fix behavior of write_values() with empty string in scipy.io.netcdf,1592,scipy/io/netcdf.py
+ee1bb34,Pauli Virtanen,2014-02-09 14:54:36,BUG: optimize: fix refcount errors in tnc,3299
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/linsolve.py
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/setup.py
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/umfpack/__init__.py
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/umfpack/setup.py
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/umfpack/tests/test_umfpack.py
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/umfpack/tests/try_umfpack.py
+a5d38fc,Ralf Gommers,2013-12-30 10:35:04,DEP: remove deprecated umfpack wrapper.  Closes gh-3002.,3002,scipy/sparse/linalg/dsolve/umfpack/umfpack.py
+207a938,Andreas Hilboll,2014-02-08 16:43:54,DOC: fix broken seealso links in scipy.interpolate.,2943,scipy/interpolate/__init__.py
+08311a5,Andreas Hilboll,2014-02-08 15:51:39,DOC: fix dtype of  parameter in splrep docstring.,2882,scipy/interpolate/fitpack.py
+caeb9f4,Yaroslav Halchenko,2013-09-25 12:02:05,BUG+TST: setdiag implementation for dia_matrix (Close #2931) + test_setdiag (was untested),2931,scipy/sparse/dia.py
+caeb9f4,Yaroslav Halchenko,2013-09-25 12:02:05,BUG+TST: setdiag implementation for dia_matrix (Close #2931) + test_setdiag (was untested),2931,scipy/sparse/tests/test_base.py
+d93194e,Ralf Gommers,2014-01-25 06:53:26,Merge pull request #3232 from rgommers/weave-msvc-fix,3216
+e24f1e1,Ralf Gommers,2013-12-21 15:50:05,TST: add regression test for gh-1550 (netcdf_file leaves mmaps open).,1550,scipy/io/tests/test_netcdf.py
+2dfffc7,Jérôme Roy,2013-08-25 15:34:11,BUG io: fix file descriptor closing for netcdf variables,1555,scipy/io/netcdf.py
+55114de,Ralf Gommers,2014-01-22 19:50:01,BUG: fix weave issue with too long file names with MSVC.  Closes gh-3216.,3216,scipy/weave/accelerate_tools.py
+55114de,Ralf Gommers,2014-01-22 19:50:01,BUG: fix weave issue with too long file names with MSVC.  Closes gh-3216.,3216,scipy/weave/build_tools.py
+55114de,Ralf Gommers,2014-01-22 19:50:01,BUG: fix weave issue with too long file names with MSVC.  Closes gh-3216.,3216,scipy/weave/catalog.py
+55114de,Ralf Gommers,2014-01-22 19:50:01,BUG: fix weave issue with too long file names with MSVC.  Closes gh-3216.,3216,scipy/weave/platform_info.py
+49aa227,jamestwebber,2014-01-09 23:34:48,ENH: add axis keyword to dendrogram function,1325,scipy/cluster/hierarchy.py
+07bd6eb,Ralf Gommers,2014-01-04 13:30:32,BUG: stats.scoreatpercentile: fix using `per` input as array.  Closes gh-2861,2861,scipy/stats/stats.py
+07bd6eb,Ralf Gommers,2014-01-04 13:30:32,BUG: stats.scoreatpercentile: fix using `per` input as array.  Closes gh-2861,2861,scipy/stats/tests/test_stats.py
+2d62449,Ralf Gommers,2014-01-04 13:03:47,BUG: stats.scoreatpercentile: handle empty input.  Closes gh-1897.,1897,scipy/stats/stats.py
+2d62449,Ralf Gommers,2014-01-04 13:03:47,BUG: stats.scoreatpercentile: handle empty input.  Closes gh-1897.,1897,scipy/stats/tests/test_stats.py
+39af4d1,Shauna,2014-01-01 14:49:23,MAINT: altered mstats.sem to match stats.sem.  Closes gh-3086.,3086,scipy/stats/mstats_basic.py
+39af4d1,Shauna,2014-01-01 14:49:23,MAINT: altered mstats.sem to match stats.sem.  Closes gh-3086.,3086,scipy/stats/tests/test_mstats_basic.py
+39af4d1,Shauna,2014-01-01 14:49:23,MAINT: altered mstats.sem to match stats.sem.  Closes gh-3086.,3086,scipy/stats/tests/test_stats.py
+371b4ff,Evgeni Burovski,2013-12-27 09:13:16,Merge pull request #3153 from richardtsai/issue_3102,3102
+3982a90,Denis Laxalde,2013-12-26 00:58:06,Merge pull request #3166 from rgommers/curvefit-list-input,3037
+856e396,Ralf Gommers,2013-12-20 20:22:35,BUG: make curve_fit() work with array_like input.  Closes gh-3037.,3037,scipy/optimize/minpack.py
+856e396,Ralf Gommers,2013-12-20 20:22:35,BUG: make curve_fit() work with array_like input.  Closes gh-3037.,3037,scipy/optimize/tests/test_minpack.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/__init__.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/_basinhopping.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/_minimize.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/_root.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/_trustregion.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/anneal.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/cobyla.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/lbfgsb.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/minpack.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/optimize.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/slsqp.py
+964bcf7,Ralf Gommers,2013-12-17 22:15:34,MAINT: rename optimize.Result to optimize.OptimizeResult.,3010,scipy/optimize/tnc.py
+9c6d474,Warren Weckesser,2013-12-15 14:31:57,Merge pull request #3152 from rgommers/label-memleak,3148
+577d4d0,Ralf Gommers,2013-12-15 21:19:57,BUG: fix memory leak in ndimage.label.  Closes gh-3148.,3148
+23dcf28,Ralf Gommers,2013-11-18 21:57:14,ENH: add tests and docstring for stats.boxcox_normmax().,680,scipy/stats/morestats.py
+23dcf28,Ralf Gommers,2013-11-18 21:57:14,ENH: add tests and docstring for stats.boxcox_normmax().,680,scipy/stats/tests/test_morestats.py
+1c04787,Denis Laxalde,2013-12-03 13:30:21,"Revert ""FIX: replace spurious 1.0E+12 by finfo(float).max in slsqp""",3108,scipy/optimize/slsqp.py
+fba0496,Thomas A Caswell,2013-11-19 10:31:21,BUG: fix number of regions in case where no regions are found,3082
+bab72f5,Dapid,2013-11-14 16:44:36,BUG: fix range keyword for stats.binned_statistic.  Closes gh-3063.,3063,scipy/stats/_binned_statistic.py
+bab72f5,Dapid,2013-11-14 16:44:36,BUG: fix range keyword for stats.binned_statistic.  Closes gh-3063.,3063,scipy/stats/tests/test_binned_statistic.py
+32051ab,Ralf Gommers,2013-11-10 13:55:01,BUG: fix errors in mstats.ttest_rel and mstats.ttest_ind.,3047,scipy/stats/mstats_basic.py
+32051ab,Ralf Gommers,2013-11-10 13:55:01,BUG: fix errors in mstats.ttest_rel and mstats.ttest_ind.,3047,scipy/stats/stats.py
+32051ab,Ralf Gommers,2013-11-10 13:55:01,BUG: fix errors in mstats.ttest_rel and mstats.ttest_ind.,3047,scipy/stats/tests/test_mstats_basic.py
+6e38760,Pauli Virtanen,2013-11-09 06:10:42,Merge pull request #3033 from thouis/master,3025
+52d8aff,Thouis (Ray) Jones,2013-11-06 16:06:15,add test for #3025,3025,scipy/ndimage/tests/test_regression.py
+4d7e924,Warren Weckesser,2013-11-05 20:09:28,Merge pull request #3041 from richardtsai/fix_relative_entropy_ndim,3030
+2177b93,Richard Tsai,2013-11-05 21:10:18,BUG: stats.entropy broken (issue #3030),3030,scipy/stats/distributions.py
+2177b93,Richard Tsai,2013-11-05 21:10:18,BUG: stats.entropy broken (issue #3030),3030,scipy/stats/tests/test_distributions.py
+04a2dda,Thouis (Ray) Jones,2013-10-30 15:39:50,BUG: make ndimage.label properly merge adjacent objects (fixes #3025),3025
+436e982,Ralf Gommers,2013-10-13 22:26:09,"TST: add tests for stats.probplot, and fix minor issues and docs.",677,scipy/stats/morestats.py
+436e982,Ralf Gommers,2013-10-13 22:26:09,"TST: add tests for stats.probplot, and fix minor issues and docs.",677,scipy/stats/tests/test_morestats.py
+aec30e2,Ralf Gommers,2013-10-07 21:56:53,DOC: clean up signal.ss2tf docstring a bit more.  Closes gh-2398.,2398,scipy/signal/ltisys.py
+60d1c81,Justin Lavoie,2013-10-04 02:50:27,updated ss2tf docstring in response to Issue #2398,2398,scipy/signal/ltisys.py
+bb528a3,Ralf Gommers,2013-09-29 22:33:49,TST: fix spurious failure in signal.savgol_filter test.  Closes gh-2947.,2947,scipy/signal/tests/test_savitzky_golay.py
+a5ea9bd,Ralf Gommers,2013-09-29 22:28:41,TST: fix spurious test failure in linalg.  Closes gh-2945.,2945,scipy/linalg/tests/test_basic.py
+01f7d4c,Pauli Virtanen,2013-09-25 23:05:29,BUG: io/wavfile: safer writing directly from buffer,2928,scipy/io/tests/test_wavfile.py
+01f7d4c,Pauli Virtanen,2013-09-25 23:05:29,BUG: io/wavfile: safer writing directly from buffer,2928,scipy/io/wavfile.py
+0e7b877,Ralf Gommers,2013-09-24 22:35:45,BLD: except clause for Sphinx import in setup.py should catch everything.,2926,setup.py
+2d08abc,Ralf Gommers,2013-09-22 15:32:03,"TST: linalg.qz test fails for complex64, so lower test tolerance.",2842,scipy/linalg/tests/test_decomp.py
+67ab7fa,Ralf Gommers,2013-09-21 18:31:07,DOC: document type of stats.chisquare/power_divergence parameters correctly.,2895,scipy/stats/stats.py
+3f8ebb6,Juan Luis Cano Rodríguez,2013-08-20 11:03:06,"Rewritten function abcd_normalize, closes #1973 Code is notably simplified, at the cost of not showing specific error messages for each shape mismatch. That is easy to fix, but I wanted to leave this state here.",1973,scipy/signal/ltisys.py
+3fff584,Juan Luis Cano Rodríguez,2013-08-19 21:50:42,Added tests for abcd_normalize See #1973.,1973,scipy/signal/tests/test_ltisys.py
+7e04d66,Ralf Gommers,2013-08-24 23:45:59,MAINT: rewrite and test stats.itemfreq.  Complete removal of stats._support,599,scipy/stats/_support.py
+7e04d66,Ralf Gommers,2013-08-24 23:45:59,MAINT: rewrite and test stats.itemfreq.  Complete removal of stats._support,599,scipy/stats/stats.py
+7e04d66,Ralf Gommers,2013-08-24 23:45:59,MAINT: rewrite and test stats.itemfreq.  Complete removal of stats._support,599,scipy/stats/tests/test_stats.py
+cb290b9,Ralf Gommers,2013-08-24 22:46:46,MAINT: statistics review: remove unused functions in stats._support,708,scipy/stats/_support.py
+9f19af5,Pauli Virtanen,2013-09-11 23:15:39,Merge pull request #2759 from cowlicks/sparse-ellipsis-slicing,2721
+ceba2e3,Pauli Virtanen,2013-09-09 10:57:01,Merge pull request #2836 from WarrenWeckesser/maint-peak-finding-gh-2382,2832
+81329f7,argriffing,2013-09-06 19:56:15,Merge pull request #2826 from ClemensFMN/patch-1,2720
+336b60f,Warren Weckesser,2013-09-05 02:25:56,MAINT: signal: Some clean up in _peak_finding.py:,2832,scipy/signal/_peak_finding.py
+336b60f,Warren Weckesser,2013-09-05 02:25:56,MAINT: signal: Some clean up in _peak_finding.py:,2832,scipy/signal/tests/test_peak_finding.py
+f0ab7f3,Clemens,2013-09-03 19:04:51,Fixing Issue #2720,2720,scipy/fftpack/realtransforms.py
+c40b43e,Zhenya,2013-09-03 09:40:08,MAINT: replace internal calls to `norm.pdf` with _norm_pdf to avoid the public function call overhead. Closes gh-1710,1710,scipy/stats/distributions.py
+b99f5e1,Pauli Virtanen,2013-09-01 16:13:37,Merge pull request #2782 from loujine/fix-2044,2044
+7ef55fe,Pauli Virtanen,2013-09-01 03:54:28,Merge pull request #2807 from andreas-h/SmoothBivariateSpline,1530
+63c5c73,Pauli Virtanen,2013-08-31 19:53:38,Merge pull request #2788 from EvgeniBurovski/dpotri__issue2691,2691
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/cluster/hierarchy.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/cluster/tests/test_hierarchy.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/integrate/quadrature.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/integrate/tests/test_integrate.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/integrate/tests/test_quadpack.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/interpolate/interpolate.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/interpolate/polyint.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/interpolate/tests/test_polyint.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/io/matlab/miobase.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/lib/blas/tests/test_fblas.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/lib/six.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/linalg/special_matrices.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/linalg/tests/test_decomp.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/linalg/tests/test_fblas.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/linalg/tests/test_special_matrices.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/misc/common.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/optimize/anneal.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/optimize/linesearch.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/optimize/nonlin.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/optimize/tests/test_nonlin.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/signal/_peak_finding.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/signal/bsplines.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/signal/ltisys.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/signal/tests/test_peak_finding.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/signal/tests/test_wavelets.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/base.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/benchmarks/bench_sparse.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/compressed.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/coo.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/csc.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/csr.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/dok.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/lil.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/linalg/eigen/lobpcg/lobpcg.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/linalg/isolve/lgmres.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/linalg/isolve/tests/test_lsqr.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/sparse/tests/test_base.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/spatial/distance.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/spatial/tests/test_distance.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/spatial/tests/test_qhull.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/special/basic.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/special/tests/test_orthogonal.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/stats/stats.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/stats/tests/test_discrete_basic.py
+38dd1e4,Ralf Gommers,2013-08-26 14:03:47,MAINT: remove lazy import stuff from lib.six.  Closes gh-2764.,2764,scipy/weave/_dumbdbm_patched.py
+d2600d3,Ralf Gommers,2013-08-26 05:38:46,Merge pull request #2802 from rgommers/issue-2062-circfuncs,2062
+04403f9,Ralf Gommers,2013-08-26 12:56:19,BUG: handle array_like input in stats.circ* functions.  Closes gh-2062.,2062,scipy/stats/morestats.py
+04403f9,Ralf Gommers,2013-08-26 12:56:19,BUG: handle array_like input in stats.circ* functions.  Closes gh-2062.,2062,scipy/stats/tests/test_morestats.py
+f5bbbc4,Warren Weckesser,2013-08-25 23:30:07,"BUG: stats: When handling the arguments to beta_gen.fit, don't rely on np.log to generate a warning when its argument is less than or equal to 0. Fixes gh-2771.",2771,scipy/stats/distributions.py
+c93da6f,Zhenya,2013-08-25 14:38:37,BUG: fix the 'lower' attribute of dpotri to make dpotrf/dpotri consistent. Should close gh-2691,2691,scipy/linalg/tests/test_lapack.py
+fd44b7f,Jérôme Roy,2013-08-25 12:57:40,ENH interpolate: remove warnings in pchip,2357,scipy/interpolate/polyint.py
+498f7b7,Pauli Virtanen,2013-08-25 03:36:53,Merge pull request #2785 from andreas-h/interpolate_doc2,2275
+d6e9d40,Andreas Hilboll,2013-08-25 11:20:07,"DOC: enhance splrep docstring, see #2223",2223,scipy/interpolate/fitpack.py
+178c0a3,Andreas Hilboll,2013-08-25 11:36:58,"DOC: enhance interp2d docstring, see #2275",2275,scipy/interpolate/interpolate.py
+3b91a39,Jérôme Roy,2013-08-25 11:13:16,ENH integrate: quadrature accepts non-tuple args argument,2044,scipy/integrate/quadrature.py
+fea2a30,Ralf Gommers,2013-08-24 05:08:56,Merge pull request #2772 from WarrenWeckesser/stats-wilcoxon-tie-test,2391
+30c08f7,Pauli Virtanen,2013-08-24 03:25:32,Merge pull request #2773 from dlax/issue-2305,2305
+c7988d1,Warren Weckesser,2013-08-23 10:07:14,TST: stats: Added a regression test for stats.wilcoxon.  Closes gh-2391.,2391,scipy/stats/tests/test_morestats.py
+1cc015e,Denis Laxalde,2013-08-23 15:26:20,BUG: count function evaluations in approximate Jacobian for L-BFGS-B,2305,scipy/optimize/lbfgsb.py
+1cc015e,Denis Laxalde,2013-08-23 15:26:20,BUG: count function evaluations in approximate Jacobian for L-BFGS-B,2305,scipy/optimize/tests/test_optimize.py
+ba8eec1,Pauli Virtanen,2013-08-21 19:58:10,Merge pull request #2761 from rgommers/fix-mingw-compilation,2709
+76f918d,unknown,2013-08-21 16:57:07,Fixed issue #2720 in tutorial,2720
+72dc1d6,Ralf Gommers,2013-08-20 11:53:55,BLD: fix MinGW Windows build issue by splitting linalg.interpolate sources.,2709,scipy/_build_utils/__init__.py
+72dc1d6,Ralf Gommers,2013-08-20 11:53:55,BLD: fix MinGW Windows build issue by splitting linalg.interpolate sources.,2709,scipy/_build_utils/_fortran.py
+72dc1d6,Ralf Gommers,2013-08-20 11:53:55,BLD: fix MinGW Windows build issue by splitting linalg.interpolate sources.,2709,scipy/linalg/setup.py
+b7d2019,Ralf Gommers,2013-08-21 15:13:38,BLD: update Bento build scripts for changes to special._ufuncs,2752
+a616a14,Josef Perktold,2013-08-16 14:37:12,"Bug: stats trim_mean for 2d array, add axis argument closes #2554",2554,scipy/stats/stats.py
+a616a14,Josef Perktold,2013-08-16 14:37:12,"Bug: stats trim_mean for 2d array, add axis argument closes #2554",2554,scipy/stats/tests/test_stats.py
+c42cbc9,Ralf Gommers,2013-08-21 02:10:49,Merge pull request #2733 from rgommers/deprecate-oneway,2569
+7f3e5c7,Ralf Gommers,2013-08-17 18:49:54,DEP: deprecate stats.glm and stats.cmedian.,580,scipy/stats/stats.py
+7f3e5c7,Ralf Gommers,2013-08-17 18:49:54,DEP: deprecate stats.glm and stats.cmedian.,580,scipy/stats/tests/test_stats.py
+e4a5d60,Ralf Gommers,2013-08-17 15:19:45,DEP: deprecate stats.oneway.  Closes gh-2569.,2569,scipy/stats/morestats.py
+e4a5d60,Ralf Gommers,2013-08-17 15:19:45,DEP: deprecate stats.oneway.  Closes gh-2569.,2569,scipy/stats/tests/test_morestats.py
+046b167,Pauli Virtanen,2013-08-18 18:50:22,DOC: linalg: explain the Taylor order used in expm3,2212,scipy/linalg/matfuncs.py
+1fd325d,alex,2013-08-19 11:23:47,MAINT: small error message change in linalg.solve_triangular. Closes gh-2664.,2664,scipy/linalg/basic.py
+fef75f7,Ralf Gommers,2013-08-19 10:45:20,Merge pull request #2736 from josef-pkt/BUG_binom_test_2384,2384
+2d4afa1,Juan Luis Cano Rodríguez,2013-08-19 13:01:38,Added basic matrix vector product examples See #1531,1531,scipy/sparse/__init__.py
+2d4afa1,Juan Luis Cano Rodríguez,2013-08-19 13:01:38,Added basic matrix vector product examples See #1531,1531,scipy/sparse/base.py
+8f19b8b,Juan Luis Cano Rodríguez,2013-08-18 20:53:15,Added statement about BivariateSpline being an abstract base class,2262,scipy/interpolate/fitpack2.py
+2938e69,Josef Perktold,2013-08-17 20:58:35,"BUG: binom_test failed for some values, closes issue #2384",2384,scipy/stats/morestats.py
+2938e69,Josef Perktold,2013-08-17 20:58:35,"BUG: binom_test failed for some values, closes issue #2384",2384,scipy/stats/tests/test_stats.py
+b109a80,Pauli Virtanen,2013-08-15 00:32:16,BUG: special: fix several issues in poch,1437,scipy/special/add_newdocs.py
+b109a80,Pauli Virtanen,2013-08-15 00:32:16,BUG: special: fix several issues in poch,1437,scipy/special/generate_ufuncs.py
+b109a80,Pauli Virtanen,2013-08-15 00:32:16,BUG: special: fix several issues in poch,1437,scipy/special/orthogonal.py
+b109a80,Pauli Virtanen,2013-08-15 00:32:16,BUG: special: fix several issues in poch,1437,scipy/special/tests/test_mpmath.py
+039f133,Josef Perktold,2013-08-16 15:16:32,BUG: levene didn't sort before trimming closes #2555,2555,scipy/stats/morestats.py
+039f133,Josef Perktold,2013-08-16 15:16:32,BUG: levene didn't sort before trimming closes #2555,2555,scipy/stats/tests/test_morestats.py
+00d2665,Warren Weckesser,2013-05-21 21:46:00,"BUG+ENH: stats: Improve the 'fit' method of norm_gen, gamma_gen and beta_gen.",2514,scipy/misc/doccer.py
+00d2665,Warren Weckesser,2013-05-21 21:46:00,"BUG+ENH: stats: Improve the 'fit' method of norm_gen, gamma_gen and beta_gen.",2514,scipy/misc/tests/test_doccer.py
+00d2665,Warren Weckesser,2013-05-21 21:46:00,"BUG+ENH: stats: Improve the 'fit' method of norm_gen, gamma_gen and beta_gen.",2514,scipy/stats/distributions.py
+00d2665,Warren Weckesser,2013-05-21 21:46:00,"BUG+ENH: stats: Improve the 'fit' method of norm_gen, gamma_gen and beta_gen.",2514,scipy/stats/tests/test_distributions.py
+62883c9,Pauli Virtanen,2013-08-12 18:42:43,Merge pull request #2695 from michaelwimmer/master,2248
+622f342,Ralf Gommers,2013-08-11 19:06:15,TST: fix equal comparison of float arrays in spatial.distance tests.,2482,scipy/spatial/tests/test_distance.py
+b1ab3d4,Ralf Gommers,2013-08-11 18:58:58,TST: remove incorrect (and useless) tests for rounding numbers.,2482,scipy/stats/tests/test_stats.py
+05772f7,Ralf Gommers,2013-08-11 16:57:18,BUG: fix test failure for rv_discrete.entropy with numpy 1.5.1.  Closes gh-2702,2702,scipy/stats/distributions.py
+f7eb316,Matthew Brett,2013-08-07 14:34:20,BF: fix error saving zero entries in sparse matrix,2700,scipy/io/matlab/miobase.py
+f7eb316,Matthew Brett,2013-08-07 14:34:20,BF: fix error saving zero entries in sparse matrix,2700,scipy/io/matlab/tests/test_mio.py
+f7eb316,Matthew Brett,2013-08-07 14:34:20,BF: fix error saving zero entries in sparse matrix,2700,scipy/io/matlab/tests/test_miobase.py
+59eed17,Pauli Virtanen,2013-08-07 19:33:20,TST: interpolate: add regression test for gh-1310,1310,scipy/interpolate/tests/test_fitpack.py
+73862a9,Pauli Virtanen,2013-08-07 19:21:16,BUG: interpolate: ensure fitpack work arrays are aligned to double boundaries,1310
+6a08aa8,Pauli Virtanen,2013-08-07 14:42:44,BUG: qhull: fix potential infinite loop in RidgeIter2D,2359,scipy/interpolate/tests/test_interpnd.py
+6a08aa8,Pauli Virtanen,2013-08-07 14:42:44,BUG: qhull: fix potential infinite loop in RidgeIter2D,2359,scipy/spatial/tests/test_qhull.py
+c77b991,Pauli Virtanen,2013-08-07 12:47:37,BUG: optimize: fix epsfcn choice in minpack routines,2639,scipy/optimize/minpack.py
+c77b991,Pauli Virtanen,2013-08-07 12:47:37,BUG: optimize: fix epsfcn choice in minpack routines,2639,scipy/optimize/tests/test_minpack.py
+ecfae8b,Matthew Brett,2013-08-03 16:27:12,BF: use latin-1 for Matlab 4 unicode read / write,2665,scipy/io/matlab/mio4.py
+ecfae8b,Matthew Brett,2013-08-03 16:27:12,BF: use latin-1 for Matlab 4 unicode read / write,2665,scipy/io/matlab/tests/test_mio.py
+2379930,Ralf Gommers,2013-08-02 10:33:30,Merge pull request #2678 from rgommers/numpy-151-compat,2677
+54073ef,Pauli Virtanen,2013-07-26 12:59:06,BUG: arpack-ng: fix bug occurring on OSX or LAPACK 3.2.1,2547
+dafb31e,Denis Laxalde,2013-07-24 22:18:04,[BUG] Rename `hess` field into `hess_inv` for result of BFGS minimization,2647,scipy/optimize/_minimize.py
+dafb31e,Denis Laxalde,2013-07-24 22:18:04,[BUG] Rename `hess` field into `hess_inv` for result of BFGS minimization,2647,scipy/optimize/optimize.py
+dafb31e,Denis Laxalde,2013-07-24 22:18:04,[BUG] Rename `hess` field into `hess_inv` for result of BFGS minimization,2647,scipy/optimize/tests/test_optimize.py
+79f25eb,Ralf Gommers,2013-07-21 23:35:54,Merge pull request #2644 from rgommers/stats-expect-argcheck,2622
+44c8edd,Ralf Gommers,2013-07-21 23:05:20,BUG: fix bug in stats.rv_continuous.expect.  Closes gh-2622.,2622,scipy/stats/distributions.py
+44c8edd,Ralf Gommers,2013-07-21 23:05:20,BUG: fix bug in stats.rv_continuous.expect.  Closes gh-2622.,2622,scipy/stats/tests/test_distributions.py
+0bbd4a0,Ralf Gommers,2013-07-20 16:17:07,DOC: document `maxiter` keyword to optimize.root('lm') correctly.  Closes gh-2637,2637,scipy/optimize/optimize.py
+bdb336c,Ralf Gommers,2013-07-06 15:42:46,"MAINT: enable rdist._cdf, making it a lot faster.  Closes gh-1285.",1285,scipy/stats/distributions.py
+bdb336c,Ralf Gommers,2013-07-06 15:42:46,"MAINT: enable rdist._cdf, making it a lot faster.  Closes gh-1285.",1285,scipy/stats/tests/test_continuous_basic.py
+bdb336c,Ralf Gommers,2013-07-06 15:42:46,"MAINT: enable rdist._cdf, making it a lot faster.  Closes gh-1285.",1285,scipy/stats/tests/test_continuous_extra.py
+bd01fc3,Ralf Gommers,2013-06-13 20:23:17,MAINT: rename test data files with invalid filenames on Windows. Closes gh-2558,2558,scipy/io/tests/test_fortran.py
+7d0a8c0,Ralf Gommers,2013-06-06 23:00:29,DOC: fix error inastats. maxwell docstring and typo in stats.erlang docstring.,2541,scipy/stats/distributions.py
+8427a3a,Ralf Gommers,2013-05-20 15:15:43,MAINT: stats: alias the erlang to the gamma distribution.  Add gamma._sf().,2172,scipy/stats/distributions.py
+8427a3a,Ralf Gommers,2013-05-20 15:15:43,MAINT: stats: alias the erlang to the gamma distribution.  Add gamma._sf().,2172,scipy/stats/tests/test_continuous_basic.py
+8427a3a,Ralf Gommers,2013-05-20 15:15:43,MAINT: stats: alias the erlang to the gamma distribution.  Add gamma._sf().,2172,scipy/stats/tests/test_distributions.py
+8427a3a,Ralf Gommers,2013-05-20 15:15:43,MAINT: stats: alias the erlang to the gamma distribution.  Add gamma._sf().,2172,scipy/stats/tests/test_fit.py
+3634259,SytseK,2013-04-19 16:15:59,MAINT: allow computation of variance in (a.o.?) non-central t-distribution.,2401,scipy/stats/distributions.py
+3634259,SytseK,2013-04-19 16:15:59,MAINT: allow computation of variance in (a.o.?) non-central t-distribution.,2401,scipy/stats/tests/test_distributions.py
+bc45762,SytseK,2013-04-19 16:15:59,ENH: allow nc <=0 in non-central t-distribution.  Closes issue gh-2402.,2402,scipy/stats/distributions.py
+bc45762,SytseK,2013-04-19 16:15:59,ENH: allow nc <=0 in non-central t-distribution.  Closes issue gh-2402.,2402,scipy/stats/tests/test_distributions.py
+77a3e4a,Matthew Brett,2013-05-19 16:25:33,BF: ensure ordering of OrderedDict keys,2503,scipy/io/matlab/tests/test_mio.py
+6581958,Ralf Gommers,2013-05-19 13:43:53,Merge pull request #2500 from argriffing/gh-2496,2496
+2e8d437,Ralf Gommers,2013-05-19 12:02:05,MAINT: clean up mention of info.py files in README.  Closes gh-2492.,2492
+8108504,alex,2013-05-18 00:54:27,BUG: gh-2496,2496,scipy/signal/signaltools.py
+8108504,alex,2013-05-18 00:54:27,BUG: gh-2496,2496,scipy/signal/tests/test_signaltools.py
+6fda7f4,Warren Weckesser,2013-05-07 15:13:00,ENH: stats: Some enhancements to the chisquare functions:,2108,scipy/stats/mstats_basic.py
+6fda7f4,Warren Weckesser,2013-05-07 15:13:00,ENH: stats: Some enhancements to the chisquare functions:,2108,scipy/stats/stats.py
+6fda7f4,Warren Weckesser,2013-05-07 15:13:00,ENH: stats: Some enhancements to the chisquare functions:,2108,scipy/stats/tests/test_mstats_basic.py
+6fda7f4,Warren Weckesser,2013-05-07 15:13:00,ENH: stats: Some enhancements to the chisquare functions:,2108,scipy/stats/tests/test_stats.py
+39cc45b,Ralf Gommers,2013-05-06 23:22:58,Merge remote-tracking branch 'upstream/pr/509' into master,2259
+af730e1,SytseK,2013-04-19 16:15:59,ENH: allow parameter value c=0 in folded normal distribution.  Closes gh-2399,2399,scipy/stats/distributions.py
+af730e1,SytseK,2013-04-19 16:15:59,ENH: allow parameter value c=0 in folded normal distribution.  Closes gh-2399,2399,scipy/stats/tests/test_distributions.py
+3560b67,Ralf Gommers,2013-05-06 21:34:58,Merge branch 'pr/2423' into master.,2382
+d40cfe6,Ralf Gommers,2013-05-05 13:24:50,"BLD: try harder to locate Cython executable, it's not always on the path.",2397,tools/cythonize.py
+150baac,pbrod,2013-03-10 13:42:35,Improve distribution fitting as described in ticket #1553 http://projects.scipy.org/scipy/ticket/1553,1553,scipy/stats/distributions.py
+0596c83,Pauli Virtanen,2013-05-01 03:24:41,Merge pull request #2435 from patvarilly/ckdtree-negative-index-bugfix,2427
+35d4e0a,Jorge Cañardo Alastuey,2013-04-27 22:30:18,"BUG: Fix Issue #2422, including a test.",2422,scipy/weave/blitz_spec.py
+35d4e0a,Jorge Cañardo Alastuey,2013-04-27 22:30:18,"BUG: Fix Issue #2422, including a test.",2422,scipy/weave/tests/test_blitz_tools.py
+c84b255,Warren Weckesser,2013-04-22 14:16:22,DOC: stats: Fixed some typos in the stats tutorial (includes fix for ticket #1896).,1896
+c229e14,Pauli Virtanen,2013-04-01 13:25:03,Merge pull request #494 from dlax/ticket-1770,1770
+441426a,Denis Laxalde,2013-03-31 21:44:12,BUG: handle matrix objects as initial guess in MINPACK (ticket #1770),1770,scipy/optimize/minpack.py
+441426a,Denis Laxalde,2013-03-31 21:44:12,BUG: handle matrix objects as initial guess in MINPACK (ticket #1770),1770,scipy/optimize/tests/test_minpack.py
+126d5bf,pbrod,2013-03-10 15:38:04,Fix for ticket #1131: ppf and isf for Lognormal fails on array-like 'loc' or 'scale',1131,scipy/stats/distributions.py
+31db7fc,Ralf Gommers,2013-03-25 21:59:51,BUG: fix invalid py3k syntax (u'') in savemat tests.,1858,scipy/io/matlab/tests/test_mio.py
+9b0581b,Denis Laxalde,2013-02-25 14:45:38,BUG: account for None in bounds in SLSQP,1851,scipy/optimize/slsqp.py
+c4b390b,pbrod,2013-03-09 21:30:00,Fix for Ticket #1842 : wrong value returned by scipy.stats.binom probability mass function when true probability is 1 + a test for it.,1842,scipy/stats/distributions.py
+c4b390b,pbrod,2013-03-09 21:30:00,Fix for Ticket #1842 : wrong value returned by scipy.stats.binom probability mass function when true probability is 1 + a test for it.,1842,scipy/stats/tests/test_distributions.py
+e5b5de4,Pauli Virtanen,2013-03-11 12:38:08,Merge pull request #455 from WarrenWeckesser/bug-multigammaln,1849
+23fac40,Ralf Gommers,2013-03-02 16:18:41,BUG: stats.kendalltau handling of inputs with only ties.,1658,scipy/stats/stats.py
+23fac40,Ralf Gommers,2013-03-02 16:18:41,BUG: stats.kendalltau handling of inputs with only ties.,1658,scipy/stats/tests/test_stats.py
+424c49e,Warren Weckesser,2013-02-28 13:14:50,BUG: special: multigammaln returned wrong size array (closes ticket #1849),1849,scipy/special/spfun_stats.py
+424c49e,Warren Weckesser,2013-02-28 13:14:50,BUG: special: multigammaln returned wrong size array (closes ticket #1849),1849,scipy/special/tests/test_spfun_stats.py
+b6d90f1,Illia Polosukhin,2013-02-23 00:26:10,"Fixed #1429: pip install numpy scipy was failing because of the preinstallation request from pip to scipy.setup egg_info, before numpy actually is installed",1429,setup.py
+af99e61,Ralf Gommers,2013-02-12 12:18:41,Merge pull request #428 from pv/bug/955-chndtr-fix,955
+e59f912,Pauli Virtanen,2010-12-12 21:56:48,BUG: special/cdflib: sharper absolute tolerances in distribution fcn tails (#955),955
+1f88b1c,Christian,2012-10-13 07:55:20,BUG: revision of wilcoxon signed rank test. Closes ticket 1744.,1744,scipy/stats/morestats.py
+1f88b1c,Christian,2012-10-13 07:55:20,BUG: revision of wilcoxon signed rank test. Closes ticket 1744.,1744,scipy/stats/tests/test_morestats.py
+926e7e6,Daniel Smith,2013-02-07 10:53:39,"Fixed ticket #1075 for lil_matrix, added fancy slice indexing and added test to confirm 1075 was fixed and fixed slicing tests.",1075,scipy/sparse/lil.py
+926e7e6,Daniel Smith,2013-02-07 10:53:39,"Fixed ticket #1075 for lil_matrix, added fancy slice indexing and added test to confirm 1075 was fixed and fixed slicing tests.",1075,scipy/sparse/tests/test_base.py
+c90b814,Ralf Gommers,2013-02-03 14:09:33,Merge pull request #415 from dlax/ticket-1836,1836
+575db69,Denis Laxalde,2013-02-02 19:08:15,BUG: remove spurious max/min functions in optimize (ticket #1836),1836,scipy/optimize/optimize.py
+68d9983,Jake Vanderplas,2013-02-02 10:27:52,fix for ticket 1829: http://projects.scipy.org/scipy/ticket/1829,1829,scipy/sparse/linalg/eigen/lobpcg/tests/test_lobpcg.py
+b5be537,Ralf Gommers,2013-01-27 08:31:01,Merge pull request #406 from pv/flapack-import,1808
+228e4d7,Pauli Virtanen,2013-01-26 19:34:11,BUG: linalg: backward compatibility for people addressing scipy.linalg.lapack.flapack etc (#1808),1808,scipy/lib/_util.py
+228e4d7,Pauli Virtanen,2013-01-26 19:34:11,BUG: linalg: backward compatibility for people addressing scipy.linalg.lapack.flapack etc (#1808),1808,scipy/linalg/blas.py
+228e4d7,Pauli Virtanen,2013-01-26 19:34:11,BUG: linalg: backward compatibility for people addressing scipy.linalg.lapack.flapack etc (#1808),1808,scipy/linalg/lapack.py
+ee2fc01,Ralf Gommers,2013-01-24 00:44:13,BUG: weave: don't fail in default_dir() on $HOME not being writable.,1821,scipy/weave/catalog.py
+d567f79,Ralf Gommers,2013-01-05 14:18:17,"MAINT: in integrate.ode, generate understandable error for f2py issue.",1187,scipy/integrate/_ode.py
+b69fe18,Ralf Gommers,2012-12-27 00:12:56,Merge branch 'pull-391-mstats' into master.  Closes #1798.,1798
+89c7f42,Pauli Virtanen,2012-12-17 13:35:56,Merge pull request #387 from rgommers/ticket-1793-geom,1793
+ef85190,Ralf Gommers,2012-12-17 21:51:28,BUG: fix stats.distributions.geom.logpmf bug.  Closes #1793.,1793,scipy/stats/distributions.py
+ef85190,Ralf Gommers,2012-12-17 21:51:28,BUG: fix stats.distributions.geom.logpmf bug.  Closes #1793.,1793,scipy/stats/tests/test_distributions.py
+7b500f9,Pauli Virtanen,2011-08-27 10:24:26,BUG: spatial/qhull: cherry-pick previous qhull fixes,1528
+e829533,Pauli Virtanen,2012-12-14 20:57:05,BUG: sparse.linalg: deallocate Python object correctly (fixes #1789),1789
+f093dc8,Pauli Virtanen,2012-12-11 14:53:33,Merge pull request #380 from juliantaylor/dfsg-clean,1780
+f98cb83,Julian Taylor,2012-12-11 22:10:01,add scipy/interpolate/interpnd.pyx.in to source tarball (#1780),1780
+dc7e0c7,Jake Vanderplas,2012-12-03 07:40:05,Merge pull request #367 from kclawson/bug-fixes,1604
+15e9ac0,Ralf Gommers,2012-12-02 10:58:09,Merge pull request #371 from rgommers/ticket-1779-nbinom-pmf,1779
+9fc353a,Ralf Gommers,2012-12-02 14:53:39,BUG: fix precision issue with nbinom.pmf.  Closes ticket 1779.,1779,scipy/stats/distributions.py
+9fc353a,Ralf Gommers,2012-12-02 14:53:39,BUG: fix precision issue with nbinom.pmf.  Closes ticket 1779.,1779,scipy/stats/tests/test_distributions.py
+61113c8,Keith Clawson,2012-11-29 16:00:28,Fix bug from ticket #1604 and add regression test.,1604,scipy/sparse/lil.py
+61113c8,Keith Clawson,2012-11-29 16:00:28,Fix bug from ticket #1604 and add regression test.,1604,scipy/sparse/tests/test_base.py
+a27a690,Eric Moore,2012-10-25 22:50:54,BUG: special: orthopoly1d.__call__ shouldn't type check,1435,scipy/special/orthogonal.py
+ef2a726,Pauli Virtanen,2012-11-23 03:01:39,MAINT: sparse: refactor identity() into eye(),1767,scipy/sparse/construct.py
+ef2a726,Pauli Virtanen,2012-11-23 03:01:39,MAINT: sparse: refactor identity() into eye(),1767,scipy/sparse/tests/test_construct.py
+152de29,Pauli Virtanen,2012-11-23 01:26:46,Merge pull request #353 from jtravs/interp2d_rectangular_fixes,898
+a21532f,John Travers,2012-11-12 00:07:27,TST: interpolate: test for ticket #898 which was fixed with rebase backend,898,scipy/interpolate/tests/test_interpolate.py
+7adfbbd,John Travers,2012-11-11 17:49:58,"ENH: interpolate: use fitpack's regrid if possible, fixes #286",1364,scipy/interpolate/interpolate.py
+9937cb2,Pauli Virtanen,2012-11-17 14:48:09,Merge pull request gh-355 from cgohlke/patch-1,355
+b3c0699,Ralf Gommers,2012-09-22 10:41:51,TST: add a test for special.stdtr().,1734,scipy/special/tests/test_basic.py
+c3d3d12,Ralf Gommers,2012-10-30 22:08:05,BUG: fix special.hyp0f1 for negative input.  Also add docs and tests.,1750,scipy/special/basic.py
+c3d3d12,Ralf Gommers,2012-10-30 22:08:05,BUG: fix special.hyp0f1 for negative input.  Also add docs and tests.,1750,scipy/special/tests/test_basic.py
+62200ff,Pauli Virtanen,2012-10-20 20:49:05,BUG: special: fix accuracy issues in complex erf by reimplementing it,1207,scipy/special/__init__.py
+62200ff,Pauli Virtanen,2012-10-20 20:49:05,BUG: special: fix accuracy issues in complex erf by reimplementing it,1207,scipy/special/generate_ufuncs.py
+62200ff,Pauli Virtanen,2012-10-20 20:49:05,BUG: special: fix accuracy issues in complex erf by reimplementing it,1207,scipy/special/setup.py
+62200ff,Pauli Virtanen,2012-10-20 20:49:05,BUG: special: fix accuracy issues in complex erf by reimplementing it,1207,scipy/special/tests/test_basic.py
+62200ff,Pauli Virtanen,2012-10-20 20:49:05,BUG: special: fix accuracy issues in complex erf by reimplementing it,1207,scipy/special/tests/test_data.py
+62200ff,Pauli Virtanen,2012-10-20 20:49:05,BUG: special: fix accuracy issues in complex erf by reimplementing it,1207,scipy/special/tests/test_mpmath.py
+7b61579,Pauli Virtanen,2012-11-03 07:26:03,Merge pull request #344 from rgommers/ticket-1751-sinc,1751
+1aee114,Ralf Gommers,2012-10-30 21:20:01,BUG: fix pilutil.bytescale scaling behavior.  Closes #1748.,1748,scipy/misc/pilutil.py
+1aee114,Ralf Gommers,2012-10-30 21:20:01,BUG: fix pilutil.bytescale scaling behavior.  Closes #1748.,1748,scipy/misc/tests/test_pilutil.py
+09c9773,Ralf Gommers,2012-10-29 22:56:20,BUG: make special.sinc handle array_like input correctly.  Closes #1751.,1751,scipy/special/basic.py
+09c9773,Ralf Gommers,2012-10-29 22:56:20,BUG: make special.sinc handle array_like input correctly.  Closes #1751.,1751,scipy/special/tests/test_basic.py
+c4dcc00,Denis Laxalde,2012-10-22 10:17:09,Merge pull request #329 from dlax/enh/tnc-callback,1538
+13f5f02,Ralf Gommers,2012-10-10 11:18:45,Merge pull request #331 from pv/ticket/1741,1741
+e80cb04,Pauli Virtanen,2012-10-06 14:28:15,BUG: special: replace wofz implementation with a license-compatible one (#1741),1741,scipy/special/__init__.py
+e80cb04,Pauli Virtanen,2012-10-06 14:28:15,BUG: special: replace wofz implementation with a license-compatible one (#1741),1741,scipy/special/setup.py
+e80cb04,Pauli Virtanen,2012-10-06 14:28:15,BUG: special: replace wofz implementation with a license-compatible one (#1741),1741,scipy/special/tests/test_basic.py
+61fbbb6,Ralf Gommers,2012-10-03 21:02:05,BUG: fix segfault in fftpack on OS X >=10.7 when compiling with llvm-gcc.,1737
+3dc0860,Denis Laxalde,2012-09-24 11:13:27,ENH: expose callback in the Python interface of tnc (Ticket #1538),1538,scipy/optimize/_minimize.py
+3dc0860,Denis Laxalde,2012-09-24 11:13:27,ENH: expose callback in the Python interface of tnc (Ticket #1538),1538,scipy/optimize/tnc.py
+fe4fff1,Denis Laxalde,2012-09-21 16:21:35,ENH: add a callback mechanism for optimize.tnc (C-level) (Ticket #1538),1538
+72816a9,Ralf Gommers,2012-09-22 09:30:55,DOC: fix description of limit kw of stats.mstats.mquantiles.  Closes #1731.,1731,scipy/stats/mstats_basic.py
+c11f935,Ralf Gommers,2012-09-22 09:28:27,DOC: fix type description of origin kw to ndimage.convolve.  Closes #1733.,1733,scipy/ndimage/filters.py
+228baa0,Gilles Rochefort,2012-09-18 01:29:26,ENH: add callback to lbfgsb (ticket 923),923,scipy/optimize/_minimize.py
+228baa0,Gilles Rochefort,2012-09-18 01:29:26,ENH: add callback to lbfgsb (ticket 923),923,scipy/optimize/lbfgsb.py
+7fccca6,Gilles Rochefort,2012-09-17 23:12:59,ENH: add maximum iterations as a stopping condition in optimize/lbfgsb (ticket 932),932,scipy/optimize/lbfgsb.py
+6f8adf1,Nathan Crock,2012-09-05 19:06:20,BUG: compute gfk before using it in line_search_wolfe2 (ticket #1726),1726,scipy/optimize/linesearch.py
+4e78ee8,Nathan Crock,2012-09-05 19:02:29,DOC: removed (can be None) for myfprime in line_search_wolfe2 (ticket #1726),1726,scipy/optimize/linesearch.py
+f7b6403,Ralf Gommers,2012-09-08 17:28:44,"MAINT: disable sort keyword of linalg.qz, due to Windows issues.  See #1717.",1717,scipy/linalg/_decomp_qz.py
+f7b6403,Ralf Gommers,2012-09-08 17:28:44,"MAINT: disable sort keyword of linalg.qz, due to Windows issues.  See #1717.",1717,scipy/linalg/tests/test_decomp.py
+baa8f73,Skipper Seabold,2012-08-09 15:22:41,TST: fix linalg.qz test to avoid seg fault on Windows.  Closes #1717.,1717,scipy/linalg/tests/test_decomp.py
+a21d70a,Ralf Gommers,2012-08-05 17:56:09,DOC: fix incorrect formula for the pdf of the gamma distribution.,1713,scipy/stats/distributions.py
+3ba682b,Ralf Gommers,2011-11-13 12:26:07,TST: sparse: mark dok matrix tests as knownfail with python 2.4 for 0.10.x.  See #1559.,1559,scipy/sparse/tests/test_base.py
+d0e24ee,Ralf Gommers,2012-07-17 10:37:53,Merge pull request #257 from rgommers/ticket-1680-bigendian-typecheck,1680
+9689399,Ralf Gommers,2012-07-17 19:03:19,Merge branch 'pull-266-laplacian' into master.,1681
+52a740c,Ralf Gommers,2012-07-16 20:45:24,GEN: regenerate _shortest_path.c from Cython sources.,1673
+11fba4e,Ralf Gommers,2012-07-16 20:41:25,BUG: fix intermittent failures in sparse.csgraph.shortest_path tests.,1701
+8647010,Ralf Gommers,2012-07-10 07:59:29,Merge pull request #260 from capnrefsmmat/wilcoxon-doc,1413
+4625c06,Ralf Gommers,2012-06-27 21:46:45,BUG: fix dtype comparison on big-endian machines.  Closes ticket 1680.,1680,scipy/sparse/linalg/dsolve/umfpack/umfpack.py
+3199911,Ralf Gommers,2012-06-10 15:31:01,Merge pull request #252 from matthew-brett/fix-1230,1230
+b65beb1,Matthew Brett,2012-06-10 11:34:22,RF: fix for squeezing 0d scalars from ticket 1230,1230,scipy/io/matlab/tests/test_mio.py
+0ea1d6d,Matthew Brett,2012-06-10 02:41:18,BUG: io.matlab: fix byte-order detection.  Closes ticket 1173.,1173,scipy/io/matlab/mio4.py
+0ea1d6d,Matthew Brett,2012-06-10 02:41:18,BUG: io.matlab: fix byte-order detection.  Closes ticket 1173.,1173,scipy/io/matlab/tests/test_mio.py
+960e3c4,Thouis (Ray) Jones,2012-06-05 11:33:24,BUG: ndimage: Trac ticket 1491 -- ndimage.label ignores output keyword,1491,scipy/ndimage/measurements.py
+960e3c4,Thouis (Ray) Jones,2012-06-05 11:33:24,BUG: ndimage: Trac ticket 1491 -- ndimage.label ignores output keyword,1491,scipy/ndimage/tests/test_measurements.py
+07f84e3,Jonathan Helmus,2012-05-07 13:51:01,BUG: fix issue with ndimage.zoom. Closes ticket 1122.,1122,scipy/ndimage/interpolation.py
+07f84e3,Jonathan Helmus,2012-05-07 13:51:01,BUG: fix issue with ndimage.zoom. Closes ticket 1122.,1122,scipy/ndimage/tests/test_ndimage.py
+e6cc0e1,Ralf Gommers,2012-06-06 22:29:58,TST: fix one Python 2.4 issue and skip some tests with numpy < 1.6 in csgraph.,1669,scipy/io/tests/test_netcdf.py
+e6cc0e1,Ralf Gommers,2012-06-06 22:29:58,TST: fix one Python 2.4 issue and skip some tests with numpy < 1.6 in csgraph.,1669,scipy/sparse/coo.py
+e6cc0e1,Ralf Gommers,2012-06-06 22:29:58,TST: fix one Python 2.4 issue and skip some tests with numpy < 1.6 in csgraph.,1669,scipy/sparse/csgraph/tests/test_conversions.py
+e6cc0e1,Ralf Gommers,2012-06-06 22:29:58,TST: fix one Python 2.4 issue and skip some tests with numpy < 1.6 in csgraph.,1669,scipy/sparse/csgraph/tests/test_shortest_path.py
+e6cc0e1,Ralf Gommers,2012-06-06 22:29:58,TST: fix one Python 2.4 issue and skip some tests with numpy < 1.6 in csgraph.,1669,scipy/spatial/tests/test_qhull.py
+e6cc0e1,Ralf Gommers,2012-06-06 22:29:58,TST: fix one Python 2.4 issue and skip some tests with numpy < 1.6 in csgraph.,1669,scipy/stats/tests/test_stats.py
+49ed1d2,Ralf Gommers,2012-06-03 17:17:26,"DEP: deprecate unused xa, xb params in stats.distributions.",1667,scipy/stats/distributions.py
+cea0911,Ralf Gommers,2012-06-03 12:13:15,DOC: fix incorrect equation in spatial.distance.mahalanobis docstring.,1664,scipy/spatial/distance.py
+d77fae0,Ralf Gommers,2012-05-27 09:38:33,Merge pull request #212 from pv/bug/1605-griddata-baryfix,1605
+1daab3c,Ralf Gommers,2012-05-20 09:06:45,Merge pull request #215 from nokfi/ticket1651,1651
+de27171,Ralf Gommers,2012-05-14 12:41:27,Merge pull request #209 from stefanv/doc_global_imports,1656
+dee0a0e,Pauli Virtanen,2012-02-22 21:09:51,BUG: spatial/qhull: discard degenerate barycentric transforms (fixes #1605),1605
+f7083b6,Stefan van der Walt,2012-05-08 16:13:51,TST: stats: Add regression test for ticket 1638.,1638,scipy/stats/tests/test_distributions.py
+005cdcf,Stefan van der Walt,2012-05-07 20:04:00,Merge pull request #203 from jjhelmus/ticket-954-fix,954
+c6e7ea3,Jonathan Helmus,2012-05-07 12:53:23,added unit test for ticket #954,954,scipy/ndimage/tests/test_ndimage.py
+92f62aa,Ralf Gommers,2012-05-05 08:06:55,Merge pull request #188 from rgommers/ticket-1614-norm-logcdf,1614
+fe23cf6,Jonathan Helmus,2012-05-04 12:13:53,FIX: ndimage.distance_transform_edt ticket #954,954,scipy/ndimage/morphology.py
+75409c2,Ralf Gommers,2012-04-26 23:15:33,Merge pull request #194 from rgommers/collection-of-fixes,1385
+479ae86,Tony S Yu,2012-04-23 01:17:52,Fix ndimage.grey_dilation.,1135,scipy/ndimage/morphology.py
+479ae86,Tony S Yu,2012-04-23 01:17:52,Fix ndimage.grey_dilation.,1135,scipy/ndimage/tests/test_ndimage.py
+e98c18e,Ralf Gommers,2012-04-22 20:58:27,MAINT: fix more Sphinx issues.  Also closes #1643.,1643,scipy/stats/kde.py
+dc3a6f6,Ralf Gommers,2012-04-17 22:17:20,STY: fix odd use of array.nonzero().  Closes #1632.,1632,scipy/sparse/coo.py
+f43dff7,Ralf Gommers,2012-04-15 20:48:50,BUG: fix precision of stats.poisson.logpmf.  Closes #1436.,1436,scipy/stats/distributions.py
+f43dff7,Ralf Gommers,2012-04-15 20:48:50,BUG: fix precision of stats.poisson.logpmf.  Closes #1436.,1436,scipy/stats/tests/test_distributions.py
+14c8142,Ralf Gommers,2012-04-15 14:14:49,BUG: workaround for misc.imread crash for 1-bit images.  Closes #1613.,1613,scipy/misc/pilutil.py
+e60098c,Ralf Gommers,2012-04-15 11:23:47,"BUG: py3k: func_name attribute of functions was removed, use __name__.",1576,scipy/optimize/minpack.py
+e60098c,Ralf Gommers,2012-04-15 11:23:47,"BUG: py3k: func_name attribute of functions was removed, use __name__.",1576,scipy/optimize/tests/test_minpack.py
+e60098c,Ralf Gommers,2012-04-15 11:23:47,"BUG: py3k: func_name attribute of functions was removed, use __name__.",1576,scipy/weave/bytecodecompiler.py
+dcfc275,Ralf Gommers,2012-04-14 19:37:10,TST: filter test warnings from bivariate spline tests in interpolate.,1642,scipy/interpolate/tests/test_fitpack2.py
+e089c85,Ralf Gommers,2012-04-14 17:34:19,MAINT: fix some build warnings.  Closes ticket 1528.,1528
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/cluster/tests/test_hierarchy.py
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/cluster/tests/test_vq.py
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/io/arff/tests/test_arffread.py
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/io/matlab/tests/test_mio.py
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/io/matlab/tests/test_mio_funcs.py
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/io/tests/test_netcdf.py
+61c61e9,Ralf Gommers,2012-04-14 15:45:17,TST: fix ResourceWarnings under python 3.2.  Closes #1385.,1385,scipy/io/tests/test_wavfile.py
+70c214a,Ralf Gommers,2012-04-01 16:34:29,TST: add unit test for improved precision norm.logcdf().  Closes #1614.,1614,scipy/stats/tests/test_distributions.py
+eda8a85,Andrew Schein,2012-04-01 16:12:52,ENH: increase precision of logcdf of the normal distribution.  See #1614.,1614,scipy/stats/distributions.py
+f5f58da,Ralf Gommers,2012-03-30 20:49:02,MAINT: remove unused imports from setup.py.  Closes #1635.,1635,setup.py
+8da2f88,Ralf Gommers,2012-03-10 09:58:47,Merge branch 'jpaalasm/lbfgsb_3.0' into master.,1514
+c90457f,Denis Laxalde,2012-03-05 12:52:06,Merge pull request #175 from dlaxalde/revert-ncg-hess,1617
+9e476e5,Denis Laxalde,2012-03-04 20:45:26,"Revert ""ENH: optimize/minimize: combine hess and hessp parameters"" (#1617)",1617,scipy/optimize/minimize.py
+9e476e5,Denis Laxalde,2012-03-04 20:45:26,"Revert ""ENH: optimize/minimize: combine hess and hessp parameters"" (#1617)",1617,scipy/optimize/optimize.py
+9e476e5,Denis Laxalde,2012-03-04 20:45:26,"Revert ""ENH: optimize/minimize: combine hess and hessp parameters"" (#1617)",1617,scipy/optimize/tests/test_optimize.py
+c60be50,Pauli Virtanen,2012-03-03 23:46:07,BUG: interpolate/sproot: initialize a variable properly (fixes #789),789
+6779fb1,Ralf Gommers,2012-02-19 17:53:38,DEP: misc: deprecate misc.radon.,1579,scipy/misc/pilutil.py
+d24cc56,Ralf Gommers,2012-02-18 03:57:03,Merge pull request #162 from pv/bug/1597-umfpack-free,1597
+9f90914,Pauli Virtanen,2012-02-15 23:46:04,BUG: sparse/umfpack: free data in UmfpackContext.__del__ (#1597),1597,scipy/sparse/linalg/dsolve/umfpack/umfpack.py
+a35418a,Pauli Virtanen,2012-02-14 23:45:26,BUG: cluster: fix a bug in type checking in vq (#1596),1596,scipy/cluster/tests/test_vq.py
+605cf80,Ralf Gommers,2012-02-05 12:10:15,Merge pull request #148 from rgommers/ticket-1421-discrete-dists,1421
+d064c35,Pauli Virtanen,2012-02-05 16:45:53,BUG: linalg: fix invalid rwork size in svd (#1580),1580,scipy/linalg/tests/test_decomp.py
+7d608b2,Ralf Gommers,2012-01-02 20:57:03,DOC: stats.distributions: update discrete example.  Closes #1421.,1421,scipy/stats/__init__.py
+7d608b2,Ralf Gommers,2012-01-02 20:57:03,DOC: stats.distributions: update discrete example.  Closes #1421.,1421,scipy/stats/distributions.py
+6eb2da0,Ralf Gommers,2012-01-04 21:02:05,"ENH: integrate: add 'initial' kw to cumtrapz, which makes len(out) == len(in).",1574,scipy/integrate/quadrature.py
+6eb2da0,Ralf Gommers,2012-01-04 21:02:05,"ENH: integrate: add 'initial' kw to cumtrapz, which makes len(out) == len(in).",1574,scipy/integrate/tests/test_quadrature.py
+7c03d21,Warren Weckesser,2011-11-17 23:32:39,"BUG: cluster: 'linkage' C function in hierarchy.c did not check the return value of malloc, which could lead to seg faults. This commit is a rebased version of https://github.com/scipy/scipy/pull/110 Closes ticket #1562.",1562
+39001f6,Pauli Virtanen,2012-01-22 17:00:32,BUG: sparse.linalg: add re-entrancy checks to fortran-based solvers (#1426),1426,scipy/lib/decorator.py
+39001f6,Pauli Virtanen,2012-01-22 17:00:32,BUG: sparse.linalg: add re-entrancy checks to fortran-based solvers (#1426),1426,scipy/sparse/linalg/isolve/iterative.py
+39001f6,Pauli Virtanen,2012-01-22 17:00:32,BUG: sparse.linalg: add re-entrancy checks to fortran-based solvers (#1426),1426,scipy/sparse/linalg/isolve/tests/test_iterative.py
+3cf1cb0,Warren Weckesser,2012-01-22 20:47:33,BUG: io: add work-around in netcdf.py for the bug in numpy that is the cause of the problem reported in ticket #1202,1202,scipy/io/netcdf.py
+3cf1cb0,Warren Weckesser,2012-01-22 20:47:33,BUG: io: add work-around in netcdf.py for the bug in numpy that is the cause of the problem reported in ticket #1202,1202,scipy/io/tests/test_netcdf.py
+e857412,Travis E. Oliphant,2012-01-18 20:44:26,Merge pull request #131 from teoliphant/master,1452
+8317921,Ralf Gommers,2011-12-30 22:52:38,BUG: gaussian_kde: make it work for integer array input.  Closes #1181.,1181,scipy/stats/kde.py
+8317921,Ralf Gommers,2011-12-30 22:52:38,BUG: gaussian_kde: make it work for integer array input.  Closes #1181.,1181,scipy/stats/tests/test_kdeoth.py
+f01c026,Ralf Gommers,2011-12-30 22:28:26,MAINT: gaussian_kde: better error message for 0/1-element input.  Closes #1167.,1167,scipy/stats/kde.py
+40de735,Warren Weckesser,2011-11-27 01:25:46,"BUG: ndimage: measurements._stats didn't handle n-d arrays. Closes #1565, #1457.",1565,scipy/ndimage/measurements.py
+40de735,Warren Weckesser,2011-11-27 01:25:46,"BUG: ndimage: measurements._stats didn't handle n-d arrays. Closes #1565, #1457.",1565,scipy/ndimage/tests/test_measurements.py
+3ec83d3,Warren Weckesser,2011-12-27 22:51:48,BUG: stats: Fixed calculation of the variance and skewness for the powerlaw distribution (ticket 1548),1548,scipy/stats/distributions.py
+3ec83d3,Warren Weckesser,2011-12-27 22:51:48,BUG: stats: Fixed calculation of the variance and skewness for the powerlaw distribution (ticket 1548),1548,scipy/stats/tests/test_distributions.py
+d0b840e,Warren Weckesser,2011-12-17 09:53:35,BUG: stats: zscore and zmap did not handle the axis keyword correctly (ticket 1575),1575,scipy/stats/stats.py
+d0b840e,Warren Weckesser,2011-12-17 09:53:35,BUG: stats: zscore and zmap did not handle the axis keyword correctly (ticket 1575),1575,scipy/stats/tests/test_stats.py
+2fdf5ce,Chad Baker,2011-12-17 13:40:57,BUG: optimize: make curve_fit work with method as callable.  Closes #1531.,1531,scipy/optimize/minpack.py
+2fdf5ce,Chad Baker,2011-12-17 13:40:57,BUG: optimize: make curve_fit work with method as callable.  Closes #1531.,1531,scipy/optimize/tests/test_minpack.py
+db3c413,Warren Weckesser,2011-11-25 23:24:43,BUG: stats: fisher_exact() returned an incorrect result for alternative='greater' when the upper-left entry of the contingency table was 0 (ticket #1568),1568,scipy/stats/stats.py
+db3c413,Warren Weckesser,2011-11-25 23:24:43,BUG: stats: fisher_exact() returned an incorrect result for alternative='greater' when the upper-left entry of the contingency table was 0 (ticket #1568),1568,scipy/stats/tests/test_stats.py
+0cac0b5,Warren Weckesser,2011-11-06 16:41:22,BUG: stats: fixed calculation of the variance and kurtosis of the Tukey Lambda distribution (ticket 1545),1545,scipy/stats/_tukeylambda_stats.py
+0cac0b5,Warren Weckesser,2011-11-06 16:41:22,BUG: stats: fixed calculation of the variance and kurtosis of the Tukey Lambda distribution (ticket 1545),1545,scipy/stats/distributions.py
+0cac0b5,Warren Weckesser,2011-11-06 16:41:22,BUG: stats: fixed calculation of the variance and kurtosis of the Tukey Lambda distribution (ticket 1545),1545,scipy/stats/tests/test_distributions.py
+0cac0b5,Warren Weckesser,2011-11-06 16:41:22,BUG: stats: fixed calculation of the variance and kurtosis of the Tukey Lambda distribution (ticket 1545),1545,scipy/stats/tests/test_tukeylambda_stats.py
+fc1dc71,Warren Weckesser,2011-11-19 09:05:28,BUG: linalg: fixed mistake in eig_banded and eigvals_banded docstrings (ticket #1560).  Made some additional docstring changes to be more consistent with variable names.,1560,scipy/linalg/decomp.py
+96e39ec,Josef Perktold,2011-10-30 21:06:26,"ENH: stats.distributions: propagate nans, changes thanks to Per Brodtkorb.",835,scipy/stats/distributions.py
+96e39ec,Josef Perktold,2011-10-30 21:06:26,"ENH: stats.distributions: propagate nans, changes thanks to Per Brodtkorb.",835,scipy/stats/tests/test_distributions.py
+04b8d87,Johann Cohen-Tanugi,2011-10-25 14:36:45,BUG: optimize: prevent infinite loop in fmin_bfgs in corner cases. Closes #1542,1542,scipy/optimize/linesearch.py
+04b8d87,Johann Cohen-Tanugi,2011-10-25 14:36:45,BUG: optimize: prevent infinite loop in fmin_bfgs in corner cases. Closes #1542,1542,scipy/optimize/tests/test_optimize.py
+7cdfb34,Stefan van der Walt,2011-11-02 16:24:24,BUG: Unable to delete row from lil matrix after scalar multiplication (closes #1427).,1427,scipy/sparse/lil.py
+7cdfb34,Stefan van der Walt,2011-11-02 16:24:24,BUG: Unable to delete row from lil matrix after scalar multiplication (closes #1427).,1427,scipy/sparse/tests/test_base.py
+600e81f,Pauli Virtanen,2011-10-11 00:16:48,BUG: sparse/arpack: add veclib wrappers also for SDOT (fixes #1523),1523
+bd971f2,Ralf Gommers,2011-09-25 17:33:02,"MAINT: update references svn --> git, or remove them.  Closes #1516.",1516,scipy/setup.py
+bd971f2,Ralf Gommers,2011-09-25 17:33:02,"MAINT: update references svn --> git, or remove them.  Closes #1516.",1516,scipy/setupscons.py
+bd971f2,Ralf Gommers,2011-09-25 17:33:02,"MAINT: update references svn --> git, or remove them.  Closes #1516.",1516,scipy/special/special_version.py
+9001996,Ralf Gommers,2011-09-11 15:43:39,DOC: document sign convention in fftpack.hilbert.  Closes #1506.,1506,scipy/fftpack/pseudo_diffs.py
+9e1b25b,Ralf Gommers,2011-09-04 20:57:13,BUG: distributions should be instantiatable without name arg.  Closes #1508.,1508,scipy/stats/distributions.py
+9e1b25b,Ralf Gommers,2011-09-04 20:57:13,BUG: distributions should be instantiatable without name arg.  Closes #1508.,1508,scipy/stats/tests/test_distributions.py
+8947471,Ralf Gommers,2011-09-04 20:19:39,ENH: make interpolate.griddata work for unsorted 1-D data.  Closes #1406.,1406,scipy/interpolate/ndgriddata.py
+8947471,Ralf Gommers,2011-09-04 20:19:39,ENH: make interpolate.griddata work for unsorted 1-D data.  Closes #1406.,1406,scipy/interpolate/tests/test_ndgriddata.py
+b8e28ef,Fabian Pedregosa,2011-08-31 14:47:35,Use assert_array_almost_equal to avoid failure by rounding errors.,1504,scipy/linalg/tests/test_decomp.py
+fda88cf,Ralf Gommers,2011-08-28 13:54:35,TST: fix arpack test failure.  Closes #1503.,1503,scipy/sparse/linalg/eigen/arpack/arpack.py
+023708d,Ralf Gommers,2011-08-27 13:25:52,DOC: add note that weave has a runtime dependency on python-dev Linux package.,1481,scipy/weave/__init__.py
+a31acbf,Ralf Gommers,2011-08-15 18:34:20,BUG: make sure fmin_bfgs doesn't get stuck in infinite loop.  Closes #1494.,1494,scipy/optimize/optimize.py
+a31acbf,Ralf Gommers,2011-08-15 18:34:20,BUG: make sure fmin_bfgs doesn't get stuck in infinite loop.  Closes #1494.,1494,scipy/optimize/tests/test_optimize.py
+b75d42e,Ralf Gommers,2011-08-18 22:51:15,BUG: solve segfaults in sparse.linalg.isolve on OS X.  Closes #1321 and #1472.,1321,scipy/sparse/linalg/isolve/setup.py
+e11bf1d,Ralf Gommers,2011-08-18 10:24:47,MAINT: remove pkgload stuff from main __init__.py.  See #1418.,1418,scipy/__init__.py
+98c9f7c,Ralf Gommers,2011-08-22 12:47:57,"ENH: improve accuracy of distributions.ncx2, add logpdf method.  Closes #1081.",1081,scipy/stats/distributions.py
+ff96ef0,Ralf Gommers,2011-08-19 22:48:19,DOC: document limitation of invgauss.cdf. Improve numerical accuracy a little.,869,scipy/stats/distributions.py
+9176d49,Ralf Gommers,2011-08-18 09:52:01,BUG: fix problem in UnivariateSpline under doctest/pdb.  Closes #1375.,1375,scipy/interpolate/fitpack2.py
+9176d49,Ralf Gommers,2011-08-18 09:52:01,BUG: fix problem in UnivariateSpline under doctest/pdb.  Closes #1375.,1375,scipy/interpolate/tests/test_fitpack.py
+261e1e7,Warren Weckesser,2011-08-07 22:29:12,BUG: signal: 'decimate' returned array with the wrong shape. Closes ticket 1480.,1480,scipy/signal/signaltools.py
+261e1e7,Warren Weckesser,2011-08-07 22:29:12,BUG: signal: 'decimate' returned array with the wrong shape. Closes ticket 1480.,1480,scipy/signal/tests/test_signaltools.py
+73bd846,Warren Weckesser,2011-08-07 21:10:21,BUG: stats: Corrected docstring for scipy.stats.normaltest.  Closes ticket 1479.,1479,scipy/stats/stats.py
+6fb3507,Warren Weckesser,2011-08-06 19:00:07,"ENH: stats: Added the stats.contingency module containing some contingency table functions.  The main function, chi2_contingency, is also added to the scipy.stats namespace.  See pull request 34 and ticket 1203 for details.",1203,scipy/stats/__init__.py
+6fb3507,Warren Weckesser,2011-08-06 19:00:07,"ENH: stats: Added the stats.contingency module containing some contingency table functions.  The main function, chi2_contingency, is also added to the scipy.stats namespace.  See pull request 34 and ticket 1203 for details.",1203,scipy/stats/contingency.py
+6fb3507,Warren Weckesser,2011-08-06 19:00:07,"ENH: stats: Added the stats.contingency module containing some contingency table functions.  The main function, chi2_contingency, is also added to the scipy.stats namespace.  See pull request 34 and ticket 1203 for details.",1203,scipy/stats/info.py
+6fb3507,Warren Weckesser,2011-08-06 19:00:07,"ENH: stats: Added the stats.contingency module containing some contingency table functions.  The main function, chi2_contingency, is also added to the scipy.stats namespace.  See pull request 34 and ticket 1203 for details.",1203,scipy/stats/stats.py
+6fb3507,Warren Weckesser,2011-08-06 19:00:07,"ENH: stats: Added the stats.contingency module containing some contingency table functions.  The main function, chi2_contingency, is also added to the scipy.stats namespace.  See pull request 34 and ticket 1203 for details.",1203,scipy/stats/tests/test_contingency.py
+16e2c2e,Pauli Virtanen,2011-07-15 17:37:07,ENH: constants: update to CODATA 2010 values (#1478),1478,scipy/constants/codata.py
+16e2c2e,Pauli Virtanen,2011-07-15 17:37:07,ENH: constants: update to CODATA 2010 values (#1478),1478,scipy/constants/info.py
+16e2c2e,Pauli Virtanen,2011-07-15 17:37:07,ENH: constants: update to CODATA 2010 values (#1478),1478,scipy/constants/tests/test_codata.py
+0547eea,rgommers,2011-03-10 11:03:14,BLD: help compilation on AIX by making some values doubles,1299
+a4f0bca,rgommers,2011-06-13 20:33:48,BUG: fix ndimage segfault. Closes #1311.,1311,scipy/ndimage/filters.py
+a4f0bca,rgommers,2011-06-13 20:33:48,BUG: fix ndimage segfault. Closes #1311.,1311,scipy/ndimage/tests/test_filters.py
+ce7fd1e,Pauli Virtanen,2011-06-25 23:31:18,BUG: integrate: explicitly catch concurrency issues with VODE and ZVODE integrators (fixes #1434),1434,scipy/integrate/_ode.py
+ce7fd1e,Pauli Virtanen,2011-06-25 23:31:18,BUG: integrate: explicitly catch concurrency issues with VODE and ZVODE integrators (fixes #1434),1434,scipy/integrate/tests/test_integrate.py
+6542a8c,Warren Weckesser,2011-06-12 13:43:45,"BUG: spatial: * Improved validation of the arguments to the distance functions, so that only ""1-D-like"" arrays are accepted. * Simplified some of the distance computations. * Cleaned up the code a bit. * Added tests. This commit should fix ticket #1328.",1328,scipy/spatial/distance.py
+6542a8c,Warren Weckesser,2011-06-12 13:43:45,"BUG: spatial: * Improved validation of the arguments to the distance functions, so that only ""1-D-like"" arrays are accepted. * Simplified some of the distance computations. * Cleaned up the code a bit. * Added tests. This commit should fix ticket #1328.",1328,scipy/spatial/tests/test_distance.py
+5698591,rgommers,2011-06-12 22:53:16,DOC: raise more informative error in signal.tf2ss. Closes #1096.,1096,scipy/signal/ltisys.py
+6955911,rgommers,2011-06-05 16:05:27,ENH: add 1-sided Fisher's exact test. Tighten test precision of 2-sided tests.,1394,scipy/stats/stats.py
+6955911,rgommers,2011-06-05 16:05:27,ENH: add 1-sided Fisher's exact test. Tighten test precision of 2-sided tests.,1394,scipy/stats/tests/test_stats.py
+ad0901a,rgommers,2011-06-05 15:04:48,BUG: fix precision of survival function of hypergeometric distribution. Closes #1218.,1218,scipy/stats/distributions.py
+ad0901a,rgommers,2011-06-05 15:04:48,BUG: fix precision of survival function of hypergeometric distribution. Closes #1218.,1218,scipy/stats/stats.py
+ad0901a,rgommers,2011-06-05 15:04:48,BUG: fix precision of survival function of hypergeometric distribution. Closes #1218.,1218,scipy/stats/tests/test_distributions.py
+32f9e3d,rgommers,2011-06-12 16:16:13,BUG: spatial: fix Canberra distance. Closes #1430.,1430,scipy/spatial/distance.py
+32f9e3d,rgommers,2011-06-12 16:16:13,BUG: spatial: fix Canberra distance. Closes #1430.,1430,scipy/spatial/tests/test_distance.py
+fba8f78,rgommers,2011-06-12 14:19:01,BUG: fix float comparison in spatial.kdtree.query_ball_point. Closes #1373.,1373,scipy/spatial/kdtree.py
+fba8f78,rgommers,2011-06-12 14:19:01,BUG: fix float comparison in spatial.kdtree.query_ball_point. Closes #1373.,1373,scipy/spatial/tests/test_kdtree.py
+1e2d0c9,Warren Weckesser,2011-06-11 12:45:10,BUG: integrate: handle additional function arguments with the dopri5 solver (fix for ticket 1392),1392,scipy/integrate/ode.py
+1e2d0c9,Warren Weckesser,2011-06-11 12:45:10,BUG: integrate: handle additional function arguments with the dopri5 solver (fix for ticket 1392),1392,scipy/integrate/tests/test_integrate.py
+388b3da,Pauli Virtanen,2011-06-11 17:24:16,"BUG: linalg: remove getr* from clapack, as they are not compatible with flapack routines (fixes #1458)",1458,scipy/linalg/tests/test_decomp.py
+2a2d8be,Yaroslav Halchenko,2011-06-10 14:13:20,BUG: ndimage: use dedicated npy_intp instead of int to store memory offset in NI_Label. Closes #742,742,scipy/ndimage/tests/test_regression.py
+8d4665f,Warren Weckesser,2011-06-03 07:19:45,"ENH: signal: enhanced scipy.signal.filtfilt * Rewrote lfilter_zi, and added a docstring that explains what it does. * Enhanced filtfilt so that it can filter a given axis in an n-dimensional array,   and also allow more flexibility in how the data is extended before filtering. * Added the module _arraytools.py, which provides the convenient functions   axis_slice and axis_reverse, and the axis extension functions odd_ext,   even_ext and const_ext. * Changes to filtfilt also fix bug #1410.",1410,scipy/signal/_arraytools.py
+8d4665f,Warren Weckesser,2011-06-03 07:19:45,"ENH: signal: enhanced scipy.signal.filtfilt * Rewrote lfilter_zi, and added a docstring that explains what it does. * Enhanced filtfilt so that it can filter a given axis in an n-dimensional array,   and also allow more flexibility in how the data is extended before filtering. * Added the module _arraytools.py, which provides the convenient functions   axis_slice and axis_reverse, and the axis extension functions odd_ext,   even_ext and const_ext. * Changes to filtfilt also fix bug #1410.",1410,scipy/signal/signaltools.py
+8d4665f,Warren Weckesser,2011-06-03 07:19:45,"ENH: signal: enhanced scipy.signal.filtfilt * Rewrote lfilter_zi, and added a docstring that explains what it does. * Enhanced filtfilt so that it can filter a given axis in an n-dimensional array,   and also allow more flexibility in how the data is extended before filtering. * Added the module _arraytools.py, which provides the convenient functions   axis_slice and axis_reverse, and the axis extension functions odd_ext,   even_ext and const_ext. * Changes to filtfilt also fix bug #1410.",1410,scipy/signal/tests/test_array_tools.py
+8d4665f,Warren Weckesser,2011-06-03 07:19:45,"ENH: signal: enhanced scipy.signal.filtfilt * Rewrote lfilter_zi, and added a docstring that explains what it does. * Enhanced filtfilt so that it can filter a given axis in an n-dimensional array,   and also allow more flexibility in how the data is extended before filtering. * Added the module _arraytools.py, which provides the convenient functions   axis_slice and axis_reverse, and the axis extension functions odd_ext,   even_ext and const_ext. * Changes to filtfilt also fix bug #1410.",1410,scipy/signal/tests/test_signaltools.py
+2448598,rgommers,2011-06-04 23:55:51,BUG: support full_output in optimize.curve_fit. Closes #1415.,1415,scipy/optimize/minpack.py
+2448598,rgommers,2011-06-04 23:55:51,BUG: support full_output in optimize.curve_fit. Closes #1415.,1415,scipy/optimize/tests/test_minpack.py
+75caf27,Warren Weckesser,2011-05-26 00:18:54,"BUG: signal: freqz could return one more value than requested if N was large (ticket #1441). Also fixed a couple mistakes in the docstrings for freqz and freqs, and added tests for freqz.",1441,scipy/signal/filter_design.py
+75caf27,Warren Weckesser,2011-05-26 00:18:54,"BUG: signal: freqz could return one more value than requested if N was large (ticket #1441). Also fixed a couple mistakes in the docstrings for freqz and freqs, and added tests for freqz.",1441,scipy/signal/tests/test_filter_design.py
+f5edbd1,Ralf Gommers,2011-05-01 10:34:56,DOC: complete fftpack module docstring. Closes #1431.,1431,scipy/fftpack/helper.py
+f5edbd1,Ralf Gommers,2011-05-01 10:34:56,DOC: complete fftpack module docstring. Closes #1431.,1431,scipy/fftpack/info.py
+be474ce,josef-pktd,2011-04-28 14:36:52,TST: add a regression test for ticket 1421 (stats discrete distribution docs).,1421,scipy/stats/distributions.py
+be474ce,josef-pktd,2011-04-28 14:36:52,TST: add a regression test for ticket 1421 (stats discrete distribution docs).,1421,scipy/stats/tests/test_distributions.py
+c541fb8,josef-pktd,2011-04-28 14:19:27,"Bug: ticket 1421, stats, discrete docs incorrectly use part of continuous docs template",1421,scipy/stats/distributions.py
+9b5db2c,Stefan van der Walt,2011-04-11 09:24:38,BUG: ndimage: Do not attempt to zoom to infinity (closes #1419).,1419,scipy/ndimage/interpolation.py
+9b5db2c,Stefan van der Walt,2011-04-11 09:24:38,BUG: ndimage: Do not attempt to zoom to infinity (closes #1419).,1419,scipy/ndimage/tests/test_ndimage.py
+4716d91,Ralf Gommers,2011-04-02 19:17:09,DOC: correct typo in constants.py. Closes #1417.,1417,scipy/constants/constants.py
+7b28629,Ralf Gommers,2011-03-15 11:11:37,TST: silence ndimage test failure due to known bug with x64-bit Visual C++ 2008.,1238,scipy/ndimage/tests/test_measurements.py
+14d4494,rgommers,2011-03-10 11:43:02,ENH: clean up stats.probplot docstring and code. Closes #1295.,1295,scipy/stats/morestats.py
+3dcb8a4,rgommers,2011-03-09 02:02:13,DOC: merge edits to scipy.interpolate. Closes #1397.,1397,scipy/interpolate/interpolate.py
+3dcb8a4,rgommers,2011-03-09 02:02:13,DOC: merge edits to scipy.interpolate. Closes #1397.,1397,scipy/interpolate/polyint.py
+56b10e6,warren.weckesser,2011-03-06 20:07:05,DOC: integrate: fixed description of shape of the return value of odeint (ticket #1403).,1403,scipy/integrate/odepack.py
+35fe2e4,rgommers,2011-02-27 09:36:43,DOC: BUG: Correct formulas in spatial.distance. Closes #1391.,1391,scipy/spatial/distance.py
+c2fdf39,warren.weckesser,2011-02-16 23:43:54,"ENH: misc: In pade(), use 'linalg.solve' instead of multiplying by the inverse (ticket #1387)",1387,scipy/misc/common.py
+c2fdf39,warren.weckesser,2011-02-16 23:43:54,"ENH: misc: In pade(), use 'linalg.solve' instead of multiplying by the inverse (ticket #1387)",1387,scipy/misc/tests/test_common.py
+bc162ee,Pauli Virtanen,2011-02-15 19:22:32,BUG: special: fix zbiry prototype to match the Fortran code (#1233),1233
+847bdf5,warren.weckesser,2011-02-06 19:11:27,BUG: signal: zpk2tf returns a scalar 1.0 for the denominator when the list of poles was empty (ticket #990).  Thanks to asomers for the patch.,990,scipy/signal/filter_design.py
+847bdf5,warren.weckesser,2011-02-06 19:11:27,BUG: signal: zpk2tf returns a scalar 1.0 for the denominator when the list of poles was empty (ticket #990).  Thanks to asomers for the patch.,990,scipy/signal/tests/test_filter_design.py
+cbc2e9b,warren.weckesser,2011-02-04 18:32:04,BUG: sparse: Eliminate spurious warnings generated by getrow() and getcol() (ticket #1381).,1381,scipy/sparse/base.py
+cbc2e9b,warren.weckesser,2011-02-04 18:32:04,BUG: sparse: Eliminate spurious warnings generated by getrow() and getcol() (ticket #1381).,1381,scipy/sparse/tests/test_base.py
+f8d32e8,Charles Harris,2011-02-02 17:47:10,"BUG: Fix ndimage type checks, part of ticket #1724.",1724
+3ea2016,Pauli Virtanen,2011-01-31 21:14:50,BUG: fftpack: fix data overwriting in FFT routines (#1353),1353,scipy/fftpack/basic.py
+5f4860a,Pauli Virtanen,2011-01-30 21:05:44,"TST: io: close file handle before unlinking, for win32 (#1379)",1379,scipy/io/matlab/tests/test_streams.py
+ef65314,rgommers,2011-01-30 04:31:16,"BUG: fix for build issue with MSCV 9, ifort and MKL. Patch by Christoph Gohkle. Closes #1376.",1376,scipy/lib/lapack/setup.py
+ef65314,rgommers,2011-01-30 04:31:16,"BUG: fix for build issue with MSCV 9, ifort and MKL. Patch by Christoph Gohkle. Closes #1376.",1376,scipy/linalg/setup.py
+ef65314,rgommers,2011-01-30 04:31:16,"BUG: fix for build issue with MSCV 9, ifort and MKL. Patch by Christoph Gohkle. Closes #1376.",1376,scipy/sparse/linalg/dsolve/setup.py
+0948ede,Pauli Virtanen,2011-01-29 19:17:31,BUG: use CPU_TIME intrinsic instead of ETIME in Fortran code (#1376),1376
+12afb57,Pauli Virtanen,2011-01-29 18:00:37,BUG: sparse: fix crash on deref of std::vector of size 0 (fixes #1210),1210
+3cdbf4c,rgommers,2011-01-10 14:32:55,BUG: spatial.kdtree.query_pair() fix. Closes #1052. Thanks to Stefan vd Walt.,1052,scipy/spatial/kdtree.py
+3cdbf4c,rgommers,2011-01-10 14:32:55,BUG: spatial.kdtree.query_pair() fix. Closes #1052. Thanks to Stefan vd Walt.,1052,scipy/spatial/tests/test_kdtree.py
+6148526,Pauli Virtanen,2010-12-12 19:59:08,BUG: integrate: correct use of npy_intp vs int in __quadpack.h (#1103),1103
+96a8ced,Pauli Virtanen,2010-12-12 02:21:18,ENH: sparse.linalg: cut unnecessary LinearOperator interface overhead for matrices and arrays (#1036),1036,scipy/sparse/linalg/interface.py
+96a8ced,Pauli Virtanen,2010-12-12 02:21:18,ENH: sparse.linalg: cut unnecessary LinearOperator interface overhead for matrices and arrays (#1036),1036,scipy/sparse/linalg/isolve/utils.py
+6bc20b7,Pauli Virtanen,2010-12-12 01:19:38,BUG: sparse/superlu: safer pointer to int conversion in _superlu_utils (#1236),1236
+8b119ef,Pauli Virtanen,2010-12-11 23:47:46,BUG: odr: use 'i' instead of 'l' in Py_BuildValue for ints (#1253),1253,scipy/odr/tests/test_odr.py
+8c6413b,Pauli Virtanen,2010-12-11 21:09:40,BUG: linalg: work around a LAPACK bug in DGGEV (#709),709,scipy/linalg/decomp.py
+8c6413b,Pauli Virtanen,2010-12-11 21:09:40,BUG: linalg: work around a LAPACK bug in DGGEV (#709),709,scipy/linalg/tests/test_decomp.py
+28faefb,rgommers,2010-12-05 06:39:11,TST: add correct significance to some stats tests. Closes #467.,467,scipy/stats/tests/test_stats.py
+f817b93,Pauli Virtanen,2010-12-04 21:04:44,ENH: sparse/arpack: infer LinearOperator dtype if it is missing in eigs/eigsh (#1119),1119,scipy/sparse/linalg/eigen/arpack/arpack.py
+f817b93,Pauli Virtanen,2010-12-04 21:04:44,ENH: sparse/arpack: infer LinearOperator dtype if it is missing in eigs/eigsh (#1119),1119,scipy/sparse/linalg/eigen/arpack/tests/test_arpack.py
+29ac3d4,warren.weckesser,2010-12-01 06:07:29,BUG: ndimage: correctly deal with 'labels' data types that are compatible with bincount (tickets #1254 and #1242).  Use numpy.unique instead of numpy.unique1d.,1254,scipy/ndimage/measurements.py
+29ac3d4,warren.weckesser,2010-12-01 06:07:29,BUG: ndimage: correctly deal with 'labels' data types that are compatible with bincount (tickets #1254 and #1242).  Use numpy.unique instead of numpy.unique1d.,1254,scipy/ndimage/tests/test_measurements.py
+815be85,rgommers,2010-11-29 14:57:24,DEP: remove deprecated econ kw from linalg.qr.,243,scipy/linalg/decomp_qr.py
+815be85,rgommers,2010-11-29 14:57:24,DEP: remove deprecated econ kw from linalg.qr.,243,scipy/linalg/tests/test_decomp.py
+7864d8b,rgommers,2010-11-29 14:46:00,"ENH: update mstats to use new zmap/zscore, remove z/zs. Closes #1195.",1195,scipy/stats/mstats_basic.py
+7864d8b,rgommers,2010-11-29 14:46:00,"ENH: update mstats to use new zmap/zscore, remove z/zs. Closes #1195.",1195,scipy/stats/tests/test_mstats_basic.py
+3b6b224,Pauli Virtanen,2010-11-28 22:55:42,ENH: special/lpmv: implement degree down-recursion in associated legendre polynomial (fixes #1296),1296,scipy/special/tests/test_basic.py
+3b6b224,Pauli Virtanen,2010-11-28 22:55:42,ENH: special/lpmv: implement degree down-recursion in associated legendre polynomial (fixes #1296),1296,scipy/special/tests/test_data.py
+3b6b224,Pauli Virtanen,2010-11-28 22:55:42,ENH: special/lpmv: implement degree down-recursion in associated legendre polynomial (fixes #1296),1296,scipy/special/tests/test_mpmath.py
+2053a96,Pauli Virtanen,2010-11-28 17:46:31,BUG: special: fix mistaken divergence test in hyp2f1 for cases where the series terminates (fixes #1298),1298,scipy/special/tests/test_mpmath.py
+2053a96,Pauli Virtanen,2010-11-28 17:46:31,BUG: special: fix mistaken divergence test in hyp2f1 for cases where the series terminates (fixes #1298),1298,scipy/special/tests/test_orthogonal_eval.py
+9482ec7,Pauli Virtanen,2010-11-28 15:44:33,BUG: io/matlab: close opened stream after reading in loadmat() (fixes #1039),1039,scipy/io/matlab/mio.py
+9482ec7,Pauli Virtanen,2010-11-28 15:44:33,BUG: io/matlab: close opened stream after reading in loadmat() (fixes #1039),1039,scipy/io/matlab/tests/test_mio.py
+5dadeaa,Pauli Virtanen,2010-11-28 15:28:17,BUG: sparse/superlu: fix build on msvc (closes #1176),1176
+505ee61,rgommers,2010-11-28 13:37:29,"DEP: deprecate stats.invnorm, add a copy as invgauss. See #1172.",1172,scipy/stats/distributions.py
+505ee61,rgommers,2010-11-28 13:37:29,"DEP: deprecate stats.invnorm, add a copy as invgauss. See #1172.",1172,scipy/stats/info.py
+505ee61,rgommers,2010-11-28 13:37:29,"DEP: deprecate stats.invnorm, add a copy as invgauss. See #1172.",1172,scipy/stats/tests/test_continuous_basic.py
+a12d969,rgommers,2010-11-28 13:37:08,BUG: fix std() method of distributions for array_like args. Closes #1191.,1191,scipy/stats/distributions.py
+a12d969,rgommers,2010-11-28 13:37:08,BUG: fix std() method of distributions for array_like args. Closes #1191.,1191,scipy/stats/tests/test_distributions.py
+34f3e43,rgommers,2010-11-28 13:36:17,TST: add tests for stats.relfreq/cumfreq. Also improve docs and clean up code.,1227,scipy/stats/stats.py
+34f3e43,rgommers,2010-11-28 13:36:17,TST: add tests for stats.relfreq/cumfreq. Also improve docs and clean up code.,1227,scipy/stats/tests/test_stats.py
+fdaee9f,rgommers,2010-11-28 13:33:06,ENH: new faster implementation of stats.kendalltau.,999,scipy/stats/stats.py
+fdaee9f,rgommers,2010-11-28 13:33:06,ENH: new faster implementation of stats.kendalltau.,999,scipy/stats/tests/test_stats.py
+4e0904a,rgommers,2010-11-28 09:01:14,"BUG: allow 2-D initial guess, same as for other solvers. Closes #843.",843,scipy/optimize/optimize.py
+97cf577,rgommers,2010-11-28 08:56:36,BUG: mstats.linregress was returning one value too many. Add basic test. Closes #1273.,1273,scipy/stats/mstats_basic.py
+97cf577,rgommers,2010-11-28 08:56:36,BUG: mstats.linregress was returning one value too many. Add basic test. Closes #1273.,1273,scipy/stats/tests/test_mstats_basic.py
+8d87130,rgommers,2010-11-28 04:52:01,"BUG: fix mstats.plotting_positions for integer inputs, and improve docstring.",1256,scipy/stats/mstats_basic.py
+8d87130,rgommers,2010-11-28 04:52:01,"BUG: fix mstats.plotting_positions for integer inputs, and improve docstring.",1256,scipy/stats/tests/test_mstats_basic.py
+ef321d0,Pauli Virtanen,2010-11-27 18:40:26,BUG: special: avoid raising spurious div-by-zero flags in hyp2f1 and hyp1f1 (fixes #1334),1334,scipy/special/tests/test_orthogonal_eval.py
+b5be22d,warren.weckesser,2010-11-27 07:14:47,BUG: spatial: (ticket #1146) pdist didn't handle the weighted minkowski function correctly (the 'w' argument was not defined); also fixed and simplified other code.  Thanks to Teemu Ikonen for some of the patches.,1146,scipy/spatial/distance.py
+b5be22d,warren.weckesser,2010-11-27 07:14:47,BUG: spatial: (ticket #1146) pdist didn't handle the weighted minkowski function correctly (the 'w' argument was not defined); also fixed and simplified other code.  Thanks to Teemu Ikonen for some of the patches.,1146,scipy/spatial/tests/test_distance.py
+0dd55fa,warren.weckesser,2010-11-27 03:36:50,BUG: sparse: fixed the resize() method of dok_matrix (ticket #997); thanks to jap for report and patch.,997,scipy/sparse/dok.py
+0dd55fa,warren.weckesser,2010-11-27 03:36:50,BUG: sparse: fixed the resize() method of dok_matrix (ticket #997); thanks to jap for report and patch.,997,scipy/sparse/tests/test_base.py
+a7eabc5,warren.weckesser,2010-11-27 00:31:04,BUG: spatial: Raise a ValueError in sokalsneath if both vectors are entirely false (ticket #876).  Also fixed the double appearance of the factor 2 in the docstrings for sokalsneath and sokalmichener.,876,scipy/spatial/distance.py
+a7eabc5,warren.weckesser,2010-11-27 00:31:04,BUG: spatial: Raise a ValueError in sokalsneath if both vectors are entirely false (ticket #876).  Also fixed the double appearance of the factor 2 in the docstrings for sokalsneath and sokalmichener.,876,scipy/spatial/tests/test_distance.py
+fbedf49,warren.weckesser,2010-11-26 23:41:53,BUG: Fix for ticket 1160 (thanks to derPhil and JustinPeel),1160,scipy/sparse/dok.py
+fbedf49,warren.weckesser,2010-11-26 23:41:53,BUG: Fix for ticket 1160 (thanks to derPhil and JustinPeel),1160,scipy/sparse/tests/test_base.py
+f8a4a04,Pauli Virtanen,2010-11-23 21:23:35,BUG: special: initialize variables in specfun.f:JDZO and fix off-by-one error in jnjnp_zeros (#1330),1330,scipy/special/basic.py
+f8a4a04,Pauli Virtanen,2010-11-23 21:23:35,BUG: special: initialize variables in specfun.f:JDZO and fix off-by-one error in jnjnp_zeros (#1330),1330,scipy/special/tests/test_basic.py
+1d04c52,rgommers,2010-11-21 09:57:22,BUG: fix nanmedian for scalar inputs. Closes #1098. Thanks to Keith Goodman.,1098,scipy/stats/stats.py
+1d04c52,rgommers,2010-11-21 09:57:22,BUG: fix nanmedian for scalar inputs. Closes #1098. Thanks to Keith Goodman.,1098,scipy/stats/tests/test_stats.py
+fcb792d,Pauli Virtanen,2010-10-23 14:41:40,TST: sparse/arpack: make ARPACK tests deterministic by setting an initial vector (#1313),1313,scipy/sparse/linalg/eigen/arpack/tests/test_arpack.py
+e0b20c3,Pauli Virtanen,2010-10-23 14:41:16,BUG: sparse/arpack: fix ARPACK overwriting the initial vector (#1313),1313,scipy/sparse/linalg/eigen/arpack/arpack.py
+f13935d,Pauli Virtanen,2010-10-23 14:40:53,BUG: sparse/arpack: apply patch from Debian bug:572935 -- fixes a crash inside ARPACK (#1313),1313
+44ca4c1,warren.weckesser,2010-10-19 16:20:43,BUG: stats: The method _construct_default_doc did not properly handle the default value of the extradoc keyword (ticket #1316).,1316,scipy/stats/distributions.py
+44ca4c1,warren.weckesser,2010-10-19 16:20:43,BUG: stats: The method _construct_default_doc did not properly handle the default value of the extradoc keyword (ticket #1316).,1316,scipy/stats/tests/test_distributions.py
+c11ccc5,Pauli Virtanen,2010-10-13 21:44:46,BUG: scipy.sparse.linalg.eigen.lobpcg: remember that linalg.inv(overwrite_a=True) does not guarantee the output is overwritten (#1304),1304,scipy/linalg/basic.py
+c11ccc5,Pauli Virtanen,2010-10-13 21:44:46,BUG: scipy.sparse.linalg.eigen.lobpcg: remember that linalg.inv(overwrite_a=True) does not guarantee the output is overwritten (#1304),1304,scipy/sparse/linalg/eigen/lobpcg/lobpcg.py
+c11ccc5,Pauli Virtanen,2010-10-13 21:44:46,BUG: scipy.sparse.linalg.eigen.lobpcg: remember that linalg.inv(overwrite_a=True) does not guarantee the output is overwritten (#1304),1304,scipy/sparse/linalg/eigen/lobpcg/tests/test_lobpcg.py
+374fb42,warren.weckesser,2010-10-13 02:29:33,"BUG: stats: In a couple of the frozen distribution methods, giving a keyword argument modified the saved kwds dict.  Also the frozen moment() method called the distribution's moment() method with keywords, but it doesn't take any. (Ticket #1293)",1293,scipy/stats/distributions.py
+374fb42,warren.weckesser,2010-10-13 02:29:33,"BUG: stats: In a couple of the frozen distribution methods, giving a keyword argument modified the saved kwds dict.  Also the frozen moment() method called the distribution's moment() method with keywords, but it doesn't take any. (Ticket #1293)",1293,scipy/stats/tests/test_distributions.py
+537f70f,warren.weckesser,2010-10-12 20:02:12,BUG: optimize: Fixed formula in rosen_hess (ticket #1248)--thanks to John Gabriel.  Also added docstrings to the rosen* functions.,1248,scipy/optimize/optimize.py
+537f70f,warren.weckesser,2010-10-12 20:02:12,BUG: optimize: Fixed formula in rosen_hess (ticket #1248)--thanks to John Gabriel.  Also added docstrings to the rosen* functions.,1248,scipy/optimize/tests/test_optimize.py
+b7f3fb5,warren.weckesser,2010-09-28 02:08:26,TST: spatial: increase the tolerance the in test test_pdist_minkowski_3_2_iris_float32 (ticket #1278),1278,scipy/spatial/tests/test_distance.py
+f51e259,warren.weckesser,2010-09-26 02:48:28,BUG: optimize: AttributeError in check_func() in minpack.py (ticket #1287),1287,scipy/optimize/minpack.py
+f51e259,warren.weckesser,2010-09-26 02:48:28,BUG: optimize: AttributeError in check_func() in minpack.py (ticket #1287),1287,scipy/optimize/tests/test_minpack.py
+49e716a,Pauli Virtanen,2010-09-14 23:08:08,BUG: lib: make atlas_version.c's Py3 compatible (fixes #1280),1280
+2cc81fa,warren.weckesser,2010-09-12 04:28:18,BUG: io.arff: Ensure that the order of the types returned by MetaData.types() matches the order of the names returned by MetaData.names(). Fixes #966.,966,scipy/io/arff/arffread.py
+2cc81fa,warren.weckesser,2010-09-12 04:28:18,BUG: io.arff: Ensure that the order of the types returned by MetaData.types() matches the order of the names returned by MetaData.names(). Fixes #966.,966,scipy/io/arff/tests/test_data.py
+1cb36ec,warren.weckesser,2010-09-12 03:14:32,"BUG: sparse.linalg.isolve.utils: should be , not  (fixes #1257).",1257,scipy/sparse/linalg/isolve/tests/test_utils.py
+1cb36ec,warren.weckesser,2010-09-12 03:14:32,"BUG: sparse.linalg.isolve.utils: should be , not  (fixes #1257).",1257,scipy/sparse/linalg/isolve/utils.py
+726f6cc,warren.weckesser,2010-09-11 19:00:43,BUG: stats.levene() and stats.fligner() raised exceptions in the case center='trimmed' (ticket #1270).,1270,scipy/stats/morestats.py
+726f6cc,warren.weckesser,2010-09-11 19:00:43,BUG: stats.levene() and stats.fligner() raised exceptions in the case center='trimmed' (ticket #1270).,1270,scipy/stats/tests/test_morestats.py
+bd6b450,Pauli Virtanen,2010-09-05 00:04:24,"BUG: optimize: don't clobber line search old_fval if the first one fails, although this probably does not matter much (fixes #1158)",1158,scipy/optimize/optimize.py
+9566405,Pauli Virtanen,2010-09-04 23:56:49,BUG: optimize: bail out in scalar_search_wolfe1 when MINPACK reports it cannot find a suitable step size (fixes #1012),1012,scipy/optimize/linesearch.py
+9566405,Pauli Virtanen,2010-09-04 23:56:49,BUG: optimize: bail out in scalar_search_wolfe1 when MINPACK reports it cannot find a suitable step size (fixes #1012),1012,scipy/optimize/tests/test_linesearch.py
+1c3f75f,rgommers,2010-07-30 17:30:37,BUG: Fix build under Python 2.7. Closes #1180. Thanks to Fabian Pedregosa.,1180,scipy/sparse/sparsetools/setup.py
+80ae463,rgommers,2010-07-28 13:57:25,"ENH: For empty input, return array([]) from splines created by UnivariateSpline and BivariateSpline.",1014,scipy/interpolate/fitpack2.py
+80ae463,rgommers,2010-07-28 13:57:25,"ENH: For empty input, return array([]) from splines created by UnivariateSpline and BivariateSpline.",1014,scipy/interpolate/tests/test_fitpack.py
+22bdd7d,Charles Harris,2010-07-18 19:21:56,BUG: Fix ticket #600.,600,scipy/interpolate/fitpack2.py
+22bdd7d,Charles Harris,2010-07-18 19:21:56,BUG: Fix ticket #600.,600,scipy/interpolate/tests/test_fitpack.py
+22bdd7d,Charles Harris,2010-07-18 19:21:56,BUG: Fix ticket #600.,600,scipy/interpolate/tests/test_regression.py
+e4e4dc2,Charles Harris,2010-07-18 19:21:52,"BUG: Fix ticket #629, allow numpy scalars as input to spalde. Add test for same. Patch from Elby.",629,scipy/interpolate/fitpack.py
+e4e4dc2,Charles Harris,2010-07-18 19:21:52,"BUG: Fix ticket #629, allow numpy scalars as input to spalde. Add test for same. Patch from Elby.",629,scipy/interpolate/tests/test_regression.py
+4c59f49,rgommers,2010-07-17 09:11:55,BUG: interpolate.bisplrep error status lookup could cause exception. Fixes #541.,541,scipy/interpolate/fitpack.py
+85907c1,rgommers,2010-07-17 04:29:06,ENH: Change to signature of stats.linregress to something saner. Closes #1164.,1164,scipy/stats/stats.py
+85907c1,rgommers,2010-07-17 04:29:06,ENH: Change to signature of stats.linregress to something saner. Closes #1164.,1164,scipy/stats/tests/test_stats.py
+ecd1337,Pauli Virtanen,2010-07-14 09:29:02,BUG: spatial/tests: fix spurious failures when int64 is not inherited from Python int (#1229),1229,scipy/spatial/tests/test_kdtree.py
+4c1673f,Pauli Virtanen,2010-07-14 09:28:47,BUG: fftpack/tests: fix spurious failures on machines where double==longdouble (fixes #1229),1229,scipy/fftpack/tests/test_basic.py
+6f30e31,rgommers,2010-07-13 13:00:36,"BUG: Fix and regression test for ticket #1228 (in Rbf, by Scott Sinclair).",1228,scipy/interpolate/rbf.py
+6f30e31,rgommers,2010-07-13 13:00:36,"BUG: Fix and regression test for ticket #1228 (in Rbf, by Scott Sinclair).",1228,scipy/interpolate/tests/test_rbf.py
+39f51e4,rgommers,2010-07-11 15:27:53,BUG: optimize.fmin_ncg failed to converge occasionally on Windows due to (==0.0) comparison. Fixes #1150.,1150,scipy/optimize/optimize.py
+9987281,rgommers,2010-07-03 04:19:02,TST: Fix unintended test failure for signal.medfilt. Closes #1215.,1215,scipy/signal/tests/test_signaltools.py
+965e600,warren.weckesser,2010-06-29 23:03:30,BUG: Ticket #1214: optimize.newton could return an incorrect value if the function coefficients and initial guess were integers.,1214,scipy/optimize/tests/test_regression.py
+965e600,warren.weckesser,2010-06-29 23:03:30,BUG: Ticket #1214: optimize.newton could return an incorrect value if the function coefficients and initial guess were integers.,1214,scipy/optimize/zeros.py
+d9b3bf8,Pauli Virtanen,2010-06-20 22:41:14,BUG: special: adjust complex erf switchover radius to improve accuracy (addresses #683),683
+7fedac5,Pauli Virtanen,2010-06-20 22:40:38,"ENH: special: stick with the current convention for hyp2f1 a=c=negative integer, and enable a corresponding mpmath test",1149,scipy/special/tests/test_mpmath.py
+93345f6,rgommers,2010-06-18 19:39:18,BUG: leastsq returned a scalar instead of array for single fit param. Fixes #1204.,1204,scipy/optimize/minpack.py
+e8cda45,rgommers,2010-06-17 13:25:14,BUG: string exceptions are invalid syntax in Python >=2.6. Fixes #1193.,1193,scipy/weave/blitz_tools.py
+e8cda45,rgommers,2010-06-17 13:25:14,BUG: string exceptions are invalid syntax in Python >=2.6. Fixes #1193.,1193,scipy/weave/bytecodecompiler.py
+b031670,rgommers,2010-06-17 12:50:45,TST: lower precision for kstest to fix test failure reported in #1196.,1196,scipy/stats/tests/test_stats.py
+c0751d0,David Cournapeau,2010-06-07 06:20:42,BUG: attempt at fixing #1176.,1176
+8af1e35,rgommers,2010-05-30 12:36:34,TST: Remove printing of warning in friedmanchisquare. Closes #1147.,1147,scipy/stats/stats.py
+1fae9f0,Matthew Brett,2010-05-26 20:12:09,BF - silence unwanted test warnings; closes #1179,1179,scipy/io/matlab/tests/test_mio.py
+4ddeeb3,rgommers,2010-05-08 10:35:37,DOC: Add note that SciPy trunk can require NumPy trunk. Fixes #989.,989
+f43cc92,Pauli Virtanen,2010-04-27 21:54:55,"ENH: sparse.linalg.dsolve/SuperLU: re-apply r4767, r4768, r5892 patches to SuperLU sources",735
+1b1066c,warren.weckesser,2010-04-23 00:21:57,BUG: signal: Handle integer arguments in chirp() and gausspulse() correctly (ticket #1156).,1156,scipy/signal/tests/test_waveforms.py
+1b1066c,warren.weckesser,2010-04-23 00:21:57,BUG: signal: Handle integer arguments in chirp() and gausspulse() correctly (ticket #1156).,1156,scipy/signal/waveforms.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/__init__.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/basic.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/decomp.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/decomp_cholesky.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/decomp_lu.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/decomp_qr.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/decomp_schur.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/decomp_svd.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/info.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/matfuncs.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/misc.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/tests/test_basic.py
+4c7752c,warren.weckesser,2010-04-10 01:47:20,linalg: REF: Split basic.py and decomp.py into multiple modules.      Removed duplicated versions of the functions cho_solve and lu_solve.      Return value of solveh_banded no longer includes the Choleskey factor      (ticket #676). ENH: Added cho_solve_banded. STY: Clean up python style in many places.,676,scipy/linalg/tests/test_decomp.py
+0ac6ae8,warren.weckesser,2010-04-06 04:03:16,"ENH: signal: Added 'chebwin' to the windows understood by get_window(); see ticket #831.  Also moved tests of windows to their own file, and fixed one test in test_signaltools.py that was missing the actual comparison to complete the test.",831,scipy/signal/tests/test_signaltools.py
+0ac6ae8,warren.weckesser,2010-04-06 04:03:16,"ENH: signal: Added 'chebwin' to the windows understood by get_window(); see ticket #831.  Also moved tests of windows to their own file, and fixed one test in test_signaltools.py that was missing the actual comparison to complete the test.",831,scipy/signal/tests/test_windows.py
+0ac6ae8,warren.weckesser,2010-04-06 04:03:16,"ENH: signal: Added 'chebwin' to the windows understood by get_window(); see ticket #831.  Also moved tests of windows to their own file, and fixed one test in test_signaltools.py that was missing the actual comparison to complete the test.",831,scipy/signal/windows.py
+bad2f09,warren.weckesser,2010-04-05 05:14:05,"BUG: linalg (ticket #676): Fixed reversed declaration of the dimensions of the 'b' argument to the pbsv functions in generic_flapack.py.  Also added shape validation for solveh_banded and solve_banded, and corrected the solve_banded docstring.",676,scipy/linalg/basic.py
+bad2f09,warren.weckesser,2010-04-05 05:14:05,"BUG: linalg (ticket #676): Fixed reversed declaration of the dimensions of the 'b' argument to the pbsv functions in generic_flapack.py.  Also added shape validation for solveh_banded and solve_banded, and corrected the solve_banded docstring.",676,scipy/linalg/tests/test_basic.py
+0309dcd,Pauli Virtanen,2010-04-02 10:47:13,"BUG: special: mpmath 0.14 has moved libhyper around, so don't try to use it",1145,scipy/special/tests/test_mpmath.py
+bdf6d23,David Cournapeau,2010-03-31 06:49:33,BUG: fix long double fft (fix #948),948,scipy/fftpack/basic.py
+bdf6d23,David Cournapeau,2010-03-31 06:49:33,BUG: fix long double fft (fix #948),948,scipy/fftpack/tests/test_basic.py
+b23e8c5,warren.weckesser,2010-03-27 00:17:22,ENH: Allow linalg.block_diag to accept scalar and 1D arguments (ticket #1128),1128,scipy/linalg/basic.py
+b23e8c5,warren.weckesser,2010-03-27 00:17:22,ENH: Allow linalg.block_diag to accept scalar and 1D arguments (ticket #1128),1128,scipy/linalg/tests/test_basic.py
+c3d597f,warren.weckesser,2010-03-24 02:39:31,"BUG+ENH: Updated linalg.toeplitz to fix problems reported in ticket #667.  Updated linalg.hankel to have behavior consistent with toeplitz.  Added a new function, linalg.circulant.",667,scipy/linalg/basic.py
+c3d597f,warren.weckesser,2010-03-24 02:39:31,"BUG+ENH: Updated linalg.toeplitz to fix problems reported in ticket #667.  Updated linalg.hankel to have behavior consistent with toeplitz.  Added a new function, linalg.circulant.",667,scipy/linalg/tests/test_basic.py
+b9b475f,warren.weckesser,2010-03-21 21:16:09,ENH: Change scipy.constants.find() to return the list of keys instead of printing them (ticket #996).,996,scipy/constants/codata.py
+b9b475f,warren.weckesser,2010-03-21 21:16:09,ENH: Change scipy.constants.find() to return the list of keys instead of printing them (ticket #996).,996,scipy/constants/tests/test_codata.py
+cf557b1,warren.weckesser,2010-03-21 20:37:15,BUG: Add check that both matrices have the same shape when the generalized eigenvalue problem is being solve (fix for ticket 1113).,1113,scipy/linalg/decomp.py
+cf557b1,warren.weckesser,2010-03-21 20:37:15,BUG: Add check that both matrices have the same shape when the generalized eigenvalue problem is being solve (fix for ticket 1113).,1113,scipy/linalg/tests/test_decomp.py
+d167c2f,warren.weckesser,2010-03-21 12:37:36,"BUG: Fix two mistakes found by pyflakes, one of which was reported in ticket 1133.",1133,scipy/misc/ppimport.py
+58a2f77,Stefan van der Walt,2010-02-24 12:27:43,BUG: Medfilt segfaults on None input. Closes #1124.,1124,scipy/signal/signaltools.py
+58a2f77,Stefan van der Walt,2010-02-24 12:27:43,BUG: Medfilt segfaults on None input. Closes #1124.,1124,scipy/signal/tests/test_signaltools.py
+7dfe0ec,David Cournapeau,2010-02-17 03:25:50,"BUG: #1116, thanks to Warren.",1116,scipy/signal/filter_design.py
+7dfe0ec,David Cournapeau,2010-02-17 03:25:50,"BUG: #1116, thanks to Warren.",1116,scipy/signal/tests/test_filter_design.py
+5f360b2,David Cournapeau,2009-12-28 02:14:39,BUG: #1077. Fix kmeans for large input values.,1077,scipy/cluster/tests/test_vq.py
+5f360b2,David Cournapeau,2009-12-28 02:14:39,BUG: #1077. Fix kmeans for large input values.,1077,scipy/cluster/vq.py
+20fb9c9,Charles Harris,2009-12-20 22:54:28,TST: Add test for ticket #1074.,1074,scipy/optimize/tests/test_regression.py
+30a71d1,Charles Harris,2009-12-20 22:54:17,BUG: Fix ticket #1074.,1074,scipy/optimize/minpack.py
+9811aef,wnbell,2009-12-15 13:15:47,implemented faster path for fancy indexing with CSR matrices should resolve ticket #1071,1071,scipy/sparse/csr.py
+9811aef,wnbell,2009-12-15 13:15:47,implemented faster path for fancy indexing with CSR matrices should resolve ticket #1071,1071,scipy/sparse/sparsetools/csr.py
+9811aef,wnbell,2009-12-15 13:15:47,implemented faster path for fancy indexing with CSR matrices should resolve ticket #1071,1071,scipy/sparse/tests/test_base.py
+a37a6ac,David Cournapeau,2009-11-27 09:01:06,BUG: (#1060) wrong values for scipy.special.sici at +-inf.,1060,scipy/special/tests/test_basic.py
+525efb7,wnbell,2009-11-27 03:39:26,merged patch contribued by Tim Victor resolves lil_matrix column slicing bug in ticket #917,917,scipy/sparse/lil.py
+525efb7,wnbell,2009-11-27 03:39:26,merged patch contribued by Tim Victor resolves lil_matrix column slicing bug in ticket #917,917,scipy/sparse/tests/test_base.py
+045ef4f,Pauli Virtanen,2009-11-14 14:31:58,io: remove debug prints from wavfile (fix #1051),1051,scipy/io/wavfile.py
+b64602a,tzito,2009-11-11 22:00:06,added intent(aligned8) to pyf wrapper generator for eigh-related LAPACK functions. fixes ticket #794 (which was causing a segfault even for eigh).,794
+c78eb11,Pauli Virtanen,2009-11-09 23:08:53,"special: Fix gammaincinv(a, y) at y = 0.25   (ticket #975)",975,scipy/special/tests/test_basic.py
+416493e,aarchiba,2009-10-24 23:45:11,Tidied spatial.distance.squareform (Ticket #859),859,scipy/spatial/distance.py
+5f685de,aarchiba,2009-10-24 21:40:28,Fix von Mises distribution outside -pi..pi (Ticket #1032),1032,scipy/stats/tests/test_distributions.py
+ba2abae,aarchiba,2009-10-24 09:52:15,Support 0<df<1 in chi-squared functions (Ticket #1000),1000,scipy/special/tests/test_basic.py
+86aa860,aarchiba,2009-10-24 07:31:17,Support Unicode and arbitrary callables. (Ticket #1019),1019,scipy/spatial/distance.py
+86aa860,aarchiba,2009-10-24 07:31:17,Support Unicode and arbitrary callables. (Ticket #1019),1019,scipy/spatial/tests/test_distance.py
+349627f,Charles Harris,2009-10-24 04:31:37,Fix #1029 by removing /r from  nnls.f.,1029
+a1d5ffe,Charles Harris,2009-10-17 08:30:07,Apply patch from peridot to fix  documentation in polyint.py. Closes ticket #1023.,1023,scipy/interpolate/polyint.py
+bfb6ee1,Pauli Virtanen,2009-10-15 21:22:34,"Fixed #855: add __contains__ to dumbdbm, don't rely on default implementation",855,scipy/io/dumbdbm_patched.py
+44469e3,Pauli Virtanen,2009-09-26 17:15:40,integrate: Fixed #1002: add missing import for newton_cotes,1002,scipy/integrate/quadrature.py
+29b3f90,Pauli Virtanen,2009-09-06 20:41:13,Fixed #994: emit __attribute__((unused)) in weave guarded for GCC only,994,scipy/weave/inline_tools.py
+a8d31b7,pierregm,2009-07-23 19:02:14,Fixed bug #867 (scipy.stats.mstats.mquantiles didn't work w/ the limits keywords),867,scipy/stats/mstats_basic.py
+a8d31b7,pierregm,2009-07-23 19:02:14,Fixed bug #867 (scipy.stats.mstats.mquantiles didn't work w/ the limits keywords),867,scipy/stats/tests/test_mstats_basic.py
+3f7778c,Pauli Virtanen,2009-06-07 22:16:59,Fixed #953: avoid unnecessary down-cast to single precision,953
+ca20c72,David Cournapeau,2009-05-09 09:13:39,BUG: Fix #746. stsci subpackages setup files were not updated correctly after Lib->scipy rename.,746,scipy/stsci/convolve/__init__.py
+ca20c72,David Cournapeau,2009-05-09 09:13:39,BUG: Fix #746. stsci subpackages setup files were not updated correctly after Lib->scipy rename.,746,scipy/stsci/convolve/setup.py
+ca20c72,David Cournapeau,2009-05-09 09:13:39,BUG: Fix #746. stsci subpackages setup files were not updated correctly after Lib->scipy rename.,746,scipy/stsci/image/__init__.py
+ca20c72,David Cournapeau,2009-05-09 09:13:39,BUG: Fix #746. stsci subpackages setup files were not updated correctly after Lib->scipy rename.,746,scipy/stsci/image/setup.py
+77f8fc0,Charles Harris,2009-04-17 08:51:57,Remove inline keyword to fix ticket #924.,924
+182eb3f,David Cournapeau,2009-04-17 07:10:19,Add regression test for #885.,885,scipy/special/tests/test_basic.py
+8912629,David Cournapeau,2009-04-17 05:31:30,BUG: Return zf even if zi has 0 items (#880).,880,scipy/signal/tests/test_signaltools.py
+4619135,Pauli Virtanen,2009-04-14 18:54:22,Add some tests for pbdv (cf. #803),803,scipy/special/tests/test_basic.py
+0b2ec61,Pauli Virtanen,2009-03-30 20:54:08,Fixing #503: reimplement cephes/iv,503,scipy/special/tests/test_basic.py
+4dbfd97,David Cournapeau,2009-03-13 12:08:40,Add regression test for #880.,880,scipy/signal/tests/test_signaltools.py
+73b6c86,David Cournapeau,2009-03-13 12:08:26,BUG: fix #880.,880
+9cc779d,wnbell,2009-03-08 11:58:02,fix error that occurs when reading MatrixMarket files with zero nonzero entries resolves ticket #883,883,scipy/io/mmio.py
+9cc779d,wnbell,2009-03-08 11:58:02,fix error that occurs when reading MatrixMarket files with zero nonzero entries resolves ticket #883,883,scipy/io/tests/test_mmio.py
+ddb17cc,Charles Harris,2009-02-12 03:38:50,"Fix ticket #860, function calls miscounted in ridder. Clean up indentation in brenth.c",860
+618c4ea,wnbell,2009-01-31 04:41:39,reimplemented special path for CSR (binary_op) CSR in the case where the column indices within each row are not in sorted order.  partially addresses ticket #858,858,scipy/sparse/compressed.py
+618c4ea,wnbell,2009-01-31 04:41:39,reimplemented special path for CSR (binary_op) CSR in the case where the column indices within each row are not in sorted order.  partially addresses ticket #858,858,scipy/sparse/sparsetools/csc.py
+618c4ea,wnbell,2009-01-31 04:41:39,reimplemented special path for CSR (binary_op) CSR in the case where the column indices within each row are not in sorted order.  partially addresses ticket #858,858,scipy/sparse/sparsetools/csr.py
+618c4ea,wnbell,2009-01-31 04:41:39,reimplemented special path for CSR (binary_op) CSR in the case where the column indices within each row are not in sorted order.  partially addresses ticket #858,858,scipy/sparse/tests/test_base.py
+670b0f6,Pauli Virtanen,2009-01-25 19:02:17,"Fixing #854: make iv, jv, etc. return NaN when out-of-domain or failure",854,scipy/special/tests/test_basic.py
+fcb4ce1,Pauli Virtanen,2009-01-25 18:28:00,Fixing #853: also I_v: use correct symmetry for negative orders (complex x),853,scipy/special/tests/test_basic.py
+73844c7,Pauli Virtanen,2009-01-24 00:31:39,Fix #853: use correct symmetries for J_v / Y_v for negative non-int. orders,853,scipy/special/tests/test_basic.py
+b062dc2,Pauli Virtanen,2009-01-23 23:14:26,Fix #623: better Cephes jv.c:recur continued fraction termination conditions,623,scipy/special/tests/test_basic.py
+fdc6fe9,Pauli Virtanen,2009-01-19 18:48:55,Fixing #852: make specfun.f:JYZO work also for N >= 101.,852,scipy/special/basic.py
+fdc6fe9,Pauli Virtanen,2009-01-19 18:48:55,Fixing #852: make specfun.f:JYZO work also for N >= 101.,852,scipy/special/tests/test_basic.py
+47f8804,Pauli Virtanen,2009-01-19 18:48:21,"Fix #852: improve accuracy of jn_zeros by refactoring Specfun JYNDD, JYNB",852,scipy/special/tests/test_basic.py
+83e5ac7,wnbell,2009-01-18 07:10:41,make note of the change to loadmat's squeeze_me parameter in the release notes.  resolves ticket #850,850
+b22c0cc,Pauli Virtanen,2009-01-17 19:46:56,Fixing #640: Make Cephes iv and hyperg behave better for large |z|,640,scipy/special/tests/test_basic.py
+9bfb239,Pauli Virtanen,2009-01-17 19:45:37,"Fix #640: bad output from scipy.special.iv(k,z) for large real z.",640,scipy/special/tests/test_basic.py
+538e751,Pauli Virtanen,2009-01-16 00:04:07,Fix #679: specfun's STVHV used Y_|v| instead of Y_v => wrong results for v<0,679,scipy/special/tests/test_basic.py
+be59d39,Stefan van der Walt,2009-01-06 09:51:38,Use correct shape in scipy.special.lqmn.  Fixes #804.,804,scipy/special/basic.py
+be59d39,Stefan van der Walt,2009-01-06 09:51:38,Use correct shape in scipy.special.lqmn.  Fixes #804.,804,scipy/special/tests/test_basic.py
+4053967,David Cournapeau,2009-01-02 07:53:00,BUG: fix #834 (by R. Kern).,834
+8e65fc0,David Cournapeau,2009-01-02 07:52:43,Add regression test for #834.,834,scipy/special/tests/test_basic.py
+50e4dcf,wnbell,2008-12-27 21:44:20,fixed sparse.eye() with k != 0 resolves ticket #825,825,scipy/sparse/construct.py
+50e4dcf,wnbell,2008-12-27 21:44:20,fixed sparse.eye() with k != 0 resolves ticket #825,825,scipy/sparse/tests/test_construct.py
+a4eba7a,Matthew Brett,2008-12-14 11:51:37,"Refactored documentation for parameters, added regression test for ticket 701",701,scipy/ndimage/doccer.py
+a4eba7a,Matthew Brett,2008-12-14 11:51:37,"Refactored documentation for parameters, added regression test for ticket 701",701,scipy/ndimage/filters.py
+a4eba7a,Matthew Brett,2008-12-14 11:51:37,"Refactored documentation for parameters, added regression test for ticket 701",701,scipy/ndimage/tests/test_doccer.py
+a4eba7a,Matthew Brett,2008-12-14 11:51:37,"Refactored documentation for parameters, added regression test for ticket 701",701,scipy/ndimage/tests/test_filters.py
+e5f1108,Stefan van der Walt,2008-11-29 12:41:23,"In `fminbound`, raise an error if non-scalar bounds are specified [patch by Neil Muller].  Closes #544.",544,scipy/optimize/optimize.py
+e5f1108,Stefan van der Walt,2008-11-29 12:41:23,"In `fminbound`, raise an error if non-scalar bounds are specified [patch by Neil Muller].  Closes #544.",544,scipy/optimize/tests/test_optimize.py
+fd53d21,tzito,2008-11-25 17:21:38,Fix for ticket #593.,593
+3012b67,tzito,2008-11-23 08:53:29,Fix for ticket #795.,795
+a36b567,josef,2008-11-18 15:32:54,"another dimension correction for genextreme, but just to get a useful traceback, see #793",793,scipy/stats/distributions.py
+229d17d,josef,2008-11-16 14:36:35,"skip nbinom.sf and calculate it indirectly, fix for n<1, tickets #583, #697",583,scipy/stats/distributions.py
+b2f9ed1,Pauli Virtanen,2008-11-13 21:23:23,"interpolate: correction -- the bugfix in 5093 was for #731, not for #660",731,scipy/interpolate/fitpack2.py
+b2f9ed1,Pauli Virtanen,2008-11-13 21:23:23,"interpolate: correction -- the bugfix in 5093 was for #731, not for #660",731,scipy/interpolate/tests/test_fitpack.py
+d5a500d,Pauli Virtanen,2008-11-13 21:20:50,"interpolate: don't change the __class__ of a live UnivariateSpline object, if the object is an instance of user-defined subclass. (Fixes #660)",660,scipy/interpolate/fitpack2.py
+d5a500d,Pauli Virtanen,2008-11-13 21:20:50,"interpolate: don't change the __class__ of a live UnivariateSpline object, if the object is an instance of user-defined subclass. (Fixes #660)",660,scipy/interpolate/tests/test_fitpack.py
+5d4ddd4,damian.eads,2008-11-12 04:11:34,Fixed typo in docs to close ticket 780.,780,scipy/cluster/hierarchy.py
+c43b8e2,Pauli Virtanen,2008-11-10 22:50:30,Make interp1d treat scalars differently from 1-d arrays (fixes #660),660,scipy/interpolate/interpolate.py
+c43b8e2,Pauli Virtanen,2008-11-10 22:50:30,Make interp1d treat scalars differently from 1-d arrays (fixes #660),660,scipy/interpolate/tests/test_interpolate.py
+b41b64c,David Cournapeau,2008-11-10 15:46:35,Mark regression test for #653 as a knownfailure.,653,scipy/io/matlab/tests/test_mio.py
+8abf1e8,wnbell,2008-11-10 03:05:57,test 'info' output of iterative methods make GMRES use default restart of 10 (as opposed to n) resolves ticket #666 (the mark of the beast!),666,scipy/sparse/linalg/isolve/iterative.py
+8abf1e8,wnbell,2008-11-10 03:05:57,test 'info' output of iterative methods make GMRES use default restart of 10 (as opposed to n) resolves ticket #666 (the mark of the beast!),666,scipy/sparse/linalg/isolve/minres.py
+8abf1e8,wnbell,2008-11-10 03:05:57,test 'info' output of iterative methods make GMRES use default restart of 10 (as opposed to n) resolves ticket #666 (the mark of the beast!),666,scipy/sparse/linalg/isolve/tests/test_iterative.py
+91f9f0f,Stefan van der Walt,2008-11-04 12:07:22,Fix error message in `gausspulse`.  Closes #756.,756,scipy/signal/waveforms.py
+6cb4177,Stefan van der Walt,2008-11-03 19:50:36,Fix initial value of logarithmic chirp [patch by Christian Christelis]. Closes #547.,547,scipy/signal/tests/test_waveforms.py
+6cb4177,Stefan van der Walt,2008-11-03 19:50:36,Fix initial value of logarithmic chirp [patch by Christian Christelis]. Closes #547.,547,scipy/signal/waveforms.py
+3bf00ad,ariel.rokem,2008-11-03 05:09:51,Fix #714 + tests,714,scipy/stats/stats.py
+3bf00ad,ariel.rokem,2008-11-03 05:09:51,Fix #714 + tests,714,scipy/stats/tests/test_stats.py
+400a466,Pauli Virtanen,2008-11-03 01:42:26,"scipy.interpolate: clarify interp2d docstrings, and fix broken logic in __init__ concerning meshgrid-like input. Addresses #703.",703,scipy/interpolate/interpolate.py
+400a466,Pauli Virtanen,2008-11-03 01:42:26,"scipy.interpolate: clarify interp2d docstrings, and fix broken logic in __init__ concerning meshgrid-like input. Addresses #703.",703,scipy/interpolate/tests/test_interpolate.py
+6dd0c90,Pauli Virtanen,2008-11-02 23:45:17,special.info: remove references to non-existing functions. Closes #580,580,scipy/special/info.py
+546b0d7,Stefan van der Walt,2008-11-02 22:37:22,Start refactoring rv_continuous and rv_discrete.  Fix output of distributions to be more like NumPy (i.e. return scalar for single value). Closes #539.,539,scipy/stats/distributions.py
+546b0d7,Stefan van der Walt,2008-11-02 22:37:22,Start refactoring rv_continuous and rv_discrete.  Fix output of distributions to be more like NumPy (i.e. return scalar for single value). Closes #539.,539,scipy/stats/tests/test_distributions.py
+1037c30,David Cournapeau,2008-11-02 08:54:02,BUG: Add regression test for #244 proper.,244,scipy/fftpack/tests/test_basic.py
+1b0e4cf,David Cournapeau,2008-11-02 08:52:52,Add failing test for #244: fftn does not work when both shape and axes args are used.,244,scipy/fftpack/tests/test_basic.py
+665c530,Pauli Virtanen,2008-11-01 18:08:58,Fix scipy.stats.recipinvgauss docstring. Closes #757.,757,scipy/stats/distributions.py
+0f32b1d,Stefan van der Walt,2008-11-01 11:27:41,`skew` should return float for 1-d input [patch by Pieter Rautenbach]. Closes #771.,771,scipy/stats/stats.py
+0f32b1d,Stefan van der Walt,2008-11-01 11:27:41,`skew` should return float for 1-d input [patch by Pieter Rautenbach]. Closes #771.,771,scipy/stats/tests/test_stats.py
+6d774ec,Stefan van der Walt,2008-11-01 10:56:47,Fix internally used vectorize1 to work with functions that return floats [patch by Neil Muller].  Closes #288.,288,scipy/integrate/quadrature.py
+6d774ec,Stefan van der Walt,2008-11-01 10:56:47,Fix internally used vectorize1 to work with functions that return floats [patch by Neil Muller].  Closes #288.,288,scipy/integrate/tests/test_quadrature.py
+a5aebb3,Pauli Virtanen,2008-10-29 22:42:23,Fix #761,761,scipy/stats/distributions.py
+a5aebb3,Pauli Virtanen,2008-10-29 22:42:23,Fix #761,761,scipy/stats/tests/test_distributions.py
+b06d805,David Cournapeau,2008-10-25 10:29:28,Forgot to add one file for #760 fix.,760,scipy/stats/stats.py
+112105f,David Cournapeau,2008-10-25 09:13:34,Add regression test for #760.,760,scipy/stats/tests/test_stats.py
+20c536f,wnbell,2008-10-19 21:18:35,added DOK matrix patch by James Philbin,755,scipy/sparse/dok.py
+20c536f,wnbell,2008-10-19 21:18:35,added DOK matrix patch by James Philbin,755,scipy/sparse/tests/test_base.py
+9efec24,wnbell,2008-10-10 03:17:27,(hopefully) fix ticket #736,736,scipy/io/matlab/mio4.py
+418d542,aarchiba,2008-10-09 05:26:59,"Fixed and installed tests for scipy.stats.vonmises. Closes tickets #747, #748, and #749.",747,scipy/stats/distributions.py
+418d542,aarchiba,2008-10-09 05:26:59,"Fixed and installed tests for scipy.stats.vonmises. Closes tickets #747, #748, and #749.",747,scipy/stats/tests/test_distributions.py
+ff427a0,Matthew Brett,2008-10-05 00:58:08,"Centralize recognition of matfile type, apply patch for ticket #743 by Ray Jones, with thanks",743,scipy/io/matlab/mio.py
+ff427a0,Matthew Brett,2008-10-05 00:58:08,"Centralize recognition of matfile type, apply patch for ticket #743 by Ray Jones, with thanks",743,scipy/io/matlab/mio4.py
+ff427a0,Matthew Brett,2008-10-05 00:58:08,"Centralize recognition of matfile type, apply patch for ticket #743 by Ray Jones, with thanks",743,scipy/io/matlab/mio5.py
+ff427a0,Matthew Brett,2008-10-05 00:58:08,"Centralize recognition of matfile type, apply patch for ticket #743 by Ray Jones, with thanks",743,scipy/io/matlab/miobase.py
+ff427a0,Matthew Brett,2008-10-05 00:58:08,"Centralize recognition of matfile type, apply patch for ticket #743 by Ray Jones, with thanks",743,scipy/io/matlab/tests/test_mio.py
+822a93f,wnbell,2008-10-04 22:22:39,rename c_abs() and c_abs1() to slu_c_abs() and slu_c_abs() to avoid conflict with Python headers hopefully resolves ticket #735,735
+1fac288,wnbell,2008-08-29 23:27:17,(mostly) fixes ticket #728,728,scipy/sparse/linalg/isolve/iterative.py
+1fac288,wnbell,2008-08-29 23:27:17,(mostly) fixes ticket #728,728,scipy/sparse/linalg/isolve/tests/test_iterative.py
+9d8fb92,damian.eads,2008-08-25 12:33:58,Added tests for Canberra bug reported in ticket 711.,711,scipy/cluster/tests/test_distance.py
+79edfc8,Stefan van der Walt,2008-08-21 19:05:50,Fix calculation of Chebyshev polynomial in chebwin.  Closes #581.,581,scipy/signal/signaltools.py
+79edfc8,Stefan van der Walt,2008-08-21 19:05:50,Fix calculation of Chebyshev polynomial in chebwin.  Closes #581.,581,scipy/signal/tests/test_signaltools.py
+9a90ca4,Pauli Virtanen,2008-07-19 22:24:45,"Fix #704, factual error in cho_factor docstring",704,scipy/linalg/decomp.py
+c86bf80,Pauli Virtanen,2008-06-28 13:54:11,interpolate: Fix #289. Make interp1d order axes in the result correctly when y.ndim > 2. Fix a bug in splmake that was triggered when y.ndim > 2. Add corresponding tests.,289,scipy/interpolate/interpolate.py
+c86bf80,Pauli Virtanen,2008-06-28 13:54:11,interpolate: Fix #289. Make interp1d order axes in the result correctly when y.ndim > 2. Fix a bug in splmake that was triggered when y.ndim > 2. Add corresponding tests.,289,scipy/interpolate/tests/test_interpolate.py
+6b0688b,David Cournapeau,2008-06-24 10:52:35,Add test for #8.,8,scipy/stats/tests/test_stats.py
+15431aa,David Cournapeau,2008-06-24 07:46:46,Fix #535 with tests.,535,scipy/cluster/tests/test_vq.py
+15431aa,David Cournapeau,2008-06-24 07:46:46,Fix #535 with tests.,535,scipy/cluster/vq.py
+55c40c5,wnbell,2008-06-24 00:54:19,addresses ticket #659,659,scipy/special/tests/test_basic.py
+a566e94,David Cournapeau,2008-06-23 14:37:03,Fix #505 in scipy.cluster: unhelpful message when size 0 arrays are input.,505,scipy/cluster/tests/test_vq.py
+a566e94,David Cournapeau,2008-06-23 14:37:03,Fix #505 in scipy.cluster: unhelpful message when size 0 arrays are input.,505,scipy/cluster/vq.py
+6c60f9d,David Cournapeau,2008-06-21 16:48:48,Add regression test for #413.,413,scipy/ndimage/tests/test_regression.py
+7e39d3f,wnbell,2008-06-21 09:04:55,should fix ticket #611 the code seemed to be capturing the wrong Exception type,611,scipy/stats/models/formula.py
+924a9f4,wnbell,2008-06-10 03:40:56,Added patch by Andrew Straw to fix MATLAB support on gzip files resolves ticket #682,682,scipy/io/matlab/miobase.py
+924a9f4,wnbell,2008-06-10 03:40:56,Added patch by Andrew Straw to fix MATLAB support on gzip files resolves ticket #682,682,scipy/io/matlab/tests/test_mio.py
+c404a34,wnbell,2008-06-03 02:00:08,fixed missing import of numpy.multiply resolves ticket #680,680,scipy/sparse/compressed.py
+c404a34,wnbell,2008-06-03 02:00:08,fixed missing import of numpy.multiply resolves ticket #680,680,scipy/sparse/tests/test_base.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/lil.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/sparsetools/bsr.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/sparsetools/coo.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/sparsetools/csc.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/sparsetools/csr.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/sparsetools/dia.py
+8ba469d,wnbell,2008-05-21 22:52:19,"resolves ticket #671, division error in complex_ops.h",671,scipy/sparse/tests/test_base.py
+b4019f7,cookedm,2008-04-26 23:33:30,"scipy.special: Fix for #655: gammaincinv never ends This shouldn't happen, as I constructed the root-finding routine to guarantee convergence. I added a maximum number of iterations nevertheless.",655
+a32d434,cookedm,2008-04-24 05:03:09,"scipy.special: Fix for #299 (gammaincinv gives incorrect answers) - implement a gammaincinv(a,y) routine in C that inverts gammainc when   y < 0.25 instead of using gammainccinv(a,1-y). - add a generic robust root-finding routine using false position for the above",299,scipy/special/basic.py
+a32d434,cookedm,2008-04-24 05:03:09,"scipy.special: Fix for #299 (gammaincinv gives incorrect answers) - implement a gammaincinv(a,y) routine in C that inverts gammainc when   y < 0.25 instead of using gammainccinv(a,1-y). - add a generic robust root-finding routine using false position for the above",299,scipy/special/setup.py
+3b161f4,wnbell,2008-04-18 19:03:29,fixed memory access errors reported in ticket #616,616
+cb17ac8,cookedm,2008-04-17 21:11:39,Add test case for #299: gammaincinv gives incorrect answers,299,scipy/special/tests/test_basic.py
+f41c3ea,Stefan van der Walt,2008-04-13 18:41:56,Leastsq docstring update [by Andrew Straw].  Closes #636.,636,scipy/optimize/minpack.py
+e734029,Stefan van der Walt,2008-04-13 18:38:35,Add tests for leastsq [provided by Andrew Straw].  Fix: input parameters are no longer modified.  Closes #637.,637,scipy/optimize/minpack.py
+e734029,Stefan van der Walt,2008-04-13 18:38:35,Add tests for leastsq [provided by Andrew Straw].  Fix: input parameters are no longer modified.  Closes #637.,637,scipy/optimize/tests/test_optimize.py
+c70e95f,Christoph Weidemann,2008-04-09 22:56:01,Temporary fix for ttest_1samp (cf. ticket #631),631,scipy/stats/stats.py
+1da7cbd,Stefan van der Walt,2008-03-19 23:41:04,Allow fftconvolve to return complex results.  Closes #595.,595,scipy/signal/signaltools.py
+1da7cbd,Stefan van der Walt,2008-03-19 23:41:04,Allow fftconvolve to return complex results.  Closes #595.,595,scipy/signal/tests/test_signaltools.py
+79d960f,David Cournapeau,2008-03-05 07:45:06,Merged revisions 3870-3975 via svnmerge from http://svn.scipy.org/svn/scipy/trunk,606
+2deff0b,wnbell,2008-02-16 19:53:19,fixed .real and .imag errors resolves ticket #606,606,scipy/sparse/data.py
+2deff0b,wnbell,2008-02-16 19:53:19,fixed .real and .imag errors resolves ticket #606,606,scipy/sparse/tests/test_base.py
+24fca1b,Matthew Brett,2008-01-08 19:15:40,Merged revisions 3797-3798 via svnmerge from http://svn.scipy.org/svn/scipy/trunk,422,scipy/sandbox/multigrid/multigridtools/multigridtools.py
+24fca1b,Matthew Brett,2008-01-08 19:15:40,Merged revisions 3797-3798 via svnmerge from http://svn.scipy.org/svn/scipy/trunk,422,scipy/sandbox/multigrid/relaxation.py
+24fca1b,Matthew Brett,2008-01-08 19:15:40,Merged revisions 3797-3798 via svnmerge from http://svn.scipy.org/svn/scipy/trunk,422,scipy/sandbox/multigrid/tests/test_relaxation.py
+24fca1b,Matthew Brett,2008-01-08 19:15:40,Merged revisions 3797-3798 via svnmerge from http://svn.scipy.org/svn/scipy/trunk,422,scipy/stats/distributions.py
+5c49c1d,dhuard,2008-01-08 04:12:38,Fixed ticket 422 related to the generic computation of moments.,422,scipy/stats/distributions.py
+cfa7c92,Travis Oliphant,2007-12-17 20:13:41,Added slsqp code contributed by Rob Falck in ticket #565 (and #566),565,scipy/optimize/__init__.py
+cfa7c92,Travis Oliphant,2007-12-17 20:13:41,Added slsqp code contributed by Rob Falck in ticket #565 (and #566),565,scipy/optimize/setup.py
+cfa7c92,Travis Oliphant,2007-12-17 20:13:41,Added slsqp code contributed by Rob Falck in ticket #565 (and #566),565,scipy/optimize/slsqp.py
+5fd7aa9,wnbell,2007-12-11 07:46:48,change to coo_matrix.todok() should fix ticket #555,555,scipy/sparse/sparse.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/__init__.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/boolean_timing.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/compiler.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/expressions.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/info.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/tests/test_numexpr.py
+4d1d9c6,cookedm,2007-11-23 07:20:02,"[numexpr] Merge improvements from PyTables into numexpr (#529), thanks to Francesc Altet. This includes:  - support for long long int datatype  - support for string datatype  - optimization of the unidimensional strided array case  - optimization of the unidimensional unaligned array case",529,scipy/sandbox/numexpr/timing.py
+7eb022a,Jarrod Millman,2007-11-22 10:55:50,fixed missing import as per ticket #542,542,scipy/signal/signaltools.py
+6336ad7,wnbell,2007-11-13 12:06:51,regenerated sparsetools with swig to address ticket #537,537,scipy/sparse/sparsetools/sparsetools.py
+cd6d82b,Robert Kern,2007-11-05 23:13:01,Use C-int arrays instead of C-long arrays. Fix #357.,357,scipy/odr/odrpack.py
+202ca98,cookedm,2007-11-02 15:53:40,scipy.stats.models: Python 2.3 workaround for 'set'. Fixes #528.,528,scipy/stats/models/formula.py
+202ca98,cookedm,2007-11-02 15:53:40,scipy.stats.models: Python 2.3 workaround for 'set'. Fixes #528.,528,scipy/stats/models/tests/test_formula.py
+9285038,Travis Oliphant,2007-11-02 15:50:57,Fix ticket #526: return values for bayes_mvs.,526,scipy/stats/morestats.py
+5d667e9,cookedm,2007-11-01 14:25:15,Fix #526 -- scipy.stats.gmean cannot handle large numbers  - also minor fixes in stats/tests/test_stats.py,526,scipy/stats/stats.py
+5d667e9,cookedm,2007-11-01 14:25:15,Fix #526 -- scipy.stats.gmean cannot handle large numbers  - also minor fixes in stats/tests/test_stats.py,526,scipy/stats/tests/test_stats.py
+cf2df10,wnbell,2007-10-15 19:23:07,fix sparse matvec result dimensions check matvec input dimensions resolves ticket #514,514,scipy/sparse/sparse.py
+cf2df10,wnbell,2007-10-15 19:23:07,fix sparse matvec result dimensions check matvec input dimensions resolves ticket #514,514,scipy/sparse/tests/test_sparse.py
+1dd713e,cookedm,2007-09-24 15:30:52,Skip blank lines in scipy/sandbox/enabled_packages.txt. Should fix #504,504,scipy/sandbox/setup.py
+ce3a555,Stefan van der Walt,2007-09-24 14:33:35,Some systems have DBL_MIN defined as 0.  Changed to use -DBL_MAX instead.  Fixes ticket #501.,501,scipy/ndimage/measurements.py
+ce3a555,Stefan van der Walt,2007-09-24 14:33:35,Some systems have DBL_MIN defined as 0.  Changed to use -DBL_MAX instead.  Fixes ticket #501.,501,scipy/ndimage/tests/test_ndimage.py
+4e6b8d1,chris.burns,2007-08-30 19:53:17,Applied veclib.patch from cdavid regarding ticket #238.  This fixes the check_dot fail in linalg version of test_fblas1_simple but not the lib version.,238,scipy/linalg/setup.py
+4e6b8d1,chris.burns,2007-08-30 19:53:17,Applied veclib.patch from cdavid regarding ticket #238.  This fixes the check_dot fail in linalg version of test_fblas1_simple but not the lib version.,238,scipy/linalg/tests/test_blas.py
+5e85e5c,Stefan van der Walt,2007-08-28 16:54:29,Fix fromimage for monochrome images (closes ticket #259).  Add tests.,259,scipy/misc/pilutil.py
+5e85e5c,Stefan van der Walt,2007-08-28 16:54:29,Fix fromimage for monochrome images (closes ticket #259).  Add tests.,259,scipy/misc/tests/test_pilutil.py
+da767ad,Stefan van der Walt,2007-08-28 16:29:41,Reject invalid shape assignments.  Support reshaping.  Fix whitespace. Closes ticket #335.,335,scipy/sparse/sparse.py
+da767ad,Stefan van der Walt,2007-08-28 16:29:41,Reject invalid shape assignments.  Support reshaping.  Fix whitespace. Closes ticket #335.,335,scipy/sparse/tests/test_sparse.py
+fe097ee,Stefan van der Walt,2007-08-27 13:45:32,Fix #482 a different way.,482,scipy/weave/catalog.py
+e6cc191,Stefan van der Walt,2007-08-27 13:39:11,Ensure that weave output directory exists.  Closes #482.,482,scipy/weave/catalog.py
+ef52e4b,Stefan van der Walt,2007-08-27 13:29:59,Change distribution boundaries to be inclusive. Closes #488.,488,scipy/stats/distributions.py
+ef52e4b,Stefan van der Walt,2007-08-27 13:29:59,Change distribution boundaries to be inclusive. Closes #488.,488,scipy/stats/tests/test_distributions.py
+5d7722d,dmitrey.kroshko,2007-08-01 13:13:03,minor changes (atleast_1d in some scipy.optimize funcs have been added for to prevent errors like ticket 416),416,Lib/optimize/optimize.py
+750b3ba,David Cournapeau,2007-08-01 08:07:47,- correct wrong variable name for relative path in find_mat_file in mio.py   (should fix #473) - make other cosmetic changes to make pylint happy in mio.py,473,Lib/io/mio.py
+fbaa9bc,dmitrey.kroshko,2007-07-27 06:56:52,"bugfix in leastsq, jacobian transpose (ticket 416)",416
+61781ea,David Cournapeau,2007-07-26 09:56:18,Correct nanstd and nanmedian + Add testsuite for nan related statistics. Should close #337.,337,Lib/stats/stats.py
+61781ea,David Cournapeau,2007-07-26 09:56:18,Correct nanstd and nanmedian + Add testsuite for nan related statistics. Should close #337.,337,Lib/stats/tests/test_stats.py
+f6118bd,wnbell,2007-07-25 17:27:45,fixed subtraction between sparse & dense resolves ticket #466,466,Lib/sparse/sparse.py
+66614cf,David Cournapeau,2007-07-23 12:06:57,"Handle Nan eigenvalues in _make_complex_eigvecs, should close #224",224,Lib/linalg/decomp.py
+66614cf,David Cournapeau,2007-07-23 12:06:57,"Handle Nan eigenvalues in _make_complex_eigvecs, should close #224",224,Lib/linalg/tests/test_decomp.py
+0d35df4,dmitrey.kroshko,2007-07-18 13:12:12,bugfix (overwriting initial x0 by cobyla) (ticket 389),389,Lib/optimize/cobyla.py
+5b37f82,dmitrey.kroshko,2007-07-18 12:29:42,bugfix in _cubicmin (ticket 344),344,Lib/optimize/optimize.py
+c443830,dmitrey.kroshko,2007-07-18 11:09:45,bugfix with zerodevide in fmin_bfgs (ticket 377),377,Lib/optimize/optimize.py
+63436f1,wnbell,2007-07-10 01:53:10,"fixed rmatvec bug, resolves ticket #462",462,Lib/sparse/sparse.py
+5a5e7bb,David Cournapeau,2007-06-08 04:42:23,"Additional init method for kmeans2, 'matrix', to avoid possible confusion between k number of components and k unique initial cluster. Close #443",443,Lib/cluster/vq.py
+8076554,hagberg,2007-05-31 00:18:38,Remove unneeded asanyarray() and catch error if input shape is not 2d and square.  Fixes #366.,366,Lib/sandbox/arpack/arpack.py
+575a213,hagberg,2007-05-30 23:59:23,Modify complex symmetric single precision test of eigenvectors to only compare to 5 decimal places.  Probably a reasonable estimate for an error in this case. Addresses ticket #367.,367,Lib/sandbox/arpack/tests/test_arpack.py
+bb72151,Stefan van der Walt,2007-05-29 09:10:20,Fix special functions for real arguments (ticket #387).,387,Lib/special/basic.py
+bb72151,Stefan van der Walt,2007-05-29 09:10:20,Fix special functions for real arguments (ticket #387).,387,Lib/special/tests/test_basic.py
+bf73042,wnbell,2007-05-27 04:49:36,removed cmp function from spmatrix resolves ticket #290,290,Lib/sparse/sparse.py
+553b326,wnbell,2007-05-27 04:19:22,fixed lil_matrix and dok_matrix get/set item with negative indices added unittests for negative indices resolves ticket #347,347,Lib/sparse/sparse.py
+553b326,wnbell,2007-05-27 04:19:22,fixed lil_matrix and dok_matrix get/set item with negative indices added unittests for negative indices resolves ticket #347,347,Lib/sparse/tests/test_sparse.py
+6cb7ae9,wnbell,2007-05-27 03:15:00,fixed small bug in rmatvec,359,Lib/sparse/sparse.py
+45a4277,wnbell,2007-05-27 03:00:14,updated _datanotshared() to use __array_interface__ instead of __array_data__,361,Lib/linalg/decomp.py
+45a4277,wnbell,2007-05-27 03:00:14,updated _datanotshared() to use __array_interface__ instead of __array_data__,361,Lib/linalg/tests/test_decomp.py
+64c8c1f,Stefan van der Walt,2007-05-24 08:01:29,"fmin_tnc: Add tests, update documentation, fix order of output (closes ticket #423).",423,Lib/optimize/linesearch.py
+64c8c1f,Stefan van der Walt,2007-05-24 08:01:29,"fmin_tnc: Add tests, update documentation, fix order of output (closes ticket #423).",423,Lib/optimize/tests/test_optimize.py
+64c8c1f,Stefan van der Walt,2007-05-24 08:01:29,"fmin_tnc: Add tests, update documentation, fix order of output (closes ticket #423).",423,Lib/optimize/tnc.py
+4bbd722,cookedm,2007-05-07 16:24:37,[numexpr] fix #407: Wrong assumption of char signedness in Numexpr,407
+abedfa1,jtravs,2007-02-26 12:26:04,Submit fix for ticket #379,379,Lib/interpolate/fitpack.py
+1af103f,wnbell,2007-02-15 22:29:50,Applied patch to spmatrix.dot().  Resolves ticket #374,374,Lib/sparse/sparse.py
+585cd82,wnbell,2007-02-01 04:10:04,"SuperLU workaround by mauger, fixes ticket #311",311
+3e741d7,Stefan van der Walt,2007-01-27 22:58:32,Fix memory leak in fitpack.  Closes ticket #248.,248
+1043936,jtravs,2007-01-13 17:33:43,Fixed two bugs in splrep and make edits so that the tests at the end of fitpack.py run (fixes ticket #332).,332,Lib/interpolate/fitpack.py
+dc9ac14,wnbell,2007-01-08 11:06:48,setdiag() now works for subdiagonals (k < 0),324,Lib/sparse/sparse.py
+9853fdc,Tim Leslie,2006-12-27 01:01:53,increment iteration counter. Fixes ticket #283.,283,Lib/optimize/optimize.py
+1fd1b38,Robert Cimrman,2006-12-07 12:39:01,coo._normalize() update by Nathan Bell (ticket 326),326,Lib/sparse/sparse.py
+1fd1b38,Robert Cimrman,2006-12-07 12:39:01,coo._normalize() update by Nathan Bell (ticket 326),326,Lib/sparse/tests/test_sparse.py
+fa88f07,edschofield,2006-12-05 19:32:01,Applied Neilen Marais's patch for non-machine-size int indices in sparse.lil_matrix (ticket #307),307,Lib/sparse/sparse.py
+fd76054,edschofield,2006-11-22 18:31:04,Added test for existence of randomkit.{ch} in montecarlo/setup.py. Fixes bug #293.,293,Lib/sandbox/montecarlo/setup.py
+d4bc709,Travis Oliphant,2006-10-25 08:15:21,Fix ticket #294,294,Lib/linalg/basic.py
+d4bc709,Travis Oliphant,2006-10-25 08:15:21,Fix ticket #294,294,Lib/linalg/decomp.py
+d4bc709,Travis Oliphant,2006-10-25 08:15:21,Fix ticket #294,294,Lib/linalg/matfuncs.py
+d4bc709,Travis Oliphant,2006-10-25 08:15:21,Fix ticket #294,294,Lib/optimize/optimize.py
+d4bc709,Travis Oliphant,2006-10-25 08:15:21,Fix ticket #294,294,Lib/stats/distributions.py
+77fa3fb,Stefan van der Walt,2006-09-26 15:25:09,Use numpy's sum in stats. Closes ticket #271.,271,Lib/stats/stats.py
+7542f04,Robert Kern,2006-09-24 07:11:23,Fix #193.,193,Lib/signal/waveforms.py
+27570ff,Robert Kern,2006-09-24 05:49:03,Fix #254,254
+997b8fe,Robert Kern,2006-09-24 04:41:36,Fix #229,229,Lib/special/basic.py
+c7c1bb2,cookedm,2006-08-09 21:59:12,"Fix #210: L-BFGS-B performs very badly due to silent failures. The LAPACK routine `dpotrs` was being used for the linpack routine `dtrsl`, instead of `dtrtrs`.",210
+fef4fc3,cookedm,2006-08-09 20:53:22,Fix #12: Lib\special\cephes\const.c doesn't compile with Visual Studio,12
+1b4d620,edschofield,2006-07-26 13:32:09,Allowed indexing into sparse matrices with integer indices of a different size to that of Python int. Fixes ticket #218.,218,Lib/sparse/sparse.py
+20aae75,fullung,2006-07-13 14:26:39,Repair Weave build on FC5. Fixes #232.,232
+c578408,cookedm,2006-07-05 20:40:06,cephes: correct jv for small values of x. Fixes #221,221,Lib/special/tests/test_basic.py
+29ea57d,cookedm,2006-06-22 21:50:51,"Use a series expansion for scipy.special.jn(2,x) for x < 1e-5 (fixes #215)",215
+d1f5bdd,Travis Oliphant,2006-05-27 03:00:35,Fix ticket #40,40,Lib/linalg/iterative.py
+8f4e66c,edschofield,2006-05-24 13:05:11,Bug fix for lil_matrix fancy indexing in __setitem__ (ticket #204),204,Lib/sparse/sparse.py
+6bee6c9,edschofield,2006-03-25 17:42:49,Fixes for empty (all-zero) sparse matrices merged from ejs branch. (Ticket #7 was closed too soon!):  - changed coo_matrix constructor to allow empty matrix  - removed useless nzmax attribute for COO matrices  - tests to expose infinite loop in matmat for zero matrices  - __repr__ fixes,7,Lib/io/mmio.py
+6bee6c9,edschofield,2006-03-25 17:42:49,Fixes for empty (all-zero) sparse matrices merged from ejs branch. (Ticket #7 was closed too soon!):  - changed coo_matrix constructor to allow empty matrix  - removed useless nzmax attribute for COO matrices  - tests to expose infinite loop in matmat for zero matrices  - __repr__ fixes,7,Lib/sparse/sparse.py
+6bee6c9,edschofield,2006-03-25 17:42:49,Fixes for empty (all-zero) sparse matrices merged from ejs branch. (Ticket #7 was closed too soon!):  - changed coo_matrix constructor to allow empty matrix  - removed useless nzmax attribute for COO matrices  - tests to expose infinite loop in matmat for zero matrices  - __repr__ fixes,7,Lib/sparse/tests/test_sparse.py
+520e057,edschofield,2006-03-16 21:51:42,"Added generic getrow and getcol methods to sparse matrices.  These need further optimization for individual sparse matrix formats, and should ideally be available using slice notation.",39,Lib/sparse/sparse.py
+df61dd9,Travis Oliphant,2006-03-14 10:21:39,Fix coercion rules for iterative (ticket #17) and adding zeros (ticket #7),17,Lib/linalg/iterative.py
+df61dd9,Travis Oliphant,2006-03-14 10:21:39,Fix coercion rules for iterative (ticket #17) and adding zeros (ticket #7),17,Lib/sparse/sparse.py
+54942df,edschofield,2006-03-11 10:09:50,Fixed old imports (ticket #36),36,Lib/cluster/tests/vq_test.py
+54942df,edschofield,2006-03-11 10:09:50,Fixed old imports (ticket #36),36,Lib/sandbox/ga/gene.py
+54942df,edschofield,2006-03-11 10:09:50,Fixed old imports (ticket #36),36,Lib/sandbox/ga/parallel_pop.py
+54942df,edschofield,2006-03-11 10:09:50,Fixed old imports (ticket #36),36,Lib/sandbox/ga/scaling.py
+54942df,edschofield,2006-03-11 10:09:50,Fixed old imports (ticket #36),36,Lib/sandbox/ga/selection.py
+e9afbd6,Travis Oliphant,2006-03-10 13:58:53,Fix ticket #34,34,Lib/io/mio.py
+cdc22b7,Travis Oliphant,2006-03-10 13:49:33,Apply ticket #20 fixes.,20,Lib/optimize/anneal.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/linalg/basic.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/linalg/blas.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/linalg/decomp.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/linalg/lapack.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/linalg/matfuncs.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/signal/bsplines.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/signal/filter_design.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/signal/ltisys.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/signal/signaltools.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/stats/distributions.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/stats/kde.py
+d4c3127,Travis Oliphant,2006-03-10 13:39:07,Code clean-up fixes #21-#32,21,Lib/stats/morestats.py
+3bb739b,edschofield,2006-03-10 11:54:38,Committed Timl's indentation fixes for stats.py (ticket #23),23,Lib/stats/stats.py

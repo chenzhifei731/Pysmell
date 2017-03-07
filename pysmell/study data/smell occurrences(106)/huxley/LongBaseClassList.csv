@@ -1,0 +1,13 @@
+subject,file,lineno,NBC,experience-based,statistics-based,tuning machine
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\cmdline.py,28,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\consts.py,15,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\errors.py,1,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\integration.py,23,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\run.py,53,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\run.py,59,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\steps.py,27,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\steps.py,35,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\steps.py,53,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\steps.py,71,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\threadpool.py,5,1,0,0,0
+huxley,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\huxley\huxley\threadpool.py,34,1,0,0,0

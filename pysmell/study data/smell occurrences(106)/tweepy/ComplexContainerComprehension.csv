@@ -1,0 +1,9 @@
+subject,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,tuning machine
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\setup.py,18,34,1,6,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tests\test_api.py,398,59,1,10,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tests\test_utils.py,15,55,1,9,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tweepy\models.py,34,42,2,8,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tweepy\models.py,69,51,1,15,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tweepy\streaming.py,375,27,1,5,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tweepy\streaming.py,421,27,1,5,0,0,0
+tweepy,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\tweepy\tweepy\utils.py,58,23,1,5,0,0,0

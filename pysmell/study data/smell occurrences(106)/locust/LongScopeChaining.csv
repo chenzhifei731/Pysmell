@@ -1,0 +1,17 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\examples\custom_xmlrpc_client\xmlrpc_locustfile.py,13,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\cache.py,3,3,1,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\core.py,21,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\main.py,333,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\runners.py,29,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\runners.py,83,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\runners.py,191,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\runners.py,223,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\runners.py,349,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\rpc\socketrpc.py,49,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\rpc\socketrpc.py,83,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\test\testcases.py,98,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\test\test_locust_class.py,80,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\test\test_locust_class.py,141,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\test\test_locust_class.py,321,2,0,0,0
+locust,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\locust\locust\test\test_locust_class.py,450,2,0,0,0

@@ -1,0 +1,963 @@
+ID,Title,Created At,Closed At
+10028,Running debugger multiple times causes AttributeError: 'NoneType' object has no attribute 'f_globals',2016-10-24T23:26:35Z,2016-10-25T13:29:20Z
+9983,Test failure: deep-reloading numpy,2016-10-05T11:50:17Z,2016-10-08T17:05:03Z
+9952,Some mpl backends have no corresponding GUI,2016-09-16T09:51:06Z,2016-09-19T17:21:01Z
+9923,prompt_toolkit: color changed also for background output to stdout/stderr,2016-08-31T11:11:58Z,2016-09-01T10:04:01Z
+9877,IPython crashes copy-pasting multiline code,2016-08-15T14:06:06Z,2016-08-15T21:25:41Z
+9869,Installing ipython creates ipython3 executable even if python3 isn't installed,2016-08-13T02:05:04Z,2016-08-13T12:32:50Z
+9648,"`--colors` flag seems to be ignored, `%colors` doesn't work",2016-06-22T00:42:41Z,2016-06-24T19:05:30Z
+9539,problem in jupyter_qtconsole with ipython5.0b1,2016-06-04T07:54:28Z,2016-06-06T19:48:44Z
+9391,Can't quit `less` without using Ctrl-C: pager quit is effectively broken.,2016-04-13T07:48:17Z,2016-04-14T14:49:27Z
+9390,Terminal auto-scrolls with long input,2016-04-13T07:46:16Z,2016-04-13T19:23:21Z
+9379,TypeError on Shell Completion,2016-04-06T23:54:52Z,2016-04-15T12:09:58Z
+9361,"Odd, broken buffering of internal messages...",2016-03-27T03:23:37Z,2016-03-29T15:56:26Z
+9359,Confirm-on-exit broken on master,2016-03-27T00:04:17Z,2016-04-04T17:01:56Z
+9331,Auto-rewrite when autocall is on miscomputes the number of dashes to print and then messes output prompt positioning,2016-03-17T02:40:06Z,2016-06-01T20:37:28Z
+9244,Wrap colour sequences in debugger prompt in marker bytes,2016-02-18T15:03:01Z,2016-02-18T15:21:27Z
+9114,ipython tab completion always display all possibilities,2016-01-06T07:07:00Z,2016-05-25T19:21:38Z
+8804,Unable to 'pip install ipython' with PyPy 2.6.1 on OS X,2015-09-10T05:11:56Z,2015-09-14T16:02:47Z
+8803,history.py error,2015-09-09T22:16:26Z,2016-09-12T15:36:41Z
+8791,%%writefile ignores '>>>' at the beginning of lines,2015-09-04T08:47:09Z,2016-01-19T21:33:33Z
+8776,Update to latest path.py package breaks ipython,2015-08-27T13:36:34Z,2016-01-21T09:12:31Z
+8333,Fix class name for launching 'ipython qtconsole',2015-04-19T16:19:45Z,2015-04-19T16:26:08Z
+8300,Terminal scrolling issues on Windows+Chrome,2015-04-10T01:00:43Z,
+8159,Fix action do not provide icon.,2015-03-26T19:40:02Z,2015-03-27T22:50:20Z
+8069,kernel_ready.Kernel triggered twice when creating a new notebook,2015-03-17T16:14:15Z,2016-01-19T14:38:27Z
+8068,Notebook and console send different messages for completion,2015-03-17T04:18:05Z,
+8064,Styling the new flex box widget classes - width of IntText,2015-03-16T14:45:48Z,
+8057,Multiple selector master checkbox has wrong logic,2015-03-14T21:00:53Z,2015-03-20T20:12:22Z
+8056,Vertical position problems in dashboard,2015-03-14T20:57:32Z,2015-03-17T18:41:17Z
+8055,Image problems in output,2015-03-14T20:51:54Z,2015-03-19T17:59:49Z
+8054,Focus click problems with toolbar,2015-03-14T14:07:17Z,2015-03-30T21:12:33Z
+8043,Allow inspection of source code for magics,2015-03-13T19:29:54Z,2015-03-13T20:26:14Z
+8033,Magic don't get source on ??,2015-03-12T19:08:47Z,2015-03-13T20:26:14Z
+8012,SelectMultiple widget does not always work,2015-03-10T17:21:06Z,2015-03-13T19:25:09Z
+7873,Holding the space bar to scroll down the document doesn't work.,2015-02-25T23:02:48Z,
+7835,ipython exits with traceback when run in non-existing directory,2015-02-23T14:09:50Z,2015-02-28T18:14:08Z
+7829,nbconvert --to slides --post server reveal.js redirection not working,2015-02-21T17:45:00Z,2015-02-25T00:03:28Z
+7827,Equations in notebook jump from centered to L aligned upon rendering,2015-02-21T05:34:27Z,
+7790,No space between notification areas,2015-02-15T19:21:01Z,2015-03-29T00:49:38Z
+7786,Incorrect kernel reported on new install,2015-02-14T21:04:08Z,2015-02-15T19:22:12Z
+7782,In-notebook terminal rendering of certain whole-screen applications (like mc) is broken.,2015-02-14T00:35:51Z,2015-02-14T02:17:18Z
+7753,`Ctrl-a` keybinding should go to term.js terminal,2015-02-11T21:37:57Z,2015-02-11T22:46:01Z
+7714,Consistent Capitalization in Notebook Menu,2015-02-09T14:59:24Z,2015-02-09T18:45:20Z
+7711,Weird TypeError: 'NoneType' object is not callable!,2015-02-08T12:54:29Z,2015-02-09T23:12:45Z
+7707,ipython qtconsole does not start with PyQt5,2015-02-07T12:37:01Z,2015-02-09T22:34:42Z
+7704,Widget back-end to front-end flood causes front-end to back-end messages to mute.,2015-02-06T20:23:14Z,2015-02-06T21:16:58Z
+7698,Output widget issues. ,2015-02-05T22:54:36Z,2015-02-07T22:49:59Z
+7695,Fix python -m IPython.qt.console,2015-02-05T22:19:56Z,2015-02-05T23:12:24Z
+7679,Widget persistence bug,2015-02-03T23:38:19Z,2015-02-04T21:51:08Z
+7657,[Dashboard] Deactivate autorefresh on something selected,2015-02-01T21:25:14Z,2015-02-02T23:05:19Z
+7647,Can't reconnect to running Python2 notebook,2015-01-31T18:28:15Z,2015-02-02T22:24:26Z
+7641,Last line of codemirror can't be selected,2015-01-30T23:39:57Z,2015-01-30T23:46:41Z
+7619,Notebook upload new notebook UI is wonky,2015-01-28T19:17:26Z,2015-01-28T22:30:20Z
+7599,remove duplicated border in indicator area,2015-01-26T18:58:48Z,2015-01-26T19:09:26Z
+7590,Lost shadow between toolbar and main notebook,2015-01-25T23:50:23Z,2015-01-26T18:51:15Z
+7566,Notebook will fail to start on Windows XP,2015-01-24T01:13:55Z,2015-01-24T01:14:54Z
+7515,Fix user interface tour,2015-01-20T22:56:25Z,2015-01-21T05:23:55Z
+7511,PDF generation from notebook fails if euro symbol (€) is present,2015-01-20T07:49:52Z,2015-01-22T22:35:49Z
+7509,Output widget broken,2015-01-20T00:43:35Z,2015-01-23T01:02:59Z
+7485,%load in qtconsole places cursor in the wrong place,2015-01-16T10:39:21Z,2015-01-17T01:21:24Z
+7484,Links to header cells hide the cell under the menu,2015-01-16T09:56:25Z,2015-01-22T22:50:07Z
+7448,Trailing whitespace when paste a word to notebook,2015-01-14T10:02:38Z,
+7447,Code cell shrinking,2015-01-14T09:12:41Z,2015-02-10T19:29:00Z
+7436,fix access to png width and height in nbconvert html basic template,2015-01-13T17:46:09Z,2015-01-15T07:38:51Z
+7431,state changes to custom widget trigger update twice,2015-01-12T20:06:00Z,2015-01-21T21:33:28Z
+7427,Potential error with `find_cmd`? (fails when `which` not on PATH),2015-01-12T16:13:36Z,
+7423,Disabled menu items can still be triggered,2015-01-12T09:53:23Z,2015-01-14T19:52:34Z
+7421,Notebook conversion to LaTeX/pdf fails with nbconvert,2015-01-11T22:37:13Z,2015-01-11T22:53:03Z
+7418,User interface tour broken.,2015-01-11T16:40:31Z,2015-01-21T05:23:55Z
+7411,threadsafe widgets,2015-01-10T02:00:29Z,
+7410,Two link objects with name conflicts,2015-01-10T00:50:44Z,2015-01-29T19:30:18Z
+7409,Focus jump bug when running first cell in a new notebook,2015-01-10T00:48:13Z,2015-01-14T20:09:07Z
+7408,Fix ultratb when there are non-ascii filenames present in a traceback,2015-01-09T23:51:21Z,2015-01-11T14:37:05Z
+7397,Generate fontweight enum values without an extraneous variable from a comprehension,2015-01-08T18:26:45Z,2015-01-10T20:05:25Z
+7395,Code cell vertical scrolling,2015-01-08T16:39:17Z,2015-01-11T19:12:57Z
+7394,Markdown output in nbconvert,2015-01-07T14:23:06Z,2015-01-15T08:08:08Z
+7372,Notebook scrolling look and feel,2015-01-04T19:45:14Z,2015-01-14T20:09:07Z
+7367,Clicking on menu actions in the notebook makes it jump to the beginning,2015-01-03T20:09:48Z,2015-01-14T18:25:14Z
+7351,nbagg shows no image,2014-12-30T10:20:09Z,2015-01-15T17:12:37Z
+7349,"When kernel is missing, notebook fails to load",2014-12-30T03:36:16Z,2015-01-27T19:11:00Z
+7338,Dead kernel indicator does not disapear.,2014-12-28T15:37:15Z,2015-01-15T08:09:38Z
+7334,intermittent kernel connection issues (OSX Yosemite),2014-12-27T15:51:50Z,2015-01-13T17:29:12Z
+7333,pdflatex chokes on SymPy's unicode char 9472,2014-12-27T13:44:21Z,
+7317,atomic write umask,2014-12-26T16:37:04Z,2015-01-15T08:20:10Z
+7304,handling of html comments is inconsistent,2014-12-24T07:28:26Z,2015-01-13T23:53:55Z
+7301,getopenfilename does not block when when using ipython inputhook/start_event_loop,2014-12-23T22:13:22Z,
+7292,Eliminate white space in menu bar when tool bar is hidden,2014-12-23T21:07:14Z,2014-12-27T01:06:13Z
+7291,See if we can make the pager slide out of view straight downward,2014-12-23T20:54:18Z,2015-01-15T08:00:27Z
+7289,"UnicodeEncodeError when trying ipcluster start (windows, python 2.7, non-ascii characters in user name)",2014-12-23T14:49:01Z,2015-01-14T21:46:08Z
+7276,code fails to produce a figure in inline mode (but works in Qt4Agg backend),2014-12-19T19:04:10Z,2015-07-11T16:43:38Z
+7270,Memory leak with %matplotlib inline ,2014-12-19T00:28:19Z,
+7265,Monkey patch is_bold_broken in term.js to return true,2014-12-18T17:56:58Z,2015-01-15T07:48:01Z
+7237,Kernel switching problems (implementation and design),2014-12-16T00:42:07Z,2014-12-17T19:06:44Z
+7236,Error in console when starting a new notebook,2014-12-16T00:38:43Z,2015-01-01T10:01:07Z
+7232,"Toggling between the ""Running"" and ""Notebooks"" tabs causes scroll jump",2014-12-16T00:19:07Z,2014-12-16T07:10:45Z
+7134,completer go below pager.,2014-12-08T14:49:11Z,
+7104,Can't edit a Notebook if the load does not complete,2014-12-04T18:32:53Z,
+7100,%run magic on ipynb continues after a cell has an exception,2014-12-04T01:09:15Z,2015-01-15T11:21:26Z
+7086,Kernels do not show banner in console,2014-12-03T02:23:10Z,
+7058,"Lost notebook during rename with `""` in file name",2014-11-29T16:51:54Z,
+7039,%matplolib qt causes notebook to hang when using Run-All,2014-11-26T01:04:22Z,2016-01-19T19:14:37Z
+7038,Selection container widgets don't support multiple views of the same model,2014-11-25T18:30:42Z,
+7001,Ipython qtconsole segmentation fault with custom stylesheet for IPythonWidget,2014-11-20T10:46:54Z,
+6957,shutdown/delete broken,2014-11-17T16:13:33Z,2014-11-17T19:09:53Z
+6954,Cursor up/down skips lines,2014-11-16T09:09:47Z,2014-11-29T13:23:48Z
+6918,Overriding X-Frame-Options improperly disables any X-Frame-Options,2014-11-13T03:16:32Z,2015-01-12T02:23:55Z
+6912,IPython not setting exit status if script errors,2014-11-12T22:53:05Z,2015-10-26T14:32:19Z
+6894,notebook: sys.stdout monkeypatch blocks sys.stdout.flush,2014-11-10T17:47:47Z,2014-11-10T19:53:39Z
+6893,Wrapper Kernel -> `do_shutdown` is not called when the Console is shut down.,2014-11-10T14:52:20Z,2014-11-12T19:35:06Z
+6864,Exceptions thrown in cell with multiline strings,2014-11-05T20:56:51Z,
+6852,OutputArea.js text can be null,2014-11-04T14:28:50Z,2015-01-14T21:57:24Z
+6833,Edit notebook metadata gets awkward with large metadata,2014-11-01T20:37:41Z,
+6830,IPython backtrace omits context if source file not in working directory,2014-11-01T13:10:22Z,
+6824,Single bad kernelspec JSON causes all kernels to not work,2014-10-31T21:48:31Z,2014-11-01T01:05:38Z
+6823,ZMQChannelHandler websocket connections all timing out,2014-10-31T20:21:54Z,2014-11-04T04:22:37Z
+6814,Race condition in slider value validation,2014-10-30T15:01:02Z,2015-01-27T22:20:59Z
+6804,Fix PyQt5 ctrl-c handling issue introduced by input hook refactoring (pull #5666),2014-10-28T18:17:33Z,2014-10-28T20:38:25Z
+6796,Menu switching on phone,2014-10-25T18:03:37Z,
+6790,Sporadic failure in JS tests,2014-10-24T19:13:33Z,
+6786,In notebook %%writefile writes spurious % at the end of file,2014-10-24T03:31:47Z,
+6772,IPython Notebook not respecting matplotlib's matplotlibrc axes background color setting,2014-10-22T05:09:08Z,
+6771,Prevent kernels from even sending too much output to the notebook frontend,2014-10-22T01:11:04Z,
+6753,IPython notebook slowdown when it includes huge latex expressions,2014-10-21T04:26:40Z,2015-01-13T03:44:59Z
+6744,error in examples / Notebook / Trapezoid Rule.ipynb,2014-10-20T14:39:31Z,2015-01-12T19:20:36Z
+6726,QTConsole broken functionality,2014-10-17T15:58:07Z,2014-10-23T11:39:59Z
+6724,Markdown with Mathjax fails during HTML export,2014-10-17T13:10:12Z,2014-10-18T08:33:49Z
+6709,Notebook prints classes without regard to __repr__,2014-10-15T21:03:26Z,2014-10-20T18:35:44Z
+6635,Autocompletion stops working after creating an InteractiveShellEmbed object,2014-10-06T20:50:08Z,
+6618,Nbconvert and Unicode highlighing,2014-10-04T10:15:26Z,2015-01-16T02:10:44Z
+6578,AttributeError: 'QtInProcessShellChannel' object has no attribute '_handle_kernel_info_reply',2014-09-29T20:40:47Z,2015-01-12T18:39:23Z
+6562,Toggle buttons' state not displayed correctly,2014-09-27T18:06:28Z,2015-01-25T19:20:53Z
+6534,Same widget does not update all interact. ,2014-09-24T06:33:22Z,2015-09-21T19:03:05Z
+6531,Responsive menu bar goes wrong when window is narrow,2014-09-23T22:48:29Z,2014-10-19T08:59:23Z
+6518,Test failure in atomic save on Windows,2014-09-22T16:29:23Z,2014-10-01T19:04:32Z
+6514,Fix for copying metadata flags,2014-09-21T20:16:37Z,2014-09-22T14:39:14Z
+6507,%%cython magic module caching behavior confusing,2014-09-19T20:01:42Z,2015-01-12T18:40:16Z
+6502,Function Pasted with %cpaste Not Available In Editor with %edit,2014-09-19T12:55:00Z,
+6473,"Switching between ""Raw Cell Format"" and ""Edit Metadata"" does not work",2014-09-15T16:37:19Z,2014-10-01T15:43:51Z
+6469,IPython Notebook RadioButtonsWidget value cannot be string representation of an integer.,2014-09-15T04:05:43Z,2015-01-15T04:13:48Z
+6468,Weird matplotlib drawing behavior using styles and grid,2014-09-15T00:38:59Z,
+6466,several bugs in ipython nbconvert --to latex,2014-09-14T21:43:02Z,
+6455,Incorrect cursor_pos when performing auto-completion,2014-09-12T15:16:42Z,
+6442,Latex tab completions leave extra backslash in terminal console,2014-09-09T21:36:50Z,2015-01-19T18:15:54Z
+6409,No module named '_dummy',2014-09-04T18:50:24Z,2014-09-04T21:48:54Z
+6404,Celltoolbar not shown on rendered Markdown cell,2014-09-03T23:02:25Z,2014-09-04T22:19:59Z
+6383,Message spec shim doesn't add user_variables on first request,2014-08-30T14:36:49Z,2015-01-13T23:26:03Z
+6365,Find a way to show smth to user when JS fails.,2014-08-27T10:45:27Z,
+6350,Bad code formatting in slides,2014-08-23T11:48:11Z,2015-01-14T17:08:19Z
+6340,IPython Custom widget notebook cell order,2014-08-21T13:02:14Z,2015-01-20T20:44:41Z
+6334,keycodes.down used for showing tooltips?,2014-08-18T20:40:07Z,2015-01-14T22:49:00Z
+6330,Output Scrollbar Overlaps Next Cell,2014-08-18T16:58:41Z,2015-01-12T20:59:05Z
+6304,Changing kernels quickly leaks fds and crashes the notebook,2014-08-13T19:14:38Z,2014-08-20T21:38:46Z
+6278,interact doesn't work with instance methods,2014-08-06T18:52:54Z,2015-01-15T18:22:27Z
+6264,"""ipython console"" not responding if first command arrives too early",2014-08-03T11:51:32Z,
+6262,Raw cell indentation problems with nbconvert,2014-08-02T20:32:16Z,2015-01-14T09:45:30Z
+6249,always use HTTPS getting mathjax from CDN,2014-07-31T19:04:19Z,2014-07-31T20:44:37Z
+6236,Fix detecting the native kernel to launch with sys.executable,2014-07-29T17:23:47Z,2014-07-29T21:16:13Z
+6203,Faulty logic in widget get_css and set_css,2014-07-24T19:54:52Z,2014-10-03T23:16:18Z
+6188,Add a requirejs shim for highlight.js,2014-07-22T20:53:29Z,2014-07-24T11:53:28Z
+6181,RadioButtonsWidget duplicates entries containing backslashes,2014-07-22T09:21:32Z,2015-01-14T09:48:04Z
+6172,%timeit magic does work on latest pypy anymore,2014-07-20T08:21:07Z,2015-01-19T18:45:55Z
+6131,Sphinx directive raises exception with magic,2014-07-14T05:53:52Z,
+6130,semicolon doesn't suppress output in %paste,2014-07-14T03:01:02Z,
+6121,Possible bug - Notebook stack trace creates 3 html links when an HTML link is present in the code,2014-07-11T23:38:45Z,
+6109,Multiprocessing usage results in ZMQError: Address already in use,2014-07-10T21:47:26Z,2015-03-02T17:33:38Z
+6060,Highlighting all of the text in a codemirror cell and then right clicking cause jump,2014-06-27T22:07:00Z,2014-10-03T23:08:02Z
+6052,Unclear error message when trying to load notebook that isn't even valid JSON,2014-06-26T20:14:10Z,2015-01-13T23:25:08Z
+6043,Race condition in notebook tab-completion,2014-06-24T23:52:17Z,
+6025,Bug: unnecessary removal of ellipses,2014-06-20T16:54:23Z,2014-06-21T15:10:16Z
+6014,'Nicer' import failure messages cause another error on Python 3,2014-06-18T22:14:52Z,2014-06-20T00:06:35Z
+5990,Restart kernel dialog not working,2014-06-14T21:20:49Z,2014-06-15T00:11:21Z
+5978,Set literals sometimes need escaping before timeit,2014-06-12T00:35:33Z,
+5970,Tests don't run without jsonschema installed,2014-06-10T19:01:59Z,2014-06-10T22:47:19Z
+5968,Notebook: Can't drop into pdb with widgets in Notebook,2014-06-10T17:30:06Z,
+5967,scrollbar overflow output_subarea,2014-06-10T14:31:27Z,
+5964,Traceback on Qt console exit,2014-06-09T21:22:57Z,2014-06-10T16:24:17Z
+5952,Setting insert cell default type?,2014-06-06T02:48:08Z,
+5950,qtconsole truncates help,2014-06-05T19:17:03Z,2014-06-09T21:25:02Z
+5836,BUG autocomplete not working after minus sign,2014-05-10T18:36:18Z,
+5828,Line continuation in raw string literals not parsed correctly,2014-05-09T12:59:36Z,
+5812,Fix application name when printing subcommand help.,2014-05-07T22:37:34Z,2014-05-07T23:38:43Z
+5790,fix some issues in dict key completion,2014-05-05T23:56:46Z,2014-05-08T23:28:20Z
+5755,horisontal scrollbar overlaps tool tip,2014-04-30T02:25:01Z,2014-11-14T05:13:02Z
+5743,Calling `set_title` on tab widget before display causes strange behavior.,2014-04-28T17:49:17Z,2015-01-03T04:36:00Z
+5706,Multi-Directory notebooks overwrite each other's checkpoints,2014-04-23T10:50:19Z,2014-04-25T19:38:23Z
+5688,Changing cell type changes the cursor position.,2014-04-21T18:15:27Z,2014-06-04T19:22:17Z
+5676,"""bookmark -l"" not working in ipython 2.0",2014-04-19T18:05:13Z,2014-04-19T19:25:25Z
+5671,Fix blank slides issue in Reveal slideshow pdf export,2014-04-18T22:20:14Z,2014-04-19T12:21:04Z
+5670,nbconvert: Fix CWD imports,2014-04-18T20:40:28Z,2014-04-19T19:22:20Z
+5663,Incorrect global declaration breaks iPython error display,2014-04-18T15:23:16Z,2014-11-14T18:38:19Z
+5640,Whitespace in cell and line magics,2014-04-16T16:19:54Z,
+5638,IPython completer generate wrong regexp,2014-04-16T14:53:50Z,
+5629,"""Run All"" in the notebook hangs on %matplotlib qt",2014-04-15T23:26:04Z,
+5581,Fix rmagic for cells ending in comment.,2014-04-10T16:32:50Z,2014-04-10T20:59:52Z
+5570,"User Interface tour: too fast, too furious",2014-04-09T18:38:58Z,2015-01-21T05:23:57Z
+5544,Notebook: convert URL to link fails when delayed,2014-04-07T08:34:50Z,2015-02-28T18:05:56Z
+5537,IPython on Windows leaks connection files for secondary kernels in qtconsole,2014-04-06T12:19:00Z,2015-01-13T21:44:45Z
+5530,"Notebooks with filenames with accented characters (""ã"", ""í"", etc.) don't open in 2.0",2014-04-05T15:19:49Z,2015-01-15T00:43:57Z
+5527,Don't remove upload items from nav tree unless explicitly requested.,2014-04-04T23:55:32Z,2014-04-09T23:01:40Z
+5521,Setting InlineBackend.figure_format='svg' does not present resize handle,2014-04-04T17:11:12Z,2014-04-21T22:57:40Z
+5515,Carriage return behaves strangely in qtconsole,2014-04-03T23:20:29Z,
+5508,Simple animations flicker in FF,2014-04-02T23:37:38Z,
+5504,Notebook tooltip shows help for wrong function,2014-04-02T20:44:30Z,
+5499,Error running widgets nbconvert example,2014-04-02T18:01:43Z,2014-05-08T18:09:53Z
+5493,made a minor fix to one of the widget examples,2014-04-02T17:07:02Z,2014-04-04T16:11:23Z
+5460,Can't start the notebook server specifying a notebook,2014-03-28T16:22:30Z,2014-03-28T18:54:33Z
+5397,Accordion widget broken,2014-03-20T16:54:25Z,2014-03-25T01:08:17Z
+5364,Horizontal scrollbar hides cell's last line on Firefox,2014-03-16T18:53:36Z,2014-05-15T17:55:04Z
+5324,Style of `raw_input` UI is off in notebook,2014-03-10T22:17:38Z,2014-03-20T20:47:14Z
+5298,tooltip related jumpy scroll bug,2014-03-08T08:00:46Z,2014-10-03T00:04:51Z
+5297,tooltip triggers focus bug,2014-03-08T07:50:55Z,2014-03-24T22:18:45Z
+5294,Enter in raw_input enters edit mode,2014-03-08T01:49:22Z,2014-03-11T21:53:24Z
+5287,QtConsole - Can't type square brackets on Hungarian keyboard,2014-03-07T16:09:40Z,
+5273,Run All Cells execution does not halt when exception is handled using set_custom_exc,2014-03-05T00:51:51Z,
+5266,nbconvert doesn't use pandoc if node is installed without marked.,2014-03-03T21:59:03Z,2014-03-03T22:58:27Z
+5264,Test failures on master with Anaconda,2014-03-03T21:53:13Z,2014-03-06T22:47:56Z
+5263,Headers missing from nbconvert output,2014-03-03T21:32:19Z,2014-03-03T22:02:25Z
+5251,ipython console ignoring some stream messages?,2014-03-03T00:15:30Z,2014-03-07T21:07:05Z
+5238,Raw cell placeholder is not removed when you edit the cell,2014-02-27T23:38:09Z,2014-03-19T19:21:03Z
+5227,display_method of objects with custom __getattr__,2014-02-26T16:19:33Z,2014-02-27T22:59:47Z
+5224,Audit nbconvert HTML output,2014-02-26T01:16:48Z,2014-03-07T22:14:43Z
+5192,horisontal scrollbar overlaps output or touches next cell,2014-02-21T22:50:33Z,2014-05-15T17:55:03Z
+5189,Tooltip pager mode is broken,2014-02-21T20:25:38Z,2014-03-25T22:22:43Z
+5176,QtConsole: Keys for switching tabs do not work on OS X,2014-02-21T00:07:07Z,
+5149,Clicking on a TextBoxWidget in FF completely breaks dual mode.,2014-02-18T22:59:12Z,2014-02-28T23:54:41Z
+5141,tornado error static file,2014-02-18T06:56:03Z,2014-02-21T01:05:09Z
+5135,Minor formatting issue when entering subscript LaTeX in a Notebook Markdown cell,2014-02-16T22:37:22Z,2014-06-04T20:37:54Z
+5120,"append Firefox overflow-x fix, again",2014-02-13T18:06:20Z,2014-03-05T21:03:54Z
+5113,ButtonWidget without caption wrong height.,2014-02-13T01:31:00Z,2014-02-17T16:37:08Z
+5106,Flexbox CSS specificity bugs,2014-02-12T19:08:37Z,2014-03-25T00:21:54Z
+5096,Client.map is not fault tolerant,2014-02-11T22:42:45Z,2014-02-12T00:09:02Z
+5094,Dancing cells in notebook,2014-02-11T20:28:47Z,2014-02-28T23:55:31Z
+5084,Consistent approach for HTML/JS output on nbviewer,2014-02-09T22:11:24Z,2014-03-17T17:59:51Z
+5069,Box model changes broke the Keyboard Shortcuts help modal,2014-02-08T03:42:55Z,2014-02-08T05:57:10Z
+5064,"Errors during interact display at the terminal, not anywhere in the notebook",2014-02-07T23:31:21Z,2014-02-08T19:16:02Z
+5051,FF Fix: code cell missing hscroll (2),2014-02-06T18:24:34Z,2014-02-07T23:19:52Z
+5050,Notebook cells truncated with Firefox,2014-02-06T17:58:56Z,2014-03-05T09:55:33Z
+5038,Fix multiple press keyboard events,2014-02-05T21:29:33Z,2014-02-07T22:54:47Z
+5020,Python Lists translated to javascript objects in widgets,2014-02-04T05:35:16Z,2014-02-05T00:43:50Z
+5016,Help menu external-link icons break layout in FF,2014-02-04T01:33:50Z,2014-02-05T22:08:18Z
+5013,Widget alignment differs between FF and Chrome,2014-02-03T23:52:02Z,2014-02-21T20:37:40Z
+5009,notebook signatures don't work,2014-02-03T21:04:08Z,2014-02-05T05:21:39Z
+5006,Comm code is not run in the same context as notebook code,2014-02-03T20:08:37Z,
+5003,Fix pretty reprs of super() objects,2014-02-03T18:27:09Z,2014-02-04T23:47:14Z
+5002,"the green cell border moving forever in Chrome, when there are many code cells.",2014-02-03T07:32:32Z,2014-03-03T19:42:50Z
+4999,Notebook focus effects,2014-02-02T23:08:21Z,2014-02-28T23:55:19Z
+4997,Inconsistent %matplotlib qt behavior,2014-02-02T21:01:24Z,2014-02-11T02:16:22Z
+4990,_repr_html_ exception reporting corner case when using type(foo),2014-02-02T05:53:02Z,2014-02-13T00:13:07Z
+4989,Filename tab completion completely broken,2014-02-02T02:39:05Z,2014-02-02T19:54:50Z
+4988,start using new codemirror completion,2014-02-01T22:13:00Z,2014-06-22T13:36:57Z
+4987,Widget lifecycle problems,2014-02-01T20:30:00Z,2014-02-20T18:22:10Z
+4986,Cell horizontal scrollbar is missing in FF but not in Chrome,2014-02-01T15:31:32Z,2014-02-19T22:08:04Z
+4981,Vertical slider layout broken,2014-02-01T05:13:55Z,2014-02-03T21:05:28Z
+4976,Container widget layout broken on Firefox,2014-01-31T22:57:43Z,2014-02-03T23:48:45Z
+4971,Fixing issues with js tests,2014-01-31T18:43:55Z,2014-02-01T04:38:32Z
+4961,Bug when constructing a selection widget with both values and labels,2014-01-30T18:27:25Z,2014-02-04T23:27:23Z
+4951,TextWidget to code cell command mode bug.,2014-01-30T00:24:42Z,2014-02-01T04:40:26Z
+4950,Two fixes for file upload related bugs,2014-01-29T23:54:45Z,2014-01-29T23:59:11Z
+4948,reveal: ipython css overrides reveal themes,2014-01-29T23:07:05Z,2014-01-29T23:33:12Z
+4947,reveal: slides that are too big?,2014-01-29T23:05:13Z,2014-01-29T23:29:12Z
+4946,TeX produced cannot be converted to PDF,2014-01-29T23:02:15Z,2014-03-19T20:18:09Z
+4945,Heading/cells positioning problem and cell output wrapping,2014-01-29T22:58:37Z,2014-03-17T18:38:10Z
+4944,Trouble finding ipynb path in Windows 8,2014-01-29T22:56:21Z,2014-03-26T00:56:08Z
+4941,Eliminating display of intermediate stages in progress bars,2014-01-29T22:47:54Z,2014-03-20T19:32:28Z
+4913,"Mathjax, Markdown, tex, env* and italic",2014-01-29T00:37:21Z,2014-01-29T00:48:38Z
+4907,Test for traceback depth fails on Windows,2014-01-28T20:27:13Z,2014-01-29T19:12:46Z
+4906,Test for IPython.embed() fails on Windows,2014-01-28T20:25:23Z,2014-01-29T19:12:46Z
+4902,"print preview does not work, custom.css not found",2014-01-28T18:31:11Z,2014-03-17T17:51:41Z
+4882,Too many files open when starting and stopping kernel repeatedly,2014-01-27T12:55:39Z,2014-01-29T18:58:50Z
+4872,BUG: ipcontroller process memory grows on large inputs,2014-01-25T19:54:12Z,
+4871,Notebook upload fails after Delete,2014-01-25T19:03:02Z,2014-01-29T23:59:11Z
+4860,Completer As-You-Type Broken,2014-01-24T11:08:10Z,2014-02-22T02:08:19Z
+4857,Deadlock due to readline,2014-01-24T01:00:59Z,2016-11-06T20:15:43Z
+4850,Inline math sequences shouldn't affect markdown code editor formatting.,2014-01-23T07:28:03Z,
+4841,rubbish null bytes at the end of notebook file,2014-01-21T14:02:17Z,2014-10-02T23:27:53Z
+4839,Error in Session.send_raw(),2014-01-21T12:37:24Z,2014-03-05T01:44:26Z
+4835,running ipython on python files adds an extra traceback frame,2014-01-20T17:00:24Z,2014-01-24T23:40:01Z
+4830,broken symlinks in notebook directory lead to 'Error connecting to server' in the dashboard,2014-01-19T21:40:13Z,2014-09-04T22:40:14Z
+4829,Not able to connect qtconsole in Windows 8,2014-01-19T06:01:15Z,2014-03-03T04:15:26Z
+4825,File Upload URL set incorrectly,2014-01-17T23:57:38Z,2014-01-29T23:59:11Z
+4822,IPython.lib.editorhooks broken on windows,2014-01-17T17:18:38Z,2014-11-14T19:45:10Z
+4816,.ipynb_checkpoint completion triggered on Out[10].<tab>,2014-01-16T22:33:23Z,2015-01-12T00:37:19Z
+4809,Arbitrary scrolling (jumping) in clicks in modal UI for notebook,2014-01-16T15:55:02Z,2014-02-01T04:40:26Z
+4798,Modal UI + CodeMirror vim-mode bugs / feedback,2014-01-14T00:30:56Z,
+4791,Did updates to ipython_directive bork support for cython magic snippets?,2014-01-13T16:15:10Z,2014-01-27T01:56:38Z
+4777,Tab completion on `__` deletes line in notebook,2014-01-09T23:00:48Z,2015-03-02T05:19:07Z
+4759,Application._load_config_files log parameter default fails,2014-01-06T19:26:05Z,2014-01-27T19:39:42Z
+4755,Tooltip doesn't show up on multiline function calls,2014-01-04T18:39:49Z,
+4742,RuntimeError: maximum recursion depth exceeded,2013-12-26T05:24:27Z,2014-03-27T16:52:56Z
+4729,Firefox 26/OS X - typing does not initially show up in cells in IPython Notebook,2013-12-21T21:34:13Z,2014-10-02T23:39:14Z
+4704,Subcommand `profile` ignores --ipython-dir ,2013-12-16T06:27:42Z,2014-01-31T19:38:43Z
+4687,ipython shell tab compeletion,2013-12-13T00:41:07Z,2014-11-14T01:04:10Z
+4683,Completion not working with my_var-my<TAB>,2013-12-12T20:42:20Z,
+4663,Ipython Crashes on dreload when in a virtual environmen(virtualenv) version 2.6.8,2013-12-08T13:44:16Z,
+4660,ipdb and IPython.embed() incompatible,2013-12-07T18:38:39Z,2014-11-14T05:47:50Z
+4618,"""Editor Shortcuts"" link is broken in help menu dropdown notebook",2013-12-01T23:59:14Z,2014-01-29T20:05:51Z
+4602,"""ipcluster stop"" fails after ""ipcluster start --daemonize"" using python3.3",2013-11-26T08:39:24Z,2013-11-27T01:36:11Z
+4598,Qtconsole docstring pop-up fails on method containing defaulted enum argument,2013-11-25T18:52:59Z,2013-11-26T00:10:46Z
+4584,Failed save due to full disk unrecoverable,2013-11-22T20:28:40Z,2014-11-13T22:16:18Z
+4583,overwrite? prompt gets EOFError in 2 process,2013-11-22T19:57:28Z,2014-01-29T21:37:22Z
+4578,NBconvert fails with unicode errors when `--stdout` and file redirection is specified and HTML entities are present,2013-11-22T16:49:37Z,2013-11-26T22:25:22Z
+4574,Hash character in notebook name breaks a lot of things,2013-11-21T20:44:56Z,2013-12-19T17:49:16Z
+4573,bash completion of filenames with spaces is broken for subcommands,2013-11-21T08:33:18Z,
+4550,IPControllerApp: Uncaught exception in function dispatch_monitor_traffic,2013-11-16T15:12:30Z,
+4525,Output for semicolon-terminated lines with comments,2013-11-12T18:51:16Z,2016-02-15T13:06:48Z
+4519,No (full) file name completion is spaces in name,2013-11-11T10:57:54Z,
+4493,Qtconsole cannot print an ISO8601 date at nanosecond precision,2013-11-05T22:06:45Z,2013-11-10T19:20:25Z
+4474,BdbQuit exception when quitting ipdb,2013-11-01T10:13:25Z,
+4429,Notebooks don't detect kernel shutdown,2013-10-23T19:10:33Z,
+4402,Parallel test suite failing on Windows buildbots,2013-10-18T19:08:56Z,2014-11-13T22:23:27Z
+4397,"Clicking ""Shutdown"" in notebook dashboard causes scroll up to top of screen",2013-10-17T18:47:36Z,2014-01-29T04:38:55Z
+4392,Exception chaining in Python 3 tracebacks,2013-10-15T01:25:23Z,2013-12-13T22:34:45Z
+4361,Crash Ultratraceback/ session history,2013-10-08T14:14:19Z,2013-10-11T13:40:32Z
+4334,NotebookApp.webapp_settings static_url_prefix causes crash,2013-10-02T22:46:23Z,2013-10-03T12:08:46Z
+4307,Displayed matplotlib figures get grey background since 1.0,2013-09-30T08:30:05Z,
+4296,sync_imports() fails in python 3.3,2013-09-29T00:01:07Z,2013-10-03T19:21:38Z
+4288,Iterator argument limitation in dview.map_sync,2013-09-27T07:59:45Z,
+4272,ipython notebook does not handle EMFILE well,2013-09-25T02:48:58Z,
+4252,IPython crashes when import pylib,2013-09-22T12:12:23Z,2014-11-13T22:27:27Z
+4251,& escaped to &amp; in tex ?,2013-09-22T12:11:50Z,2014-02-04T23:02:04Z
+4248,"When converting notebook to slides, hyperlink animation cuts off the bottom of letters",2013-09-21T15:45:21Z,
+4245,nbconvert latex: code highlighting causes error,2013-09-21T04:23:22Z,2013-11-05T20:30:55Z
+4243,Test exclusions not working on Windows,2013-09-21T01:53:11Z,2013-09-23T21:45:00Z
+4235,Qt console blank pager,2013-09-19T19:30:31Z,2014-11-13T22:37:11Z
+4234,Math without $$ doesn't show up when converted to slides,2013-09-19T18:01:55Z,2014-01-29T19:57:13Z
+4223,Double output on Ctrl-enter-enter,2013-09-17T16:31:10Z,2013-09-20T17:36:35Z
+4200,Notebook: merging a heading cell and markdown cell cannot be undone,2013-09-12T16:48:58Z,2013-09-13T19:16:47Z
+4194,config.TerminalIPythonApp.nosep does not work,2013-09-11T17:59:31Z,2014-01-29T19:52:02Z
+4156,Specifying --gui=tk at the command line,2013-09-01T14:27:30Z,2013-09-04T15:50:30Z
+4127,autoreload shouldn't rely on .pyc modification times,2013-08-29T00:02:35Z,2014-03-05T19:21:52Z
+4122,Nbconvert [windows]: Inconsistent line endings in markdown cells exported to latex ,2013-08-28T05:13:45Z,2013-09-14T01:06:06Z
+4116,"kernel dies with "" : cannot connect to X server "" attempting to plot when running under byobu",2013-08-27T03:12:15Z,2015-12-03T09:38:59Z
+4103,Wrong default argument of DirectView.clear,2013-08-24T03:20:12Z,2013-08-27T17:56:01Z
+4100,parallel.client.client references undefined error.EngineError,2013-08-23T16:59:51Z,2013-08-25T12:10:08Z
+4078,StoreMagic.autorestore not working in 1.0.0,2013-08-21T05:52:41Z,2013-08-29T21:58:35Z
+4059,Issues with Ellipsis literal in Python 3,2013-08-19T05:22:25Z,2013-08-29T18:56:50Z
+4046,protect triple backquotes env from remove math,2013-08-16T13:35:03Z,
+4024,nbconvert markdown issues,2013-08-14T08:17:34Z,2013-09-09T00:16:55Z
+4006,iptest IPython broken,2013-08-13T09:03:09Z,2014-02-04T23:03:10Z
+4005,IPython.start_kernel doesn't work.,2013-08-13T06:38:03Z,2013-08-15T04:20:38Z
+4001,Windows IPython executable /scripts/ipython not working,2013-08-13T00:59:03Z,2014-01-29T19:21:38Z
+3968,"TypeError: super() argument 1 must be type, not classobj (Python 2.6.6)",2013-08-09T09:54:17Z,2013-08-09T19:48:47Z
+3959,think more carefully about text wrapping in nbconvert,2013-08-08T18:42:38Z,2014-01-29T19:13:54Z
+3954,all magics should be listed when completing on %,2013-08-08T09:03:03Z,2013-08-10T08:30:20Z
+3944,Utils short path test fails Win7x64 Py3.3,2013-08-07T23:03:55Z,2013-08-09T16:30:03Z
+3930,exception raised in examples/inprocess/*.py,2013-08-07T11:03:11Z,2014-11-13T22:39:03Z
+3922,Exceptions raised in matplotlib mainloop look like crashes,2013-08-06T16:59:24Z,
+3920,Weakness in %edit (fails although it is able to find the right file),2013-08-06T08:59:30Z,
+3903,"on Windows, 'ipython3 nbconvert ""C:/blabla/first_try.ipynb"" --to slides' gives an unexpected result, and '--post serve' fails",2013-08-05T08:40:22Z,2013-09-06T21:55:02Z
+3881,Temporary Working Directory Test Fails,2013-08-03T02:30:43Z,2013-08-04T14:26:29Z
+3858,Kernel process is either remote or unspecified. Cannot restart.,2013-07-31T17:40:38Z,2015-01-12T00:37:19Z
+3837,"Cannot set custom mathjax url, crash notebook server.",2013-07-30T08:46:57Z,2013-07-31T20:38:42Z
+3791,IPython thinks that it crashed when matplotlib dies,2013-07-26T01:13:53Z,2014-01-29T19:33:37Z
+3786,Zmq errors appearing with `Ctrl-C` in console/qtconsole,2013-07-26T00:05:27Z,2013-07-27T00:38:53Z
+3785,ipdb completely broken in Qt console,2013-07-26T00:02:39Z,2013-07-26T17:06:21Z
+3774,Notebooks with spaces in their names breaks nbconvert latex graphics,2013-07-25T16:02:30Z,2013-08-06T19:34:17Z
+3719,"Bad strftime format, for windows, in nbconvert exporter ",2013-07-22T07:16:50Z,2013-07-27T00:46:11Z
+3668,AttributeError: 'BlockingKernelClient' object has no attribute 'started_channels',2013-07-17T07:51:48Z,2013-07-17T19:53:03Z
+3661,run -m not behaving like python -m ,2013-07-16T22:38:08Z,2013-07-16T23:23:34Z
+3659,Running a cell will open up output totally,2013-07-16T21:30:47Z,2015-01-25T12:33:39Z
+3658,"Saving Notebook clears ""Kernel Busy"" status from the page and titlebar",2013-07-16T19:24:37Z,2013-10-01T05:02:55Z
+3657,Notebook cell output state is not preserved by save,2013-07-16T18:12:50Z,2015-01-25T12:33:39Z
+3653,"autocompletion in ""from package import <tab>""",2013-07-16T01:37:25Z,2014-01-29T22:04:03Z
+3636,Code cell missing highlight on load,2013-07-15T05:13:32Z,2013-08-05T21:29:04Z
+3625,Pager does not open from button,2013-07-13T03:27:49Z,2013-07-13T21:13:14Z
+3604,MathJax rendering problem in `%%latex` cell,2013-07-10T22:49:39Z,2013-07-17T21:02:47Z
+3589,nbconvert: Vertical scrollbar in reveal.js export,2013-07-09T13:12:57Z,2014-01-25T23:05:03Z
+3549,Codecell size changes with selection,2013-07-05T17:49:16Z,2013-07-05T23:20:22Z
+3544,IPython.lib test failure on Windows,2013-07-05T11:51:05Z,2013-07-07T17:28:05Z
+3519,IPython Parallel map mysteriously turns pandas Series into numpy ndarray,2013-07-03T01:10:44Z,2013-07-03T03:52:07Z
+3502,Notebook broken in master,2013-07-01T05:18:49Z,2013-07-01T18:11:23Z
+3494,input() in notebook doesn't work in Python 3,2013-06-29T22:40:57Z,2013-07-14T18:19:57Z
+3479,Write empty name for the notebooks,2013-06-28T23:31:17Z,2013-07-10T09:02:41Z
+3474,unexpected keyword argument to remove_kernel,2013-06-27T01:15:20Z,2013-06-29T22:16:46Z
+3462,Setting log_format in config file results in error (and no format changes),2013-06-24T21:53:10Z,2013-06-26T21:56:19Z
+3441,Fix focus related problems in the notebook,2013-06-17T18:13:06Z,2014-01-26T23:27:42Z
+3436,enable_pylab(import_all=False) still imports np,2013-06-16T16:40:02Z,2013-07-17T21:11:59Z
+3424,ipcluster --version,2013-06-13T08:52:51Z,2013-06-15T22:03:08Z
+3386,Magic %paste not working in Python 3.3.2. TypeError: Type str doesn't support the buffer API,2013-05-30T10:13:34Z,2013-11-06T13:12:00Z
+3385,setup.py failure on Python 3,2013-05-30T09:58:13Z,2013-05-30T18:52:52Z
+3376,Setting `__module__` to None breaks pretty printing,2013-05-29T02:39:19Z,2013-05-29T22:55:09Z
+3375,Frequent Safari/Webkit crashes,2013-05-29T01:49:21Z,2013-06-02T15:40:49Z
+3367,Can't connect to a ipython notebook server from a console,2013-05-28T11:47:15Z,2014-03-05T16:56:25Z
+3361,Cursor placement in auto wrapped lines,2013-05-26T15:44:21Z,2014-01-26T23:26:52Z
+3359,Mouse access on droplist completion in qtconsole,2013-05-25T17:07:33Z,
+3349,pip3 doesn't run 2to3?,2013-05-22T16:36:21Z,2013-05-22T17:14:42Z
+3346,Up arrow history search shows duplicates in Qtconsole,2013-05-21T18:54:10Z,2013-10-09T22:10:38Z
+3345,"IPython embedded shells ask if I want to exit, but I set confirm_exit = False",2013-05-21T15:31:54Z,2013-07-02T19:19:46Z
+3332,Poor mouse click responsiveness in notebook on Safari,2013-05-17T04:22:11Z,2014-01-27T00:06:50Z
+3326,python3.3: Type error when launching SGE cluster in IPython notebook,2013-05-16T09:23:04Z,2013-05-23T11:06:54Z
+3316,find_cmd test failure on Windows,2013-05-14T12:08:02Z,2013-07-15T17:59:55Z
+3302,"autoreload does not work in ipython 0.13.x, python 3.3",2013-05-10T14:45:10Z,2013-07-01T12:40:06Z
+3289,strange behavior in Kernel+Py3,2013-05-08T00:35:52Z,
+3280,IPython.utils.process.getoutput returns stderr,2013-05-05T16:11:36Z,2013-05-10T15:17:20Z
+3257,setup.py not finding submodules,2013-05-02T12:43:29Z,2013-05-02T15:55:39Z
+3246,%paste regression with blank lines,2013-04-30T19:31:05Z,2013-06-06T09:20:22Z
+3245,SyntaxError: encoding declaration in Unicode string,2013-04-30T17:27:44Z,2013-07-17T17:27:12Z
+3241,notebook conection time out,2013-04-30T03:51:00Z,2013-05-29T01:02:24Z
+3236,cannot set TerminalIPythonApp.log_format,2013-04-29T14:48:23Z,2013-04-30T19:22:59Z
+3227,Improve documentation of ipcontroller and possible BUG,2013-04-27T22:25:48Z,2013-07-03T23:23:19Z
+3218,race conditions in profile directory creation,2013-04-24T22:23:07Z,2013-04-24T23:19:33Z
+3206,Copy/Paste Regression in QtConsole,2013-04-22T15:11:12Z,2013-05-18T18:07:38Z
+3198,Hitting recursive depth causing all notebook pages to hang,2013-04-18T23:35:00Z,2013-04-25T19:07:24Z
+3197,Can't escape multiple dollar signs in a markdown cell,2013-04-18T17:09:09Z,2013-06-19T14:26:28Z
+3195,Use WebSocket.ping to keep connections alive across proxies,2013-04-18T11:28:50Z,2014-07-25T01:55:18Z
+3178,cell magics do not work with empty lines after #2447,2013-04-15T12:31:25Z,2013-04-21T18:04:29Z
+3176,Particular equation not rendering  (notebook),2013-04-14T21:33:43Z,2013-04-15T15:45:51Z
+3124,Long multiline strings in Notebook,2013-04-02T17:05:20Z,2013-07-09T18:50:54Z
+3111,ipython notebook needs the option to output .ipy script without encoding problems when run,2013-03-29T19:55:47Z,2014-12-12T19:14:18Z
+3087,Disable spellchecking in notebook,2013-03-27T00:21:42Z,2013-04-01T14:09:13Z
+3084,"ipython pyqt 4.10 incompatibilty, QTextBlockUserData",2013-03-26T19:36:43Z,2013-03-31T17:39:00Z
+3053,Markdown in header cells is not rendered,2013-03-21T20:12:16Z,2013-07-16T20:00:32Z
+3044,IPython notebook autocomplete for filename string converts multiple spaces to a single space,2013-03-20T17:57:46Z,2013-10-11T05:31:35Z
+3043,can't restart pdb session in ipython,2013-03-20T12:55:57Z,2013-11-13T10:50:46Z
+3039,unicode errors when opening a new notebook,2013-03-19T18:32:15Z,2013-03-21T19:52:43Z
+3030,%edit doesn't work at all in the ipython console,2013-03-17T20:18:59Z,
+3029,"After resumption from hibernation (linux) ipython (notebook interface) says ""kernel died""",2013-03-17T12:06:09Z,2014-01-27T17:16:44Z
+3020,Failing test test_interactiveshell.TestAstTransform on Windows,2013-03-15T10:26:34Z,2013-03-16T06:16:39Z
+3019,disappearing scrollbar on tooltip in Chrome 24 on Ubuntu 12.04,2013-03-15T02:29:20Z,2013-07-27T00:36:52Z
+3012,Problems with the less based style.min.css,2013-03-10T23:29:16Z,
+3010,cython magic fail if cache dir is deleted while in session,2013-03-10T14:27:32Z,2013-07-06T16:59:50Z
+3007,cython_pyximport reload broken in python3,2013-03-10T13:33:57Z,2013-03-11T02:43:37Z
+3002,Right click collision for qtconsole in Windows,2013-03-06T01:01:13Z,
+3001,IPython.notebook.dirty flag is not set when a cell has unsaved changes,2013-03-05T23:48:00Z,2013-06-19T14:39:44Z
+2993,"File magic (%%file) does not work with paths beginning with tilde (e.g., ~/anaconda/stuff.txt)",2013-03-04T19:21:22Z,2013-03-04T19:59:21Z
+2989,qtconsole crashes with crcmod,2013-02-28T10:03:27Z,
+2988,DBusMenuExporterPrivate::addAction verbage at startup.,2013-02-28T09:52:51Z,2016-07-25T22:56:26Z
+2955,Incompatible Qt imports when running inprocess_qtconsole,2013-02-19T22:36:23Z,2013-03-10T23:12:40Z
+2953,using 'nonlocal' declaration in global scope causes ipython3 crash,2013-02-19T19:01:08Z,2013-02-19T21:11:44Z
+2943,Up arrow key history search gets stuck in QTConsole,2013-02-16T19:45:34Z,2013-02-20T20:04:52Z
+2931,Problem rendering pandas dataframe in  Firefox for Windows,2013-02-14T16:43:59Z,2013-07-06T05:51:22Z
+2925,BUG: kernel dies if user sets sys.stderr or sys.stdout to a file object,2013-02-12T23:43:33Z,2013-02-13T00:06:21Z
+2922,File => Save as '.py' saves magic as code ,2013-02-12T19:10:38Z,2013-12-22T06:34:04Z
+2890,Test failure when fabric not installed,2013-02-07T14:35:34Z,2013-02-07T17:21:30Z
+2886,inprocess: output of first manually entered line fails to print after hidden=True execution,2013-02-06T00:07:29Z,
+2865,%%!? does not display the shell execute docstring,2013-01-29T21:18:28Z,2013-12-16T00:35:19Z
+2848,restore close_early/late difference.,2013-01-25T16:46:10Z,2014-11-13T22:58:57Z
+2838,Empty lines disappear from triple-quoted literals.,2013-01-23T13:45:14Z,2013-06-29T15:24:16Z
+2835,%paste not working on WinXpSP3/ipython-0.13.1.py2-win32-PROPER.exe/python27,2013-01-22T20:25:22Z,2013-04-11T16:43:11Z
+2834,url regexp only finds one link,2013-01-22T19:08:14Z,2013-03-27T19:20:40Z
+2823,"%%cython magic gives ImportError: dlopen(long_file_name.so, 2): image not found",2013-01-21T15:15:17Z,2013-07-06T05:58:16Z
+2821,Test failure: IPython.parallel.tests.test_client.test_resubmit_header,2013-01-20T14:10:33Z,2013-07-04T01:17:35Z
+2807,Test failure: IPython.parallel.tests.test_client.TestClient.test_purge_everything,2013-01-18T12:16:52Z,2013-01-19T07:35:19Z
+2794,_exit_code behaves differently in terminal vs ZMQ frontends,2013-01-15T13:14:34Z,2013-01-18T04:25:38Z
+2793,IPython.parallel issue with pushing pandas TimeSeries,2013-01-15T11:15:34Z,2013-01-18T04:03:08Z
+2790,"%paste and %cpaste not removing ""..."" lines",2013-01-15T04:13:26Z,2013-06-29T18:32:41Z
+2784,%run -t -N<N> error,2013-01-14T06:44:33Z,2013-01-29T13:31:39Z
+2772,AttributeError: 'Client' object has no attribute 'kill',2013-01-11T10:12:33Z,2013-01-12T19:47:14Z
+2765,name '__file__' is not defined,2013-01-10T05:26:16Z,2013-01-10T14:05:04Z
+2762,"OSX wxPython (osx_cocoa, 64bit) command ""%gui wx"" blocks the interpreter",2013-01-09T09:45:01Z,2013-02-21T00:11:39Z
+2759,R magic extension interferes with tab completion,2013-01-08T00:09:46Z,2013-01-10T04:22:26Z
+2758,File path tab-complete fails in notebook after a directory with spaces,2013-01-07T23:27:26Z,2014-11-13T22:54:43Z
+2742,Octavemagic fails to deliver inline images in IPython (on Windows),2013-01-04T16:46:13Z,2013-01-05T10:26:46Z
+2733,Rpush magic doesn't support comma separated lists of variables,2013-01-02T16:22:01Z,
+2732,Test failure with FileLinks class on Windows,2013-01-02T15:33:43Z,2013-01-29T10:53:51Z
+2727,%run -m doesn't support relative imports,2012-12-29T18:01:01Z,2013-05-03T21:28:08Z
+2720,base_url and static path,2012-12-25T17:29:48Z,2013-07-04T09:24:34Z
+2709,Cython -la doesn't work,2012-12-20T07:00:31Z,2013-01-19T07:15:12Z
+2702,frozen setup: permission denied for default ipython_dir,2012-12-18T09:00:24Z,2013-07-18T15:54:27Z
+2693,TerminalIPythonApp configuration fails without ipython_config.py,2012-12-17T05:46:32Z,2013-07-04T00:37:14Z
+2684,pretty print broken for types created with PyType_FromSpec,2012-12-15T00:22:15Z,2012-12-16T23:23:54Z
+2676,IPython.utils.Tee in ipython terminal -> breaks readline/history,2012-12-12T23:11:54Z,
+2671,"TypeError :NoneType when executed ""ipython qtconsole"" in windows console",2012-12-10T01:34:56Z,2013-07-04T00:48:08Z
+2670,Readline won't load on pypy-2.0-beta1 win8-64bit,2012-12-09T17:30:44Z,2016-11-03T20:04:14Z
+2667,can't save opened notebook if accidently delete the notebook in the dashboard,2012-12-07T17:02:49Z,2014-01-26T22:45:42Z
+2660,"Certain arguments (-h, --help, --version) never passed to scripts run with ipython",2012-12-06T20:58:47Z,2012-12-07T21:19:08Z
+2652,notebook with qt backend crashes at save image location popup,2012-12-05T04:22:26Z,2013-07-04T01:02:26Z
+2642,py3k bug: tab completion of keyword args breaks due to changes to `inspect`,2012-12-03T09:16:30Z,2016-07-25T11:00:16Z
+2637,%paste in Python 3 on Mac doesn't work,2012-12-02T23:26:46Z,2012-12-02T23:35:55Z
+2630,lib.pylabtools.figsize : NameError when using Qt4Agg backend and %pylab magic. ,2012-11-29T18:07:46Z,2013-07-17T21:11:59Z
+2625,"%timeit eats all memory with ""?"" as ""argument""",2012-11-27T19:51:12Z,
+2612,"Multiline String containing "":\n?foo\n"" confuses interpreter to replace ?foo with get_ipython().magic(u'pinfo foo')",2012-11-22T15:27:34Z,2013-04-11T16:36:45Z
+2610,ZMQInteractiveShell.colors being ignored,2012-11-22T03:57:09Z,2013-01-19T22:06:03Z
+2606,Fallback to pydoc if site._Helper is not defined,2012-11-19T19:33:33Z,
+2585,path expansion issues containing spaces under Windows,2012-11-15T19:11:20Z,
+2580,will not run within PIL build directory,2012-11-15T09:45:12Z,2013-06-29T16:51:55Z
+2577,sh.py and ipython for python 3.3,2012-11-14T06:50:36Z,2013-07-01T04:38:21Z
+2563,core.profiledir.check_startup_dir() doesn't work inside py2exe'd installation,2012-11-09T19:18:57Z,2013-04-24T04:08:00Z
+2562,Command history and plotting in qtconsole,2012-11-09T15:28:52Z,
+2560,Notebook output is invisible when printing strings with \r\r\n line endings,2012-11-08T21:55:18Z,2012-11-12T10:14:32Z
+2555,"""import"" module completion on MacOSX",2012-11-07T13:28:05Z,2012-12-19T19:19:58Z
+2543,Autoreload fails with decorators,2012-11-02T11:00:53Z,
+2533,rmagic breaks on Windows,2012-10-30T15:25:28Z,2012-12-16T22:06:26Z
+2522,notebook rename not atomic,2012-10-26T09:50:09Z,2014-11-13T22:55:22Z
+2520,Control-C kills port forwarding,2012-10-26T03:14:37Z,2013-07-04T00:25:07Z
+2477,Glob expansion tests fail on Windows,2012-10-09T08:26:42Z,2013-01-20T02:08:08Z
+2471,_subprocess module removed in Python 3.3,2012-10-05T23:31:20Z,2012-10-11T21:47:36Z
+2470,Do not destroy valid notebooks,2012-10-05T07:52:10Z,2013-07-04T01:15:05Z
+2466,mistyping `ed -p` breaks `ed -p`,2012-10-04T00:17:56Z,2013-01-20T11:07:47Z
+2465,automatic indent fails after EOF,2012-10-04T00:12:19Z,2015-04-14T06:57:27Z
+2438,print inside multiprocessing crashes Ipython kernel,2012-09-27T09:34:02Z,2013-04-11T05:40:23Z
+2434,%store magic not auto-restoring,2012-09-26T23:00:52Z,2013-07-04T09:26:05Z
+2431,"TypeError: must be string without null bytes, not str",2012-09-26T07:09:26Z,2013-07-31T19:04:57Z
+2419,TerminalInteractiveShell.__init__() ignores value of ipython_dir argument,2012-09-21T16:23:29Z,2012-12-30T12:38:04Z
+2416,qtconsole output disappearing,2012-09-18T18:56:21Z,
+2390,Image width/height don't work in embedded images,2012-09-07T06:50:25Z,2013-05-01T03:51:31Z
+2385,grep --color not working well with notebook,2012-09-05T12:41:34Z,2013-04-06T19:14:52Z
+2380,Qt inputhook prevents modal dialog boxes from displaying,2012-09-04T18:25:31Z,2013-07-04T01:34:50Z
+2376,tab completion in presence of + sign,2012-09-03T06:43:29Z,
+2374,Issues with man pages,2012-09-02T10:25:55Z,2012-10-11T19:32:31Z
+2372,interactiveshell.py misses urllib and io_open imports,2012-09-01T13:32:47Z,2012-09-03T13:36:58Z
+2361,client doesn't use connection file's 'location' in disambiguating 'interface',2012-08-30T11:56:15Z,2012-08-30T20:11:19Z
+2353,ZMQ %gui event loop doesn't init until after cell completes,2012-08-28T16:24:40Z,
+2315,"Failure in test: ""Test we're not loading modules on startup that we shouldn't."" ",2012-08-17T10:35:51Z,2012-08-28T06:10:53Z
+2314,HTML lists seem to interfere with the QtConsole display,2012-08-17T05:36:44Z,2012-09-06T20:23:46Z
+2303, remote tracebacks broken since 952d0d6 (PR #2223),2012-08-14T16:56:42Z,2012-08-26T23:16:20Z
+2289,Incorrect mathjax rendering of certain arrays of equations,2012-08-11T03:05:47Z,2012-11-02T04:51:57Z
+2283,TypeError when using '?' after a string in a %logstart session,2012-08-10T17:52:45Z,2013-06-29T21:50:49Z
+2279,Setting `__file__` to None breaks Mayavi import,2012-08-10T08:36:05Z,2013-07-04T00:24:52Z
+2273,triple quote and %s at beginning of line with %paste,2012-08-09T13:29:04Z,2012-08-13T04:23:14Z
+2266,SSH passwordless check with OpenSSH checks for the wrong thing,2012-08-07T15:50:45Z,2012-08-11T04:32:54Z
+2252,%paste throws an exception with empty clipboard,2012-08-04T21:56:08Z,2012-08-06T00:59:37Z
+2244,small issue: wrong printout,2012-08-03T21:13:01Z,2012-11-17T17:02:04Z
+2243,Regression in .embed(),2012-08-03T21:09:27Z,2012-08-12T20:44:53Z
+2239,can't use parallel.Reference in view.map,2012-08-03T00:07:13Z,2012-08-09T22:52:46Z
+2235,remove spurious print statement from setupbase.py,2012-08-01T23:15:01Z,2012-08-01T23:23:00Z
+2223,Custom tracebacks,2012-07-30T21:05:22Z,2012-07-31T11:58:22Z
+2221,Avoid importing from IPython.parallel in core,2012-07-30T13:15:48Z,2012-07-31T11:58:24Z
+2220,No sys.stdout.encoding in kernel based IPython,2012-07-30T02:52:04Z,2012-10-23T16:32:26Z
+2213,Can't trigger startup code in Engines,2012-07-27T21:17:34Z,2012-07-29T23:30:14Z
+2210,Placing matplotlib legend outside axis bounds causes inline display to clip it,2012-07-27T18:22:47Z,2013-01-19T07:01:11Z
+2208,Problem with cursor navigation in Qt console with wrapped code,2012-07-27T16:05:46Z,2016-07-25T22:50:05Z
+2197,Ctrl+C doesn't work in Qt console help window,2012-07-25T00:39:57Z,2016-07-25T22:49:56Z
+2195,Unknown option `no-edit` in git-mpr,2012-07-24T00:27:26Z,2012-07-26T17:51:18Z
+2194,clean nan/inf in json_clean,2012-07-23T20:54:12Z,2012-07-27T02:03:32Z
+2188,ipython crashes on ctrl-c,2012-07-22T12:52:16Z,2013-01-20T01:05:07Z
+2187,NaN in object_info_reply JSON causes parse error,2012-07-22T11:47:41Z,2012-07-27T05:08:22Z
+2169,"ipdb: pdef, pdoc, pinfo magics all broken",2012-07-18T23:09:42Z,2012-07-23T20:16:41Z
+2162,Tab completion does not work with IPython.embed_kernel(),2012-07-18T16:23:42Z,2012-07-20T07:04:04Z
+2161,"When logged into notebook, long titles are incorrectly positioned",2012-07-18T08:59:27Z,2013-07-04T00:18:13Z
+2151,missing newline when a magic is called from the qtconsole menu,2012-07-17T10:31:53Z,2012-07-17T11:49:56Z
+2146,"""object ??"" does not print source code in IPython 0.13",2012-07-16T20:16:58Z,2014-04-20T17:23:03Z
+2126,ipcluster broken with any batch launcher (PBS/LSF/SGE),2012-07-12T00:47:29Z,2012-07-15T01:49:14Z
+2115,"Inconsistency embedding remote png, jpg and gif files",2012-07-10T01:23:38Z,
+2113,CUA clipboard shortcuts doesn't work in Notebook,2012-07-09T07:15:50Z,
+2108,Backslash (\) at the end of the line behavior different from default Python,2012-07-06T20:05:01Z,2012-07-08T20:15:49Z
+2099,storemagic needs to use self.shell,2012-07-05T10:39:33Z,2012-07-21T16:14:51Z
+2098,Do not crash on kernel shutdow if json file is missing,2012-07-05T02:14:34Z,2013-01-19T21:31:40Z
+2097,Do not crash if history db is corrupted,2012-07-05T02:11:55Z,2012-09-29T12:40:56Z
+2085,%ed magic fails in qtconsole,2012-07-03T12:28:52Z,2012-07-10T19:53:55Z
+2082,Qt Console output spacing,2012-07-02T17:12:55Z,2012-07-05T16:54:37Z
+2080,Event loop issues with IPython 0.12 and PyQt4 (QDialog.exec_ and more),2012-07-02T10:10:45Z,2012-11-03T15:27:08Z
+2075,Local Mathjax install causes iptest3 error under python3,2012-07-01T19:57:31Z,2012-07-01T23:21:53Z
+2071,win32 installer issue on Windows XP,2012-07-01T03:04:23Z,2013-01-19T22:09:38Z
+2057,setup fails for python3 with LANG=C,2012-06-30T10:48:55Z,2012-07-01T06:58:44Z
+2056,except-shadows-builtin osm.py:687,2012-06-30T10:29:39Z,2012-06-30T14:39:25Z
+2054,sys_info missing git hash in sdists,2012-06-30T08:26:18Z,2012-06-30T22:57:24Z
+2041,fix autoscroll on Firefox,2012-06-26T17:27:33Z,
+2039,ipython parallel import exception,2012-06-25T21:12:35Z,2012-06-25T21:58:25Z
+2018,Windows XP: core test failure -- testing __del__ methods called on exit,2012-06-24T01:32:09Z,2014-02-02T02:20:22Z
+1995,Cannot restart kernels with running subprocesses on Windows,2012-06-20T20:48:31Z,
+1984,Cannot restart Notebook when using `%%script --bg`,2012-06-18T18:49:41Z,2012-06-20T20:50:09Z
+1982,Shutdown qtconsole problem?,2012-06-18T17:35:28Z,2012-06-20T03:38:22Z
+1963,"styling prompt, {color.Normal} excepts",2012-06-14T17:57:33Z,2012-06-15T00:53:59Z
+1961,UnicodeDecodeError on directory with unicode chars in prompt,2012-06-14T16:33:36Z,2012-06-15T00:53:59Z
+1941,script magics cause terminal spam,2012-06-13T09:28:04Z,2012-06-13T09:39:00Z
+1924,HTML superscripts not shown raised in the notebook,2012-06-12T08:24:55Z,2012-06-13T07:24:43Z
+1916,%paste doesn't work on py3,2012-06-11T21:07:57Z,2012-06-12T22:39:15Z
+1914,%pdef failing on python3,2012-06-11T20:38:37Z,2012-06-11T21:23:09Z
+1912,Move all autoreload tests to their own group,2012-06-11T19:43:18Z,2013-07-01T04:42:40Z
+1908,find_file errors on windows,2012-06-11T17:52:24Z,2012-06-11T19:31:04Z
+1904,"%%px? doesn't work, shows info for %px, general cell magic problem",2012-06-11T06:36:41Z,2012-06-11T07:51:57Z
+1903,Dead code from attempt at win32 interactivity,2012-06-11T04:26:44Z,
+1901,"Windows: parallel test fails assert, leaves 14 python processes alive",2012-06-11T03:30:49Z,2012-06-24T23:49:01Z
+1890,Docstrings for magics that use @magic_arguments are rendered wrong,2012-06-09T05:04:06Z,2012-06-12T04:14:19Z
+1885,handle too old wx,2012-06-08T17:26:22Z,2012-06-25T01:54:00Z
+1884,IPython.embed changes color on error,2012-06-08T10:32:38Z,2012-09-06T02:44:34Z
+1874,"cython_magic uses importlib, which doesn't ship with py2.6",2012-06-07T06:08:46Z,2012-06-08T04:10:46Z
+1860,IPython.utils.columnize sometime wrong...,2012-06-05T20:04:13Z,2012-06-10T19:22:49Z
+1840,New JS completer should merge completions before display,2012-06-03T02:32:00Z,2012-06-08T03:12:44Z
+1827,Sending tracebacks over ZMQ should protect against unicode failure,2012-06-01T09:46:15Z,2012-06-08T21:12:26Z
+1824,Exception before prompting for password during ssh connection,2012-06-01T04:13:04Z,2013-10-06T19:45:12Z
+1802,cythonmagic tests should be skipped if Cython not available,2012-05-31T10:07:10Z,2012-05-31T18:33:29Z
+1801,Client.queue_status info gets confused by retried tasks,2012-05-31T09:18:03Z,
+1799,Source file not found for magics,2012-05-31T05:35:38Z,2012-06-11T06:11:45Z
+1789,:\n/*foo turns into :\n*(foo) in triple-quoted strings.,2012-05-30T11:55:18Z,2013-04-20T13:07:45Z
+1781,Colons in notebook name causes notebook deletion without warning,2012-05-29T07:03:48Z,2012-06-06T23:24:05Z
+1777,ipython crash on wrong encoding,2012-05-28T14:21:24Z,2012-05-31T00:55:56Z
+1775,assert_in not present on Python 2.6,2012-05-28T10:37:26Z,2012-06-01T01:02:34Z
+1774,Some magics seems broken,2012-05-28T10:00:43Z,2012-06-11T05:14:28Z
+1772,notebook autocomplete fail when typing number,2012-05-28T04:54:18Z,2012-06-01T17:06:07Z
+1767,Tab completion problems with cell magics,2012-05-27T21:58:22Z,2012-06-17T14:42:39Z
+1766,Test failure in IPython.parallel,2012-05-26T09:20:33Z,2012-05-27T09:31:34Z
+1756,test_pr doesn't work with setupegg.py develop --user,2012-05-22T21:51:13Z,
+1738,IPython.embed_kernel issues,2012-05-15T05:24:30Z,2012-05-31T20:44:46Z
+1734,execfile statement fails from the command line,2012-05-14T09:51:27Z,
+1730,Warning from qtconsole when %autocall enabled,2012-05-13T21:05:08Z,2014-11-24T20:28:40Z
+1723,scatter/gather fail with targets='all',2012-05-11T00:56:01Z,2012-05-11T01:17:51Z
+1722,unicode exception when evaluating expression with non-ascii characters,2012-05-10T17:45:31Z,2012-05-10T18:17:42Z
+1699,Test failure in IPython.parallel w/ Python 3,2012-05-04T11:08:28Z,
+1696,notebook tooltip fail on function with number,2012-05-03T19:58:15Z,2012-05-06T08:42:05Z
+1688,unicode exception when using %run with failing script,2012-05-02T16:49:37Z,2012-09-06T13:05:23Z
+1683,Parallel controller failing with Pymongo 2.2,2012-05-02T10:18:31Z,2012-05-02T22:09:18Z
+1679,List command doesn't work in ipdb debugger the first time,2012-05-01T22:13:40Z,2012-11-08T18:11:58Z
+1678,ctrl-z clears cell output in notebook when pressed enough times,2012-05-01T00:26:04Z,2012-06-15T20:44:18Z
+1677,middle-click paste broken in notebook,2012-04-30T20:58:11Z,2012-05-01T00:43:57Z
+1667,Test failure in test_message_spec,2012-04-28T10:51:55Z,2012-04-28T19:45:39Z
+1660,dreload can't handle renamed modules,2012-04-25T19:08:50Z,
+1653,Test failure in IPython.zmq,2012-04-24T09:50:27Z,2012-04-27T19:40:41Z
+1647,Aborted parallel tasks can't be resubmitted,2012-04-23T13:51:41Z,2012-05-31T21:30:54Z
+1636,Test_deepreload breaks pylab irunner tests,2012-04-20T06:44:40Z,2012-04-23T02:36:56Z
+1635,test_prun_quotes fails on Windows,2012-04-19T21:57:49Z,2012-06-20T20:53:11Z
+1632,"Win32 shell interactivity apparently broke qtconsole ""cd"" magic",2012-04-19T17:41:13Z,2012-06-11T04:14:57Z
+1628,error: QApplication already exists in TestKillRing,2012-04-18T23:10:14Z,2012-04-19T18:56:44Z
+1622,deepreload fails on Python 3,2012-04-18T13:50:03Z,2012-04-18T20:04:32Z
+1617,"""?"" help magic not applied to ""correct"" function",2012-04-17T09:02:03Z,
+1593,Name embedded in notebook overrides filename,2012-04-14T10:13:30Z,2012-06-11T01:55:43Z
+1591,Keying 'q' doesn't quit the interactive help in Wins7,2012-04-13T05:50:54Z,2013-08-21T19:17:02Z
+1578,Audit notebook AJAX calls for proper error handling,2012-04-12T20:48:14Z,2014-01-26T21:52:40Z
+1577,If a notebook loses its network connection WebSockets won't reconnect,2012-04-12T20:44:38Z,2012-06-10T23:33:26Z
+1574,BUG: Ctrl+C crashes wx pylab kernel in qtconsole,2012-04-12T19:47:21Z,2012-04-14T00:38:42Z
+1572,pyreadline version dependency not correctly checked,2012-04-11T22:16:54Z,2012-06-13T07:09:56Z
+1564,calling .abort on AsyncMapResult  results in traceback,2012-04-09T22:55:32Z,2012-04-15T05:53:26Z
+1561,Qtconsole - nonstandard \a and \b,2012-04-09T18:48:24Z,2012-04-14T03:30:00Z
+1551,Notebook should be saved before printing,2012-04-04T11:57:06Z,2013-12-13T19:59:06Z
+1549,autoreload extension crashes ipython,2012-04-04T11:22:56Z,2012-06-11T19:41:53Z
+1545,trailing newline not preserved in splitline ipynb,2012-04-02T18:47:52Z,2012-04-15T00:20:50Z
+1542,%save magic fails in clients without stdin if file already exists,2012-03-31T23:03:32Z,2012-06-13T07:18:55Z
+1534,IPython and pytest,2012-03-30T10:15:41Z,
+1532,qtconsole does not accept --gui switch,2012-03-28T06:14:45Z,2012-05-31T03:13:19Z
+1520,kernel crash when showing tooltip (?),2012-03-23T17:42:48Z,2012-04-24T05:59:07Z
+1518,Pretty printing exceptions is broken,2012-03-23T15:58:13Z,2012-03-26T20:47:31Z
+1512,"`print stuff,` should avoid newline",2012-03-21T22:50:56Z,2012-04-26T00:45:31Z
+1507,python3 notebook: TypeError: unorderable types,2012-03-16T21:19:07Z,2012-03-16T23:30:00Z
+1503,Cursor is offset in notebook in Chrome 17 on Linux,2012-03-15T23:26:43Z,2012-06-11T02:16:08Z
+1500,dreload doesn't seem to exclude numpy,2012-03-15T21:47:38Z,2012-04-25T18:03:53Z
+1499,various pyflakes issues,2012-03-15T20:16:54Z,2012-04-14T09:33:30Z
+1494,Untrusted Secure Websocket broken on latest chrome dev,2012-03-15T09:10:30Z,2012-04-02T13:19:50Z
+1487,%notebook fails in qtconsole,2012-03-10T13:11:59Z,2012-04-15T00:33:15Z
+1482,%history documentation out of date?,2012-03-09T15:26:38Z,2012-03-15T23:07:29Z
+1479,test_extension failing in Windows,2012-03-08T21:56:55Z,2012-04-23T14:22:10Z
+1470,SyntaxError on setup.py install with Python 3,2012-03-04T14:23:13Z,2012-04-18T20:08:56Z
+1464,Strange behavior for backspace with lines ending with more than 4 spaces in notebook ,2012-03-02T05:03:02Z,2012-07-28T10:41:02Z
+1461,User notification if notebook saving fails,2012-03-01T20:28:30Z,2012-06-13T07:23:00Z
+1459,Can't connect to 2 HTTPS notebook servers on the same host,2012-03-01T16:19:40Z,2013-06-19T21:14:39Z
+1456,ERROR: Internal Python error in the inspect module.,2012-02-29T23:49:46Z,2012-08-02T09:36:19Z
+1442,cache-size issue in qtconsole,2012-02-28T07:44:24Z,2012-05-10T00:07:26Z
+1439,Notebook not storing heading celltype information,2012-02-26T16:05:59Z,2012-02-28T23:14:51Z
+1429,Switching from code to Markdown mode loses cursor position,2012-02-21T22:44:42Z,
+1428,Failing test that prun does not clobber string escapes,2012-02-21T18:39:05Z,2012-06-11T20:42:50Z
+1426,Qt console doesn't handle the `--gui` flag correctly.,2012-02-21T04:42:52Z,2012-06-11T02:05:04Z
+1425,Ampersands can't be typed sometimes in notebook cells,2012-02-21T03:56:42Z,2012-07-07T21:23:50Z
+1423,"ipython notebook issue with pywin32 (DLL load failed, invalid path)",2012-02-20T15:52:57Z,2014-06-17T04:49:07Z
+1421,ipython32 %run -d breaks with NameError name 'execfile' is not defined,2012-02-19T22:01:51Z,2012-04-15T21:52:45Z
+1412,Input parsing issue with %prun,2012-02-18T19:44:56Z,2012-02-27T21:20:51Z
+1409,[qtconsole] forward delete bring completion into current line,2012-02-15T14:06:26Z,2012-06-12T18:00:21Z
+1408,test_get_home_dir_3 failed on Mac OS X,2012-02-15T11:43:34Z,2012-02-21T15:21:14Z
+1407,Qtconsole segfaults on OSX when displaying some pop-up function tooltips,2012-02-14T11:49:43Z,2012-02-15T13:22:10Z
+1401,numpy arrays cannot be used with View.apply() in Python 3,2012-02-13T03:32:46Z,2012-03-25T06:49:20Z
+1392,QTextCursor::setPosition: Position '16786' out of range,2012-02-09T04:03:28Z,2015-06-22T19:28:03Z
+1381,'\\' for equation continuations require an extra '\' in markdown cells,2012-02-05T22:26:41Z,2013-05-13T15:22:42Z
+1373,Last lines in long cells are hidden,2012-02-03T22:42:37Z,2013-06-19T21:17:40Z
+1360,IPython notebook not starting on winXP,2012-01-31T21:33:08Z,2012-02-17T20:19:55Z
+1359,[sympyprinting] MathJax can't render \root{m}{n},2012-01-31T20:20:15Z,2012-02-02T21:41:05Z
+1356,quit and exit work inconsistently in 2-process terminal console,2012-01-30T23:55:27Z,2014-11-14T00:09:23Z
+1349,`?` may generate hundreds of cell ,2012-01-30T15:07:59Z,2013-10-16T10:55:06Z
+1345,notebook can't save unicode as script,2012-01-29T23:49:28Z,2012-02-08T23:14:49Z
+1344,Ctrl + M + L does not toggle line numbering in htmlnotebook,2012-01-29T22:46:57Z,2012-02-02T21:41:04Z
+1342,Unable to open a second instance of iPython,2012-01-29T19:37:13Z,
+1339,Notebook printing broken,2012-01-29T03:59:26Z,2012-02-02T21:41:04Z
+1337,"Tab in the notebook after `(` should not indent, only give a tooltip",2012-01-28T07:23:31Z,2012-02-02T21:41:04Z
+1324,Hitting ctrl-c in win7 cmd-window ipython produces bizarre hybrid mode,2012-01-25T07:55:17Z,
+1323,64-bit win7 qtconsole messes up unicode,2012-01-25T07:36:28Z,2013-08-16T22:17:48Z
+1322,ctrl-c/ctrl-break hangs interactive python input from win7 64-bit qtconsole,2012-01-25T06:56:28Z,2016-12-27T12:09:24Z
+1321,I/O doesn't work in windows qt-console when running shell command,2012-01-25T05:39:20Z,2016-07-25T22:46:02Z
+1317,Very slow traceback construction from Cython extension,2012-01-24T21:50:07Z,2012-01-29T19:25:54Z
+1313,Figure out MathJax 2 support,2012-01-23T22:49:52Z,2012-04-27T20:38:19Z
+1308,ipython qtconsole  --ssh=server --existing ... hangs,2012-01-21T06:27:48Z,2012-11-08T18:29:20Z
+1305,completion problem in long (wrapped) lines in qtconsole,2012-01-20T23:08:33Z,2014-11-14T00:08:31Z
+1304,controller/server load can disrupt heartbeat,2012-01-20T22:49:42Z,2012-01-23T22:14:21Z
+1302,Input parsing with %prun clobbers escapes,2012-01-20T20:01:39Z,2012-01-21T03:04:09Z
+1298,Save ipython debugging session history (>= 0.11),2012-01-20T09:58:54Z,
+1297,"""ipython -p sh"" is in documentation but doesn't work",2012-01-20T04:10:09Z,2012-06-25T19:05:46Z
+1290,Cell-level cut & paste overwrites multiple cells,2012-01-19T02:39:37Z,2012-01-20T00:12:25Z
+1286,ipython's reaction to ctrl-c when reverse-searching history,2012-01-18T10:55:33Z,2016-02-01T10:30:28Z
+1282,CommandLineConfigLoader fails on e.g. --notebook-dir=bin,2012-01-17T18:54:37Z,
+1281,"in Hub: registration_timeout must be an integer, but heartmonitor.period is CFloat",2012-01-17T16:17:12Z,2012-01-18T20:56:54Z
+1273,Improving recursive Pdb,2012-01-15T20:06:13Z,
+1271,colors magic not working in 'ipython console',2012-01-15T18:07:49Z,2015-01-12T00:37:19Z
+1269,Another strange input handling error,2012-01-15T01:34:24Z,2012-01-18T06:22:52Z
+1268,notebook %reset magic fails with StdinNotImplementedError,2012-01-14T17:39:41Z,2012-03-07T00:08:26Z
+1260,heartbeat failure on long gil-holding operation,2012-01-13T02:16:37Z,2012-01-14T04:18:21Z
+1258,Magic %paste error,2012-01-12T21:00:35Z,2012-06-28T01:51:25Z
+1255,figure.show() raises an error with the inline backend,2012-01-11T18:30:00Z,2012-04-12T19:47:04Z
+1254,typo in notebooklist.js breaks links,2012-01-11T08:14:57Z,2012-02-07T19:51:36Z
+1252,IPython 0.12 Tracer breaks python pickling,2012-01-10T21:41:27Z,
+1251,IPython-0.12 can't import map module on Python 3.1,2012-01-10T08:00:27Z,2012-01-21T01:40:46Z
+1241,When our debugger class is used standalone `_oh` key errors are thrown,2012-01-06T17:40:32Z,2012-03-16T23:33:05Z
+1240,sys.path missing `''` as first entry when kernel launched without interface,2012-01-06T13:01:03Z,2012-05-03T18:04:27Z
+1237,Kernel status and logout button overlap,2012-01-05T18:54:21Z,2012-04-12T19:11:23Z
+1235,After upgrading CodeMirror check the status of some bugs,2012-01-05T18:36:52Z,2012-01-24T03:30:44Z
+1232,Dead kernel loop,2012-01-05T18:12:30Z,2012-01-17T18:50:46Z
+1228,terminal console with pylab: Ctrl-C crashes kernel,2012-01-04T19:33:29Z,2015-01-12T00:37:19Z
+1226,Windows GUI only (pythonw) bug for IPython on Python 3.x,2012-01-04T14:38:51Z,2012-05-05T11:34:49Z
+1225,SyntaxError display broken in Python 3,2012-01-04T03:44:45Z,2012-01-13T00:11:10Z
+1209,can't make %result work as in doc.,2011-12-25T12:13:15Z,2013-01-19T22:52:52Z
+1205,notebook stores HTML escaped text in the file,2011-12-24T17:49:07Z,2012-01-31T20:52:11Z
+1204,double newline from %loadpy in python notebook (at least on mac),2011-12-24T11:30:24Z,2011-12-24T21:18:07Z
+1201,%env magic fails with Python 3.2,2011-12-23T12:39:49Z,2012-04-15T21:37:54Z
+1200,IPython 0.12 Windows install fails on Vista,2011-12-23T12:24:02Z,2013-01-19T22:35:52Z
+1198,Kernel Has Died error in Notebook,2011-12-22T20:29:45Z,2012-01-06T10:06:48Z
+1197,Interactive shell trying to: from ... import history,2011-12-22T14:52:48Z,2011-12-28T18:33:53Z
+1191,"profile/startup files not executed with ""notebook""",2011-12-21T01:37:14Z,2011-12-21T10:05:58Z
+1186,payloadpage.py not used by qtconsole,2011-12-20T16:13:13Z,2011-12-25T22:14:10Z
+1184,slow handling of keyboard input,2011-12-19T22:53:44Z,2014-01-29T03:56:31Z
+1183,0.12 testsuite failures,2011-12-19T19:22:41Z,2012-06-24T18:43:34Z
+1181,greedy completer bug in terminal console,2011-12-19T12:08:30Z,2014-01-29T19:07:20Z
+1170,"double pylab greeting with c.InteractiveShellApp.pylab = ""tk"" in zmqconsole",2011-12-17T22:44:33Z,2011-12-18T02:39:29Z
+1169,"Autorewrite not working for explicit forms (with , or /)",2011-12-17T22:04:31Z,
+1157,Ctrl-C not working when GUI/pylab integration is active,2011-12-15T20:28:08Z,2011-12-15T22:09:53Z
+1156,Notebooks downloaded as Python files require a header stating the encoding,2011-12-15T15:15:17Z,2011-12-15T22:44:49Z
+1148,A lot of testerrors,2011-12-13T18:21:10Z,2011-12-13T20:09:17Z
+1145,Online help utility broken in QtConsole,2011-12-12T23:14:55Z,2013-07-06T16:54:58Z
+1136,The embedding machinery ignores user_ns,2011-12-09T21:29:12Z,2011-12-13T00:15:41Z
+1134,"""select-all, kill"" leaves qtconsole in unusable state",2011-12-09T18:14:27Z,2011-12-14T04:23:33Z
+1128,fix pylab StartMenu item,2011-12-08T21:54:22Z,2011-12-13T04:35:25Z
+1123,%run fails when single-quoted filename contains escaped single quote,2011-12-08T01:15:11Z,
+1119,Start menu shortcuts not created in Python 3,2011-12-07T21:44:07Z,2011-12-13T00:18:57Z
+1117,quit() doesn't work in terminal,2011-12-07T21:30:57Z,2011-12-09T18:47:40Z
+1107,Tab autocompletion can suggest invalid syntax,2011-12-06T11:49:15Z,2012-03-05T12:37:51Z
+1103,%loadpy should cut out encoding declaration,2011-12-04T23:09:27Z,2011-12-15T23:24:08Z
+1100,ipython3 traceback unicode issue from extensions,2011-12-04T15:38:01Z,2011-12-06T01:07:10Z
+1095,Uncaught TypeError: Object has no method 'remove_and_cancell_tooltip',2011-12-04T07:48:32Z,2011-12-04T22:18:13Z
+1088,QtConsole : can't copy from pager,2011-12-02T14:19:44Z,2011-12-07T22:21:10Z
+1087,QtConsole xhtml/Svg export broken ?,2011-12-01T21:36:03Z,2011-12-06T06:50:06Z
+1076,namespace changes broke `foo.*bar*?` syntax,2011-12-01T02:13:18Z,2011-12-01T19:03:13Z
+1075,We're ignoring prompt customizations,2011-12-01T02:08:56Z,2011-12-01T22:47:51Z
+1074,pprinting old-style class objects fails (TypeError: 'tuple' object is not callable),2011-11-30T22:41:45Z,2011-11-30T22:59:52Z
+1071,Large html-notebooks hang on load on a slow machine,2011-11-30T15:01:10Z,2011-12-06T00:49:07Z
+1067,Parallel test suite hangs on Python 3,2011-11-30T00:50:18Z,2011-12-06T05:27:41Z
+1063,IPython.utils test error due to missing unicodedata module,2011-11-28T19:09:16Z,2011-11-30T22:20:46Z
+1062,warning message in IPython.extensions test,2011-11-28T19:05:01Z,2012-05-31T18:28:53Z
+1058,New bug: Notebook asks for confirmation to leave even saved pages.,2011-11-28T03:07:40Z,2011-11-28T21:01:59Z
+1057,"Blocker: Qt console broken after ""all magics"" menu became dynamic",2011-11-27T23:44:30Z,2011-11-30T06:06:30Z
+1055,"""All Magics"" display on Ubuntu ",2011-11-27T14:43:46Z,2011-11-27T20:22:38Z
+1051,ipython3 set_next_input() failure,2011-11-27T07:21:34Z,2011-11-27T12:26:13Z
+1043,pylab doesn't work in qtconsole,2011-11-25T11:08:36Z,2011-11-25T12:20:05Z
+1031,<esc> on Firefox crash websocket,2011-11-23T07:21:23Z,2011-11-24T01:58:44Z
+1024,autopx magic broken ,2011-11-21T20:38:48Z,2011-11-21T21:13:33Z
+1022,Pylab banner shows up with first cell to execute,2011-11-21T00:32:32Z,2011-11-24T22:03:03Z
+1021,Tab completion on paths,2011-11-20T22:03:28Z,
+1018,Local mathjax breaks install,2011-11-20T09:11:55Z,2011-12-06T05:27:41Z
+1010,emacs freezes when ipython-complete is called,2011-11-18T14:29:28Z,2011-11-24T23:59:30Z
+1009,Windows: regression in cd magic handling of paths,2011-11-18T00:04:34Z,2011-11-20T21:59:48Z
+993,`raw_input` redirection to foreign kernels is extremely brittle,2011-11-11T07:47:59Z,2011-12-06T01:40:32Z
+992,Interrupting certain matplotlib operations leaves the inline backend 'wedged',2011-11-11T07:42:58Z,2011-11-20T08:48:20Z
+988,Error using idlsave,2011-11-10T16:25:46Z,2011-11-11T01:59:17Z
+986,Views created with c.direct_view() fail,2011-11-09T22:46:07Z,2011-11-10T03:20:12Z
+978,ipython 0.11 buffers external command output till the cmd is done,2011-11-08T02:39:24Z,2011-11-11T08:00:34Z
+972,Stdin gets broken with %run and ^D,2011-11-03T20:12:44Z,
+971,bookmarks created in 0.11 are corrupt in 0.12,2011-11-03T18:43:32Z,2011-11-05T21:44:51Z
+966,"dreload fails on Windows XP with iPython 0.11 ""Unexpected Error""",2011-11-02T19:13:53Z,2012-04-25T18:53:16Z
+962,Don't require tornado in the tests,2011-11-01T19:33:23Z,2011-11-01T19:56:41Z
+958,Can't use os X clipboard on with qtconsole,2011-11-01T12:27:12Z,2011-11-02T10:18:55Z
+952,Need user-facing warning in the browser if websocket connection fails,2011-10-30T23:56:50Z,2011-11-11T04:16:43Z
+949,Test suite must not require any manual interaction,2011-10-30T20:34:49Z,2011-11-02T19:28:01Z
+947,qtconsole segfaults at startup,2011-10-30T10:26:29Z,2011-10-30T21:33:17Z
+946,Multi-tab Close action should offer option to leave all kernels alone,2011-10-30T00:43:38Z,2011-11-02T19:49:13Z
+939,ZMQShell always uses default profile,2011-10-28T19:36:15Z,2011-11-02T21:36:48Z
+934,The latest ipython branch doesn't work in Chrome,2011-10-26T22:58:22Z,2011-10-30T23:11:44Z
+922,ipython.el not compatible with GNU emacs built in python mode,2011-10-22T20:24:37Z,2015-01-14T21:15:26Z
+918,IPython.frontend tests fail without tornado,2011-10-21T20:40:36Z,2011-11-10T03:49:42Z
+917,documentation typos,2011-10-21T19:40:53Z,2011-10-21T21:11:13Z
+915,OS X Lion Terminal.app line wrap problem,2011-10-21T09:17:08Z,2011-10-25T19:15:16Z
+911,ipython crashes on startup if readline is missing,2011-10-20T19:17:20Z,2011-11-07T23:01:33Z
+908,bad user config shouldn't crash IPython,2011-10-20T16:48:19Z,2011-10-29T04:14:02Z
+907,Errors in custom completer functions can crash IPython,2011-10-20T15:27:13Z,2011-10-20T21:03:11Z
+904,whos under pypy1.6,2011-10-20T05:23:41Z,2011-10-25T21:29:05Z
+900,Tab key should insert 4 spaces in qt console,2011-10-19T03:41:18Z,2011-10-20T18:20:37Z
+886,Notebook kernel crash when specifying --notebook-dir on commandline,2011-10-17T07:43:40Z,2011-10-25T04:08:05Z
+885,`ws-hostname` alias not recognized by notebook,2011-10-17T02:41:11Z,2011-10-17T02:57:56Z
+882,ipython freezes at start if IPYTHONDIR is on an NFS mount,2011-10-16T13:05:08Z,2011-11-30T06:53:06Z
+879,How to handle Javascript output in the notebook,2011-10-15T02:30:04Z,2012-04-12T19:57:54Z
+875,never build unicode error messages,2011-10-14T19:37:58Z,2012-03-05T12:40:15Z
+871,Notebook crashes if a profile is used,2011-10-14T01:19:20Z,2011-10-14T01:52:28Z
+869,Tab completion of `~/` shows no output post 0.10.x,2011-10-13T20:26:14Z,2011-10-26T18:06:31Z
+867,doc: notebook password authentication howto,2011-10-13T16:09:48Z,2011-10-20T20:21:41Z
+863,Graceful degradation when home directory not writable,2011-10-12T16:06:29Z,2011-10-12T16:47:27Z
+858,Typing 'continue' makes ipython0.11 crash,2011-10-11T12:54:03Z,2011-10-11T13:01:23Z
+853,ipython.el not working with emacs python-mode 6.0.3,2011-10-10T20:44:34Z,2015-01-14T21:12:54Z
+852,Notebook should be saved before downloading,2011-10-10T19:53:28Z,2013-10-23T01:45:31Z
+851,IPython shell swallows exceptions in certain circumstances,2011-10-10T16:46:43Z,2011-11-30T07:10:54Z
+846,Autoreload extension doesn't work with Python 3.2,2011-10-08T22:25:26Z,2012-02-17T20:22:07Z
+844,backgroundjobs related magic functions are all missing,2011-10-08T06:28:35Z,2015-09-15T15:54:42Z
+833,Crash python with matplotlib and unequal length arrays,2011-10-01T22:22:56Z,2011-11-20T10:41:46Z
+829,We should not insert new lines after all print statements in the notebook,2011-09-30T20:26:40Z,2011-10-14T19:41:09Z
+825,keyboardinterrupt crashes gtk gui when gtk.set_interactive is not available,2011-09-29T22:04:47Z,2012-06-26T04:59:34Z
+823,KnownFailure tests appearing as errors,2011-09-29T20:52:34Z,2012-02-21T04:00:06Z
+822,Unicode bug in Itpl when expanding shell variables in syscalls with !,2011-09-29T18:35:05Z,2011-11-20T22:54:00Z
+818,%run does not work with non-ascii characeters in path,2011-09-22T17:36:31Z,2011-10-20T21:13:36Z
+812,Qt console crashes on Ubuntu 11.10,2011-09-21T01:50:28Z,2011-09-23T20:07:09Z
+808,Ctrl+C during %reset confirm message crash Qtconsole,2011-09-20T17:39:07Z,2011-10-24T23:30:21Z
+800,Timing scripts with run -t -N <N> fails on report output,2011-09-18T10:37:18Z,2011-10-11T18:57:57Z
+797,Source introspection needs to be smarter in python 3.2,2011-09-16T20:23:44Z,2012-02-17T20:37:11Z
+796,Windows 7 engine dies on create or resubmit of task,2011-09-15T13:40:29Z,2014-10-02T23:37:55Z
+787,Keyboard selection of multiple lines in the notebook behaves inconsistently,2011-09-13T08:45:19Z,2011-11-24T21:37:48Z
+786,from __future__ import unicode_literals does not work,2011-09-13T07:53:52Z,2011-09-13T22:07:41Z
+785,Don't strip leading whitespace in repr() in notebook,2011-09-13T02:23:53Z,2011-09-13T04:12:45Z
+777,"print(…, sep=…) raises SyntaxError",2011-09-08T09:14:17Z,2011-09-12T23:23:28Z
+768,codepage handling of output from scripts and shellcommands are not handled properly by qtconsole,2011-09-06T18:35:46Z,2011-09-13T05:38:39Z
+767,non-ascii in __doc__ string crashes qtconsole kernel when showing tooltip,2011-09-06T18:18:18Z,2011-09-06T21:06:22Z
+761,Windows: test runner fails if repo path (e.g. home dir) contains spaces,2011-09-04T22:26:25Z,2011-10-08T04:46:17Z
+760,Windows: test runner fails if repo path contains spaces,2011-09-04T22:17:52Z,2012-06-27T22:16:31Z
+759,utils test (home dir expansion) failure on Git Bash in Windows XP,2011-09-04T21:17:20Z,
+756,qtconsole Windows fails to print error message for '%run nonexistent_file',2011-09-02T23:34:21Z,2011-09-20T22:35:40Z
+755,qtconsole ipython widget's execute_file fails if filename contains spaces or quotes,2011-09-02T23:08:20Z,2011-12-12T22:04:59Z
+749,IPython.parallel test failure under Windows 7 and XP,2011-08-30T18:46:42Z,2011-10-17T23:18:13Z
+740,Ctrl-Enter clears line in notebook,2011-08-27T12:23:49Z,2011-09-07T17:39:37Z
+739,Tests fail if tornado not installed,2011-08-27T10:05:45Z,2011-09-09T22:25:07Z
+728,ipcontroller crash with MPI,2011-08-24T23:00:15Z,2011-09-12T20:44:18Z
+724,"crash - ipython qtconsole, %quickref",2011-08-23T22:10:31Z,2011-09-09T21:28:12Z
+720,Crash report when importing easter egg,2011-08-22T14:23:11Z,2011-09-07T18:07:33Z
+710,unwanted unicode passed to args,2011-08-19T13:37:59Z,2011-10-19T00:52:34Z
+700,Some SVG images render incorrectly in htmlnotebook,2011-08-15T21:03:51Z,2011-12-11T01:00:13Z
+698,"crash report ""TypeError: can only concatenate list (not ""unicode"") to list""",2011-08-13T09:01:54Z,2011-11-15T04:26:53Z
+693,"""run -i"" no longer works after %reset in terminal",2011-08-11T16:21:05Z,2011-11-27T02:45:29Z
+692,use of Tracer() when debugging works but gives error messages,2011-08-10T10:20:14Z,2011-10-18T22:49:36Z
+690,debugger does not print error message by default in 0.11,2011-08-10T09:15:48Z,2011-10-18T19:05:04Z
+681,pdb freezes inside qtconsole,2011-08-06T19:24:02Z,2011-11-15T04:34:16Z
+680,Sqlite ProgrammingError exception when embedding shell in thread,2011-08-06T17:16:58Z,
+678,Input prompt stripping broken with multiline data structures,2011-08-04T20:38:22Z,2013-06-19T14:51:06Z
+676,IPython.embed() from ipython crashes twice on exit,2011-08-04T15:33:53Z,2012-03-16T23:33:05Z
+673,raw_input appears to be round-robin for qtconsole,2011-08-03T20:40:35Z,2011-10-12T22:28:45Z
+669,Do not accept an ipython_dir that's not writeable,2011-08-03T18:19:41Z,2011-08-23T20:16:09Z
+667,qtconsole problem with default pylab profile,2011-08-03T14:28:11Z,2011-09-09T21:34:58Z
+662,ipython test failures on Mac OS X Lion,2011-08-01T22:23:30Z,2011-10-14T19:44:49Z
+661,ipythonrc referenced in magic command in 0.11,2011-08-01T20:16:28Z,2011-09-09T21:32:56Z
+655,ipython with qtconsole crashes,2011-08-01T14:19:40Z,2011-09-09T21:28:12Z
+650,Handle bad config files better,2011-08-01T06:31:44Z,2011-10-14T19:44:10Z
+645,Standalone WX GUI support is broken,2011-07-30T13:44:09Z,2012-02-07T21:34:25Z
+640,matplotlib macosx windows don't respond in qtconsole,2011-07-29T22:33:19Z,2011-10-14T17:56:25Z
+636,debugger.py: pydb broken,2011-07-29T19:10:39Z,2011-10-25T00:50:57Z
+633,Execution count & SyntaxError,2011-07-29T10:23:19Z,2011-12-05T23:58:11Z
+625,Ctrl-C not clearing prompt in terminal (with EPD?),2011-07-26T12:00:17Z,2016-07-21T19:15:09Z
+624,ipython intermittently segfaults when figure is closed (Mac OS X),2011-07-25T00:16:08Z,2011-10-14T17:52:51Z
+621,"[qtconsole] on windows xp, cannot  PageUp more than once",2011-07-22T15:47:55Z,2011-07-22T18:03:32Z
+617,[qtconsole] %hist doesn't show anything in qtconsole,2011-07-21T14:07:12Z,2011-09-14T19:35:56Z
+597,UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2,2011-07-19T21:33:06Z,2011-07-22T19:29:20Z
+592,Bug in argument parsing for %run,2011-07-18T20:27:42Z,2011-11-30T21:13:49Z
+586,? + plot() Command B0rks QTConsole Strangely,2011-07-16T20:05:04Z,2011-07-16T20:26:51Z
+577,WX Eventloop not working in Emacs,2011-07-14T14:59:54Z,2015-01-14T21:14:22Z
+572,Indented command hits error,2011-07-13T17:00:32Z,2011-07-13T22:52:49Z
+568,Test error and failure in IPython.core on windows,2011-07-11T21:18:46Z,2011-12-07T22:21:08Z
+566,Can't use exec_file in config file,2011-07-11T18:54:23Z,2011-07-11T19:13:41Z
+562,update docs to reflect '--args=values',2011-07-07T23:11:31Z,2011-07-08T21:05:08Z
+553,embed() fails if config files not installed,2011-07-04T16:06:55Z,2011-07-04T16:40:30Z
+549,Don't check for 'linux2' value in sys.platform,2011-07-01T03:23:41Z,2011-07-01T05:15:15Z
+541,log_level is broken in the  ipython Application,2011-06-25T20:30:16Z,2011-06-26T08:49:21Z
+535,exception unicode handling in %run is faulty in qtconsole,2011-06-22T19:09:44Z,2011-10-14T22:28:29Z
+529,unicode problem in qtconsole for windows,2011-06-20T16:29:23Z,2011-06-22T17:44:01Z
+524,otool should not be unconditionally called on osx,2011-06-18T22:56:56Z,2011-06-19T19:07:20Z
+522,Encoding problems,2011-06-16T12:28:47Z,2011-06-20T12:33:47Z
+519,"qtconsole --pure: ""TypeError: string indices must be integers, not str""",2011-06-13T22:59:01Z,2011-06-14T00:15:47Z
+516,"qtconsole --pure: ""KeyError: 'ismagic'""",2011-06-11T07:26:40Z,2011-06-14T00:15:47Z
+514,shell command hangs if it expects input,2011-06-10T20:09:12Z,2016-07-21T19:54:18Z
+508,"""AssertionError: Missing message part."" in ipython-qtconsole --pure",2011-06-08T22:19:00Z,2011-06-10T18:48:21Z
+500,"""RuntimeError: Cannot change input buffer during execution"" in console_widget.py",2011-06-02T23:15:38Z,2011-08-18T21:13:05Z
+499,"""ZMQError: Interrupted system call"" when saving inline figure",2011-06-02T21:07:11Z,2011-06-04T05:04:21Z
+497,Don't show info from .pyd files,2011-06-02T09:19:14Z,2011-06-02T11:36:05Z
+489,UnicodeEncodeError in qt.svg.save_svg,2011-06-01T02:57:57Z,2011-06-01T22:11:33Z
+488,Using IPython with RubyPython leads to problems with IPython.parallel.client.client.Client.__init(),2011-05-31T15:07:47Z,2011-05-31T20:17:08Z
+482,test_run.test_tclass fails on Windows,2011-05-29T21:30:02Z,2012-03-08T22:04:45Z
+481,IPython terminal issue with Qt4Agg on XP SP3,2011-05-29T21:08:40Z,2013-07-17T22:48:57Z
+476,Separate input area in Qt Console,2011-05-27T06:19:30Z,2011-06-21T22:55:09Z
+468,iptest script has 0 exit code even when tests fail,2011-05-24T12:09:47Z,2011-05-25T19:08:37Z
+467,magic_install_default_config test fails when there is no .ipython directory,2011-05-24T11:43:59Z,2011-05-24T12:16:11Z
+466,tests fail without unicode filename support,2011-05-24T11:22:24Z,2011-05-26T18:17:18Z
+458,embed() doesn't load default config,2011-05-20T01:59:39Z,2011-06-01T00:35:08Z
+450,resubmitted tasks sometimes stuck as pending,2011-05-17T21:52:19Z,2011-06-12T03:55:40Z
+447,Instantiating classes without __init__ function causes kernel to crash,2011-05-17T18:53:58Z,2011-05-17T22:27:47Z
+446,Test machinery is imported at normal runtime,2011-05-17T17:24:47Z,2011-05-18T21:02:22Z
+440,"%run filename autocompletion ""The kernel heartbeat has been inactive ... "" error",2011-05-14T00:02:26Z,2011-06-28T17:11:04Z
+439,Users should be able to copy notebook input and output,2011-05-13T23:19:33Z,2011-05-17T23:32:25Z
+435,Notebook should not import anything by default,2011-05-13T23:06:38Z,2011-07-20T16:14:26Z
+426,%edit magic fails in qtconsole,2011-05-10T16:12:33Z,2011-06-02T13:59:02Z
+417,IPython should display things unsorted if it can't sort them,2011-05-05T10:39:53Z,2011-05-05T10:54:25Z
+416,wrong encode when printing unicode string,2011-05-05T07:33:31Z,2011-05-05T09:56:18Z
+409,Test failure in IPython.lib,2011-05-03T21:48:34Z,2011-05-11T23:15:41Z
+405,TraitError in traitlets.py(332) on any input,2011-04-29T14:36:06Z,2011-04-29T20:11:08Z
+401,Race condition when running lbview.apply() fast multiple times in loop,2011-04-25T19:20:07Z,2011-05-30T20:29:50Z
+396,cursor move triggers a lot of IO access,2011-04-20T14:03:36Z,2011-04-27T09:41:44Z
+395,"Additional ""ghost"" character in interactive terminal",2011-04-19T22:04:04Z,2016-07-19T23:58:22Z
+394,System escape interpreted in multi-line string,2011-04-19T13:49:46Z,2011-04-19T17:29:37Z
+392,UnicodeEncodeError on start,2011-04-18T16:08:51Z,2011-04-29T17:01:39Z
+391,MongoDB.add_record() does not work in 0.11dev,2011-04-17T22:16:06Z,2011-04-21T21:11:34Z
+387,Interactively defined functions can't access user namespace,2011-04-15T22:52:28Z,2011-04-20T21:56:36Z
+386,FAIL: test that pushed functions have access to globals,2011-04-14T22:10:29Z,2011-04-21T19:24:13Z
+379,Minor doc nit: --paging argument,2011-04-14T01:20:04Z,2011-04-26T18:25:21Z
+378,Windows path escape issues,2011-04-13T20:08:10Z,2011-11-30T18:47:32Z
+377,Failure: error (nothing to repeat),2011-04-13T18:54:17Z,2011-06-29T23:28:13Z
+376,Failing InputsplitterTest,2011-04-13T18:51:26Z,2011-05-03T22:12:05Z
+375,Missing libraries cause ImportError in tests,2011-04-13T18:46:46Z,2011-04-14T21:48:37Z
+371,segfault in qtconsole when kernel quits,2011-04-12T07:13:37Z,2011-06-30T00:23:41Z
+369,windows source install doesn't create scripts correctly,2011-04-12T00:59:14Z,2011-06-24T23:58:49Z
+368,Installation instructions in dev docs are completely wrong,2011-04-12T00:57:09Z,2011-04-18T21:37:28Z
+365,newparallel on Windows,2011-04-11T23:30:18Z,2011-04-21T19:25:36Z
+351,Make sure that the Windows installer handles the top-level IPython scripts.,2011-04-10T05:50:17Z,2011-06-24T23:58:49Z
+350,Decide how to handle displayhook being triggered multiple times,2011-04-10T05:46:18Z,2011-04-13T10:53:26Z
+340,Make sure that the Windows HPC scheduler support is working for 0.11,2011-04-08T18:23:52Z,2011-06-24T17:52:31Z
+337,"exit( and quit( in Qt console produces phantom signature/docstring popup, even though quit() or exit() raises NameError",2011-04-08T10:08:10Z,2011-04-08T23:23:10Z
+333,Cannot access globals in functions defined in sphinx ipython mode,2011-04-07T09:09:42Z,
+328,"%run script.ipy raises ""ERROR! Session/line number was not unique in database.""",2011-04-01T05:42:55Z,2011-04-02T21:02:04Z
+326,Update docs and examples for parallel stuff to reflect movement away from Twisted,2011-03-31T06:30:56Z,2011-04-11T19:34:53Z
+322,Embedding an interactive IPython shell ,2011-03-29T17:58:33Z,2011-03-29T19:13:31Z
+320,Tab completing re.search objects crashes IPython,2011-03-28T16:01:00Z,2011-03-28T16:52:55Z
+318,%debug broken in master: invokes missing save_history() method,2011-03-26T22:17:05Z,2011-04-08T22:24:45Z
+310,allow Unicode Command-Line options,2011-03-25T16:13:25Z,2011-03-25T18:48:29Z
+308,Test suite should set sqlite history to work in :memory:,2011-03-25T07:50:04Z,2011-03-25T17:26:29Z
+307,lines ending with semicolon should not go to cache,2011-03-25T07:41:41Z,2011-04-08T22:20:48Z
+306,multiline strings at end of input cause noop,2011-03-25T06:58:36Z,2011-04-07T23:28:12Z
+302,Users should see a consistent behavior in the Out prompt in the html  notebook,2011-03-24T19:10:38Z,2011-07-20T16:15:33Z
+297,Shouldn't use pexpect for subprocesses in in-process terminal frontend,2011-03-23T20:05:19Z,2011-05-27T18:26:48Z
+296,Automatic PDB via %pdb doesn't work,2011-03-23T19:51:12Z,2011-04-09T19:02:05Z
+290,"try/except/else clauses can't be typed, code input stops too early.",2011-03-13T06:28:17Z,2011-03-25T00:15:20Z
+287,Crash when using %macros in sqlite-history branch,2011-03-07T23:17:34Z,2011-03-28T20:03:47Z
+284,In variable no longer works in 0.11,2011-03-03T19:00:00Z,2011-03-28T19:59:29Z
+262,Fail to recover history after force-kill.,2011-02-07T23:57:06Z,2011-03-28T17:38:43Z
+253,Unable to install ipython on windows,2011-01-28T04:24:39Z,2011-09-10T06:52:17Z
+252,Unicode issues,2011-01-26T19:05:56Z,2011-03-24T23:56:23Z
+236,History minus p flag,2010-12-28T19:46:38Z,2011-03-24T18:32:40Z
+216,crash of ipython when alias is used with %s and echo,2010-12-18T10:48:30Z,2011-05-09T20:32:48Z
+211,paste command not working,2010-12-05T02:58:20Z,2012-05-09T17:44:51Z
+204,Emacs completion bugfix,2010-11-22T08:25:35Z,2011-03-24T01:38:16Z
+202,Matplotlib native 'MacOSX' backend broken in '-pylab' mode,2010-11-12T05:14:10Z,2011-03-25T06:04:45Z
+197,ipython-qtconsole unicode problem in magic ls,2010-10-31T13:52:20Z,2011-03-25T18:21:23Z
+196,IPython can't deal with unicode file name.,2010-10-31T12:07:04Z,2011-03-25T02:04:14Z
+181,cls command does not work on windows,2010-10-22T17:08:23Z,2011-10-21T21:46:44Z
+165,Installer fails to create Start Menu entries on Windows,2010-10-10T06:35:36Z,2013-01-19T21:46:45Z
+147,"On Windows, %page is being too restrictive to split line by \r\n only",2010-09-05T01:53:01Z,2011-04-11T20:03:50Z
+142,unexpected auto-indenting when varibles names that start with 'pass' ,2010-08-12T17:41:55Z,2011-04-10T06:42:55Z
+141,garbage collection problem (revisited),2010-08-12T08:16:40Z,2011-05-29T21:40:24Z
+137,sys.getfilesystemencoding return value not checked,2010-07-23T17:02:22Z,2011-04-29T17:01:39Z
+136,IPythonShellEmbed fails to recognize local variables,2010-07-19T20:26:34Z,
+132,Ipython prevent south from working,2010-07-08T16:16:51Z,2011-03-24T10:15:05Z
+131,Global variables not seen by cprofile.run(),2010-07-02T16:08:12Z,2011-11-30T07:13:50Z
+124,Scoping problems with InteractiveShell,2010-05-24T19:00:52Z,2014-04-20T17:19:35Z
+118,Snow Leopard ipy_vimserver POLL error,2010-05-17T13:12:37Z,2011-04-19T23:20:41Z
+102,Properties accessed twice for classes defined interactively,2010-05-10T09:41:49Z,2011-11-28T05:47:12Z
+100,Overzealous introspection,2010-05-10T09:40:41Z,2011-03-23T19:14:02Z
+95,run command autocompletion uses backslashes in Windows,2010-05-10T09:40:25Z,2014-02-27T07:56:42Z
+92,Using multiprocessing module crashes parallel iPython,2010-05-10T09:40:05Z,2011-03-28T17:42:15Z
+88,Error when inputting UTF8 CJK characters,2010-05-10T09:38:51Z,2011-05-10T21:04:12Z
+87,test_exampleip and dtexample both fail on win32,2010-05-10T09:38:49Z,2016-07-19T23:22:59Z
+84,problems with embedding,2010-05-10T09:38:43Z,2014-11-11T20:18:26Z
+77,ipython oops in cygwin,2010-05-10T09:37:23Z,2011-03-23T08:18:07Z
+72,magic_run doesn't work when path contains wnidows backslash directory delimiters,2010-05-10T09:37:12Z,2014-11-11T20:14:25Z
+71,temp file errors in iptest IPython.core,2010-05-10T09:37:10Z,2011-04-13T21:17:58Z
+68,Problems with Control-C stopping ipcluster on Windows/Python2.6,2010-05-10T09:36:03Z,2011-03-23T20:00:07Z
+62,Global variables undefined in interactive use of embedded ipython shell,2010-05-10T09:35:45Z,
+59,test_magic.test_obj_del fails on win32,2010-05-10T09:34:34Z,2011-05-29T21:27:25Z
+55,Can't edit files whose names begin with numbers,2010-05-10T09:34:13Z,2011-03-28T20:01:39Z
+40,The tests in test_process fail under Windows,2010-05-10T09:31:26Z,2013-08-20T23:11:20Z
+38,Line entry edge case error,2010-05-10T09:31:08Z,2011-11-28T05:19:32Z
+35,stderr missing in IPython + Emacs + WinXP,2010-05-10T09:30:57Z,2015-01-14T21:13:29Z
+33,The skip_doctest decorator is failing to work on Shell.MatplotlibShellBase.magic_run,2010-05-10T09:30:52Z,2011-04-08T16:46:08Z
+29,"cPickle works in standard interpreter, but not in IPython",2010-05-10T09:29:39Z,2011-11-27T02:45:29Z
+26,find_job_cmd is too hasty to fail on Windows,2010-05-10T09:29:34Z,2011-04-18T21:39:51Z
+25,unicode bug - encoding input,2010-05-10T09:29:16Z,2011-03-25T02:01:50Z
+23,Misc. problems in our Sphinx based docs,2010-05-10T09:29:00Z,2014-11-11T20:08:16Z
+19,CrashHandler doesn't inspect modules properly,2010-05-10T09:27:51Z,2014-02-01T02:35:42Z
+17,redefining stdout in imported module breaks cmdprompt on windows,2010-05-10T09:27:46Z,2016-07-19T23:14:08Z
+16,%store raises exception when storing compiled regex,2010-05-10T09:27:44Z,2011-11-28T05:41:09Z
+9,"Getting ""DeadReferenceError: Calling Stale Broker"" after ipcontroller restart",2010-05-10T09:26:25Z,2011-03-24T19:49:01Z

@@ -1,0 +1,6 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+sshuttle,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\sshuttle\client.py,232,34,2,4,0,0,0
+sshuttle,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\sshuttle\client.py,319,38,0,5,0,0,0
+sshuttle,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\sshuttle\client.py,322,38,0,5,0,0,0
+sshuttle,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\sshuttle\ssnet.py,538,17,1,3,0,0,0
+sshuttle,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\sshuttle\compat\ssubprocess.py,1255,21,0,4,0,0,0

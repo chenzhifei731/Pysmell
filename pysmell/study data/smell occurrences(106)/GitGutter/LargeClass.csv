@@ -1,0 +1,14 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter.py,18,14,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_change.py,16,3,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_change.py,44,2,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_change.py,56,2,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_compare.py,10,5,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_compare.py,35,3,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_compare.py,47,4,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_compare.py,64,2,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_compare.py,71,2,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_compare.py,78,2,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_events.py,34,11,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\git_gutter_handler.py,16,19,0,0,0
+GitGutter,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\GitGutter\view_collection.py,6,23,1,0,0

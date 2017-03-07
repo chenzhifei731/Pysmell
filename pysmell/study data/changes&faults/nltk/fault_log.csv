@@ -1,0 +1,7 @@
+commit,author,date,title,faultID,file
+7caf6df,Steven Bird,2015-05-13 07:32:59,"corrected use of next(), resolves #977",977,nltk/metrics/agreement.py
+00a3a61,Steven Bird,2015-01-25 16:46:34,"Added PY3 to path for maxent tagger, resolves #840",840,nltk/tag/__init__.py
+83f69cc,Steven Bird,2014-11-07 09:14:57,"fixes to avoid function shadowing module name, cf #789",789,nltk/align/__init__.py
+83f69cc,Steven Bird,2014-11-07 09:14:57,"fixes to avoid function shadowing module name, cf #789",789,nltk/align/bleu.py
+83f69cc,Steven Bird,2014-11-07 09:14:57,"fixes to avoid function shadowing module name, cf #789",789,nltk/align/bleu_score.py
+f83dfc5,Dmitrijs Milajevs,2014-11-07 08:57:51,Fixing a Bleu score bug.,789,nltk/align/bleu.py

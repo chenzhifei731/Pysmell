@@ -1,0 +1,14 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\__init__.py,148,40,1,5,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\__init__.py,151,49,1,5,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\__init__.py,154,49,1,5,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\__init__.py,157,58,1,5,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\__init__.py,169,36,1,3,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\address\el_GR\__init__.py,122,28,1,7,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\address\el_GR\__init__.py,127,28,1,7,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\address\en_CA\__init__.py,116,32,1,3,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\internet\__init__.py,108,64,1,11,1,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\internet\__init__.py,116,19,1,3,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\providers\internet\el_GR\__init__.py,73,31,1,6,0,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\tests\__init__.py,299,51,0,9,1,0,0
+faker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\faker\faker\tests\__init__.py,302,51,0,9,1,0,0

@@ -1,0 +1,4 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+django-debug-toolbar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-debug-toolbar\debug_toolbar\panels\cache.py,30,2,0,0,0
+django-debug-toolbar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-debug-toolbar\debug_toolbar\panels\sql\utils.py,39,2,0,0,0
+django-debug-toolbar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-debug-toolbar\tests\test_utils.py,10,2,0,0,0
