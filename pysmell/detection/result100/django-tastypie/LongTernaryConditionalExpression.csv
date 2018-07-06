@@ -1,0 +1,11 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tastypie\fields.py,83,93,1,1,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tastypie\fields.py,504,58,1,1,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tastypie\fields.py,505,64,1,1,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tastypie\resources.py,868,30,1,0,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tastypie\resources.py,1024,42,1,0,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tastypie\utils\urls.py,7,70,1,1,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tests\related_resource\tests.py,849,28,1,0,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tests\related_resource\tests.py,868,28,1,0,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tests\related_resource\tests.py,904,30,1,0,0,0
+django-tastypie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\django-tastypie\tests\related_resource\tests.py,947,28,1,0,0,0

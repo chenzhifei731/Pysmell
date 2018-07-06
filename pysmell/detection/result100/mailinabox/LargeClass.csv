@@ -1,0 +1,3 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\auth.py,11,6,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,372,6,0,0,0

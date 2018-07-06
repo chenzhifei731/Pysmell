@@ -1,0 +1,4 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\app.py,236,77,1,8,1,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\tests\test_starts.py,28,12,1,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\tests\test_starts.py,48,12,1,1,0,0,0

@@ -1,0 +1,15 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,309,56,1,12,1,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,318,30,1,7,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,321,29,1,8,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,328,12,1,1,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,330,26,1,5,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,338,36,1,7,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,343,30,1,5,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,344,23,1,5,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,346,26,1,6,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,358,34,1,7,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,363,29,1,11,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,1985,28,1,7,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\redis\client.py,1986,28,1,7,0,0,0
+redis-py,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\redis-py\tests\test_commands.py,44,16,1,1,0,0,0

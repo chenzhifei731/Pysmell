@@ -1,0 +1,15 @@
+subject,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,tuning machine
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\backup.py,323,72,1,19,1,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\backup.py,358,65,1,15,1,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,98,44,1,10,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,140,35,1,7,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,188,111,1,20,1,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,209,37,1,7,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,217,30,1,7,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,248,169,2,39,1,1,1
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\daemon.py,394,66,1,12,1,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\mail_log.py,17,52,1,8,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\web_update.py,59,53,1,9,0,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\web_update.py,413,233,1,26,1,1,1
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\management\web_update.py,423,120,1,13,1,0,0
+mailinabox,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\mailinabox\tests\tls.py,147,95,2,19,1,0,0

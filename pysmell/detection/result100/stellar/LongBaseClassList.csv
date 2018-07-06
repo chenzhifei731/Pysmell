@@ -1,0 +1,10 @@
+subject,file,lineno,NBC,experience-based,statistics-based,tuning machine
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\app.py,28,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\app.py,41,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\config.py,7,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\config.py,11,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\models.py,15,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\models.py,38,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\stellar\operations.py,13,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\tests\test_starts.py,6,1,0,0,0
+stellar,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\stellar\tests\test_starts.py,23,1,0,0,0

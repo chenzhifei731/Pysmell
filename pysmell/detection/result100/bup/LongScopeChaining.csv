@@ -1,0 +1,16 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\client.py,237,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\git.py,547,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\git.py,771,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\helpers.py,454,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\helpers.py,460,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\helpers.py,585,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\helpers.py,593,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\helpers.py,828,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\index.py,554,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\ls.py,58,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\metadata.py,533,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\ssh.py,8,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\t\tgit.py,215,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\t\thashsplit.py,46,2,0,0,0
+bup,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\bup\lib\bup\t\thashsplit.py,86,2,0,0,0

@@ -6,8 +6,8 @@ import subprocess
 import customast
 import ast
 import datetime
+from parameter import subject_dir
 
-subject_dir = '' # need to append the dir of subject projects
 
 PAR = [5,4,5]
 MLOC = [38,28,52]
@@ -55,8 +55,8 @@ def changegittag(directory,tag):
   p = subprocess.Popen('git checkout '+tag,shell=True,stdout=subprocess.PIPE)
 
 for (subject,versions) in subject_visions.items():
-	if not os.path.isdir('C:\\Users\\Zhifei Chen\\Desktop\\pysmell\\detection\\impact\\%s' %subject): 
-		os.mkdir('C:\\Users\\Zhifei Chen\\Desktop\\pysmell\\detection\\impact\\%s' %subject) 
+	if not os.path.isdir('impact\\%s' %subject):
+		os.mkdir('impact\\%s' %subject)
 
 	tagtime = {} #version:time
 	tagfile = csv.reader(file(subject_dir+subject+'\\tags_info.csv','rb')) 

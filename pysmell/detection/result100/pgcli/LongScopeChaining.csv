@@ -1,0 +1,9 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\completion_refresher.py,74,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\key_bindings.py,10,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\main.py,256,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\pgbuffer.py,7,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\pgtoolbar.py,4,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\packages\sqlcompletion.py,18,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\packages\tabulate.py,148,2,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\tests\test_completion_refresher.py,44,2,0,0,0

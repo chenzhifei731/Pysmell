@@ -1,0 +1,14 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\setup.py,39,31,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\__init__.py,127,52,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\__init__.py,154,15,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\__init__.py,167,15,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\comment_splicer.py,148,81,2,1,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\comment_splicer.py,201,94,2,1,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\format_decision_state.py,333,58,1,1,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\format_token.py,208,38,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\pytree_utils.py,192,17,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\reformatter.py,548,50,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapf\yapflib\yapf_api.py,140,36,1,0,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapftests\file_resources_test.py,231,59,1,1,0,0
+yapf,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\yapf\yapftests\file_resources_test.py,241,59,1,1,0,0

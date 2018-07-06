@@ -1,0 +1,16 @@
+subject,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,tuning machine
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\cli.py,214,90,1,19,1,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\cli.py,401,42,1,4,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\cli.py,410,293,3,33,1,1,1
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\client.py,63,95,2,18,1,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\client.py,134,33,1,8,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\context.py,59,48,1,10,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\core.py,64,69,2,13,1,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\models.py,49,55,1,9,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\models.py,116,105,2,20,1,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\sessions.py,137,59,1,8,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\plugins\manager.py,36,54,2,7,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\plugins\manager.py,39,61,1,8,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\plugins\manager.py,47,59,2,7,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\plugins\manager.py,59,59,2,7,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\plugins\manager.py,64,59,2,7,0,0,0

@@ -1,0 +1,220 @@
+################################LargeClass################################
+tornado:   	experience-based 16, statistics-based 2, tuning machine 4
+scipy:   	experience-based 45, statistics-based 10, tuning machine 19
+ansible:   	experience-based 19, statistics-based 4, tuning machine 11
+boto:   	experience-based 88, statistics-based 13, tuning machine 34
+ipython:   	experience-based 12, statistics-based 1, tuning machine 4
+numpy:   	experience-based 50, statistics-based 6, tuning machine 19
+nltk:   	experience-based 51, statistics-based 7, tuning machine 24
+matplotlib:   	experience-based 68, statistics-based 22, tuning machine 34
+django:   	experience-based 167, statistics-based 26, tuning machine 55
+
+################################ComplexContainerComprehension################################
+tornado:   	experience-based 8, statistics-based 0, tuning machine 0
+scipy:   	experience-based 32, statistics-based 2, tuning machine 5
+ansible:   	experience-based 24, statistics-based 3, tuning machine 4
+boto:   	experience-based 14, statistics-based 0, tuning machine 0
+ipython:   	experience-based 31, statistics-based 6, tuning machine 10
+numpy:   	experience-based 59, statistics-based 4, tuning machine 5
+nltk:   	experience-based 223, statistics-based 35, tuning machine 46
+matplotlib:   	experience-based 89, statistics-based 7, tuning machine 15
+django:   	experience-based 268, statistics-based 18, tuning machine 28
+
+################################LongTernaryConditionalExpression################################
+tornado:   	experience-based 7, statistics-based 1, tuning machine 1
+scipy:   	experience-based 10, statistics-based 0, tuning machine 0
+ansible:   	experience-based 1, statistics-based 0, tuning machine 0
+boto:   	experience-based 8, statistics-based 2, tuning machine 2
+ipython:   	experience-based 10, statistics-based 2, tuning machine 2
+numpy:   	experience-based 2, statistics-based 0, tuning machine 0
+nltk:   	experience-based 25, statistics-based 3, tuning machine 3
+matplotlib:   	experience-based 6, statistics-based 0, tuning machine 0
+django:   	experience-based 79, statistics-based 8, tuning machine 8
+
+################################LongMessageChain################################
+tornado:   	experience-based 0, statistics-based 12, tuning machine 12
+scipy:   	experience-based 0, statistics-based 16, tuning machine 16
+ansible:   	experience-based 0, statistics-based 49, tuning machine 49
+boto:   	experience-based 0, statistics-based 57, tuning machine 57
+ipython:   	experience-based 2, statistics-based 10, tuning machine 10
+numpy:   	experience-based 0, statistics-based 4, tuning machine 4
+nltk:   	experience-based 0, statistics-based 0, tuning machine 0
+matplotlib:   	experience-based 7, statistics-based 57, tuning machine 57
+django:   	experience-based 25, statistics-based 226, tuning machine 226
+
+################################MultiplyNestedContainer################################
+tornado:   	experience-based 1, statistics-based 1, tuning machine 2
+scipy:   	experience-based 14, statistics-based 16, tuning machine 46
+ansible:   	experience-based 28, statistics-based 28, tuning machine 29
+boto:   	experience-based 141, statistics-based 156, tuning machine 164
+ipython:   	experience-based 7, statistics-based 7, tuning machine 7
+numpy:   	experience-based 72, statistics-based 95, tuning machine 97
+nltk:   	experience-based 46, statistics-based 46, tuning machine 46
+matplotlib:   	experience-based 14, statistics-based 16, tuning machine 16
+django:   	experience-based 30, statistics-based 42, tuning machine 54
+
+################################LongParameterList################################
+tornado:   	experience-based 24, statistics-based 96, tuning machine 24
+scipy:   	experience-based 207, statistics-based 568, tuning machine 207
+ansible:   	experience-based 91, statistics-based 251, tuning machine 91
+boto:   	experience-based 103, statistics-based 1001, tuning machine 103
+ipython:   	experience-based 22, statistics-based 118, tuning machine 22
+numpy:   	experience-based 51, statistics-based 145, tuning machine 51
+nltk:   	experience-based 142, statistics-based 333, tuning machine 142
+matplotlib:   	experience-based 333, statistics-based 713, tuning machine 333
+django:   	experience-based 239, statistics-based 651, tuning machine 239
+
+################################LongLambdaFunction################################
+tornado:   	experience-based 6, statistics-based 0, tuning machine 0
+scipy:   	experience-based 38, statistics-based 6, tuning machine 7
+ansible:   	experience-based 2, statistics-based 0, tuning machine 0
+boto:   	experience-based 3, statistics-based 0, tuning machine 0
+ipython:   	experience-based 5, statistics-based 0, tuning machine 1
+numpy:   	experience-based 4, statistics-based 2, tuning machine 2
+nltk:   	experience-based 95, statistics-based 29, tuning machine 30
+matplotlib:   	experience-based 8, statistics-based 0, tuning machine 0
+django:   	experience-based 76, statistics-based 8, tuning machine 4
+
+################################LongScopeChaining################################
+tornado:   	experience-based 6, statistics-based 0, tuning machine 0
+scipy:   	experience-based 5, statistics-based 0, tuning machine 0
+ansible:   	experience-based 2, statistics-based 0, tuning machine 0
+boto:   	experience-based 15, statistics-based 0, tuning machine 0
+ipython:   	experience-based 5, statistics-based 0, tuning machine 0
+numpy:   	experience-based 5, statistics-based 0, tuning machine 0
+nltk:   	experience-based 1, statistics-based 0, tuning machine 0
+matplotlib:   	experience-based 11, statistics-based 0, tuning machine 0
+django:   	experience-based 23, statistics-based 4, tuning machine 4
+
+################################LongMethod################################
+tornado:   	experience-based 67, statistics-based 46, tuning machine 8
+scipy:   	experience-based 621, statistics-based 475, tuning machine 122
+ansible:   	experience-based 307, statistics-based 253, tuning machine 73
+boto:   	experience-based 297, statistics-based 199, tuning machine 40
+ipython:   	experience-based 151, statistics-based 110, tuning machine 27
+numpy:   	experience-based 537, statistics-based 409, tuning machine 124
+nltk:   	experience-based 284, statistics-based 202, tuning machine 57
+matplotlib:   	experience-based 542, statistics-based 385, tuning machine 107
+django:   	experience-based 642, statistics-based 468, tuning machine 85
+
+################################LongBaseClassList################################
+tornado:   	experience-based 7, statistics-based 43, tuning machine 7
+scipy:   	experience-based 2, statistics-based 28, tuning machine 2
+ansible:   	experience-based 5, statistics-based 17, tuning machine 5
+boto:   	experience-based 0, statistics-based 43, tuning machine 0
+ipython:   	experience-based 0, statistics-based 15, tuning machine 0
+numpy:   	experience-based 0, statistics-based 56, tuning machine 0
+nltk:   	experience-based 1, statistics-based 53, tuning machine 1
+matplotlib:   	experience-based 2, statistics-based 52, tuning machine 2
+django:   	experience-based 12, statistics-based 247, tuning machine 12
+
+
+LargeClass
+13.15,0.88,8.50,
+11.27,1.00,6.90,
+3.97,0.66,4.20,
+6.30,1.76,6.03,
+10.70,1.53,7.69,
+4.62,0.89,4.48,
+4.90,0.37,4.82,
+6.41,0.83,6.29,
+5.88,0.99,6.88,
+
+MultiplyNestedContainer
+21.08,10.61,41.00,
+0.70,0.50,3.45,
+5.85,4.63,11.07,
+1.30,1.28,2.84,
+1.92,2.47,7.55,
+1.44,1.43,10.85,
+2.86,2.60,8.43,
+9.23,13.18,32.12,
+5.30,6.50,13.18,
+
+LongParameterList
+15.40,68.05,25.75,
+16.90,47.76,41.38,
+19.00,41.49,34.73,
+30.83,56.95,59.04,
+15.31,38.34,33.43,
+21.25,50.67,48.82,
+8.98,43.87,26.51,
+6.54,20.11,16.89,
+16.36,47.03,40.69,
+
+LongLambdaFunction
+0.45,0.00,0.00,
+4.23,0.00,0.00,
+0.42,0.00,0.00,
+0.74,0.00,0.00,
+4.87,0.47,0.56,
+3.90,0.54,1.65,
+2.04,0.00,1.20,
+0.51,0.28,0.66,
+10.94,4.10,8.60,
+
+LongMethod
+44.39,13.53,10.00,
+47.18,22.89,13.79,
+64.09,41.82,27.86,
+50.19,30.75,18.97,
+41.13,27.56,11.89,
+63.76,42.37,28.77,
+61.63,40.89,32.53,
+68.85,56.73,41.06,
+32.72,28.53,16.33,
+
+ComplexContainerComprehension
+2.09,0.00,0.00,
+5.63,0.00,0.00,
+5.01,0.50,1.53,
+8.24,0.56,2.66,
+17.17,1.06,3.92,
+3.29,0.18,1.18,
+12.65,2.23,12.05,
+7.56,0.55,1.66,
+25.69,4.94,13.18,
+
+LongTernaryConditionalExpression
+1.20,0.14,0.50,
+4.93,0.50,1.72,
+0.21,0.00,0.00,
+0.56,0.00,0.00,
+5.06,0.47,1.12,
+1.03,0.00,0.00,
+4.08,0.74,2.41,
+0.26,0.00,0.00,
+2.88,0.42,0.86,
+
+LongBaseClassList
+0.00,2.92,0.00,
+4.93,21.39,12.07,
+1.04,2.81,1.91,
+0.19,4.15,0.35,
+0.77,14.55,1.68,
+0.21,2.50,0.47,
+0.00,5.58,0.00,
+0.00,7.77,0.00,
+0.12,7.49,0.29,
+
+LongMessageChain
+0.00,3.87,14.25,
+0.00,5.97,20.69,
+0.00,8.10,18.70,
+0.65,4.55,10.11,
+1.60,13.31,31.61,
+0.00,1.43,3.77,
+0.82,3.72,12.05,
+0.00,0.55,1.32,
+0.00,0.00,0.00,
+
+LongScopeChaining
+2.24,0.00,0.00,
+4.23,0.00,0.00,
+0.42,0.00,0.00,
+1.02,0.00,0.00,
+1.47,0.24,0.56,
+0.51,0.00,0.00,
+2.04,0.00,0.00,
+0.64,0.00,0.00,
+0.12,0.00,0.00,

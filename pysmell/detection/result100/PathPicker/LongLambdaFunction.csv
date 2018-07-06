@@ -1,0 +1,4 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\choose.py,101,26,1,4,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\parse.py,199,63,1,8,1,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\screenForTest.py,114,82,1,7,1,0,0

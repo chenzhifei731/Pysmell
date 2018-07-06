@@ -1,0 +1,4 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\output\formatters\headers.py,13,23,1,6,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\httpie\plugins\manager.py,54,40,1,5,0,0,0
+httpie,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\httpie\tests\test_auth.py,27,28,2,1,0,0,0

@@ -1,0 +1,6 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\atcd\backends\linux.py,359,45,2,1,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\atcd\backends\linux.py,384,45,2,1,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\atc\atcd\atcd\tools\test_secure_access.py,55,61,2,1,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\tests\vms.py,20,15,1,0,0,0
+augmented-traffic-control,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\augmented-traffic-control\tests\vms.py,21,15,1,0,0,0

@@ -1,0 +1,17 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\run_tests.py,26,35,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\blob.py,136,63,1,1,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\blob.py,253,38,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\blob.py,287,55,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\blob.py,379,49,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\blob.py,390,40,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\blob.py,747,70,1,1,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\mixins.py,62,52,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\mixins.py,65,28,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\tokenizers.py,43,56,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\_text.py,359,76,1,1,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\_text.py,542,23,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\_text.py,636,65,1,1,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\_text.py,927,22,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\en\np_extractors.py,62,36,1,0,0,0
+TextBlob,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\TextBlob\textblob\unicodecsv\__init__.py,111,75,2,1,0,0

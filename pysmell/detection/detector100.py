@@ -4,8 +4,8 @@ import os
 import util
 import astChecker
 import customast
+from parameter import subject_dir
 
-directory = '' # need to append the dir of subject projects
 
 PAR = [5,4,5]
 MLOC = [38,28,52]
@@ -27,7 +27,7 @@ smells = {'LongParameterList':[PAR],'LongMethod':[MLOC],'LongScopeChaining':[DOC
 'LongTernaryConditionalExpression':[TNOC,TNOL], 'ComplexContainerComprehension':[CNOC,NOFF,CNOO],
 'MultiplyNestedContainer':[LEC,DNC,NCT] }
 
-subjects = util.subDirectory(directory)
+subjects = util.subDirectory(subject_dir)
 
 LongParameterList = csv.writer(file('result100\\LongParameterList.csv','wb'))
 LongParameterList.writerow(['subject','file','lineno','PAR','experience-based','statistics-based','tuning machine'])
@@ -51,7 +51,7 @@ MultiplyNestedContainer = csv.writer(file('result100\\MultiplyNestedContainer.cs
 MultiplyNestedContainer.writerow(['subject','file','lineno','LEC','DNC','NCT','experience-based','statistics-based','tuning machine'])
 
 for subjectName in subjects:
-	sourcedir = directory + '\\'+ subjectName
+	sourcedir = subject_dir + '\\'+ subjectName
 	counts = {'LongParameterList':[0,0,0],'LongMethod':[0,0,0],'LongScopeChaining':[0,0,0],
 	'LongBaseClassList':[0,0,0],'LargeClass':[0,0,0],'LongMessageChain':[0,0,0],
 	'LongLambdaFunction':[0,0,0],'LongTernaryConditionalExpression':[0,0,0],

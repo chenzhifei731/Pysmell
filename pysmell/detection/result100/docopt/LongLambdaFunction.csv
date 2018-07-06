@@ -1,0 +1,4 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+docopt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\docopt\docopt.py,278,29,1,5,0,0,0
+docopt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\docopt\test_docopt.py,80,34,1,4,0,0,0
+docopt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\docopt\examples\validation_example.py,28,15,1,4,0,0,0

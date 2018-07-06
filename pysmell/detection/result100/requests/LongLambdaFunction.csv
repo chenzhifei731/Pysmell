@@ -1,0 +1,8 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,600,24,1,1,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,609,24,1,1,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,610,24,1,1,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,1601,16,0,1,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\requests\auth.py,106,36,2,7,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\requests\utils.py,492,54,1,13,1,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\requests\packages\urllib3\poolmanager.py,65,17,1,3,0,0,0

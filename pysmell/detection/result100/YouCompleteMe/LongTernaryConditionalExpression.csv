@@ -1,0 +1,12 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\diagnostic_interface.py,214,21,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\syntax_parse.py,77,18,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\vimsupport.py,162,36,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\vimsupport.py,201,50,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\vimsupport.py,274,32,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\vimsupport.py,436,33,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\youcompleteme.py,54,64,2,1,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\youcompleteme.py,367,58,2,1,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\client\command_request.py,36,56,2,1,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\python\ycm\client\event_notification.py,66,50,1,0,0,0
+YouCompleteMe,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\YouCompleteMe\third_party\pythonfutures\crawl.py,29,52,1,0,0,0

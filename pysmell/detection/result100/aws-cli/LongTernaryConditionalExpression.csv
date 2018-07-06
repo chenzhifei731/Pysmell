@@ -1,0 +1,12 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\opsworks.py,346,24,1,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\command.py,122,51,2,1,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\config.py,40,44,1,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\config.py,43,58,2,1,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\config.py,45,58,2,1,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\configutils.py,29,47,1,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\configutils.py,38,75,2,1,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\configutils.py,44,87,3,1,1,1
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\emrfsutils.py,199,46,1,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\emr\steputils.py,250,77,2,1,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\customizations\emr\test_emrfs_utils.py,444,86,2,1,0,0

@@ -1,0 +1,13 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\acme\acme\client_test.py,249,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\acme\acme\client_test.py,510,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\acme\acme\jose\interfaces.py,123,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\acme\acme\jose\json_util_test.py,29,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\acme\acme\jose\jwk.py,191,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt\cli.py,821,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt\crypto_util.py,261,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt\le_util.py,58,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt\plugins\common.py,68,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt\plugins\standalone_test.py,122,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt\plugins\standalone_test.py,147,2,0,0,0
+letsencrypt,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\letsencrypt\letsencrypt-nginx\letsencrypt_nginx\tests\util.py,75,2,0,0,0

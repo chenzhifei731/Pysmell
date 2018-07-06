@@ -1,0 +1,5 @@
+subject,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,tuning machine
+big-list-of-naughty-strings,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\big-list-of-naughty-strings\naughtystrings\__init__.py,27,29,1,6,0,0,0
+big-list-of-naughty-strings,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\big-list-of-naughty-strings\naughtystrings\__init__.py,30,47,2,10,0,0,0
+big-list-of-naughty-strings,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\big-list-of-naughty-strings\scripts\txt_to_json.py,13,28,1,6,0,0,0
+big-list-of-naughty-strings,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\big-list-of-naughty-strings\scripts\txt_to_json.py,16,46,2,10,0,0,0

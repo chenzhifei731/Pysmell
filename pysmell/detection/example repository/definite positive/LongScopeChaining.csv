@@ -1,0 +1,5 @@
+subject,tag,file,lineno,DOC,experience-based,statistics-based,manual analysis
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\django\utils\decorators.py,20,4,1,1,1
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\django\utils\decorators.py,94,4,1,1,1
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\django\views\decorators\http.py,69,4,1,1,1
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\tests\auth_tests\test_management.py,33,4,1,1,1

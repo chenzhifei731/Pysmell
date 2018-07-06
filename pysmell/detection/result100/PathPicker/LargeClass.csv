@@ -1,0 +1,14 @@
+subject,file,lineno,CLOC,experience-based,statistics-based,tuning machine
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\colorPrinter.py,13,7,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\cursesAPI.py,14,10,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\format.py,15,6,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\format.py,43,23,1,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\formattedText.py,14,16,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenControl.py,48,11,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenControl.py,127,11,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenControl.py,208,39,1,0,1
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenFlags.py,14,8,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\cursesForTest.py,11,10,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\screenForTest.py,28,21,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\testParsing.py,343,7,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\testScreen.py,142,10,0,0,0

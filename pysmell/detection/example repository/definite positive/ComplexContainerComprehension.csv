@@ -1,0 +1,9 @@
+subject,tag,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,manual analysis
+ipython,rel-3.1.0,E:\my code\pysmell\subject_raw\ipython\ipython\IPython\core\tests\test_inputtransformer.py,41,557,1,46,1,1,1
+ipython,rel-3.1.0,E:\my code\pysmell\subject_raw\ipython\ipython\IPython\core\tests\test_inputtransformer.py,59,269,1,31,1,1,1
+ipython,rel-3.1.0,E:\my code\pysmell\subject_raw\ipython\ipython\IPython\core\tests\test_inputtransformer.py,105,376,1,31,1,1,1
+ipython,rel-3.1.0,E:\my code\pysmell\subject_raw\ipython\ipython\IPython\core\tests\test_inputtransformer.py,116,876,1,49,1,1,1
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\tree.py,1357,132,4,21,1,1,1
+nltk,3.0.2,E:\my code\pysmell\subject_raw\nltk\nltk\nltk\corpus\reader\timit.py,303,172,3,38,1,1,1
+matplotlib,v1.4.3,E:\my code\pysmell\subject_raw\matplotlib\matplotlib\lib\matplotlib\tests\test_backend_bases.py,31,203,1,30,1,1,1
+django,1.8.2,E:\my code\pysmell\subject_raw\django\django\django\db\models\fields\__init__.py,41,522,1,35,1,1,1

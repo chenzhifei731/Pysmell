@@ -1,0 +1,12 @@
+subject,file,lineno,NBC,experience-based,statistics-based,tuning machine
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\completion_refresher.py,10,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\filters.py,3,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\main.py,61,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\pgbuffer.py,6,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\pgcompleter.py,24,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\pgexecute.py,76,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\pgstyle.py,14,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\packages\counter.py,8,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\packages\function_metadata.py,9,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\packages\function_metadata.py,58,1,0,0,0
+pgcli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\pgcli\pgcli\packages\ordereddict.py,25,2,0,1,0

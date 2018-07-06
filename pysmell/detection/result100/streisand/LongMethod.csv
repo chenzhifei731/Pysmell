@@ -1,0 +1,5 @@
+subject,file,lineno,MLOC,experience-based,statistics-based,tuning machine
+streisand,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\streisand\library\gce.py,214,26,1,0,0
+streisand,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\streisand\library\gce.py,255,95,1,1,1
+streisand,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\streisand\library\gce.py,401,15,0,0,0
+streisand,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\streisand\library\gce.py,430,49,1,1,0

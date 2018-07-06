@@ -1,0 +1,5 @@
+subject,file,lineno,NOC,NOL,experience-based,statistics-based,tuning machine
+neuraltalk,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\neuraltalk\imagernn\lstm_generator.py,69,34,1,0,0,0
+neuraltalk,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\neuraltalk\imagernn\lstm_generator.py,250,21,1,0,0,0
+neuraltalk,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\neuraltalk\imagernn\rnn_generator.py,78,31,1,0,0,0
+neuraltalk,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\neuraltalk\imagernn\rnn_generator.py,205,21,1,0,0,0

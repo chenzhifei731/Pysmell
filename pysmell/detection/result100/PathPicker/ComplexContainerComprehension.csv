@@ -1,0 +1,16 @@
+subject,file,lineno,NOC,NOFF,NOO,experience-based,statistics-based,tuning machine
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\charCodeMapping.py,12,28,1,9,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\charCodeMapping.py,13,80,2,18,1,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\charCodeMapping.py,20,37,1,9,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\choose.py,60,63,2,9,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\formattedText.py,52,50,2,9,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\output.py,65,49,2,7,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\output.py,69,56,2,6,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\output.py,81,23,1,4,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\output.py,148,48,1,7,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenControl.py,404,79,2,11,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenControl.py,408,82,2,12,1,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\screenControl.py,413,39,1,5,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\screenForTest.py,119,33,2,5,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\screenForTest.py,120,38,2,5,0,0,0
+PathPicker,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\PathPicker\src\__tests__\testParsing.py,385,43,2,6,0,0,0

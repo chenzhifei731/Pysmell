@@ -1,0 +1,10 @@
+subject,file,lineno,NOC,PAR,NOO,experience-based,statistics-based,tuning machine
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\addition_rnn.py,92,104,0,24,1,1,1
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\babi_rnn.py,124,41,1,9,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\babi_rnn.py,124,15,2,3,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\babi_rnn.py,164,15,2,3,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\mnist_irnn.py,59,37,1,4,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\mnist_irnn.py,60,37,1,4,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\examples\skipgram_word_embeddings.py,173,12,1,3,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\keras\datasets\reuters.py,42,12,1,3,0,0,0
+keras,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\keras\keras\preprocessing\text.py,72,12,1,3,0,0,0

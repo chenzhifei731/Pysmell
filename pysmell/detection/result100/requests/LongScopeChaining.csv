@@ -1,0 +1,9 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,334,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,429,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,592,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,618,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,792,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\test_requests.py,1054,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\requests\models.py,642,2,0,0,0
+requests,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\requests\requests\packages\urllib3\packages\six.py,335,2,0,0,0

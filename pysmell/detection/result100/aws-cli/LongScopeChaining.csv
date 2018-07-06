@@ -1,0 +1,14 @@
+subject,file,lineno,DOC,experience-based,statistics-based,tuning machine
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\argrename.py,55,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\assumerole.py,61,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\assumerole.py,76,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\putmetricdata.py,78,3,1,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\awscli\customizations\utils.py,35,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\functional\cloudtrail\test_validation.py,39,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\test_clidriver.py,555,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\test_clidriver.py,570,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\test_clidriver.py,584,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\customizations\cloudtrail\test_validation.py,61,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\customizations\cloudtrail\test_validation.py,84,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\customizations\emr\test_command.py,30,2,0,0,0
+aws-cli,C:\Users\Zhifei Chen\Desktop\pysmell\subjects_for_metrics\aws-cli\tests\unit\customizations\emr\test_sshutils.py,47,2,0,0,0
